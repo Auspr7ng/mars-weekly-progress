@@ -1,0 +1,7 @@
+*.py text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.png binary
+*.mp4 binary
+*.pptx binary

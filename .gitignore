@@ -1,0 +1,30 @@
+# Python and editor output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Isaac Sim and generated results
+output/
+outputs/
+cache/
+logs/
+*.log
+*.tmp
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
