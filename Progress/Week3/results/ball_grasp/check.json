@@ -1,0 +1,39 @@
+{
+  "task": "SundayA1-FixedBase-BallGrasp-v0",
+  "backend": "mjlab / MuJoCo-Warp CUDA",
+  "ball_radius_m": 0.014,
+  "ball_mass_kg": 0.04,
+  "gravity": [
+    0.0,
+    0.0,
+    -9.81
+  ],
+  "ball_free_joint": true,
+  "equality_constraints": 0,
+  "hold_duration_s": 4,
+  "hold_max_drift_m": 0.00047445298367430444,
+  "held_height_m": 0.07904641330242157,
+  "released_height_m": 0.013825630769133568,
+  "hold_contact_forces_world_N": [
+    [
+      -7.50560502638109e-10,
+      -1.9091349840164185,
+      0.19661462306976318
+    ],
+    [
+      -3.9401015783369076e-09,
+      1.9091343879699707,
+      0.19578537344932556
+    ]
+  ],
+  "contact_primary_names": [
+    "grip_pad_left_bottom",
+    "grip_pad_left_top"
+  ],
+  "reset_ball_position_m": [
+    0.13089999556541443,
+    0.010200000368058681,
+    0.08286778628826141
+  ],
+  "passed": true
+}

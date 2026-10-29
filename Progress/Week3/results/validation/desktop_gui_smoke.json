@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "exit_code": 0,
+  "http_status_200": true,
+  "gui_ready_message": true,
+  "bundle_root": "C:\\Users\\Auspring\\Desktop\\MARS\\Progress\\Week3",
+  "port": 58523,
+  "mode": "Existing mjlab Python, packaged source and model",
+  "duration_s": 18.48
+}

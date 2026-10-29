@@ -1,0 +1,53 @@
+{
+  "packages": {
+    "mjlab": "1.4.0",
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128"
+  },
+  "task": "SundayA1-FixedBase-JointCheck-v0",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "warp_cuda_available": true,
+  "num_envs": 4,
+  "steps": 64,
+  "action_shape": [
+    4,
+    27
+  ],
+  "observation_shapes": {
+    "actor": [
+      4,
+      81
+    ],
+    "critic": [
+      4,
+      81
+    ]
+  },
+  "root_positions": [
+    [
+      1.0,
+      -1.0,
+      0.25328677892684937
+    ],
+    [
+      1.0,
+      1.0,
+      0.25328677892684937
+    ],
+    [
+      -1.0,
+      -1.0,
+      0.25328677892684937
+    ],
+    [
+      -1.0,
+      1.0,
+      0.25328677892684937
+    ]
+  ],
+  "finite_state": true,
+  "tactile_migrated": false
+}

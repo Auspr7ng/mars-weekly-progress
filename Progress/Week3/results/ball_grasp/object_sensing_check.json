@@ -1,0 +1,135 @@
+{
+  "sphere": [
+    {
+      "finger": "left_bottom",
+      "response": 0.6249964833259583,
+      "distance_m": 0.0012000016868114471
+    },
+    {
+      "finger": "left_top",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_bottom",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_top",
+      "response": 0.6250023245811462,
+      "distance_m": 0.0011999988928437233
+    }
+  ],
+  "box": [
+    {
+      "finger": "left_bottom",
+      "response": 0.6249964833259583,
+      "distance_m": 0.0012000016868114471
+    },
+    {
+      "finger": "left_top",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_bottom",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_top",
+      "response": 0.6250023245811462,
+      "distance_m": 0.0011999988928437233
+    }
+  ],
+  "capsule": [
+    {
+      "finger": "left_bottom",
+      "response": 0.6249964833259583,
+      "distance_m": 0.0012000016868114471
+    },
+    {
+      "finger": "left_top",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_bottom",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_top",
+      "response": 0.6250023245811462,
+      "distance_m": 0.0011999988928437233
+    }
+  ],
+  "cylinder": [
+    {
+      "finger": "left_bottom",
+      "response": 0.6249964833259583,
+      "distance_m": 0.0012000016868114471
+    },
+    {
+      "finger": "left_top",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_bottom",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_top",
+      "response": 0.6250023245811462,
+      "distance_m": 0.0011999988928437233
+    }
+  ],
+  "ellipsoid": [
+    {
+      "finger": "left_bottom",
+      "response": 0.6249948143959045,
+      "distance_m": 0.0012000025017187
+    },
+    {
+      "finger": "left_top",
+      "response": 0.6250017881393433,
+      "distance_m": 0.001199999125674367
+    },
+    {
+      "finger": "right_bottom",
+      "response": 0.6250017881393433,
+      "distance_m": 0.001199999125674367
+    },
+    {
+      "finger": "right_top",
+      "response": 0.6250015497207642,
+      "distance_m": 0.0011999992420896888
+    }
+  ],
+  "mesh": [
+    {
+      "finger": "left_bottom",
+      "response": 0.6249964833259583,
+      "distance_m": 0.0012000016868114471
+    },
+    {
+      "finger": "left_top",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_bottom",
+      "response": 0.6250003576278687,
+      "distance_m": 0.001199999824166298
+    },
+    {
+      "finger": "right_top",
+      "response": 0.6250023245811462,
+      "distance_m": 0.0011999988928437233
+    }
+  ],
+  "passed": true
+}

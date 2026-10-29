@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sunday-a1-mjlab"
+version = "0.1.0"
+description = "Fixed-base Sunday A1 setup and migration checks for mjlab 1.4"
+requires-python = ">=3.10,<3.14"
+dependencies = ["mjlab==1.4.0", "mujoco==3.8.1", "mujoco-warp==3.8.1", "warp-lang==1.13.0", "torch==2.7.1"]
+
+[project.entry-points."mjlab.tasks"]
+sunday_a1 = "sunday_a1_mjlab.tasks"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sunday_a1_mjlab = ["assets/*.xml", "assets/*.json", "assets/meshes/*.stl"]

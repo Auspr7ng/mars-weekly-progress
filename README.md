@@ -1,8 +1,8 @@
 # MARS weekly progress
 
-Weekly research notes, code, slides, and visual evidence for the Sunday A1 / FlexiTac work in Isaac Sim.
+Weekly research notes, code, slides, and visual evidence for the Sunday A1 / FlexiTac work in Isaac Sim and mjlab.
 
-This is a private working archive. The scripts depend on local robot USD/URDF assets and an Isaac Sim environment; cloning this repository alone does not reproduce the simulation.
+Weeks 1 and 2 depend on local robot assets and an Isaac Sim environment. Week 3 includes the Sunday A1 model resources and a portable mjlab demo. Use an existing compatible mjlab environment and an NVIDIA GPU, then open `Progress/Week3/start_demo.bat` on Windows. See the [Week 3 README](Progress/Week3/README.md) for requirements and Linux commands.
 
 ## Weeks
 
@@ -10,8 +10,9 @@ This is a private working archive. The scripts depend on local robot USD/URDF as
 | --- | --- | --- |
 | Week 1 | [Two-foot sensor setup](Progress/Week1/code/README.md) | [Slides and evidence](Progress/Week1/progress/README.md) |
 | Week 2 | [Four-finger sensor setup](Progress/Week2/code/README.md) | [Slides, screenshots, and demo](Progress/Week2/progress/README.md) |
+| Week 3 | [mjlab dual-grasp and eight-array demo](Progress/Week3/README.md) | [Weekly slides](Progress/Week3/Weekly_Progress_2026-10-29_mjlab_Tactile.pptx) and [migration report](Progress/Week3/Week3_Migration_Report.md) |
 
-Each week has two separate READMEs: `code/README.md` explains how to run and interpret that week's script, while `progress/README.md` records what was completed and links to the presentation and media.
+Weeks 1 and 2 separate runnable scripts in `code/` from reports in `progress/`. Week 3 keeps `start_demo.bat`, the README, report, slides, and selected media together, with implementation in `code/` and saved evidence in `results/`.
 
 ## Add a new week
 
@@ -23,4 +24,4 @@ Each week has two separate READMEs: `code/README.md` explains how to run and int
 
 ## Data interpretation
 
-The Week 1 two-foot setup uses a provisional aggregate-force calibration. The Week 2 finger heatmaps are normalized SDF proximity/contact proxies, not calibrated pressure or force measurements. See each code README for details.
+The Week 1 two-foot setup uses a provisional aggregate-force calibration. The Week 2 finger heatmaps and Week 3 hand/foot heatmaps are normalized geometry-based responses, not calibrated pressure or force measurements. Week 3 obtains physical grasp forces separately from the MuJoCo contact solver. See each week's README for details.

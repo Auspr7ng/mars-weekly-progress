@@ -1,0 +1,880 @@
+{
+  "scope": "Git repository blob contents for Week3, before checkout newline conversion",
+  "files": [
+    {
+      "path": "01_dual_hand_grasp.jpg",
+      "sha256": "9182933618572841eba6c1276c1ee80bf50033eac6f35cd03f7fb43f853134b5",
+      "bytes": 77924
+    },
+    {
+      "path": "02_hand_and_foot_sensor_view.jpg",
+      "sha256": "de59236564b436075b669397dd988e78762f53a71b95e36e4ad3ec2f76033ece",
+      "bytes": 65962
+    },
+    {
+      "path": "03_foot_heatmaps.png",
+      "sha256": "e11146680fe2edcbef807b8a6c7a85720720dd0bd88390885ca6f5f23e404a0f",
+      "bytes": 83874
+    },
+    {
+      "path": "04_left_hand_grasp_demo.mp4",
+      "sha256": "454bf56930d74e3c967f917d33df4126fc47d698b26586037072e9c48e6be053",
+      "bytes": 160740
+    },
+    {
+      "path": "05_python_architecture.png",
+      "sha256": "55b768f4036de1a482ee14afd2d3b360e9415d63b4d8c0af0f97dffd3756e0cf",
+      "bytes": 310195
+    },
+    {
+      "path": "README.md",
+      "sha256": "3bb0359ccb482db7e9551c0da11dad454405bc4d2facf68a70e98e912d769432",
+      "bytes": 5037
+    },
+    {
+      "path": "Week3_Migration_Report.md",
+      "sha256": "9c54f0835f6a0d8e88313b1d9d3461f257658a0148c756850fce5ed7663490fc",
+      "bytes": 12406
+    },
+    {
+      "path": "Weekly_Progress_2026-10-29_mjlab_Tactile.pptx",
+      "sha256": "0ddcd7c2a4653ba5d465d7c5fb0284c59ff8ca243623ddf32ac9fa7dfbaa2054",
+      "bytes": 21169765
+    },
+    {
+      "path": "code/.gitignore",
+      "sha256": "9c3ba40a8f3c6729795d06ce9996a44498258007e5a0c82bce3664add8041a24",
+      "bytes": 32
+    },
+    {
+      "path": "code/check_demo.bat",
+      "sha256": "ba2d065a80858df5d3550c6d0ad81fd476421320fb149683a43f909c66551334",
+      "bytes": 178
+    },
+    {
+      "path": "code/configure_python.bat",
+      "sha256": "19774b9f591e1737adda34e00a803098a0204e6e5f7acae68c8607837f3e0a0c",
+      "bytes": 182
+    },
+    {
+      "path": "code/launch.ps1",
+      "sha256": "70bc4d2cb44e43a24812b397366df7e185d2f8b0164aadb6d1cd84777479dd20",
+      "bytes": 3592
+    },
+    {
+      "path": "code/model/meshes/base_link.stl",
+      "sha256": "9846d5d9fc65df47f96be9a07e7fc588ec38c90654d44037ddab8bc0eaa17d12",
+      "bytes": 4946484
+    },
+    {
+      "path": "code/model/meshes/head_1.stl",
+      "sha256": "b788dd1feaaeda9cafb5044d129d0758a8297c6bcf9f354966e0a4f7e1ec4a2b",
+      "bytes": 249184
+    },
+    {
+      "path": "code/model/meshes/l_ankle_link_1.stl",
+      "sha256": "93a99fc4f74c1c579c92379227035a695b3246e459561584c3fdf09d2a0bd4d7",
+      "bytes": 2198884
+    },
+    {
+      "path": "code/model/meshes/l_bicep_link_1.stl",
+      "sha256": "11683cda17b1a55e14c1a08ad2404d4c2357e78375bf9e6430be778707c21780",
+      "bytes": 332084
+    },
+    {
+      "path": "code/model/meshes/l_calf_link_1.stl",
+      "sha256": "ccdf24ebc0198501a7f93a7bb7353a38e3ebc8602c270fe87e67f611c1c6ad48",
+      "bytes": 1361584
+    },
+    {
+      "path": "code/model/meshes/l_finger_bottom_1.stl",
+      "sha256": "5f92b3b131be50b0b4ef3c6f6873f77dc5003a702949843194d8e48fae7942cf",
+      "bytes": 117284
+    },
+    {
+      "path": "code/model/meshes/l_finger_top_1.stl",
+      "sha256": "a2c13aca66c895fbed366c6a9ec2fd201ac7bf5c5e696e6c5dcbc7139c5c7a6d",
+      "bytes": 117284
+    },
+    {
+      "path": "code/model/meshes/l_foot_link_1.stl",
+      "sha256": "9ad2b9f4cd69393b38441568d7179c6d2343f240499426ae26ba0d7a018d5abb",
+      "bytes": 914584
+    },
+    {
+      "path": "code/model/meshes/l_gripper_base_1.stl",
+      "sha256": "4de8b1a2a7299efa2e48bdf317d0bc0432a6a42629d4229963412bf7138ead77",
+      "bytes": 1448984
+    },
+    {
+      "path": "code/model/meshes/l_hip_link_1.stl",
+      "sha256": "51c609bbc68560b15f7fd1bbcc2abfee304e4f4ce1effe078457dd8e32019240",
+      "bytes": 1371784
+    },
+    {
+      "path": "code/model/meshes/l_knee_link_1.stl",
+      "sha256": "61c3c81f28ed0167982bc4c7ba14287a44a0ca1cb0816875e7d4199b7ebac31d",
+      "bytes": 287884
+    },
+    {
+      "path": "code/model/meshes/l_lower_arm_link_1.stl",
+      "sha256": "621994f936f13622c8a29ecd74ee17a19fb54231b95ba8e2bc82e80e6787df52",
+      "bytes": 2241984
+    },
+    {
+      "path": "code/model/meshes/l_shoulder_link_1.stl",
+      "sha256": "599e90a2bb3be3349b6bc2fc1830fa22ed2e077c5b21fd1ce95d0938b7cbd42a",
+      "bytes": 343584
+    },
+    {
+      "path": "code/model/meshes/l_thigh_link_1.stl",
+      "sha256": "c9fcf6ad942b3af6d2f0cd8692676116c8e02503bfea7ced54bf5bf656d01a15",
+      "bytes": 1247384
+    },
+    {
+      "path": "code/model/meshes/l_upper_arm_link_1.stl",
+      "sha256": "bb7f21b63ca311038bb352bc5ab7f6cab019deb2da7cc74335d1eacd9c1f4c09",
+      "bytes": 2241984
+    },
+    {
+      "path": "code/model/meshes/r_ankle_link_1.stl",
+      "sha256": "81ae4845e2057cba389f358dcd7f48bf4c1d7c344d7e2602f4ad2f43edde91b1",
+      "bytes": 2198484
+    },
+    {
+      "path": "code/model/meshes/r_bicep_link_1.stl",
+      "sha256": "2498ca3f9c1115ff804e85fa4fcb45c7b72ffaddd23c7dcfe1e28d82ee6660b6",
+      "bytes": 332084
+    },
+    {
+      "path": "code/model/meshes/r_calf_link_1.stl",
+      "sha256": "9674721bc3324faf5e67d66378b2df495e35c457a633622301b691a12de767cb",
+      "bytes": 1361584
+    },
+    {
+      "path": "code/model/meshes/r_finger_bottom_1.stl",
+      "sha256": "03ec9322fe8542d333177d1e46046f7e13139c70e937f56b9420ee4186931e71",
+      "bytes": 117284
+    },
+    {
+      "path": "code/model/meshes/r_finger_top_1.stl",
+      "sha256": "f973842e3eb9df022465a7ca4990d64d942b02eef7d031260227f8b6a5dfe86b",
+      "bytes": 117284
+    },
+    {
+      "path": "code/model/meshes/r_foot_link_1.stl",
+      "sha256": "6e1b865d8807abcda73a11fb3948802aa5c9919973f2e849d1e74f4e75a2e54b",
+      "bytes": 915584
+    },
+    {
+      "path": "code/model/meshes/r_gripper_base_1.stl",
+      "sha256": "a8ac8dd0d0033c78c257d4aff12c9c90581e38b860c028280dbc47808a21d710",
+      "bytes": 1448984
+    },
+    {
+      "path": "code/model/meshes/r_hip_link_1.stl",
+      "sha256": "37d46c700dc4dab4fc412529e33daf3aa72ce93d8ed459c1016d5c416e07889e",
+      "bytes": 1371784
+    },
+    {
+      "path": "code/model/meshes/r_knee_link_1.stl",
+      "sha256": "28abe5b4e7aedcb1bf1b050737e84225532b107e9e0ce6d43aa31997ce8639cc",
+      "bytes": 287884
+    },
+    {
+      "path": "code/model/meshes/r_lower_arm_link_1.stl",
+      "sha256": "d3a3882517a461a2eb39143fe737e9a401188385ed2614c4827fc0e829a1c448",
+      "bytes": 2241984
+    },
+    {
+      "path": "code/model/meshes/r_shoulder_link_1.stl",
+      "sha256": "40face1e892f7b84a19f5ecc9adc32f7f666aae78471524bbea8644debfa62fa",
+      "bytes": 343584
+    },
+    {
+      "path": "code/model/meshes/r_thigh_link_1.stl",
+      "sha256": "a7252b041089885108d97eab38e1504bd13942cd4a959603aeecca3f46c5a8bf",
+      "bytes": 1247384
+    },
+    {
+      "path": "code/model/meshes/r_upper_arm_link_1.stl",
+      "sha256": "c0d03363462c82c5f48ed7b73605f0f231d02d0c41ae6d821f7da266b9864df7",
+      "bytes": 2241984
+    },
+    {
+      "path": "code/model/sunday_a1.urdf",
+      "sha256": "277acacccafd780d6ee29dfa506d61645e5fd6d5675ccdbd20adfbe45d20a14b",
+      "bytes": 29220
+    },
+    {
+      "path": "code/preview_robot.bat",
+      "sha256": "d6805441266d413288c59714ee1acef394ebab44afd75342e7fb546fbcb6f21a",
+      "bytes": 180
+    },
+    {
+      "path": "code/pyproject.toml",
+      "sha256": "d338a8832dafadd03b85773960edeb480cedf65d0e81ae2664701ba85250adf2",
+      "bytes": 588
+    },
+    {
+      "path": "code/requirements.txt",
+      "sha256": "ad4c048a4656f687c4e23cc93638bf1155da751229a7441250ad7eb68538008a",
+      "bytes": 297
+    },
+    {
+      "path": "code/run_demo.py",
+      "sha256": "87e34f4c1da9f3d1504413333f92318bc1f2d1ad4a44e75ab84a7b8c1f4d25b4",
+      "bytes": 5199
+    },
+    {
+      "path": "code/run_regressions.bat",
+      "sha256": "adbafcb5efc3b1e7cf077649a420a718513bb2bbc8f68d54687d48d48284be55",
+      "bytes": 184
+    },
+    {
+      "path": "code/scripts/ball_grasp_demo.py",
+      "sha256": "ca112b68e4109b7af8f50292760a8a2c67e3b427b13d780a7bbeaa78b55e0408",
+      "bytes": 5866
+    },
+    {
+      "path": "code/scripts/check_ball_grasp.py",
+      "sha256": "974c6d624ad8f2488240deed5dbb0604ede4019ab1410d4b63fe916e41ae18f7",
+      "bytes": 4985
+    },
+    {
+      "path": "code/scripts/check_dual_ball_grasp.py",
+      "sha256": "48a6046e64948616ab532dc12da65af8ed8af03b7738276d3ec290ee674c98b3",
+      "bytes": 7079
+    },
+    {
+      "path": "code/scripts/check_feet_tactile.py",
+      "sha256": "c409d8f465ea945d94c79ddfdfa663dba8d1ff21d22171a9e834d8edc8bd697d",
+      "bytes": 6837
+    },
+    {
+      "path": "code/scripts/check_flexitac_mjlab.py",
+      "sha256": "607bbe34e1b519784e2cf79e956e94e29bb6b341c559ea716c36a3086018f38b",
+      "bytes": 3912
+    },
+    {
+      "path": "code/scripts/check_mjlab.py",
+      "sha256": "25011d88a32d1e08e096e7505512e5dec2cb3c7549fa77760a9f4496b539719d",
+      "bytes": 3372
+    },
+    {
+      "path": "code/scripts/check_tactile_objects.py",
+      "sha256": "0af06439657ec8e15fa6e1c2c4fe4f284fa0a2accc845ed8053f4b64ba1ec3c9",
+      "bytes": 3666
+    },
+    {
+      "path": "code/scripts/convert_robot.py",
+      "sha256": "27117d8fedff0ec4b6c36a0ea788b58f83eba5eea6e88071fcf5bcc05d0b9e16",
+      "bytes": 5915
+    },
+    {
+      "path": "code/scripts/flexitac_demo.py",
+      "sha256": "14050fecea52b34ba13e10b71a38c8004fd08166fda34c74e96a68dad32044da",
+      "bytes": 5829
+    },
+    {
+      "path": "code/scripts/preview_robot.py",
+      "sha256": "49b1ba71aa1be75b2d4bd80b531a93bf718b10dda0f5e0a7fbf22220d58e3136",
+      "bytes": 3160
+    },
+    {
+      "path": "code/scripts/record_ball_grasp.py",
+      "sha256": "3dd6c51972c838eb69ab89a33854e4ce5248ebe7f92b7644646bac98fc66dc2d",
+      "bytes": 4407
+    },
+    {
+      "path": "code/scripts/record_flexitac_demo.py",
+      "sha256": "0cfe3132ef7b06ce1f8a233e165a8bb371e5fb34bbe8cc905e3cf32cec98c980",
+      "bytes": 4573
+    },
+    {
+      "path": "code/scripts/render_preview.py",
+      "sha256": "ebaf17cbd744be9949ef0c328a4ef8b35c68231fedd119d696aec34c7bcb7dd3",
+      "bytes": 1174
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/__init__.py",
+      "sha256": "80d8c3759d7d03bf0735a25acaf44a211c31c8aca12e99fda23f74aadd3c9fb4",
+      "bytes": 49
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/base_link.stl",
+      "sha256": "9846d5d9fc65df47f96be9a07e7fc588ec38c90654d44037ddab8bc0eaa17d12",
+      "bytes": 4946484
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/head_1.stl",
+      "sha256": "b788dd1feaaeda9cafb5044d129d0758a8297c6bcf9f354966e0a4f7e1ec4a2b",
+      "bytes": 249184
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_ankle_link_1.stl",
+      "sha256": "93a99fc4f74c1c579c92379227035a695b3246e459561584c3fdf09d2a0bd4d7",
+      "bytes": 2198884
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_bicep_link_1.stl",
+      "sha256": "11683cda17b1a55e14c1a08ad2404d4c2357e78375bf9e6430be778707c21780",
+      "bytes": 332084
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_calf_link_1.stl",
+      "sha256": "ccdf24ebc0198501a7f93a7bb7353a38e3ebc8602c270fe87e67f611c1c6ad48",
+      "bytes": 1361584
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_finger_bottom_1.stl",
+      "sha256": "5f92b3b131be50b0b4ef3c6f6873f77dc5003a702949843194d8e48fae7942cf",
+      "bytes": 117284
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_finger_top_1.stl",
+      "sha256": "a2c13aca66c895fbed366c6a9ec2fd201ac7bf5c5e696e6c5dcbc7139c5c7a6d",
+      "bytes": 117284
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_foot_link_1.stl",
+      "sha256": "9ad2b9f4cd69393b38441568d7179c6d2343f240499426ae26ba0d7a018d5abb",
+      "bytes": 914584
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_gripper_base_1.stl",
+      "sha256": "4de8b1a2a7299efa2e48bdf317d0bc0432a6a42629d4229963412bf7138ead77",
+      "bytes": 1448984
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_hip_link_1.stl",
+      "sha256": "51c609bbc68560b15f7fd1bbcc2abfee304e4f4ce1effe078457dd8e32019240",
+      "bytes": 1371784
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_knee_link_1.stl",
+      "sha256": "61c3c81f28ed0167982bc4c7ba14287a44a0ca1cb0816875e7d4199b7ebac31d",
+      "bytes": 287884
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_lower_arm_link_1.stl",
+      "sha256": "621994f936f13622c8a29ecd74ee17a19fb54231b95ba8e2bc82e80e6787df52",
+      "bytes": 2241984
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_shoulder_link_1.stl",
+      "sha256": "599e90a2bb3be3349b6bc2fc1830fa22ed2e077c5b21fd1ce95d0938b7cbd42a",
+      "bytes": 343584
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_thigh_link_1.stl",
+      "sha256": "c9fcf6ad942b3af6d2f0cd8692676116c8e02503bfea7ced54bf5bf656d01a15",
+      "bytes": 1247384
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/l_upper_arm_link_1.stl",
+      "sha256": "bb7f21b63ca311038bb352bc5ab7f6cab019deb2da7cc74335d1eacd9c1f4c09",
+      "bytes": 2241984
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_ankle_link_1.stl",
+      "sha256": "81ae4845e2057cba389f358dcd7f48bf4c1d7c344d7e2602f4ad2f43edde91b1",
+      "bytes": 2198484
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_bicep_link_1.stl",
+      "sha256": "2498ca3f9c1115ff804e85fa4fcb45c7b72ffaddd23c7dcfe1e28d82ee6660b6",
+      "bytes": 332084
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_calf_link_1.stl",
+      "sha256": "9674721bc3324faf5e67d66378b2df495e35c457a633622301b691a12de767cb",
+      "bytes": 1361584
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_finger_bottom_1.stl",
+      "sha256": "03ec9322fe8542d333177d1e46046f7e13139c70e937f56b9420ee4186931e71",
+      "bytes": 117284
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_finger_top_1.stl",
+      "sha256": "f973842e3eb9df022465a7ca4990d64d942b02eef7d031260227f8b6a5dfe86b",
+      "bytes": 117284
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_foot_link_1.stl",
+      "sha256": "6e1b865d8807abcda73a11fb3948802aa5c9919973f2e849d1e74f4e75a2e54b",
+      "bytes": 915584
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_gripper_base_1.stl",
+      "sha256": "a8ac8dd0d0033c78c257d4aff12c9c90581e38b860c028280dbc47808a21d710",
+      "bytes": 1448984
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_hip_link_1.stl",
+      "sha256": "37d46c700dc4dab4fc412529e33daf3aa72ce93d8ed459c1016d5c416e07889e",
+      "bytes": 1371784
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_knee_link_1.stl",
+      "sha256": "28abe5b4e7aedcb1bf1b050737e84225532b107e9e0ce6d43aa31997ce8639cc",
+      "bytes": 287884
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_lower_arm_link_1.stl",
+      "sha256": "d3a3882517a461a2eb39143fe737e9a401188385ed2614c4827fc0e829a1c448",
+      "bytes": 2241984
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_shoulder_link_1.stl",
+      "sha256": "40face1e892f7b84a19f5ecc9adc32f7f666aae78471524bbea8644debfa62fa",
+      "bytes": 343584
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_thigh_link_1.stl",
+      "sha256": "a7252b041089885108d97eab38e1504bd13942cd4a959603aeecca3f46c5a8bf",
+      "bytes": 1247384
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/meshes/r_upper_arm_link_1.stl",
+      "sha256": "c0d03363462c82c5f48ed7b73605f0f231d02d0c41ae6d821f7da266b9864df7",
+      "bytes": 2241984
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/model_info.json",
+      "sha256": "0a45a13fc8d41b466ac6df699330299c3a9dcbc27fb9e6e731820034542b802f",
+      "bytes": 908
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/scene.xml",
+      "sha256": "13d5163e92d5f19c1c3afc4aeafb45a42ed42a732b3e587c13bad828c58a0d08",
+      "bytes": 3870
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/scene_flexitac.xml",
+      "sha256": "39f9f103eeefdb7344cb30387a38ead818c62ad6c3d55cb349bd66c0ef6551de",
+      "bytes": 27652
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/sunday_a1.xml",
+      "sha256": "c2c89a1a7d75c859be0d05404fda6baea4417eef644ddf2fd740fb21b387ee41",
+      "bytes": 23356
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/assets/sunday_a1_import.urdf",
+      "sha256": "2a4c624d6759238cccde4c6ae9e19f7614a7d6b9475790269e83493089f9b1f9",
+      "bytes": 29324
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/ball_grasp.py",
+      "sha256": "84dc17a08bb2828f761831be74c062ba2a92ee926f87fcc4f8d60c6faec952c4",
+      "bytes": 7567
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/feet_tactile.py",
+      "sha256": "d7fa68d792df3e0a937f6165b0b1bab597b89d0bf4131d83dc401fa67bfe2414",
+      "bytes": 2232
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/flexitac.py",
+      "sha256": "5206943c1e0a10ef0852b8be9ba95e06dbab60e636e1583ba761e344e80b13e8",
+      "bytes": 15255
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/mjlab_flexitac.py",
+      "sha256": "1a5ce658c0b73f93024cadd8150b7bccc4808c9b3f185ba3f77552c4c0c7f0b7",
+      "bytes": 2864
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/tactile_backend.py",
+      "sha256": "20888ad39d483b37c7a0c2ec3997d9378394fe1e66c49c50c1d032098762f3c2",
+      "bytes": 2547
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/tactile_display.py",
+      "sha256": "0d4a0ed7f3006a994740f9d19455d354d62b684bc6464f5b41519888435135fd",
+      "bytes": 19757
+    },
+    {
+      "path": "code/src/sunday_a1_mjlab/tasks.py",
+      "sha256": "2ca847de5fb236ef45a5013fe4b3c890f2c533d8a1712a66b1ba8a113d84c996",
+      "bytes": 5894
+    },
+    {
+      "path": "code/start_demo.sh",
+      "sha256": "a75b0fc42eb05e49906da9d24f51fca79019d1c31b116b90907f36444b49b950",
+      "bytes": 111
+    },
+    {
+      "path": "results/README.md",
+      "sha256": "b4a834d97fea8ef1e68ac347232ca437949c2c4f64e2d5a16ccf6dc0c26da034",
+      "bytes": 569
+    },
+    {
+      "path": "results/ball_grasp/ball_grasp.mp4",
+      "sha256": "454bf56930d74e3c967f917d33df4126fc47d698b26586037072e9c48e6be053",
+      "bytes": 160740
+    },
+    {
+      "path": "results/ball_grasp/check.json",
+      "sha256": "042b0a27460df0f8a34d608812c6a565d2649dee71f1222ab2565a94b7024072",
+      "bytes": 840
+    },
+    {
+      "path": "results/ball_grasp/dual_check.json",
+      "sha256": "e18e46111f7754b0baae52c5d4e66e07f45e4f6b6803c41826b7c3ef521412f0",
+      "bytes": 3390
+    },
+    {
+      "path": "results/ball_grasp/dual_held_heatmaps.json",
+      "sha256": "cac4539b53fcea33dbd70b195d5fbcee128f0d0b6949c2dbd6895ce2b3e5e218",
+      "bytes": 537
+    },
+    {
+      "path": "results/ball_grasp/dual_held_heatmaps.npz",
+      "sha256": "85ca6b04f0fed06055cb6b8cdbd158a83aae268f352437bc6e5b0d629dbd110c",
+      "bytes": 18724
+    },
+    {
+      "path": "results/ball_grasp/dual_held_heatmaps.png",
+      "sha256": "418a85d2341df12dbb63cee66921c7a658e37e9777643bad1948e9bf616ecab1",
+      "bytes": 115039
+    },
+    {
+      "path": "results/ball_grasp/dual_viewer_ui.jpg",
+      "sha256": "9182933618572841eba6c1276c1ee80bf50033eac6f35cd03f7fb43f853134b5",
+      "bytes": 77924
+    },
+    {
+      "path": "results/ball_grasp/held.png",
+      "sha256": "f7efe6db3d35dc4803fdfbfb558114c33dc32ed08231fe9a2825f3babab177c6",
+      "bytes": 136466
+    },
+    {
+      "path": "results/ball_grasp/held_heatmaps.json",
+      "sha256": "84e4e118f5b0304c76b3b1575633613f413f324f697c41c4737b3141e1e3cb29",
+      "bytes": 497
+    },
+    {
+      "path": "results/ball_grasp/held_heatmaps.npz",
+      "sha256": "f90824d6041be355ea44d901cd75aec90c625d8729e63b0d2fa0bc3cbc94ac96",
+      "bytes": 17658
+    },
+    {
+      "path": "results/ball_grasp/held_heatmaps.png",
+      "sha256": "b47efcb56ae3ed7ad3dc9e74a0c3a1923502dc080aaa1ad1a29a291e6f5f7742",
+      "bytes": 119154
+    },
+    {
+      "path": "results/ball_grasp/left_empty_right_ball_heatmaps.json",
+      "sha256": "0b01ff55fe65021cc07254d18656939fefd7ab8a6697a0b6b2782a972fbf3c23",
+      "bytes": 505
+    },
+    {
+      "path": "results/ball_grasp/left_empty_right_ball_heatmaps.npz",
+      "sha256": "e6d7271edcd536e3a287985bf04c8a024d97e5087950d6531ddab22c2066396f",
+      "bytes": 17063
+    },
+    {
+      "path": "results/ball_grasp/left_empty_right_ball_heatmaps.png",
+      "sha256": "3be18b8c1c1448319e2fa909484af270cc3bc94927a004d886f2ab1850eb98a8",
+      "bytes": 113637
+    },
+    {
+      "path": "results/ball_grasp/live_foot_heatmaps.json",
+      "sha256": "1aa0bbc53a2cf3a7e5f73a93aee88cfdf077eef582f182dc2b4208db1c18d35c",
+      "bytes": 603
+    },
+    {
+      "path": "results/ball_grasp/live_foot_heatmaps.npz",
+      "sha256": "07cee424093438911b5bfed21279e4a71c3cff08ccabd64d758e88e741bbffc4",
+      "bytes": 79703
+    },
+    {
+      "path": "results/ball_grasp/live_foot_heatmaps.png",
+      "sha256": "10c7f8a62879d84d79d41d38556e79220539cd6690aba0b6454d36e20c2f1726",
+      "bytes": 88918
+    },
+    {
+      "path": "results/ball_grasp/live_heatmaps.json",
+      "sha256": "6a4711738fcff4004838e829e1e7ea0b8f43885823ffac51102bee7c1ab0423e",
+      "bytes": 535
+    },
+    {
+      "path": "results/ball_grasp/live_heatmaps.npz",
+      "sha256": "36f37c6e1b8657b6c2867b3522ceaca19321cb4cf17346f94aee733cc764f813",
+      "bytes": 18734
+    },
+    {
+      "path": "results/ball_grasp/live_heatmaps.png",
+      "sha256": "4231a21b26cd6272f8cab887b242b6e353bfc7a393a956f60ff63c8de943cd04",
+      "bytes": 114307
+    },
+    {
+      "path": "results/ball_grasp/object_sensing_check.json",
+      "sha256": "efffb6a2dcdbdb4ed2123c2fd05ca7c72b6eb17a5a3d5ab4d17d44f4341a0d6f",
+      "bytes": 3066
+    },
+    {
+      "path": "results/ball_grasp/released.png",
+      "sha256": "5e5f7f6356bdc538970a0a50f44db39b29af04c6fddb0265dc3929adc2d1f6e2",
+      "bytes": 127688
+    },
+    {
+      "path": "results/ball_grasp/released_heatmaps.json",
+      "sha256": "19552b1cf930e0b3608573cd95d4316677c05eb077eeac1b5869d3c695f8807f",
+      "bytes": 459
+    },
+    {
+      "path": "results/ball_grasp/released_heatmaps.npz",
+      "sha256": "8f7a20bc5800c8f35d49f620aa154f14f6826476217a2db42d68b83c70ffe424",
+      "bytes": 17222
+    },
+    {
+      "path": "results/ball_grasp/released_heatmaps.png",
+      "sha256": "c83fec42315f88bd3678833433961f21cdebfabbe8968b929c10ca5e14cd0533",
+      "bytes": 117304
+    },
+    {
+      "path": "results/ball_grasp/rollout.npz",
+      "sha256": "4db49fbc32ad8a1095f5032a82e6406cfe749dd87d44838e8a2f9f681b18bd79",
+      "bytes": 40056
+    },
+    {
+      "path": "results/ball_grasp/shifted_left_heatmaps.json",
+      "sha256": "04d5cb6afe5ba4e9542a2f7913743b6ee11ba4aaf9cb387fe04ed099eaad1ad6",
+      "bytes": 535
+    },
+    {
+      "path": "results/ball_grasp/shifted_left_heatmaps.npz",
+      "sha256": "144a162a26f4646496b37d2355e8a4a40e61780e2e479279364448425c46ca70",
+      "bytes": 18609
+    },
+    {
+      "path": "results/ball_grasp/shifted_left_heatmaps.png",
+      "sha256": "5a1138225cc3097e8def731a42b3e151fcf1d04c134b414f6f7ba446e6c37ebf",
+      "bytes": 115162
+    },
+    {
+      "path": "results/ball_grasp/vertical_actual_preview.png",
+      "sha256": "115f7b0cba2925fc82afccdcb36e6a229bb88d85e7eb0d0a35c1f37ac0566281",
+      "bytes": 7889
+    },
+    {
+      "path": "results/ball_grasp/vertical_alignment_preview.png",
+      "sha256": "64f337f91dd648eee6539466c7eaa48a0bef8e12387299569b388f90e9e33ee3",
+      "bytes": 8007
+    },
+    {
+      "path": "results/ball_grasp/vertical_held_heatmaps.json",
+      "sha256": "681c01ac4c5a44d4ed1552bbb344a5bab10a658f60b7ea5f4a2b6e57d4b6fd15",
+      "bytes": 533
+    },
+    {
+      "path": "results/ball_grasp/vertical_held_heatmaps.npz",
+      "sha256": "5186bd8e2dcdb2cb1e20df81d024d2a3f2d74d55eea2bfb7494cb0e8b00772fa",
+      "bytes": 18640
+    },
+    {
+      "path": "results/ball_grasp/vertical_held_heatmaps.png",
+      "sha256": "e90bebb65e554350ddbe381fba1c6a7d782e1d6ff74f4b7f3354f29a76faf833",
+      "bytes": 114858
+    },
+    {
+      "path": "results/ball_grasp/vertical_viewer_ui.jpg",
+      "sha256": "78bdabb620839c22f05aa51f92afe35ef5c6d1a961d98fa06df378f6812a9f5e",
+      "bytes": 78078
+    },
+    {
+      "path": "results/ball_grasp/viewer_ui.jpg",
+      "sha256": "b147a4906caaf3ec784ea9c11d482990c7d0daea9d65d664f704944763e2169d",
+      "bytes": 87883
+    },
+    {
+      "path": "results/environment_versions.json",
+      "sha256": "394ee8b904a3dd7022ac0dd7ad21c0878e44fa45cae0450fd89b9eb3cdcf50b2",
+      "bytes": 3272
+    },
+    {
+      "path": "results/feet_tactile/check.json",
+      "sha256": "e64394740d8d85c0b901145be3250497c3077b1af324dbdffb62c7e5ac9cdd2b",
+      "bytes": 3958
+    },
+    {
+      "path": "results/feet_tactile/flat_feet_ui.jpg",
+      "sha256": "de59236564b436075b669397dd988e78762f53a71b95e36e4ad3ec2f76033ece",
+      "bytes": 65962
+    },
+    {
+      "path": "results/feet_tactile/flat_standing.json",
+      "sha256": "e435b2750e4fe285ee49038634a827da59a860267fc79de1156a58ae321c6618",
+      "bytes": 603
+    },
+    {
+      "path": "results/feet_tactile/flat_standing.npz",
+      "sha256": "d452232f554e39fbd9824d594c741de1aef4194a8d65278bd6682b7d0e5b862d",
+      "bytes": 218208
+    },
+    {
+      "path": "results/feet_tactile/flat_standing.png",
+      "sha256": "e11146680fe2edcbef807b8a6c7a85720720dd0bd88390885ca6f5f23e404a0f",
+      "bytes": 83874
+    },
+    {
+      "path": "results/feet_tactile/tilt_readings.npz",
+      "sha256": "180480bf8cb01b11095f8369fe3063e6878dd420a39cbb08d81250eeb3e889cc",
+      "bytes": 97535
+    },
+    {
+      "path": "results/feet_tactile/viewer_ui.jpg",
+      "sha256": "7f623d78fc753fd8d8d2ef5651d496adc967d01fb63f9dbeb6e4b20bd38966c4",
+      "bytes": 68078
+    },
+    {
+      "path": "results/flexitac/closed.json",
+      "sha256": "4c71cd9772742b6d53922eb0021a18e78776b3ebcb31249aa98ea828745c3566",
+      "bytes": 530
+    },
+    {
+      "path": "results/flexitac/closed.npz",
+      "sha256": "5cacdf2811030bf70965f4e118ed08fd669c43385650822b337671d1e9d7f207",
+      "bytes": 16247
+    },
+    {
+      "path": "results/flexitac/closed.png",
+      "sha256": "f77565bcc53a8d781b3784e82c413dbe9a9d1cd955a6ebf92db6ebfd592b74da",
+      "bytes": 118303
+    },
+    {
+      "path": "results/flexitac/four_flexitac_demo.mp4",
+      "sha256": "d9a72564591874f75bc0d2c7fd697d76bb7e17c89aef19a74e331970e95937cc",
+      "bytes": 236260
+    },
+    {
+      "path": "results/flexitac/four_flexitac_demo_closed.png",
+      "sha256": "fffb36d0b94c37c66a01fa751e9df7647f5e90f68bf80280fc7fd8715280e18c",
+      "bytes": 199627
+    },
+    {
+      "path": "results/flexitac/left_closed_right_open.json",
+      "sha256": "350746d82d7e18fb0a83df461d25137a7ae7d24849ab0d666075462d3643703c",
+      "bytes": 467
+    },
+    {
+      "path": "results/flexitac/left_closed_right_open.npz",
+      "sha256": "b29805c3e7a901f6c2400813432a37690efdc7f0dd640118315e5e058591e781",
+      "bytes": 15964
+    },
+    {
+      "path": "results/flexitac/left_closed_right_open.png",
+      "sha256": "096df30e48fa9702e1d6c6adb2251d8dbdbbdd5275a984681a88c703cef3855e",
+      "bytes": 117135
+    },
+    {
+      "path": "results/flexitac/left_open_right_closed.json",
+      "sha256": "050fbb0a499fcad6713985a724feffe7edefa2ff07f065dcf3a2b4a40300898d",
+      "bytes": 523
+    },
+    {
+      "path": "results/flexitac/left_open_right_closed.npz",
+      "sha256": "bb8a454e4375ee955a60da131467c85398630e07ecf692e4613a0741bbea217c",
+      "bytes": 16993
+    },
+    {
+      "path": "results/flexitac/left_open_right_closed.png",
+      "sha256": "5f5e669993bd787ec70fa764fc90783a54af526e909bcaee7461de3e5b90aeb7",
+      "bytes": 118844
+    },
+    {
+      "path": "results/flexitac/live_heatmaps.json",
+      "sha256": "80b6a38dfc3561c3328f3c908078db3a45273e29b0866c877bb8dbb1142a369e",
+      "bytes": 531
+    },
+    {
+      "path": "results/flexitac/live_heatmaps.npz",
+      "sha256": "68a43613aaa300bc7250c29bfb19feae567711b88dcd115dde087bae54d69deb",
+      "bytes": 16557
+    },
+    {
+      "path": "results/flexitac/live_heatmaps.png",
+      "sha256": "1716119c662e8a8d0d394cb899bbb8b5bae6cb348a6fc23c1a9e8be11f65b170",
+      "bytes": 117897
+    },
+    {
+      "path": "results/flexitac/mjlab_check.json",
+      "sha256": "a259e278b8c90c56f8a21204de873499faa454b2e44ee75df0cee4603bf46037",
+      "bytes": 3328
+    },
+    {
+      "path": "results/flexitac/mjlab_demo_check.json",
+      "sha256": "998abd681cbd67315e3a5067a40b95e4a51778e516433073f9853b386a096c20",
+      "bytes": 3375
+    },
+    {
+      "path": "results/flexitac/native_check.json",
+      "sha256": "8a44cb87628e47f4ec93197bdb3fb1c68a401aad236b699917af95e0b1ca7ec2",
+      "bytes": 3356
+    },
+    {
+      "path": "results/flexitac/open.json",
+      "sha256": "8ad6d7c49781b473709657c7d58ef827f27c966eae67e45f7c5a81eaedf322f1",
+      "bytes": 461
+    },
+    {
+      "path": "results/flexitac/open.npz",
+      "sha256": "75cb8438693c79010de0569fa087c096208e449a78bf1b63ffedafc78b18e302",
+      "bytes": 16453
+    },
+    {
+      "path": "results/flexitac/open.png",
+      "sha256": "72e1541f68abf30b229c81803d6fd8b743b8235437408c7eb1257907b865647f",
+      "bytes": 117684
+    },
+    {
+      "path": "results/flexitac/open_close_readings.npz",
+      "sha256": "58f9b51a8826b4950692b5ef5de0f19c30cb5687e8f42318cbbf36a1ebf472af",
+      "bytes": 1540113
+    },
+    {
+      "path": "results/flexitac/viewer_ui.jpg",
+      "sha256": "d02d74d7f3a97566b140babca3b3a26d5857c9eee4c5c9f18d815aa909123fa5",
+      "bytes": 30137
+    },
+    {
+      "path": "results/mjlab_check.json",
+      "sha256": "aba4236c3c4c25963a776e684cf7b5080a37b9369048e4c02c911746cf7b2100",
+      "bytes": 805
+    },
+    {
+      "path": "results/preview_check.json",
+      "sha256": "312004bf7dd65b7d7132a2494a8d0057f6c9ca7e414aa069833675fa8b07595b",
+      "bytes": 684
+    },
+    {
+      "path": "results/robot_preview.png",
+      "sha256": "b3b4c2236ea611554880cd71b4886c25b5d33bf02d5e6dba0e88a08e6444e244",
+      "bytes": 60371
+    },
+    {
+      "path": "results/validation/bundle_runtime_check.json",
+      "sha256": "74f5298b23a37c17790425f8206e19c86821c8ec2238f2bd4296e1cd9f431e6d",
+      "bytes": 691
+    },
+    {
+      "path": "results/validation/desktop_gui_smoke.json",
+      "sha256": "522bbc8610f9fcc5051749817d261216d6bfbd03e2883bffd81894f5da6c4f83",
+      "bytes": 268
+    },
+    {
+      "path": "results/validation/english_code_audit.json",
+      "sha256": "66dc100d1dbb1a1cf0c5b0bca60d0a5b6a58f124ad0866e67faae06f157337c1",
+      "bytes": 255
+    },
+    {
+      "path": "start_demo.bat",
+      "sha256": "ba490ce8acff9e1a50599712946a8838e4b459f12cfafe5b73ea49c28ef5d356",
+      "bytes": 182
+    }
+  ]
+}

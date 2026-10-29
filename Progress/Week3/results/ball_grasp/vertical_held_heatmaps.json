@@ -1,0 +1,26 @@
+{
+  "left_bottom": {
+    "max": 1.0,
+    "mean": 0.08529391139745712,
+    "active": 42,
+    "min_distance_mm": -0.1744050532579422
+  },
+  "left_top": {
+    "max": 1.0,
+    "mean": 0.08529334515333176,
+    "active": 42,
+    "min_distance_mm": -0.1743929386138916
+  },
+  "right_bottom": {
+    "max": 1.0,
+    "mean": 0.03113079071044922,
+    "active": 16,
+    "min_distance_mm": 0.8211107850074768
+  },
+  "right_top": {
+    "max": 1.0,
+    "mean": 0.031132226809859276,
+    "active": 16,
+    "min_distance_mm": 0.8210874795913696
+  }
+}

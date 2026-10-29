@@ -1,0 +1,151 @@
+{
+  "open": {
+    "joints_m": [
+      0.030000181462956417,
+      0.029998886189154098,
+      0.02999909890929683,
+      0.030000146783997796
+    ],
+    "sensors": {
+      "left_bottom": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.880550384521484
+      },
+      "left_top": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.186922073364258
+      },
+      "right_bottom": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 27.703950881958008
+      },
+      "right_top": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 27.033344268798828
+      }
+    }
+  },
+  "closed": {
+    "joints_m": [
+      1.1138106784220342e-06,
+      -1.811258471210759e-07,
+      -1.465113149258282e-07,
+      9.010905684633147e-07
+    ],
+    "sensors": {
+      "left_bottom": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.1746426224708557
+      },
+      "left_top": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.22466160356998444
+      },
+      "right_bottom": {
+        "max": 0.6781944036483765,
+        "mean": 0.6781839728355408,
+        "active": 384,
+        "min_distance_mm": 1.1744667291641235
+      },
+      "right_top": {
+        "max": 0.5739957094192505,
+        "mean": 0.5739855170249939,
+        "active": 384,
+        "min_distance_mm": 1.2244820594787598
+      }
+    }
+  },
+  "left_closed_right_open": {
+    "joints_m": [
+      1.113810678394533e-06,
+      -1.8112584727040794e-07,
+      0.029999098909296345,
+      0.030000146783994975
+    ],
+    "sensors": {
+      "left_bottom": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.1746426224708557
+      },
+      "left_top": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.22466160356998444
+      },
+      "right_bottom": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 27.703950881958008
+      },
+      "right_top": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 27.033344268798828
+      }
+    }
+  },
+  "left_open_right_closed": {
+    "joints_m": [
+      0.030000181462958297,
+      0.02999888618915443,
+      -1.4651131492582896e-07,
+      9.010905684633114e-07
+    ],
+    "sensors": {
+      "left_bottom": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.880550384521484
+      },
+      "left_top": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.186922073364258
+      },
+      "right_bottom": {
+        "max": 0.6781944036483765,
+        "mean": 0.6781839728355408,
+        "active": 384,
+        "min_distance_mm": 1.1744667291641235
+      },
+      "right_top": {
+        "max": 0.5739957094192505,
+        "mean": 0.5739855170249939,
+        "active": 384,
+        "min_distance_mm": 1.2244820594787598
+      }
+    }
+  },
+  "contract": {
+    "shape": [
+      1,
+      4,
+      384,
+      4
+    ],
+    "rows": 12,
+    "cols": 32,
+    "pitch_m": 0.002,
+    "device": "cuda:0",
+    "response": "normalized unsigned mesh-distance shell; not calibrated pressure"
+  }
+}

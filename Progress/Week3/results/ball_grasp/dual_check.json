@@ -1,0 +1,147 @@
+{
+  "tactile_contact_planes": {
+    "left_bottom": {
+      "contact_plane_error_m": 9.47713851839893e-10,
+      "normal_toward_ball": true,
+      "display_root_at_top": true
+    },
+    "left_top": {
+      "contact_plane_error_m": 3.4868717288527584e-10,
+      "normal_toward_ball": true,
+      "display_root_at_top": true
+    },
+    "right_bottom": {
+      "contact_plane_error_m": 1.7702579471756685e-09,
+      "normal_toward_ball": true,
+      "display_root_at_top": true
+    },
+    "right_top": {
+      "contact_plane_error_m": 5.125999451294216e-10,
+      "normal_toward_ball": true,
+      "display_root_at_top": true
+    }
+  },
+  "both_held": {
+    "left": {
+      "forces_world_N": [
+        [
+          -6.808926400481141e-08,
+          -1.909135103225708,
+          0.1966143250465393
+        ],
+        [
+          5.2504219638649374e-08,
+          1.9091339111328125,
+          0.19578544795513153
+        ]
+      ],
+      "drift_4s_m": 0.0004768371702311923
+    },
+    "right": {
+      "forces_world_N": [
+        [
+          1.678910876989903e-08,
+          1.9091242551803589,
+          0.19654925167560577
+        ],
+        [
+          -2.440913249301957e-09,
+          -1.9091376066207886,
+          0.19585029780864716
+        ]
+      ],
+      "drift_4s_m": 0.00047683716693791204
+    }
+  },
+  "initial_tactile": {
+    "left_bottom": {
+      "max": 1.0,
+      "mean": 0.08529412001371384,
+      "active": 42,
+      "min_distance_mm": -0.17440319061279297
+    },
+    "left_top": {
+      "max": 1.0,
+      "mean": 0.08529292792081833,
+      "active": 42,
+      "min_distance_mm": -0.17438270151615143
+    },
+    "right_bottom": {
+      "max": 1.0,
+      "mean": 0.08529248088598251,
+      "active": 42,
+      "min_distance_mm": -0.1744106411933899
+    },
+    "right_top": {
+      "max": 1.0,
+      "mean": 0.08529353141784668,
+      "active": 42,
+      "min_distance_mm": -0.17442834377288818
+    }
+  },
+  "left_empty_close": {
+    "left_bottom": {
+      "max": 1.0,
+      "mean": 1.0,
+      "active": 384,
+      "min_distance_mm": -0.2990436553955078
+    },
+    "left_top": {
+      "max": 1.0,
+      "mean": 1.0,
+      "active": 384,
+      "min_distance_mm": -0.2990400195121765
+    },
+    "right_bottom": {
+      "max": 1.0,
+      "mean": 0.08712200075387955,
+      "active": 39,
+      "min_distance_mm": -0.19414164125919342
+    },
+    "right_top": {
+      "max": 1.0,
+      "mean": 0.08712907880544662,
+      "active": 39,
+      "min_distance_mm": -0.1942729651927948
+    }
+  },
+  "left_reset_position_m": [
+    0.13472622760054967,
+    0.010137108178307878,
+    0.08686624688808697
+  ],
+  "heatmap_change_norm": 9.892189979553223,
+  "right_empty_close": {
+    "left_bottom": {
+      "max": 1.0,
+      "mean": 0.08673178404569626,
+      "active": 40,
+      "min_distance_mm": -0.18668454885482788
+    },
+    "left_top": {
+      "max": 1.0,
+      "mean": 0.08673041313886642,
+      "active": 40,
+      "min_distance_mm": -0.1866556704044342
+    },
+    "right_bottom": {
+      "max": 1.0,
+      "mean": 1.0,
+      "active": 384,
+      "min_distance_mm": -0.2992192208766937
+    },
+    "right_top": {
+      "max": 1.0,
+      "mean": 1.0,
+      "active": 384,
+      "min_distance_mm": -0.2992202043533325
+    }
+  },
+  "right_reset_position_m": [
+    -0.13781576203872384,
+    0.010983901451364866,
+    0.06886460172213442
+  ],
+  "passed": true,
+  "scene_geometry_count": 11
+}

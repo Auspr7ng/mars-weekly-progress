@@ -1,0 +1,179 @@
+{
+  "task": "SundayA1-FixedBase-FlexiTac-v0",
+  "device": "cuda:0",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "steps": 100,
+  "num_envs": 4,
+  "tactile_shape": [
+    4,
+    4,
+    384,
+    4
+  ],
+  "observation_shape": [
+    4,
+    1617
+  ],
+  "expected_active": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "actual_active": [
+    [
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "maximum_taxel_pose_error_m": 1.1920928955078125e-07,
+  "reset_clears_closed_response": true,
+  "finite_state": true,
+  "phases": {
+    "open": {
+      "left_bottom": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.88067626953125
+      },
+      "left_top": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.187015533447266
+      },
+      "right_bottom": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.8807373046875
+      },
+      "right_top": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.187206268310547
+      }
+    },
+    "closed": {
+      "left_bottom": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.17455515265464783
+      },
+      "left_top": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.22460708022117615
+      },
+      "right_bottom": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.17430980503559113
+      },
+      "right_top": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.22427190840244293
+      }
+    },
+    "left_closed_right_open": {
+      "left_bottom": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.17458534240722656
+      },
+      "left_top": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.22456902265548706
+      },
+      "right_bottom": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.880693435668945
+      },
+      "right_top": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.187192916870117
+      }
+    },
+    "left_open_right_closed": {
+      "left_bottom": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.88053321838379
+      },
+      "left_top": {
+        "max": 0.0,
+        "mean": 0.0,
+        "active": 0,
+        "min_distance_mm": 26.186948776245117
+      },
+      "right_bottom": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.17430824041366577
+      },
+      "right_top": {
+        "max": 1.0,
+        "mean": 1.0,
+        "active": 384,
+        "min_distance_mm": 0.2242690771818161
+      }
+    }
+  },
+  "calibrated_pressure": false
+}

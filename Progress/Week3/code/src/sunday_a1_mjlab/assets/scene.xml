@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="sunday_a1_fixed_base_check">
+  <include file="sunday_a1.xml" />
+  <option timestep="0.002" integrator="implicitfast" />
+  <worldbody>
+    <light pos="0 -2 3" dir="0 1 -1" />
+    <geom name="floor" type="plane" size="3 3 0.1" pos="0 0 -0.25328678949584943" rgba="0.22 0.25 0.3 1" contype="2" conaffinity="1" />
+  </worldbody>
+  <actuator>
+    <position name="r_shoulder_roll" joint="r_shoulder_roll" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.48353 1.48353" />
+    <position name="l_shoulder_roll" joint="l_shoulder_roll" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.48353 1.48353" />
+    <position name="r_shoulder_pitch" joint="r_shoulder_pitch" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.261799 2.356194" />
+    <position name="l_shoulder_pitch" joint="l_shoulder_pitch" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.261799 2.356194" />
+    <position name="r_elbow_yaw" joint="r_elbow_yaw" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.570796 1.570796" />
+    <position name="l_elbow_yaw" joint="l_elbow_yaw" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.570796 1.570796" />
+    <position name="r_hip_roll" joint="r_hip_roll" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.396263 1.396263" />
+    <position name="l_hip_roll" joint="l_hip_roll" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.396263 1.396263" />
+    <position name="r_elbow_pitch" joint="r_elbow_pitch" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.570796 1.308997" />
+    <position name="l_elbow_pitch" joint="l_elbow_pitch" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.570796 1.308997" />
+    <position name="r_hip_pitch" joint="r_hip_pitch" kp="100" kv="10" forcerange="-100 100" ctrlrange="-2.268928 0.785398" />
+    <position name="l_hip_pitch" joint="l_hip_pitch" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.785398 2.268928" />
+    <position name="r_thigh_yaw" joint="r_thigh_yaw" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.785398 0.785398" />
+    <position name="l_thigh_yaw" joint="l_thigh_yaw" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.785398 0.785398" />
+    <position name="l_knee_roll" joint="l_knee_roll" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.570796 1.047198" />
+    <position name="r_knee_roll" joint="r_knee_roll" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.047198 1.570796" />
+    <position name="r_ankle_roll" joint="r_ankle_roll" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.523599 1.570796" />
+    <position name="l_ankle_roll" joint="l_ankle_roll" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.523599 1.570796" />
+    <position name="head_rotation" joint="head_rotation" kp="100" kv="10" forcerange="-100 100" />
+    <position name="r_ankle_pitch" joint="r_ankle_pitch" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.523599 0.523599" />
+    <position name="l_ankle_pitch" joint="l_ankle_pitch" kp="100" kv="10" forcerange="-100 100" ctrlrange="-0.523599 0.523599" />
+    <position name="l_wrist_yaw" joint="l_wrist_yaw" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.570796 1.570796" />
+    <position name="l_finger_slide_bottom" joint="l_finger_slide_bottom" kp="1000" kv="30" forcerange="-100 100" ctrlrange="0.0 0.03" />
+    <position name="l_finger_slide_top" joint="l_finger_slide_top" kp="1000" kv="30" forcerange="-100 100" ctrlrange="0.0 0.03" />
+    <position name="r_wrist_yaw" joint="r_wrist_yaw" kp="100" kv="10" forcerange="-100 100" ctrlrange="-1.570796 1.570796" />
+    <position name="r_finger_slide_top" joint="r_finger_slide_top" kp="1000" kv="30" forcerange="-100 100" ctrlrange="0.0 0.03" />
+    <position name="r_finger_slide_bottom" joint="r_finger_slide_bottom" kp="1000" kv="30" forcerange="-100 100" ctrlrange="0.0 0.03" />
+  </actuator>
+</mujoco>

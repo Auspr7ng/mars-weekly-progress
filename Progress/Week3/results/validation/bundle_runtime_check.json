@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "python": "D:\\robotics\\SundayA1_mjlab\\.venv\\Scripts\\python.exe",
+  "bundle_root": "D:\\robotics\\mars-weekly-progress\\Progress\\Week3",
+  "project_source": "D:\\robotics\\mars-weekly-progress\\Progress\\Week3\\code\\src",
+  "mjlab_source": "D:\\robotics\\mjlab\\src\\mjlab\\__init__.py",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "hand_shape": [
+    1,
+    4,
+    384
+  ],
+  "foot_shape": [
+    1,
+    4,
+    1024
+  ],
+  "actuators": 27,
+  "source_model": "code/model/sunday_a1.urdf",
+  "steps": 30,
+  "runtime_versions": {
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128",
+    "viser": "1.1.1"
+  }
+}
