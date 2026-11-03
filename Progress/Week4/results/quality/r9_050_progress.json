@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/forward_r9_straight_lane/model_50.pt",
+  "quality_report": "results/quality/r9_050_quality.json"
+}

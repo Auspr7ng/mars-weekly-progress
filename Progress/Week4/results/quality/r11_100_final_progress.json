@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/forward_r11_phase_velocity/model_100.pt",
+  "quality_report": "results/quality/r11_100_final_quality.json"
+}

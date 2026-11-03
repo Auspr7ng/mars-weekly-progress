@@ -1,0 +1,7 @@
+{
+  "old_command_envelope_identical": true,
+  "gain_max": 1.5,
+  "native_gpu_formula_max_error": 0.0,
+  "box_separation_contract": true,
+  "physical_model_unchanged": true
+}

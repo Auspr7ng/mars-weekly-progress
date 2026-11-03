@@ -1,0 +1,11 @@
+{
+  "analytic_gap_contact_overlap_m": [
+    0.008000001311302185,
+    0.0,
+    -0.0009999945759773254
+  ],
+  "vertical_clearance_intentionally_ignored": true,
+  "global_yaw_invariant": true,
+  "reference_footprint_gap_m": 0.03474275698050102,
+  "passed": true
+}

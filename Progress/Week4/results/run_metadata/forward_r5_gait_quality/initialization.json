@@ -1,0 +1,7 @@
+{
+  "source": "logs/forward_r4_heading_run1/model_399.pt",
+  "optimizer_reset": true,
+  "changed_nominal_pose": true,
+  "changed_phase_period": true,
+  "same_physical_mass_inertia_torque_limits": true
+}

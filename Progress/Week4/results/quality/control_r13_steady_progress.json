@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/control_r13_stopping_focus/model_299.pt",
+  "quality_report": "results/quality/control_r13_steady_quality.json"
+}

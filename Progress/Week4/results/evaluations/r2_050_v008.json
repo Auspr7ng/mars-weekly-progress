@@ -1,0 +1,46 @@
+{
+  "checkpoint": "logs/forward_r2_phase_pilot/model_50.pt",
+  "schema_reference": "logs/forward_r2_phase_pilot/model_50.pt",
+  "controller": "deterministic PPO",
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "seed": 741,
+  "mass_kg": 2.8400000000000003,
+  "command": [
+    0.08,
+    0.0,
+    0.0
+  ],
+  "episodes": 16,
+  "seconds": 20.0,
+  "successes": 16,
+  "failures": 0,
+  "success_rate": 1.0,
+  "unfinished": 0,
+  "reasons": {
+    "tilt": 0,
+    "height": 0,
+    "ground": 0,
+    "self": 0,
+    "nonfinite": 0,
+    "boundary": 0
+  },
+  "mean_velocity_rmse_m_s": 0.23437219858169556,
+  "mean_displacement_m": 1.3602516651153564,
+  "max_displacement_m": 1.9503862857818604,
+  "mean_forward_displacement_m": 0.37546616792678833,
+  "mean_contact_switches": 306.5625,
+  "mean_valid_steps_left_right": [
+    0.0,
+    0.0625
+  ],
+  "mean_step_alternations": 0.0,
+  "max_lowest_sole_clearance_m": [
+    0.008247829973697662,
+    0.009423041716217995
+  ],
+  "success_definition": "successes/success_rate indicate survival only, not walking",
+  "notes": "First episode only; random initial tilt/joints retained, observation noise off. A valid step requires whole-sole clearance >4mm for 60ms, peak >7mm, landing with support, and >15mm forward foot travel. Failure displacements stop one control interval before reset. No disturbance/terrain validation.",
+  "walking_episodes": 0,
+  "walking_rate": 0.0,
+  "walking_gate_passed": false
+}

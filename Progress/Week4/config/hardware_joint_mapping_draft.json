@@ -1,0 +1,1561 @@
+{
+  "source_docx": "research/hardware_metadata/2026-11-01/Sunday A1 Metadata.docx",
+  "source_sha256": "52f660b0b66c14b0d5aabe4b71cc16e894ee49487fdc0621a5cf3f9251d58b68",
+  "reviewed": "2026-11-01T19:00:30.090919-05:00",
+  "applied_to_model": false,
+  "current_model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "new_document_facts": {
+    "motor_label_literal": "ST3125",
+    "motor_hyperlink_model": "ST3215",
+    "wall_supply_voltage_V": 7.4,
+    "base_link_mass_approx_kg": 0.7,
+    "adapter_model": "Waveshare bus servo adapter A",
+    "adapter_count": 3
+  },
+  "discrepancies": {
+    "previous_motor_confirmation": "ST3215",
+    "previous_supply_voltage_V": 7.2,
+    "existing_base_link_mass_kg": 0.2588130394886963
+  },
+  "mass_budget_preview": {
+    "existing_total_kg": 2.8400000000000003,
+    "proposed_base_kg": 0.7,
+    "remaining_non_base_budget_if_total_unchanged_kg": 2.1400000000000006,
+    "non_base_mass_scale_if_uniform_redistribution": 0.8290759378298156,
+    "assumptions": "Retain previous2.84kg no-battery total. This is a budget calculation only; no new total mass or COM/inertia was supplied."
+  },
+  "missing_from_word": [
+    "angular joint lower/upper limits",
+    "joint zero references and rotation signs",
+    "base_link COM and inertia",
+    "head motor channel",
+    "gripper motor angle-to-slide mechanism conversion",
+    "measured motor torque-speed and continuous-duty limits",
+    "whether the approximate700g base-link mass includes the160g battery or other electronics"
+  ],
+  "unmapped_existing_joints": [
+    "head_rotation"
+  ],
+  "joint_mapping": [
+    {
+      "board": 1,
+      "motor_id": 1,
+      "metadata_name": "dof_right_shoulder_pitch",
+      "candidate_urdf_joints": [
+        "r_shoulder_roll"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.4835298641951802,
+      "fusion_upper_limit": 1.48352986419518,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_shoulder_roll",
+          "name": "r_shoulder_roll",
+          "pos": "0 0 0",
+          "axis": "-1 0 0",
+          "range": "-1.48353 1.48353",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_shoulder_roll",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.4835298641951802,
+            1.48352986419518
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.0,
+            -6.938893903907236e-18,
+            1.7347234759768117e-18
+          ],
+          "urdf_axis_error": 7.152448122691005e-18,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 2.744263541049022e-08,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 8.663849679346747e-09,
+          "urdf_bound_error_SI": 1.3580482005615124e-07,
+          "mjcf_bound_error_SI": 1.3580482005615124e-07,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 1,
+      "motor_id": 2,
+      "metadata_name": "dof_right_shoulder_roll",
+      "candidate_urdf_joints": [
+        "r_shoulder_pitch"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.2617993877991494,
+      "fusion_upper_limit": 2.356194490192345,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_shoulder_pitch",
+          "name": "r_shoulder_pitch",
+          "pos": "0 0 0",
+          "axis": "0 1 0",
+          "range": "-0.261799 2.35619",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_shoulder_pitch",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.2617993877991494,
+            2.356194490192345
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            4.4075854077618853e-14,
+            1.0,
+            6.775761922274095e-16
+          ],
+          "urdf_axis_error": 4.40810619446472e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 3.469446951953614e-18,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 8.663849637713913e-09,
+          "urdf_bound_error_SI": 4.901923449374124e-07,
+          "mjcf_bound_error_SI": 4.490192345052435e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 2.356194490192345,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 1,
+      "motor_id": 3,
+      "metadata_name": "dof_right_shoulder_yaw",
+      "candidate_urdf_joints": [
+        "r_elbow_yaw"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.5707963267948966,
+      "fusion_upper_limit": 1.5707963267948966,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_elbow_yaw",
+          "name": "r_elbow_yaw",
+          "pos": "0 0 0",
+          "axis": "0 0 1",
+          "range": "-1.5708 1.5708",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_elbow_yaw",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            9.454242944048655e-16,
+            -1.446968214342897e-14,
+            1.0
+          ],
+          "urdf_axis_error": 1.45005354531589e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 3.5151121644547185e-07,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 1.5006230038164356e-08,
+          "urdf_bound_error_SI": 3.2679489647691184e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": -0.6108652381980155,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 1,
+      "motor_id": 4,
+      "metadata_name": "dof_right_elbow_pitch",
+      "candidate_urdf_joints": [
+        "r_elbow_pitch"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.5707963267948966,
+      "fusion_upper_limit": 1.3089969389957472,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_elbow_pitch",
+          "name": "r_elbow_pitch",
+          "pos": "0 0 0",
+          "axis": "-1 0 0",
+          "range": "-1.5708 1.309",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_elbow_pitch",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.5707963267948966,
+            1.3089969389957472
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.0,
+            4.558609753831485e-14,
+            3.885780586194616e-16
+          ],
+          "urdf_axis_error": 4.5587753637138074e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 6.938893903907228e-18,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 1.5006230663127277e-08,
+          "urdf_bound_error_SI": 3.2679489647691184e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": -0.4363323129985819,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 1,
+      "motor_id": 5,
+      "metadata_name": "dof_right_wrist_yaw",
+      "candidate_urdf_joints": [
+        "r_wrist_yaw"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.5707963267948966,
+      "fusion_upper_limit": 1.5707963267948966,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_wrist_yaw",
+          "name": "r_wrist_yaw",
+          "pos": "0 0 0",
+          "axis": "0 0 1",
+          "range": "-1.5708 1.5708",
+          "actuatorfrcrange": "-0.8 0.8",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_wrist_yaw",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            1.490232897582686e-14,
+            -1.428598512355678e-14,
+            1.0
+          ],
+          "urdf_axis_error": 2.064385574097665e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 1.2092386624426728e-07,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 2.5991551920572736e-08,
+          "urdf_bound_error_SI": 3.2679489647691184e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 1,
+      "motor_id": 6,
+      "metadata_name": "dof_right_hand",
+      "candidate_urdf_joints": [
+        "r_finger_slide_top",
+        "r_finger_slide_bottom"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "one_motor_to_two_finger_slides; mechanism_conversion_unconfirmed",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": null,
+      "fusion_upper_limit": null,
+      "limit_units": null,
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_finger_slide_top",
+          "name": "r_finger_slide_top",
+          "pos": "0 0 0",
+          "axis": "0 -1 0",
+          "type": "slide",
+          "range": "0 0.03",
+          "actuatorfrcrange": "-15 15",
+          "armature": "0.001",
+          "damping": "0.01"
+        },
+        {
+          "joint": "r_finger_slide_bottom",
+          "name": "r_finger_slide_bottom",
+          "pos": "0 0 0",
+          "axis": "0 1 0",
+          "type": "slide",
+          "range": "0 0.03",
+          "actuatorfrcrange": "-15 15",
+          "armature": "0.001",
+          "damping": "0.01"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_finger_slide_top",
+          "type": "prismatic",
+          "units": "m",
+          "effective_bounds": [
+            0.0,
+            0.03
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -2.5320165260097072e-17,
+            -1.0,
+            -1.4285985123557446e-14
+          ],
+          "urdf_axis_error": 1.428600756199133e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 2.7755575615628914e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": null,
+          "urdf_bound_error_SI": 0.0,
+          "mjcf_bound_error_SI": 0.0,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        },
+        {
+          "name": "r_finger_slide_bottom",
+          "type": "prismatic",
+          "units": "m",
+          "effective_bounds": [
+            0.0,
+            0.03
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            2.5320165260097072e-17,
+            1.0,
+            1.4285985123557446e-14
+          ],
+          "urdf_axis_error": 1.428600756199133e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 6.245004513516506e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": null,
+          "urdf_bound_error_SI": 0.0,
+          "mjcf_bound_error_SI": 0.0,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true,
+      "hardware_hand_conversion_status": "CAD has two independently defined 0–30mm sliders and no MotionLink; motor-angle-to-slide coupling remains uncalibrated."
+    },
+    {
+      "board": 2,
+      "motor_id": 1,
+      "metadata_name": "dof_left_shoulder_pitch",
+      "candidate_urdf_joints": [
+        "l_shoulder_roll"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.4835298641951802,
+      "fusion_upper_limit": 1.4835298641951802,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_shoulder_roll",
+          "name": "l_shoulder_roll",
+          "pos": "0 0 0",
+          "axis": "1 0 0",
+          "range": "-1.48353 1.48353",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_shoulder_roll",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.4835298641951802,
+            1.4835298641951802
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            1.0,
+            6.938893903907236e-18,
+            -1.7347234759768117e-18
+          ],
+          "urdf_axis_error": 7.152448122691005e-18,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 2.7442635397463804e-08,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 8.663849679346747e-09,
+          "urdf_bound_error_SI": 1.3580481983410664e-07,
+          "mjcf_bound_error_SI": 1.3580481983410664e-07,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 2,
+      "motor_id": 2,
+      "metadata_name": "dof_left_shoulder_roll",
+      "candidate_urdf_joints": [
+        "l_shoulder_pitch"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.2617993877991494,
+      "fusion_upper_limit": 2.356194490192345,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_shoulder_pitch",
+          "name": "l_shoulder_pitch",
+          "pos": "0 0 0",
+          "axis": "0 -1 0",
+          "range": "-0.261799 2.35619",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_shoulder_pitch",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.2617993877991494,
+            2.356194490192345
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            1.8318679906315793e-15,
+            -1.0,
+            -1.6313198163567315e-17
+          ],
+          "urdf_axis_error": 1.8319406255484656e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 0.0,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 8.663849720980112e-09,
+          "urdf_bound_error_SI": 4.901923449374124e-07,
+          "mjcf_bound_error_SI": 4.490192345052435e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.17453292519943275,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 2,
+      "motor_id": 3,
+      "metadata_name": "dof_left_shoulder_yaw",
+      "candidate_urdf_joints": [
+        "l_elbow_yaw"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.5707963267948966,
+      "fusion_upper_limit": 1.5707963267948966,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_elbow_yaw",
+          "name": "l_elbow_yaw",
+          "pos": "0 0 0",
+          "axis": "0 0 1",
+          "range": "-1.5708 1.5708",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_elbow_yaw",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.6962262097882463e-15,
+            -1.4335775086061972e-14,
+            1.0
+          ],
+          "urdf_axis_error": 1.443577606756657e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 3.5151121644754904e-07,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 1.5006228516820285e-08,
+          "urdf_bound_error_SI": 3.2679489647691184e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": true,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 2,
+      "motor_id": 4,
+      "metadata_name": "dof_left_elbow_pitch",
+      "candidate_urdf_joints": [
+        "l_elbow_pitch"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.5707963267948966,
+      "fusion_upper_limit": 1.3089969389957472,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_elbow_pitch",
+          "name": "l_elbow_pitch",
+          "pos": "0 0 0",
+          "axis": "-1 0 0",
+          "range": "-1.5708 1.309",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_elbow_pitch",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.5707963267948966,
+            1.3089969389957472
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.0,
+            -9.814031390480425e-15,
+            -2.109423746787897e-15
+          ],
+          "urdf_axis_error": 1.0038171181886062e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 1.0408340855860843e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 1.5006228983539353e-08,
+          "urdf_bound_error_SI": 3.2679489647691184e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 2,
+      "motor_id": 5,
+      "metadata_name": "dof_left_wrist_yaw",
+      "candidate_urdf_joints": [
+        "l_wrist_yaw"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.5707963267948966,
+      "fusion_upper_limit": 1.5707963267948966,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_wrist_yaw",
+          "name": "l_wrist_yaw",
+          "pos": "0 0 0",
+          "axis": "0 0 1",
+          "range": "-1.5708 1.5708",
+          "actuatorfrcrange": "-0.8 0.8",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_wrist_yaw",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.5707963267948966,
+            1.5707963267948966
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.6484396785917577e-14,
+            -1.439700742601931e-14,
+            1.0
+          ],
+          "urdf_axis_error": 2.1886277897815906e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 1.2092386624421646e-07,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 2.5991551268316448e-08,
+          "urdf_bound_error_SI": 3.2679489647691184e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 2,
+      "motor_id": 6,
+      "metadata_name": "dof_left_hand",
+      "candidate_urdf_joints": [
+        "l_finger_slide_top",
+        "l_finger_slide_bottom"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "one_motor_to_two_finger_slides; mechanism_conversion_unconfirmed",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": null,
+      "fusion_upper_limit": null,
+      "limit_units": null,
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_finger_slide_top",
+          "name": "l_finger_slide_top",
+          "pos": "0 0 0",
+          "axis": "0 -1 0",
+          "type": "slide",
+          "range": "0 0.03",
+          "actuatorfrcrange": "-15 15",
+          "armature": "0.001",
+          "damping": "0.01"
+        },
+        {
+          "joint": "l_finger_slide_bottom",
+          "name": "l_finger_slide_bottom",
+          "pos": "0 0 0",
+          "axis": "0 1 0",
+          "type": "slide",
+          "range": "0 0.03",
+          "actuatorfrcrange": "-15 15",
+          "armature": "0.001",
+          "damping": "0.01"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_finger_slide_top",
+          "type": "prismatic",
+          "units": "m",
+          "effective_bounds": [
+            0.0,
+            0.03
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -9.282156998778303e-15,
+            -1.0,
+            -1.4397007426019463e-14
+          ],
+          "urdf_axis_error": 1.7129864604684667e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 2.823925224926892e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": null,
+          "urdf_bound_error_SI": 0.0,
+          "mjcf_bound_error_SI": 0.0,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        },
+        {
+          "name": "l_finger_slide_bottom",
+          "type": "prismatic",
+          "units": "m",
+          "effective_bounds": [
+            0.0,
+            0.03
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            9.282156998778303e-15,
+            1.0,
+            1.4397007426019463e-14
+          ],
+          "urdf_axis_error": 1.7129864604684667e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 2.8609792490763984e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": null,
+          "urdf_bound_error_SI": 0.0,
+          "mjcf_bound_error_SI": 0.0,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true,
+      "hardware_hand_conversion_status": "CAD has two independently defined 0–30mm sliders and no MotionLink; motor-angle-to-slide coupling remains uncalibrated."
+    },
+    {
+      "board": 3,
+      "motor_id": 7,
+      "metadata_name": "dof_right_hip_pitch",
+      "candidate_urdf_joints": [
+        "r_hip_roll"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.3962634015954638,
+      "fusion_upper_limit": 1.3962634015954634,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_hip_roll",
+          "name": "r_hip_roll",
+          "pos": "0 0 0",
+          "axis": "-0.766044 0 0.642788",
+          "range": "-1.39626 1.39626",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_hip_roll",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.3962634015954638,
+            1.3962634015954634
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -0.7660444431189769,
+            1.11022302462516e-16,
+            0.6427876096865409
+          ],
+          "urdf_axis_error": 5.838288961371739e-07,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 1.734723475976807e-18,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 5.25897749304788e-07,
+          "urdf_bound_error_SI": 4.0159546377260824e-07,
+          "mjcf_bound_error_SI": 3.401595463747853e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 1.2217304763960306,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 8,
+      "metadata_name": "dof_right_hip_roll",
+      "candidate_urdf_joints": [
+        "r_hip_pitch"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -2.2689280275926285,
+      "fusion_upper_limit": 0.7853981633974483,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_hip_pitch",
+          "name": "r_hip_pitch",
+          "pos": "0 0 0",
+          "axis": "0 -1 0",
+          "range": "-2.26893 0.785398",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_hip_pitch",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -2.2689280275926285,
+            0.7853981633974483
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.265019989801773e-15,
+            -1.0,
+            1.3739009929736296e-15
+          ],
+          "urdf_axis_error": 1.867586547684472e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 1.962615573354719e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 4.837614883836189e-07,
+          "urdf_bound_error_SI": 1.6339744823845592e-07,
+          "mjcf_bound_error_SI": 1.972407371653162e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.7853981633974483,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 9,
+      "metadata_name": "dof_right_hip_yaw",
+      "candidate_urdf_joints": [
+        "r_thigh_yaw"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.7853981633974483,
+      "fusion_upper_limit": 0.7853981633974483,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_thigh_yaw",
+          "name": "r_thigh_yaw",
+          "pos": "0 0 0",
+          "axis": "0 0 1",
+          "range": "-0.785398 0.785398",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_thigh_yaw",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.7853981633974483,
+            0.7853981633974483
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.7347234759768335e-15,
+            7.499908459430442e-16,
+            1.0
+          ],
+          "urdf_axis_error": 1.8899078832322782e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 1.9645312551903404e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 5.017063240020338e-07,
+          "urdf_bound_error_SI": 1.6339744823845592e-07,
+          "mjcf_bound_error_SI": 1.6339744823845592e-07,
+          "rest_enabled": false,
+          "rest_value_SI": 0.7853981633974483,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 10,
+      "metadata_name": "dof_right_knee",
+      "candidate_urdf_joints": [
+        "r_knee_roll"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.0471975511965976,
+      "fusion_upper_limit": 1.5707963267948966,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_knee_roll",
+          "name": "r_knee_roll",
+          "pos": "0 0 0",
+          "axis": "1 0 0",
+          "range": "-1.0472 1.5708",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_knee_roll",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.0471975511965976,
+            1.5707963267948966
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            1.0,
+            2.0819117122077454e-14,
+            1.0713652187632767e-14
+          ],
+          "urdf_axis_error": 2.3414055200676944e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 1.3877787807814457e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 5.017063244503991e-07,
+          "urdf_bound_error_SI": 4.4880340244191075e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 11,
+      "metadata_name": "dof_right_ankle_pitch",
+      "candidate_urdf_joints": [
+        "r_ankle_roll"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.5235987755982988,
+      "fusion_upper_limit": 1.5707963267948966,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_ankle_roll",
+          "name": "r_ankle_roll",
+          "pos": "0 0 0",
+          "axis": "-1 0 0",
+          "range": "-0.523599 1.5708",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_ankle_roll",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.5235987755982988,
+            1.5707963267948966
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.0,
+            -1.4710455076283287e-15,
+            -8.271161533457601e-15
+          ],
+          "urdf_axis_error": 8.400957564353135e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 6.35911991827568e-08,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 5.378729792449452e-07,
+          "urdf_bound_error_SI": 3.2679489647691184e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.08726646259971649,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 12,
+      "metadata_name": "dof_right_ankle_roll",
+      "candidate_urdf_joints": [
+        "r_ankle_pitch"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.5235987755982988,
+      "fusion_upper_limit": 0.5235987755982988,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "r_ankle_pitch",
+          "name": "r_ankle_pitch",
+          "pos": "0 0 0",
+          "axis": "0 -1 0",
+          "range": "-0.523599 0.523599",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "r_ankle_pitch",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.5235987755982988,
+            0.5235987755982988
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            4.12170297892093e-15,
+            -1.0,
+            2.0874356891111438e-16
+          ],
+          "urdf_axis_error": 4.1269855008235026e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 3.1031676915590914e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 5.401894953043798e-07,
+          "urdf_bound_error_SI": 2.2440170122095537e-07,
+          "mjcf_bound_error_SI": 2.2440170122095537e-07,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 19,
+      "metadata_name": "dof_left_hip_pitch",
+      "candidate_urdf_joints": [
+        "l_hip_roll"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.3962634015954636,
+      "fusion_upper_limit": 1.3962634015954636,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_hip_roll",
+          "name": "l_hip_roll",
+          "pos": "0 0 0",
+          "axis": "0.766044 0 0.642788",
+          "range": "-1.39626 1.39626",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_hip_roll",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.3962634015954636,
+            1.3962634015954636
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            0.7660444431189769,
+            -8.326672684688784e-17,
+            0.6427876096865409
+          ],
+          "urdf_axis_error": 5.838288961371739e-07,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 0.0,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 5.013232340159321e-07,
+          "urdf_bound_error_SI": 4.0159546355056364e-07,
+          "mjcf_bound_error_SI": 3.4015954635258083e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 20,
+      "metadata_name": "dof_left_hip_roll",
+      "candidate_urdf_joints": [
+        "l_hip_pitch"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.7853981633974483,
+      "fusion_upper_limit": 2.268928027592628,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_hip_pitch",
+          "name": "l_hip_pitch",
+          "pos": "0 0 0",
+          "axis": "0 -1 0",
+          "range": "-0.785398 2.26893",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_hip_pitch",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.7853981633974483,
+            2.268928027592628
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -7.848315062891554e-16,
+            -1.0,
+            -8.222589276130075e-16
+          ],
+          "urdf_axis_error": 1.1366926749580987e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 0.0,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 4.71225517406696e-07,
+          "urdf_bound_error_SI": 1.6339744823845592e-07,
+          "mjcf_bound_error_SI": 1.9724073720972513e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 21,
+      "metadata_name": "dof_left_hip_yaw",
+      "candidate_urdf_joints": [
+        "l_thigh_yaw"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.7853981633974483,
+      "fusion_upper_limit": 0.7853981633974483,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_thigh_yaw",
+          "name": "l_thigh_yaw",
+          "pos": "0 0 0",
+          "axis": "0 0 1",
+          "range": "-0.785398 0.785398",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_thigh_yaw",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.7853981633974483,
+            0.7853981633974483
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            7.535638779643263e-15,
+            -7.216546155888502e-16,
+            1.0
+          ],
+          "urdf_axis_error": 7.570114741631337e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 0.0,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 4.904157852893019e-07,
+          "urdf_bound_error_SI": 1.6339744823845592e-07,
+          "mjcf_bound_error_SI": 1.6339744823845592e-07,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 22,
+      "metadata_name": "dof_left_knee",
+      "candidate_urdf_joints": [
+        "l_knee_roll"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -1.5707963267948966,
+      "fusion_upper_limit": 1.0471975511965976,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_knee_roll",
+          "name": "l_knee_roll",
+          "pos": "0 0 0",
+          "axis": "-1 0 0",
+          "range": "-1.5708 1.0472",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_knee_roll",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -1.5707963267948966,
+            1.0471975511965976
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.0,
+            6.964214069167251e-15,
+            5.148659276699155e-15
+          ],
+          "urdf_axis_error": 8.660771902592016e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 2.7755575615628914e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 4.90415785361084e-07,
+          "urdf_bound_error_SI": 4.4880340244191075e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 23,
+      "metadata_name": "dof_left_ankle_pitch",
+      "candidate_urdf_joints": [
+        "l_ankle_roll"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.5235987755982988,
+      "fusion_upper_limit": 1.5707963267948966,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_ankle_roll",
+          "name": "l_ankle_roll",
+          "pos": "0 0 0",
+          "axis": "-1 0 0",
+          "range": "-0.523599 1.5708",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_ankle_roll",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.5235987755982988,
+            1.5707963267948966
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -1.0,
+            -6.776263577948897e-20,
+            3.4833247397614286e-15
+          ],
+          "urdf_axis_error": 3.4833247404205365e-15,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 1.6833401451757888e-07,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 4.402134920916878e-07,
+          "urdf_bound_error_SI": 3.2679489647691184e-07,
+          "mjcf_bound_error_SI": 3.673205103416066e-06,
+          "rest_enabled": false,
+          "rest_value_SI": 0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    },
+    {
+      "board": 3,
+      "motor_id": 24,
+      "metadata_name": "dof_left_ankle_roll",
+      "candidate_urdf_joints": [
+        "l_ankle_pitch"
+      ],
+      "chain_order_validated_against_mjcf": true,
+      "mapping_status": "Native CAD/model topology, axes and saved zero verified; hardware servo sign and encoder-zero calibration still unknown.",
+      "mapping_type": "rotary",
+      "direction_sign": null,
+      "zero_offset_rad": null,
+      "fusion_lower_limit": -0.5235987755982988,
+      "fusion_upper_limit": 0.5235987755982988,
+      "limit_units": "rad",
+      "existing_model_joint_limits": [
+        {
+          "joint": "l_ankle_pitch",
+          "name": "l_ankle_pitch",
+          "pos": "0 0 0",
+          "axis": "0 -1 0",
+          "range": "-0.523599 0.523599",
+          "actuatorfrcrange": "-1.6 1.6",
+          "armature": "0.005",
+          "damping": "0.1"
+        }
+      ],
+      "native_model_joint_data": [
+        {
+          "name": "l_ankle_pitch",
+          "type": "revolute",
+          "units": "rad",
+          "effective_bounds": [
+            -0.5235987755982988,
+            0.5235987755982988
+          ],
+          "minimum_enabled": true,
+          "maximum_enabled": true,
+          "axis_in_cad_world_at_zero": [
+            -3.0295210784459104e-14,
+            -1.0,
+            -7.216054876777103e-16
+          ],
+          "urdf_axis_error": 3.030380357240084e-14,
+          "cad_saved_q": 0.0,
+          "zero_pose_comparison_error_m": 3.122502256758253e-17,
+          "topology_matches_urdf": true,
+          "rotary_pivot_error_m": 4.388678972251332e-07,
+          "urdf_bound_error_SI": 2.2440170122095537e-07,
+          "mjcf_bound_error_SI": 2.2440170122095537e-07,
+          "rest_enabled": false,
+          "rest_value_SI": -0.0,
+          "hardware_encoder_zero": null,
+          "hardware_servo_direction": null
+        }
+      ],
+      "native_CAD_chain_verified": true
+    }
+  ],
+  "training_state": "paused_by_user; do_not_auto_resume",
+  "review_method": "Read all paragraphs, all3tables and the sole embedded CAD image. Bundled DOCX pagination renderer unavailable on Windows; no page-number claims.",
+  "native_fusion_verified_comparison": "research/hardware_metadata/2026-11-01/fusion_verified_comparison.json",
+  "native_review_completed_at": "2026-11-01T20:19:14.109654-05:00",
+  "native_model_axes_and_saved_zero_match_urdf": true,
+  "hardware_encoder_zero_and_direction_verified": false,
+  "native_CAD_mass_warning": "All 57 BRep bodies of the 28 joint-connected components use steel at 7850 kg/m3; 28 additional geometry copies double the assembly mass. Do not apply these masses to the real robot.",
+  "CAD_base_COM_in_URDF_reference_m": [
+    -0.0001276045370263629,
+    0.002407316815271336,
+    0.0847502021690749
+  ],
+  "CAD_base_COM_inertia_kgm2": [
+    [
+      0.02330759307754671,
+      3.9188830786762e-05,
+      3.2175049373640074e-05
+    ],
+    [
+      3.9188830786762e-05,
+      0.03067069764416917,
+      0.0008637002136933475
+    ],
+    [
+      3.2175049373640074e-05,
+      0.0008637002136933475,
+      0.021818193282570838
+    ]
+  ],
+  "CAD_base_uniform_mass_0p7kg_inertia_ESTIMATE_kgm2": [
+    [
+      0.003421346261636745,
+      5.7525699570998296e-06,
+      4.7230095585686315e-06
+    ],
+    [
+      5.7525699570998296e-06,
+      0.004502184175669257,
+      0.00012678346869464177
+    ],
+    [
+      4.7230095585686315e-06,
+      0.00012678346869464177,
+      0.0032027156890302496
+    ]
+  ]
+}

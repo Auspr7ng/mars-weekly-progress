@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 42716,
+  "checkpoint": "logs/control_r25_cadence/model_336_paused.pt",
+  "iteration": 336,
+  "environment_transitions": 5521408,
+  "time": "2026-11-02T03:34:06.150036-05:00",
+  "reason": "STOP file"
+}

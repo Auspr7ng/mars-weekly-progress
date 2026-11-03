@@ -1,0 +1,22 @@
+{
+  "actor_anchor_max_difference": 0.0,
+  "critic_anchor_max_difference": 0.0,
+  "source": "logs/control_r22_fast_joystick/model_275.pt",
+  "source_revision": 22,
+  "optimizer_reset": true,
+  "changed_nominal_pose": true,
+  "changed_phase_period": true,
+  "command_normalization_rebased": false,
+  "phase_input_gated_by_motion": true,
+  "comparison_scope": "64 varied proprioception probes at vx=.06,vy=wz=heading_error=0; TF32 disabled",
+  "reference_joint_changes": {
+    "r_shoulder_pitch": 0.15,
+    "r_elbow_pitch": 1.0,
+    "l_shoulder_pitch": 0.15,
+    "l_elbow_pitch": 1.0
+  },
+  "encoder_and_CAD_zeros_unchanged": true,
+  "old_nominal_sha256": "b14189c9bfa5501a0a08874c6c43c3e8364b4891488f21f54f54970c0af48512",
+  "new_nominal_sha256": "877c3e74609dc365e37aa49f1816be5b1ad2343b796ae00bd71303cc2a6f21f4",
+  "physical_mass_inertia_motor_limits_unchanged": true
+}

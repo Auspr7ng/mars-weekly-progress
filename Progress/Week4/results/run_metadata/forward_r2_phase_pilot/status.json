@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 14128,
+  "checkpoint": "logs/forward_r2_phase_pilot/model_265_paused.pt",
+  "iteration": 265,
+  "environment_transitions": 2179072,
+  "time": "2026-10-31T23:46:08.105984-04:00",
+  "reason": "STOP file"
+}

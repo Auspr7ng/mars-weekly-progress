@@ -1,0 +1,41 @@
+{
+  "num_envs": 16,
+  "control_steps": 500,
+  "env_transitions": 8000,
+  "elapsed_s": 13.532379699870944,
+  "actor_shape": [
+    16,
+    385
+  ],
+  "critic_shape": [
+    16,
+    86
+  ],
+  "action_order": [
+    "r_hip_roll",
+    "r_hip_pitch",
+    "r_thigh_yaw",
+    "r_knee_roll",
+    "r_ankle_roll",
+    "r_ankle_pitch",
+    "l_hip_roll",
+    "l_hip_pitch",
+    "l_thigh_yaw",
+    "l_knee_roll",
+    "l_ankle_roll",
+    "l_ankle_pitch"
+  ],
+  "failures": 0,
+  "timeouts": 16,
+  "mean_root_height": 0.24217332899570465,
+  "mean_ground_force_N": 27.877390525037413,
+  "expected_weight_N": 27.860400000000006,
+  "gpu_peak_allocated_MiB": 0.20654296875,
+  "feet_primary_names": [
+    "r_foot_link_1",
+    "l_foot_link_1"
+  ],
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "simulation_mass_kg": 2.8400000000000003,
+  "revision": 2
+}

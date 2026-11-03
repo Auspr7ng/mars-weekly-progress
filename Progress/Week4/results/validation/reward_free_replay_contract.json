@@ -1,0 +1,15 @@
+{
+  "maximum_absolute_differences": {
+    "xyz": 3.4812837839126587e-06,
+    "rpy": 1.068548046298523e-05,
+    "sole_low": 3.6283769878856648e-06,
+    "sole_pos": 4.3337869536780316e-06,
+    "sole_vel": 0.0006604039394648861,
+    "foot_force": 0.10359382629394531,
+    "peak_force": 0.16967010498046875,
+    "torque": 0.01016998291015625,
+    "gait_phase": 0.0
+  },
+  "trajectory_equivalent_within_float_tolerance": true,
+  "scope": "Same6-second physical policy rollout with/without unused reward calculations; small floating-point contact-order variation retained."
+}

@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 30396,
+  "checkpoint": "logs/r10_transfer_smoke/model_0.pt",
+  "iteration": 0,
+  "environment_transitions": 512,
+  "time": "2026-11-01T01:59:07.859539-04:00",
+  "training_elapsed_s": 4.492147600045428,
+  "gpu_peak_allocated_MiB": 23.9921875
+}

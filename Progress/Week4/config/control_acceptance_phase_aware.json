@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "scope": "Flat-ground simulated hold-to-move control; faster walking profile",
+  "slow_height_peak_to_peak_mm": 10.0,
+  "fast_height_fraction_of_nominal_root_height": 0.05,
+  "roll_peak_to_peak_deg": 8.0,
+  "pitch_peak_to_peak_deg": 6.0,
+  "settled_stance_speed_p95_m_s": 0.035,
+  "touchdown_speed_p95_m_s": 0.08,
+  "peak_foot_force_bodyweights": 1.8,
+  "flight_fraction": 0.01,
+  "max_support_fraction_difference": 0.08,
+  "minimum_swing_peak_mm": 15.0,
+  "original_all_contact_speed_retained_as_diagnostic": true,
+  "rationale": "Steady support excludes landing/toe-off transitions; touchdown is checked separately with peak impact. Faster-profile root-height excursion is limited to5% of the nominal root height; slow baseline keeps10mm. All command, survival, stop, heading, collision and clearance checks remain."
+}

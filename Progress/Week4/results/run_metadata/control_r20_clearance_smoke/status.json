@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 23880,
+  "checkpoint": "logs/control_r20_clearance_smoke/model_0.pt",
+  "iteration": 0,
+  "environment_transitions": 1024,
+  "time": "2026-11-01T22:14:22.708949-05:00",
+  "training_elapsed_s": 4.707166299922392,
+  "gpu_peak_allocated_MiB": 31.62353515625
+}

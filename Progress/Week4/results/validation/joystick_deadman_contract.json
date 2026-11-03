@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "holding_commands_motion": true,
+  "release_recenters_and_commands_zero": true,
+  "pure_turn_direct": true
+}

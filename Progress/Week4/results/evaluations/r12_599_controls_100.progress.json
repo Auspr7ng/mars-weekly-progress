@@ -1,0 +1,4 @@
+{
+  "state": "failed",
+  "error": "Evaluation reset outside inference_mode; corrected in evaluate_commands.py. Superseded by r12_599_controls_review_100."
+}

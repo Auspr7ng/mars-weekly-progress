@@ -1,0 +1,61 @@
+{
+  "gpu": {
+    "duration_s": 3.88,
+    "forward_m": 0.23853741586208344,
+    "height_peak_to_peak_mm": 11.274218559265137,
+    "roll_peak_to_peak_deg": 9.61354715100699,
+    "pitch_peak_to_peak_deg": 11.970908501455014,
+    "supported_sole_speed_mean_m_s": 0.021073368441415892,
+    "supported_sole_speed_p95_m_s": 0.08376399102139673,
+    "peak_foot_force_bodyweights": 1.7827060222625732,
+    "flight_fraction": 0.0,
+    "left_right_support_fraction": [
+      0.636986301369863,
+      0.8082191780821918
+    ],
+    "foot_height_max_mm": [
+      9.555585434101262,
+      8.176189234442466
+    ],
+    "foot_below_ground_min_mm": [
+      -1.1698860403144036,
+      -1.782597764624597
+    ]
+  },
+  "native": {
+    "duration_s": 20.0,
+    "forward_m": 1.5159413089472062,
+    "height_peak_to_peak_mm": 16.39937995199947,
+    "roll_peak_to_peak_deg": 11.80273005332574,
+    "pitch_peak_to_peak_deg": 14.056015894103032,
+    "supported_sole_speed_mean_m_s": 0.021080239286324864,
+    "supported_sole_speed_p95_m_s": 0.10320207774442569,
+    "peak_foot_force_bodyweights": 1.7927145488156375,
+    "flight_fraction": 0.0,
+    "left_right_support_fraction": [
+      0.6077777777777778,
+      0.76
+    ],
+    "foot_height_max_mm": [
+      11.927831516839992,
+      11.467259328361209
+    ],
+    "foot_below_ground_min_mm": [
+      -1.6522771362136186,
+      -1.4805021350321326
+    ],
+    "failed": false
+  },
+  "native_observation_max_error": 0.005879268050193787,
+  "native_observation_errors": {
+    "gyro": 0.005879268050193787,
+    "gravity": 5.960464477539063e-08,
+    "command": 0.0,
+    "joint_pos": 0.0,
+    "joint_vel": 7.450580596923828e-09,
+    "action": 0.0,
+    "phase": 1.6093254089355469e-06,
+    "heading": 7.450580596923828e-09
+  },
+  "notes": "Native rollout uses its own physics and feedback after a single reset. No root driving or copying GPU poses into native rollout."
+}

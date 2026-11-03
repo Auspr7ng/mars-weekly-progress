@@ -1,0 +1,57 @@
+{
+  "checkpoint": "logs/forward_r4_heading_run1/model_125.pt",
+  "schema_reference": "logs/forward_r4_heading_run1/model_125.pt",
+  "controller": "deterministic PPO",
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "seed": 741,
+  "mass_kg": 2.8400000000000003,
+  "command": [
+    0.08,
+    0.0,
+    0.0
+  ],
+  "episodes": 32,
+  "seconds": 20.0,
+  "successes": 32,
+  "failures": 0,
+  "success_rate": 1.0,
+  "unfinished": 0,
+  "reasons": {
+    "tilt": 0,
+    "height": 0,
+    "ground": 0,
+    "self": 0,
+    "nonfinite": 0,
+    "boundary": 0
+  },
+  "mean_velocity_rmse_m_s": 0.015201657079160213,
+  "mean_displacement_m": 1.6304619312286377,
+  "max_displacement_m": 1.634447455406189,
+  "mean_forward_displacement_m": 1.6156582832336426,
+  "mean_contact_switches": 162.03125,
+  "mean_valid_steps_left_right": [
+    19.0,
+    22.4375
+  ],
+  "mean_step_alternations": 37.0,
+  "max_lowest_sole_clearance_m": [
+    0.012602431699633598,
+    0.011309417895972729
+  ],
+  "mean_max_lateral_m": 0.2182178646326065,
+  "max_lateral_m": 0.25513434410095215,
+  "mean_abs_yaw_change_rad": 0.22006571292877197,
+  "mean_body_lateral_velocity_m_s": 0.00041471986332908273,
+  "mean_abs_yaw_rate_rad_s": 0.0615718699991703,
+  "success_definition": "successes/success_rate indicate survival only, not walking",
+  "notes": "First episode only; random initial tilt/joints retained, observation noise off. A valid step requires whole-sole clearance >4mm for 60ms, peak >7mm, landing with support, and >15mm forward foot travel. Failure displacements stop one control interval before reset. No disturbance/terrain validation.",
+  "walking_episodes": 0,
+  "walking_rate": 0.0,
+  "walking_gate_passed": false,
+  "gate_rates": {
+    "forward_distance": 1.0,
+    "valid_steps": 1.0,
+    "alternation": 1.0,
+    "lateral_lane": 0.0
+  }
+}

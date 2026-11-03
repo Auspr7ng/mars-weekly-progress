@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/forward_r8_landing_refinement/model_100.pt",
+  "quality_report": "results/quality/r8_100_quality.json"
+}

@@ -1,0 +1,163 @@
+{
+  "samples": [
+    {
+      "time": 1793610558.2906668,
+      "real_time_factor": 0.8359881764484143,
+      "simulation_time_s": 105.56,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610559.3085988,
+      "real_time_factor": 0.8585621658869385,
+      "simulation_time_s": 106.52,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610560.3320618,
+      "real_time_factor": 0.9427514199433673,
+      "simulation_time_s": 107.48,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610561.355997,
+      "real_time_factor": 0.9318035761651862,
+      "simulation_time_s": 108.44,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610562.3474205,
+      "real_time_factor": 0.9369646094625557,
+      "simulation_time_s": 109.36,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610563.3685203,
+      "real_time_factor": 0.9295997312984331,
+      "simulation_time_s": 110.32000000000001,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610564.390933,
+      "real_time_factor": 0.9362906971313457,
+      "simulation_time_s": 111.28,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610565.422725,
+      "real_time_factor": 0.9386914639704136,
+      "simulation_time_s": 112.2,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610566.4679813,
+      "real_time_factor": 0.8999117187215203,
+      "simulation_time_s": 113.16,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610567.4605298,
+      "real_time_factor": 0.9164077732344746,
+      "simulation_time_s": 114.08,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610568.4636102,
+      "real_time_factor": 0.919286725456466,
+      "simulation_time_s": 115.0,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610569.4870102,
+      "real_time_factor": 0.9241102023392382,
+      "simulation_time_s": 115.96000000000001,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    }
+  ],
+  "minimum": 0.8359881764484143,
+  "mean": 0.9141973550048629,
+  "maximum": 0.9427514199433673
+}

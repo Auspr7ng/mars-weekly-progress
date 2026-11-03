@@ -1,0 +1,31 @@
+{
+  "stage": "forward",
+  "revision": 4,
+  "nominal_sha256": "b26ea512c5850335b46e64bd47c0d9a7854298d6a25d54ef0ea8b0d90bc1b93e",
+  "whole_body": false,
+  "gait_phase": true,
+  "num_envs": 256,
+  "iterations": 400,
+  "seed": 42,
+  "resume": null,
+  "warm_start": "logs/forward_r3_smooth_pilot/model_225.pt",
+  "zero_mean_initialization": false,
+  "simulation_only": true,
+  "hardware_calibrated": false,
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "source_hashes": {
+    "env_cfg.py": "5eeeb540e563a41718b7bc8b6c8c2e4d5a2ceac35011c05ce0adb09d42e07488",
+    "mdp.py": "9cff98c6b917e5985f7307b14ffa26dc9b78a0167d5d0f995e1c78390de55972",
+    "train.py": "1c49b69d703f9da735153cb1d4ace68476e7f919b527dabee8dbfc4d581fd27f",
+    "warmstart.py": "dd7885942995978bd120b5144f00a07ae983d62d7ebb0fdee709569141b39587"
+  },
+  "dependencies": {
+    "mjlab": "1.4.0",
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128",
+    "rsl-rl-lib": "5.2.0"
+  },
+  "started": "2026-11-01T00:02:59.708713-04:00"
+}

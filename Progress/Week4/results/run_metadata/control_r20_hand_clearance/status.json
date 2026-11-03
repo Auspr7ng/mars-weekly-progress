@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 7676,
+  "checkpoint": "logs/control_r20_hand_clearance/model_399.pt",
+  "iteration": 399,
+  "environment_transitions": 13107200,
+  "time": "2026-11-01T22:49:21.105442-05:00",
+  "training_elapsed_s": 1946.760498400079,
+  "gpu_peak_allocated_MiB": 360.77294921875
+}

@@ -1,0 +1,65 @@
+{
+  "gpu": {
+    "duration_s": 20.0,
+    "forward_m": 1.7041237354278564,
+    "height_peak_to_peak_mm": 8.622288703918457,
+    "roll_peak_to_peak_deg": 8.546603574332119,
+    "pitch_peak_to_peak_deg": 2.582805854317097,
+    "supported_sole_speed_mean_m_s": 0.01441271512751936,
+    "supported_sole_speed_p95_m_s": 0.06804350032396096,
+    "peak_foot_force_bodyweights": 1.7801196575164795,
+    "flight_fraction": 0.0,
+    "left_right_support_fraction": [
+      0.75,
+      0.7022222222222222
+    ],
+    "foot_height_max_mm": [
+      10.31854060012654,
+      10.296266050195165
+    ],
+    "foot_below_ground_min_mm": [
+      -1.151830744835057,
+      -1.4911866855298919
+    ],
+    "termination_reasons": [
+      "time_out"
+    ]
+  },
+  "native": {
+    "duration_s": 20.0,
+    "forward_m": 1.7054448955720476,
+    "height_peak_to_peak_mm": 8.589703497685674,
+    "roll_peak_to_peak_deg": 8.453966061129693,
+    "pitch_peak_to_peak_deg": 2.5499881866139793,
+    "supported_sole_speed_mean_m_s": 0.011748666893199278,
+    "supported_sole_speed_p95_m_s": 0.05796959784873987,
+    "peak_foot_force_bodyweights": 1.639629246670671,
+    "flight_fraction": 0.0,
+    "left_right_support_fraction": [
+      0.7311111111111112,
+      0.6888888888888889
+    ],
+    "foot_height_max_mm": [
+      10.583008242539641,
+      10.23471123721603
+    ],
+    "foot_below_ground_min_mm": [
+      -1.157252204713074,
+      -1.4201550454955372
+    ],
+    "failed": false,
+    "self_contact_pairs": []
+  },
+  "native_observation_max_error": 0.004372738301753998,
+  "native_observation_errors": {
+    "gyro": 0.004372738301753998,
+    "gravity": 5.960464477539063e-08,
+    "command": 0.0,
+    "joint_pos": 0.0,
+    "joint_vel": 1.4901161193847656e-08,
+    "action": 0.0,
+    "phase": 9.100884199142456e-06,
+    "heading": 3.725290298461914e-09
+  },
+  "notes": "Native rollout uses its own physics and feedback after a single reset. No root driving or copying GPU poses into native rollout."
+}

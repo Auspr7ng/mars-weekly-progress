@@ -1,0 +1,20 @@
+{
+  "model_checkpoint": "logs/forward_measured_r1/model_999.pt",
+  "video": "results/videos/forward_999_v010.mp4",
+  "recorded_duration_s": 10.0,
+  "recorded_frames": 250,
+  "video_fps": 25,
+  "video_resolution": [
+    1280,
+    720
+  ],
+  "first_and_middle_frames_inspected": true,
+  "interactive_viewer_smoke_test": {
+    "duration_s": 2,
+    "exit_code": 0,
+    "local_port": 8086,
+    "server_stopped_after_test": true,
+    "log": "results/validation/viewer_local.console.log"
+  },
+  "notes": "Viewer tested with local loopback networking enabled; restricted sandbox socket initialization blocked earlier attempts, which were terminated. Test did not open a browser. Video uses actual GPU dynamics and policy, with unchanged Week3 distance sensing; not calibrated pressure."
+}

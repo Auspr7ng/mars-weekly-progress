@@ -1,0 +1,26 @@
+{
+  "stage": "stand",
+  "whole_body": false,
+  "gait_phase": false,
+  "num_envs": 256,
+  "iterations": 500,
+  "seed": 42,
+  "resume": null,
+  "simulation_only": true,
+  "hardware_calibrated": false,
+  "model_sha256": "2eda8d9445038ab3111f1bdefc70e6b1650f382436899d3c281406539622566b",
+  "source_hashes": {
+    "env_cfg.py": "66de24c1cf8a1506baa4d0ae3862096f5735f40329bb2fc9ebd1b53838eb2d2a",
+    "mdp.py": "793548b5371e454938adec8e63e9b203fedb5308c02bb10b0ec321344c9dd005",
+    "train.py": "63f0221a4e3e7e211c2c51e55a41590a38e1c062817ab8674a959375e9a59b16"
+  },
+  "dependencies": {
+    "mjlab": "1.4.0",
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128",
+    "rsl-rl-lib": "5.2.0"
+  },
+  "started": "2026-10-31T00:51:23.529151-04:00"
+}

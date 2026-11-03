@@ -1,0 +1,90 @@
+{
+  "time": 1793654804.272319,
+  "mode": "Stopped",
+  "joystick_vector_body_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "held": false,
+  "requested_speed_m_s": 0.0,
+  "command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "actual_forward_m_s": 0.0003081500047206583,
+  "actual_yaw_rate_rad_s": 0.002627645008900741,
+  "root_xyz_m": [
+    0.3442217227667824,
+    -0.9373776320425794,
+    0.24090950183856935
+  ],
+  "drag_gestures": 3,
+  "drag_updates": 269,
+  "last_drag_phase": "end",
+  "connected_clients": 1,
+  "interaction_ui_version": "body_follow_v3",
+  "free_drag": true,
+  "follow_camera": false,
+  "camera_updates": 6,
+  "robot_yaw_rad": -1.1755140981047367,
+  "joystick_frame_yaw_rad": -1.1755140981047367,
+  "joystick_anchor_world_m": [
+    0.34151815843467703,
+    -0.9275368655069328,
+    0.6437593994525077
+  ],
+  "joystick_tip_world_m": [
+    0.34151815843467703,
+    -0.9275368655069328,
+    0.6437593994525077
+  ],
+  "input_frame": "current_robot_body",
+  "held_deflection": "body_relative",
+  "anchor_max_error_m": 9.39015693200606e-06,
+  "heading_max_error_rad": 0.0,
+  "held_pose_samples": 718,
+  "held_yaw_range_rad": [
+    -2.752182233549049,
+    -0.014777972499855794
+  ],
+  "camera_views": [
+    {
+      "position": [
+        1.1418794241794474,
+        -1.205782859274423,
+        0.8878664573152938
+      ],
+      "look_at": [
+        0.5418794241794479,
+        -0.4057828592744219,
+        0.2878664573152928
+      ]
+    }
+  ],
+  "nonzero_command_steps": 1433,
+  "last_nonzero_command": [
+    0.049765727987204716,
+    0.0,
+    -0.1010327987428212
+  ],
+  "joystick_limits": {
+    "forward_limit": 0.12,
+    "yaw_limit": 0.25,
+    "backward_limit": 0.06
+  },
+  "hand_distance_max": 0.0,
+  "foot_distance_max": 0.1446940004825592,
+  "foot_distance_max_per_sensor": [
+    0.13687461614608765,
+    0.1446940004825592,
+    0.13713166117668152,
+    0.11607351899147034
+  ],
+  "tactile_kind": "unchanged Week3 distance response; no force calibration",
+  "simulation_time_s": 100.04,
+  "physics_backend": "native_mujoco",
+  "actor_device": "cpu",
+  "real_time_factor": 0.8999231466066688
+}

@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="Sunday_A1_Week4_SIM_ASSUMPTIONS">
+  <compiler angle="radian" meshdir="meshes" fusestatic="false" />
+  <asset>
+    <mesh name="base_link" content_type="model/stl" file="base_link.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_shoulder_link_1" content_type="model/stl" file="r_shoulder_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_shoulder_link_1" content_type="model/stl" file="l_shoulder_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_upper_arm_link_1" content_type="model/stl" file="r_upper_arm_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_upper_arm_link_1" content_type="model/stl" file="l_upper_arm_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_bicep_link_1" content_type="model/stl" file="r_bicep_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_bicep_link_1" content_type="model/stl" file="l_bicep_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_hip_link_1" content_type="model/stl" file="r_hip_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_hip_link_1" content_type="model/stl" file="l_hip_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_lower_arm_link_1" content_type="model/stl" file="r_lower_arm_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_lower_arm_link_1" content_type="model/stl" file="l_lower_arm_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_thigh_link_1" content_type="model/stl" file="r_thigh_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_thigh_link_1" content_type="model/stl" file="l_thigh_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_knee_link_1" content_type="model/stl" file="r_knee_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_knee_link_1" content_type="model/stl" file="l_knee_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_calf_link_1" content_type="model/stl" file="l_calf_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_calf_link_1" content_type="model/stl" file="r_calf_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_ankle_link_1" content_type="model/stl" file="r_ankle_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_ankle_link_1" content_type="model/stl" file="l_ankle_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="head_1" content_type="model/stl" file="head_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_foot_link_1" content_type="model/stl" file="r_foot_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_foot_link_1" content_type="model/stl" file="l_foot_link_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_gripper_base_1" content_type="model/stl" file="l_gripper_base_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_finger_bottom_1" content_type="model/stl" file="l_finger_bottom_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="l_finger_top_1" content_type="model/stl" file="l_finger_top_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_gripper_base_1" content_type="model/stl" file="r_gripper_base_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_finger_top_1" content_type="model/stl" file="r_finger_top_1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="r_finger_bottom_1" content_type="model/stl" file="r_finger_bottom_1.stl" scale="0.001 0.001 0.001" />
+  </asset>
+  <worldbody>
+    <body name="base_link">
+      <freejoint name="floating_base" />
+      <inertial mass="0.2588130394886963" pos="0.0624261 0.000806529 0.137332" fullinertia="0.002045845067 0.001658489276 0.0006806490315 -7.300093954e-06 -4.049131942e-06 -3.524370965e-06" />
+      <body name="cad_base_link" quat="0.7071067812 0 0 0.7071067812">
+        <inertial pos="0 0 0" mass="0" diaginertia="0 0 0" />
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="base_link" />
+        <body name="r_shoulder_link_1" pos="-0.064225 0.01 0.127054">
+          <inertial mass="0.08784761569720674" pos="-0.023023946960004038 -3.824977246394412e-09 0.016895654866004806" fullinertia="1.696686763e-05 6.588433014e-05 7.227444911e-05 -0 -8.813957209e-07 -0" />
+          <joint name="r_shoulder_roll" pos="0 0 0" axis="-1 0 0" range="-1.48353 1.48353" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+          <geom pos="0.064225 -0.01 -0.127054" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_shoulder_link_1" />
+          <body name="r_upper_arm_link_1" pos="-0.068 0 0.01">
+            <inertial mass="0.07755047636050504" pos="2.4216968997348154e-06 0.009956380367079383 -0.04085506581311639" fullinertia="7.5800032e-05 6.390118977e-05 3.128954809e-05 -0 0 1.586512298e-05" />
+            <joint name="r_shoulder_pitch" pos="0 0 0" axis="0 1 0" range="-0.261799 2.35619" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+            <geom pos="0.132225 -0.01 -0.137054" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_upper_arm_link_1" />
+            <body name="r_bicep_link_1" pos="0 0.000225 -0.066438">
+              <inertial mass="0.03401494877590012" pos="-1.78441112719252e-08 -0.010515992382481305 -0.01174541236429373" fullinertia="1.828896121e-05 2.203489302e-05 8.813957209e-06 -0 0 1.762791442e-06" />
+              <joint name="r_elbow_yaw" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+              <geom pos="0.132225 -0.010225 -0.070616" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_bicep_link_1" />
+              <body name="r_lower_arm_link_1" pos="0 0 -0.04">
+                <inertial mass="0.07755047636050504" pos="-0.009956389030925994 2.4390246027520407e-06 -0.040855074476967373" fullinertia="6.390118977e-05 7.5800032e-05 3.128954809e-05 0 -1.586512298e-05 0" />
+                <joint name="r_elbow_pitch" pos="0 0 0" axis="-1 0 0" range="-1.5708 1.309" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+                <geom pos="0.132225 -0.010225 -0.030616" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_lower_arm_link_1" />
+                <body name="r_gripper_base_1" pos="-0.000225 -0.00125 -0.066438">
+                  <inertial mass="0.1444467677465937" pos="-0.003618783714682744 -2.575230541711909e-07 -0.05775605358269512" fullinertia="0.0001734146081 0.0001820082164 9.078375925e-05 0 -7.712212558e-06 -0" />
+                  <joint name="r_wrist_yaw" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708" actuatorfrcrange="-0.8 0.8" armature="0.005" damping="0.1" />
+                  <geom pos="0.13245 -0.008975 0.035822" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_gripper_base_1" />
+                  <body name="r_finger_top_1" pos="0.13245 0.030525 -0.099597">
+                    <inertial mass="0.11539930775252914" pos="-0.13160354486123588 -0.05490948372420687 -0.007896215858879146" fullinertia="9.034306139e-05 7.315584484e-05 5.486688363e-05 -1.762791442e-06 -6.610467907e-07 1.101744651e-05" />
+                    <joint name="r_finger_slide_top" pos="0 0 0" axis="0 -1 0" type="slide" range="0 0.03" actuatorfrcrange="-15 15" armature="0.001" damping="0.01" />
+                    <geom pos="0 -0.0395 0.135419" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_finger_top_1" />
+                    <geom name="collision_r_finger_top_1" type="box" pos="-0.134 -0.0309 -0.035" size="0.012 0.0005 0.032" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                  </body>
+                  <body name="r_finger_bottom_1" pos="0.13245 -0.048475 -0.099597">
+                    <inertial mass="0.11539930775252905" pos="-0.1332964897930177 0.07285950105434238 -0.007896215858878342" fullinertia="9.034306139e-05 7.315584484e-05 5.486688363e-05 -1.762791442e-06 6.610467907e-07 -1.101744651e-05" />
+                    <joint name="r_finger_slide_bottom" pos="0 0 0" axis="0 1 0" type="slide" range="0 0.03" actuatorfrcrange="-15 15" armature="0.001" damping="0.01" />
+                    <geom pos="0 0.0395 0.135419" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_finger_bottom_1" />
+                    <geom name="collision_r_finger_bottom_1" type="box" pos="-0.134 0.0488 -0.035" size="0.012 0.0005 0.032" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                  </body>
+                  <geom name="collision_r_gripper_base_1" type="box" pos="-0.003582015873 8.754938836e-09 -0.03436251384" size="0.02589723814 0.03239000213 0.04785724991" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                </body>
+                <geom name="collision_r_lower_arm_link_1" type="box" pos="-0.007280015948 8.280336444e-09 -0.03855150882" size="0.02300509757 0.01476000054 0.03990243061" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+              </body>
+              <geom name="collision_r_bicep_link_1" type="box" pos="-5.713550411e-09 -0.004127372851 -0.01386879941" size="0.01968000017 0.0130155472 0.03105240855" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+            </body>
+            <geom name="collision_r_upper_arm_link_1" type="box" pos="-6.084823635e-09 0.007280009306 -0.03855149967" size="0.01476000072 0.02300510093 0.03990243197" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+          </body>
+          <geom name="collision_r_shoulder_link_1" type="box" pos="-0.02787500635 -1.997742666e-10 0.007625000616" size="0.0425374986 0.01967999941 0.01568250056" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+        </body>
+        <body name="l_shoulder_link_1" pos="0.064225 0.01 0.127054">
+          <inertial mass="0.08784761569720674" pos="0.023023946960003996 3.824978365291054e-09 0.016895654866004833" fullinertia="1.696686763e-05 6.588433014e-05 7.227444911e-05 -0 8.813957209e-07 0" />
+          <joint name="l_shoulder_roll" pos="0 0 0" axis="1 0 0" range="-1.48353 1.48353" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+          <geom pos="-0.064225 -0.01 -0.127054" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_shoulder_link_1" />
+          <body name="l_upper_arm_link_1" pos="0.068 0 0.01">
+            <inertial mass="0.07755047636050504" pos="2.4390245985939085e-06 0.009956380367076497 -0.04085506581311643" fullinertia="7.5800032e-05 6.390118977e-05 3.128954809e-05 -0 0 1.586512298e-05" />
+            <joint name="l_shoulder_pitch" pos="0 0 0" axis="0 -1 0" range="-0.261799 2.35619" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+            <geom pos="-0.132225 -0.01 -0.137054" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_upper_arm_link_1" />
+            <body name="l_bicep_link_1" pos="0 0.000225 -0.066438">
+              <inertial mass="0.03401494877590012" pos="-5.164115246536483e-10 -0.010515992382484097 -0.01174541236429373" fullinertia="1.828896121e-05 2.203489302e-05 8.813957209e-06 -0 0 1.762791442e-06" />
+              <joint name="l_elbow_yaw" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+              <geom pos="-0.132225 -0.010225 -0.070616" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_bicep_link_1" />
+              <body name="l_lower_arm_link_1" pos="0 0 -0.04">
+                <inertial mass="0.07755047636050504" pos="0.009956389030926188 -2.421696897942846e-06 -0.04085507447696712" fullinertia="6.390118977e-05 7.5800032e-05 3.128954809e-05 0 1.586512298e-05 -0" />
+                <joint name="l_elbow_pitch" pos="0 0 0" axis="-1 0 0" range="-1.5708 1.309" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+                <geom pos="-0.132225 -0.010225 -0.030616" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_lower_arm_link_1" />
+                <body name="l_gripper_base_1" pos="0.000225 0 -0.066438">
+                  <inertial mass="0.1444467677465937" pos="0.0036187837146832713 2.748507614436929e-07 -0.05775605358269486" fullinertia="0.0001734146081 0.0001820082164 9.078375925e-05 0 7.712212558e-06 0" />
+                  <joint name="l_wrist_yaw" pos="0 0 0" axis="0 0 1" range="-1.5708 1.5708" actuatorfrcrange="-0.8 0.8" armature="0.005" damping="0.1" />
+                  <geom pos="-0.13245 -0.010225 0.035822" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_gripper_base_1" />
+                  <body name="l_finger_bottom_1" pos="0.13245 0.049725 -0.099597">
+                    <inertial mass="0.11539930775252914" pos="-0.13329645513876315 -0.025340498948084537 -0.00789621585887798" fullinertia="9.034306139e-05 7.315584484e-05 5.486688363e-05 -1.762791442e-06 6.610467907e-07 -1.101744651e-05" />
+                    <joint name="l_finger_slide_bottom" pos="0 0 0" axis="0 1 0" type="slide" range="0 0.03" actuatorfrcrange="-15 15" armature="0.001" damping="0.01" />
+                    <geom pos="-0.2649 -0.05995 0.135419" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_finger_bottom_1" />
+                    <geom name="collision_l_finger_bottom_1" type="box" pos="-0.134 -0.0494 -0.035" size="0.012 0.0005 0.032" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                  </body>
+                  <body name="l_finger_top_1" pos="0.13245 -0.029275 -0.099597">
+                    <inertial mass="0.11539930775252905" pos="-0.13160351020698338 0.004890516273366527 -0.007896215858878758" fullinertia="9.034306139e-05 7.315584484e-05 5.486688363e-05 -1.762791442e-06 -6.610467907e-07 1.101744651e-05" />
+                    <joint name="l_finger_slide_top" pos="0 0 0" axis="0 -1 0" type="slide" range="0 0.03" actuatorfrcrange="-15 15" armature="0.001" damping="0.01" />
+                    <geom pos="-0.2649 0.01905 0.135419" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_finger_top_1" />
+                    <geom name="collision_l_finger_top_1" type="box" pos="-0.134 0.0289 -0.035" size="0.012 0.0005 0.032" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                  </body>
+                  <geom name="collision_l_gripper_base_1" type="box" pos="0.003582015902 9.073352403e-09 -0.03436251372" size="0.02589723796 0.03239000221 0.0478572498" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                </body>
+                <geom name="collision_l_lower_arm_link_1" type="box" pos="0.007280015824 8.239345237e-09 -0.03855150882" size="0.02300509758 0.0147600004 0.03990243057" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+              </body>
+              <geom name="collision_l_bicep_link_1" type="box" pos="5.838131201e-09 -0.00412737285 -0.0138687994" size="0.01968000017 0.0130155472 0.03105240855" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+            </body>
+            <geom name="collision_l_upper_arm_link_1" type="box" pos="6.136451351e-09 0.007280009343 -0.03855149956" size="0.01476000073 0.02300510108 0.03990243205" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+          </body>
+          <geom name="collision_l_shoulder_link_1" type="box" pos="0.02787500637 -7.149963469e-10 0.007625000614" size="0.04253749856 0.01968000017 0.01568250055" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+        </body>
+        <body name="r_hip_link_1" pos="-0.044507 0.01 -0.019868">
+          <inertial mass="0.04823965022250701" pos="-0.016837765251223574 0.0004613012724380607 -0.020065386710992648" fullinertia="1.828896121e-05 2.159419516e-05 1.784826335e-05 2.203489302e-07 -1.322093581e-06 2.203489302e-07" />
+          <joint name="r_hip_roll" pos="0 0 0" axis="-0.766044 0 0.642788" range="-1.39626 1.39626" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+          <geom pos="0.044507 -0.01 0.019868" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_hip_link_1" />
+          <body name="r_thigh_link_1" pos="-0.03214 0.000225 -0.038303">
+            <inertial mass="0.05796334998855676" pos="7.44839945013287e-07 0.011349625501256457 -0.03173132206870549" fullinertia="3.856106279e-05 2.644187163e-05 2.203489302e-05 0 -0 6.830816837e-06" />
+            <joint name="r_hip_pitch" pos="0 0 0" axis="0 -1 0" range="-2.26893 0.785398" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+            <geom pos="0.076647 -0.010225 0.058171" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_thigh_link_1" />
+            <body name="r_knee_link_1" pos="0 -5.4e-05 -0.045775">
+              <inertial mass="0.055680019375890476" pos="2.2826079097704177e-07 -0.013105208276410898 -0.006310823845590091" fullinertia="2.688256949e-05 3.56965267e-05 1.718721656e-05 -0 0 2.644187163e-06" />
+              <joint name="r_thigh_yaw" pos="0 0 0" axis="0 0 1" range="-0.785398 0.785398" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+              <geom pos="0.076647 -0.010171 0.103946" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_knee_link_1" />
+              <body name="r_calf_link_1" pos="0 0 -0.0394">
+                <inertial mass="0.04765119244817133" pos="-0.0002319419569144915 7.298354986595007e-07 -0.024174014050280634" fullinertia="1.740756549e-05 2.600117377e-05 1.784826335e-05 0 4.406978605e-07 -0" />
+                <joint name="r_knee_roll" pos="0 0 0" axis="1 0 0" range="-1.0472 1.5708" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+                <geom pos="0.076647 -0.010171 0.143346" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_calf_link_1" />
+                <body name="r_ankle_link_1" pos="0.000225 0 -0.050053">
+                  <inertial mass="0.07163814494825191" pos="-7.500849727208603e-05 0.02519437297455345 -0.012525596509196019" fullinertia="6.764712158e-05 2.445873126e-05 6.301979405e-05 -4.406978605e-07 0 -9.034306139e-06" />
+                  <joint name="r_ankle_roll" pos="0 0 0" axis="-1 0 0" range="-0.523599 1.5708" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+                  <geom pos="0.076422 -0.010171 0.193399" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_ankle_link_1" />
+                  <body name="r_foot_link_1" pos="0.000225 0.051775 -0.024888">
+                    <inertial mass="0.19707433437098226" pos="-0.004135133596115018 -0.04628277515482833 -0.025539122430901257" fullinertia="0.0005164978925 0.0001612954169 0.00066325028 -3.966280744e-06 -1.542442512e-06 -9.69535293e-06" />
+                    <joint name="r_ankle_pitch" pos="0 0 0" axis="0 -1 0" range="-0.523599 0.523599" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+                    <geom pos="0.076197 -0.061946 0.218287" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="r_foot_link_1" />
+                    <geom name="collision_r_foot_link_1" type="box" pos="-0.005 -0.051175 -0.025" size="0.0525 0.09 0.005" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                    <site name="r_sole" pos="-0.005 -0.051175 -0.03" size="0.003" />
+                  </body>
+                  <geom name="collision_r_ankle_link_1" type="box" pos="0.0002252455578 0.02600010303 -0.01244447536" size="0.01722000073 0.0385400026 0.01858612062" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                </body>
+                <geom name="collision_r_calf_link_1" type="box" pos="0.0002252355859 1.01073919e-07 -0.02571634051" size="0.01953650142 0.01312000027 0.02937795587" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+              </body>
+              <geom name="collision_r_knee_link_1" type="box" pos="2.277080742e-07 -0.005624984538 -0.01387107729" size="0.0196800017 0.0142474301 0.03056264332" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+            </body>
+            <geom name="collision_r_thigh_link_1" type="box" pos="2.276098831e-07 0.005615554241 -0.0277495724" size="0.01312000228 0.02414124895 0.0321849996" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+          </body>
+          <geom name="collision_r_hip_link_1" type="box" pos="-0.01034372416 -3.01410303e-11 -0.01404681426" size="0.0295019817 0.01722000073 0.03129153757" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+        </body>
+        <body name="l_hip_link_1" pos="0.043865 0.01 -0.019102">
+          <inertial mass="0.04823965022250701" pos="0.01683602666421824 0.0004613012724379098 -0.0200661402325909" fullinertia="1.828896121e-05 2.159419516e-05 1.784826335e-05 -2.203489302e-07 1.322093581e-06 2.203489302e-07" />
+          <joint name="l_hip_roll" pos="0 0 0" axis="0.766044 0 0.642788" range="-1.39626 1.39626" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+          <geom pos="-0.043865 -0.01 0.019102" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_hip_link_1" />
+          <body name="l_thigh_link_1" pos="0.032139 0.000225 -0.038303">
+            <inertial mass="0.05796334998855676" pos="5.007086785885351e-07 0.011349625501256436 -0.03173127762558699" fullinertia="3.856106279e-05 2.644187163e-05 2.203489302e-05 0 -0 6.830816837e-06" />
+            <joint name="l_hip_pitch" pos="0 0 0" axis="0 -1 0" range="-0.785398 2.26893" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+            <geom pos="-0.076004 -0.010225 0.057405" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_thigh_link_1" />
+            <body name="l_knee_link_1" pos="0 -5.4e-05 -0.045775">
+              <inertial mass="0.055680019375890476" pos="-1.5870476363644137e-08 -0.013105208276411078 -0.006310779402471614" fullinertia="2.688256949e-05 3.56965267e-05 1.718721656e-05 0 0 2.644187163e-06" />
+              <joint name="l_thigh_yaw" pos="0 0 0" axis="0 0 1" range="-0.785398 0.785398" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+              <geom pos="-0.076004 -0.010171 0.10318" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_knee_link_1" />
+              <body name="l_calf_link_1" pos="0 0 -0.0394">
+                <inertial mass="0.04765119244817133" pos="0.0002321543472293408 -5.269077981776005e-07 -0.02417396960716231" fullinertia="1.740756549e-05 2.600117377e-05 1.784826335e-05 0 -4.406978605e-07 0" />
+                <joint name="l_knee_roll" pos="0 0 0" axis="-1 0 0" range="-1.5708 1.0472" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+                <geom pos="-0.076004 -0.010171 0.14258" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_calf_link_1" />
+                <body name="l_ankle_link_1" pos="-0.000225 0 -0.050053">
+                  <inertial mass="0.07163810028301268" pos="8.672137208813602e-05 0.02519353425870998 -0.012485786540584382" fullinertia="6.764712158e-05 2.445873126e-05 6.301979405e-05 6.610467907e-07 -0 -9.034306139e-06" />
+                  <joint name="l_ankle_roll" pos="0 0 0" axis="-1 0 0" range="-0.523599 1.5708" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+                  <geom pos="-0.075779 -0.010171 0.192633" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_ankle_link_1" />
+                  <body name="l_foot_link_1" pos="-0.000225 0.051775 -0.024834">
+                    <inertial mass="0.19707308570833346" pos="0.004135504727747416 -0.04628319401682675 -0.02553996651909543" fullinertia="0.0005164978925 0.0001612954169 0.00066325028 3.966280744e-06 1.542442512e-06 -9.69535293e-06" />
+                    <joint name="l_ankle_pitch" pos="0 0 0" axis="0 -1 0" range="-0.523599 0.523599" actuatorfrcrange="-1.6 1.6" armature="0.005" damping="0.1" />
+                    <geom pos="-0.075554 -0.061946 0.217467" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="l_foot_link_1" />
+                    <geom name="collision_l_foot_link_1" type="box" pos="0.005 -0.051175 -0.025" size="0.0525 0.09 0.005" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                    <site name="l_sole" pos="0.005 -0.051175 -0.03" size="0.003" />
+                  </body>
+                  <geom name="collision_l_ankle_link_1" type="box" pos="-0.0002250315685 0.02600010295 -0.01241742303" size="0.01722000231 0.03854000261 0.01860826108" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+                </body>
+                <geom name="collision_l_calf_link_1" type="box" pos="-0.0002250254787 1.010294971e-07 -0.02571628824" size="0.01953649985 0.0131200003 0.02937795605" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+              </body>
+              <geom name="collision_l_knee_link_1" type="box" pos="-1.729144621e-08 -0.005624983665 -0.01387102751" size="0.01968000017 0.01424743055 0.03056263918" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+            </body>
+            <geom name="collision_l_thigh_link_1" type="box" pos="-1.747518002e-08 0.00561555404 -0.02774952738" size="0.0131200007 0.02414124864 0.03218499983" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+          </body>
+          <geom name="collision_l_hip_link_1" type="box" pos="0.01034293432 -3.99296568e-12 -0.01404676601" size="0.02950198014 0.01722000075 0.0312915345" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+        </body>
+        <body name="head_1" pos="0 0.011054 0.17045">
+          <inertial mass="0.32027707023893504" pos="3.660203937989789e-09 -0.006423775865803452 0.08752583683252546" fullinertia="0.0007159136743 0.001405385477 0.0008743445551 0 0 -5.508723256e-06" />
+          <joint name="head_rotation" pos="0 0 0" axis="0 0 -1" actuatorfrcrange="-0.5 0.5" armature="0.005" damping="0.1" range="-1.2 1.2" limited="true" />
+          <geom pos="0 -0.011054 -0.17045" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.7 0.7 0.7 1" mesh="head_1" />
+          <geom name="collision_head_1" type="box" pos="1.313125858e-10 8.349587237e-10 0.07250001078" size="0.06150000244 0.02255000074 0.05945000185" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+        </body>
+        <geom name="collision_cad_base_link" type="box" pos="-1.358995208e-10 9.690809544e-10 0.03649155773" size="0.06970000292 0.0533000021 0.08684492076" contype="1" conaffinity="1" group="3" mass="0" rgba="0.3 0.7 0.4 0.25" friction="0.8 0.005 0.0001" condim="3" solref="0.01 1" />
+      </body>
+    </body>
+  </worldbody>
+  <contact>
+    <exclude body1="base_link" body2="cad_base_link" />
+    <exclude body1="base_link" body2="head_1" />
+    <exclude body1="base_link" body2="l_hip_link_1" />
+    <exclude body1="base_link" body2="l_shoulder_link_1" />
+    <exclude body1="base_link" body2="r_hip_link_1" />
+    <exclude body1="base_link" body2="r_shoulder_link_1" />
+    <exclude body1="cad_base_link" body2="head_1" />
+    <exclude body1="cad_base_link" body2="l_hip_link_1" />
+    <exclude body1="cad_base_link" body2="l_shoulder_link_1" />
+    <exclude body1="cad_base_link" body2="l_thigh_link_1" />
+    <exclude body1="cad_base_link" body2="l_upper_arm_link_1" />
+    <exclude body1="cad_base_link" body2="r_hip_link_1" />
+    <exclude body1="cad_base_link" body2="r_shoulder_link_1" />
+    <exclude body1="cad_base_link" body2="r_thigh_link_1" />
+    <exclude body1="cad_base_link" body2="r_upper_arm_link_1" />
+    <exclude body1="l_ankle_link_1" body2="l_calf_link_1" />
+    <exclude body1="l_ankle_link_1" body2="l_foot_link_1" />
+    <exclude body1="l_ankle_link_1" body2="l_knee_link_1" />
+    <exclude body1="l_bicep_link_1" body2="l_gripper_base_1" />
+    <exclude body1="l_bicep_link_1" body2="l_lower_arm_link_1" />
+    <exclude body1="l_bicep_link_1" body2="l_shoulder_link_1" />
+    <exclude body1="l_bicep_link_1" body2="l_upper_arm_link_1" />
+    <exclude body1="l_calf_link_1" body2="l_foot_link_1" />
+    <exclude body1="l_calf_link_1" body2="l_knee_link_1" />
+    <exclude body1="l_calf_link_1" body2="l_thigh_link_1" />
+    <exclude body1="l_finger_bottom_1" body2="l_finger_top_1" />
+    <exclude body1="l_finger_bottom_1" body2="l_gripper_base_1" />
+    <exclude body1="l_finger_bottom_1" body2="l_lower_arm_link_1" />
+    <exclude body1="l_finger_top_1" body2="l_gripper_base_1" />
+    <exclude body1="l_finger_top_1" body2="l_lower_arm_link_1" />
+    <exclude body1="l_gripper_base_1" body2="l_lower_arm_link_1" />
+    <exclude body1="l_hip_link_1" body2="l_knee_link_1" />
+    <exclude body1="l_hip_link_1" body2="l_thigh_link_1" />
+    <exclude body1="l_knee_link_1" body2="l_thigh_link_1" />
+    <exclude body1="l_lower_arm_link_1" body2="l_upper_arm_link_1" />
+    <exclude body1="l_shoulder_link_1" body2="l_upper_arm_link_1" />
+    <exclude body1="r_ankle_link_1" body2="r_calf_link_1" />
+    <exclude body1="r_ankle_link_1" body2="r_foot_link_1" />
+    <exclude body1="r_ankle_link_1" body2="r_knee_link_1" />
+    <exclude body1="r_bicep_link_1" body2="r_gripper_base_1" />
+    <exclude body1="r_bicep_link_1" body2="r_lower_arm_link_1" />
+    <exclude body1="r_bicep_link_1" body2="r_shoulder_link_1" />
+    <exclude body1="r_bicep_link_1" body2="r_upper_arm_link_1" />
+    <exclude body1="r_calf_link_1" body2="r_foot_link_1" />
+    <exclude body1="r_calf_link_1" body2="r_knee_link_1" />
+    <exclude body1="r_calf_link_1" body2="r_thigh_link_1" />
+    <exclude body1="r_finger_bottom_1" body2="r_finger_top_1" />
+    <exclude body1="r_finger_bottom_1" body2="r_gripper_base_1" />
+    <exclude body1="r_finger_bottom_1" body2="r_lower_arm_link_1" />
+    <exclude body1="r_finger_top_1" body2="r_gripper_base_1" />
+    <exclude body1="r_finger_top_1" body2="r_lower_arm_link_1" />
+    <exclude body1="r_gripper_base_1" body2="r_lower_arm_link_1" />
+    <exclude body1="r_hip_link_1" body2="r_knee_link_1" />
+    <exclude body1="r_hip_link_1" body2="r_thigh_link_1" />
+    <exclude body1="r_knee_link_1" body2="r_thigh_link_1" />
+    <exclude body1="r_lower_arm_link_1" body2="r_upper_arm_link_1" />
+    <exclude body1="r_shoulder_link_1" body2="r_upper_arm_link_1" />
+  </contact>
+  <actuator>
+    <position name="r_shoulder_roll" joint="r_shoulder_roll" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_shoulder_pitch" joint="r_shoulder_pitch" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_elbow_yaw" joint="r_elbow_yaw" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_elbow_pitch" joint="r_elbow_pitch" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_wrist_yaw" joint="r_wrist_yaw" kp="30.0" kv="1.0" forcerange="-0.8 0.8" />
+    <position name="r_finger_slide_top" joint="r_finger_slide_top" kp="700.0" kv="15.0" forcerange="-15 15" />
+    <position name="r_finger_slide_bottom" joint="r_finger_slide_bottom" kp="700.0" kv="15.0" forcerange="-15 15" />
+    <position name="l_shoulder_roll" joint="l_shoulder_roll" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_shoulder_pitch" joint="l_shoulder_pitch" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_elbow_yaw" joint="l_elbow_yaw" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_elbow_pitch" joint="l_elbow_pitch" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_wrist_yaw" joint="l_wrist_yaw" kp="30.0" kv="1.0" forcerange="-0.8 0.8" />
+    <position name="l_finger_slide_bottom" joint="l_finger_slide_bottom" kp="700.0" kv="15.0" forcerange="-15 15" />
+    <position name="l_finger_slide_top" joint="l_finger_slide_top" kp="700.0" kv="15.0" forcerange="-15 15" />
+    <position name="r_hip_roll" joint="r_hip_roll" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_hip_pitch" joint="r_hip_pitch" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_thigh_yaw" joint="r_thigh_yaw" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_knee_roll" joint="r_knee_roll" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_ankle_roll" joint="r_ankle_roll" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="r_ankle_pitch" joint="r_ankle_pitch" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_hip_roll" joint="l_hip_roll" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_hip_pitch" joint="l_hip_pitch" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_thigh_yaw" joint="l_thigh_yaw" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_knee_roll" joint="l_knee_roll" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_ankle_roll" joint="l_ankle_roll" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="l_ankle_pitch" joint="l_ankle_pitch" kp="50.0" kv="1.0" forcerange="-1.6 1.6" />
+    <position name="head_rotation" joint="head_rotation" kp="50.0" kv="1.0" forcerange="-0.5 0.5" />
+  </actuator>
+</mujoco>

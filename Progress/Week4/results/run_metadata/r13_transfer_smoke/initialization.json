@@ -1,0 +1,12 @@
+{
+  "actor_anchor_max_difference": 0.0,
+  "critic_anchor_max_difference": 0.0,
+  "source": "logs/control_r12_speed_stop_turn/model_599.pt",
+  "source_revision": 12,
+  "optimizer_reset": true,
+  "changed_nominal_pose": false,
+  "changed_phase_period": false,
+  "command_normalization_rebased": false,
+  "phase_input_gated_by_motion": true,
+  "comparison_scope": "64 varied proprioception probes at vx=.06,vy=wz=heading_error=0; TF32 disabled"
+}

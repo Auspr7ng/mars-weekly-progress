@@ -1,0 +1,1709 @@
+{
+  "audit_kind": "static XML, rigid transforms and STL vertices only; no simulation or training",
+  "source_urdf": "../Week3/code/model/sunday_a1.urdf",
+  "source_sha256": "213e7789e85cb452dc8f0a5aee713fe825199fb355df921ea30e1ddeb200d80a",
+  "robot_name": "sunday_assembly",
+  "root": "base_link",
+  "num_links": 28,
+  "joint_types": {
+    "continuous": 1,
+    "prismatic": 4,
+    "revolute": 22
+  },
+  "total_declared_mass_kg": 11.714088912705535,
+  "declared_com_in_base_at_zero_m": [
+    -0.00011865365794738617,
+    0.011816050910384073,
+    -0.05256556997199145
+  ],
+  "root_declared_mass_kg": 0.0,
+  "arm_subtree_mass_kg": {
+    "l": 2.9598913857701517,
+    "r": 2.9598913857701517
+  },
+  "mesh_files": [
+    {
+      "path": "../Week3/code/model/meshes/base_link.stl",
+      "exists": true,
+      "bytes": 4946484,
+      "sha256": "9846d5d9fc65df47f96be9a07e7fc588ec38c90654d44037ddab8bc0eaa17d12"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_shoulder_link_1.stl",
+      "exists": true,
+      "bytes": 343584,
+      "sha256": "40face1e892f7b84a19f5ecc9adc32f7f666aae78471524bbea8644debfa62fa"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_shoulder_link_1.stl",
+      "exists": true,
+      "bytes": 343584,
+      "sha256": "599e90a2bb3be3349b6bc2fc1830fa22ed2e077c5b21fd1ce95d0938b7cbd42a"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_upper_arm_link_1.stl",
+      "exists": true,
+      "bytes": 2241984,
+      "sha256": "c0d03363462c82c5f48ed7b73605f0f231d02d0c41ae6d821f7da266b9864df7"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_upper_arm_link_1.stl",
+      "exists": true,
+      "bytes": 2241984,
+      "sha256": "bb7f21b63ca311038bb352bc5ab7f6cab019deb2da7cc74335d1eacd9c1f4c09"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_bicep_link_1.stl",
+      "exists": true,
+      "bytes": 332084,
+      "sha256": "2498ca3f9c1115ff804e85fa4fcb45c7b72ffaddd23c7dcfe1e28d82ee6660b6"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_bicep_link_1.stl",
+      "exists": true,
+      "bytes": 332084,
+      "sha256": "11683cda17b1a55e14c1a08ad2404d4c2357e78375bf9e6430be778707c21780"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_hip_link_1.stl",
+      "exists": true,
+      "bytes": 1371784,
+      "sha256": "37d46c700dc4dab4fc412529e33daf3aa72ce93d8ed459c1016d5c416e07889e"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_hip_link_1.stl",
+      "exists": true,
+      "bytes": 1371784,
+      "sha256": "51c609bbc68560b15f7fd1bbcc2abfee304e4f4ce1effe078457dd8e32019240"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_lower_arm_link_1.stl",
+      "exists": true,
+      "bytes": 2241984,
+      "sha256": "d3a3882517a461a2eb39143fe737e9a401188385ed2614c4827fc0e829a1c448"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_lower_arm_link_1.stl",
+      "exists": true,
+      "bytes": 2241984,
+      "sha256": "621994f936f13622c8a29ecd74ee17a19fb54231b95ba8e2bc82e80e6787df52"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_thigh_link_1.stl",
+      "exists": true,
+      "bytes": 1247384,
+      "sha256": "a7252b041089885108d97eab38e1504bd13942cd4a959603aeecca3f46c5a8bf"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_thigh_link_1.stl",
+      "exists": true,
+      "bytes": 1247384,
+      "sha256": "c9fcf6ad942b3af6d2f0cd8692676116c8e02503bfea7ced54bf5bf656d01a15"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_knee_link_1.stl",
+      "exists": true,
+      "bytes": 287884,
+      "sha256": "28abe5b4e7aedcb1bf1b050737e84225532b107e9e0ce6d43aa31997ce8639cc"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_knee_link_1.stl",
+      "exists": true,
+      "bytes": 287884,
+      "sha256": "61c3c81f28ed0167982bc4c7ba14287a44a0ca1cb0816875e7d4199b7ebac31d"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_calf_link_1.stl",
+      "exists": true,
+      "bytes": 1361584,
+      "sha256": "ccdf24ebc0198501a7f93a7bb7353a38e3ebc8602c270fe87e67f611c1c6ad48"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_calf_link_1.stl",
+      "exists": true,
+      "bytes": 1361584,
+      "sha256": "9674721bc3324faf5e67d66378b2df495e35c457a633622301b691a12de767cb"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_ankle_link_1.stl",
+      "exists": true,
+      "bytes": 2198484,
+      "sha256": "81ae4845e2057cba389f358dcd7f48bf4c1d7c344d7e2602f4ad2f43edde91b1"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_ankle_link_1.stl",
+      "exists": true,
+      "bytes": 2198884,
+      "sha256": "93a99fc4f74c1c579c92379227035a695b3246e459561584c3fdf09d2a0bd4d7"
+    },
+    {
+      "path": "../Week3/code/model/meshes/head_1.stl",
+      "exists": true,
+      "bytes": 249184,
+      "sha256": "b788dd1feaaeda9cafb5044d129d0758a8297c6bcf9f354966e0a4f7e1ec4a2b"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_foot_link_1.stl",
+      "exists": true,
+      "bytes": 915584,
+      "sha256": "6e1b865d8807abcda73a11fb3948802aa5c9919973f2e849d1e74f4e75a2e54b"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_foot_link_1.stl",
+      "exists": true,
+      "bytes": 914584,
+      "sha256": "9ad2b9f4cd69393b38441568d7179c6d2343f240499426ae26ba0d7a018d5abb"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_gripper_base_1.stl",
+      "exists": true,
+      "bytes": 1448984,
+      "sha256": "4de8b1a2a7299efa2e48bdf317d0bc0432a6a42629d4229963412bf7138ead77"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_finger_bottom_1.stl",
+      "exists": true,
+      "bytes": 117284,
+      "sha256": "5f92b3b131be50b0b4ef3c6f6873f77dc5003a702949843194d8e48fae7942cf"
+    },
+    {
+      "path": "../Week3/code/model/meshes/l_finger_top_1.stl",
+      "exists": true,
+      "bytes": 117284,
+      "sha256": "a2c13aca66c895fbed366c6a9ec2fd201ac7bf5c5e696e6c5dcbc7139c5c7a6d"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_gripper_base_1.stl",
+      "exists": true,
+      "bytes": 1448984,
+      "sha256": "a8ac8dd0d0033c78c257d4aff12c9c90581e38b860c028280dbc47808a21d710"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_finger_top_1.stl",
+      "exists": true,
+      "bytes": 117284,
+      "sha256": "f973842e3eb9df022465a7ca4990d64d942b02eef7d031260227f8b6a5dfe86b"
+    },
+    {
+      "path": "../Week3/code/model/meshes/r_finger_bottom_1.stl",
+      "exists": true,
+      "bytes": 117284,
+      "sha256": "03ec9322fe8542d333177d1e46046f7e13139c70e937f56b9420ee4186931e71"
+    }
+  ],
+  "mesh_reference_count": 28,
+  "joints": [
+    {
+      "name": "r_shoulder_roll",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "r_shoulder_link_1",
+      "axis_local": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "origin_xyz": [
+        -0.064225,
+        0.01,
+        0.127054
+      ],
+      "limits": {
+        "upper": "1.48353",
+        "lower": "-1.48353",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_shoulder_roll",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "l_shoulder_link_1",
+      "axis_local": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "axis_in_base_at_zero": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.064225,
+        0.01,
+        0.127054
+      ],
+      "limits": {
+        "upper": "1.48353",
+        "lower": "-1.48353",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_shoulder_pitch",
+      "type": "revolute",
+      "parent": "r_shoulder_link_1",
+      "child": "r_upper_arm_link_1",
+      "axis_local": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        -0.068,
+        0.0,
+        0.01
+      ],
+      "limits": {
+        "upper": "2.356194",
+        "lower": "-0.261799",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_shoulder_pitch",
+      "type": "revolute",
+      "parent": "l_shoulder_link_1",
+      "child": "l_upper_arm_link_1",
+      "axis_local": [
+        0.0,
+        -1.0,
+        -0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.068,
+        0.0,
+        0.01
+      ],
+      "limits": {
+        "upper": "2.356194",
+        "lower": "-0.261799",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_elbow_yaw",
+      "type": "revolute",
+      "parent": "r_upper_arm_link_1",
+      "child": "r_bicep_link_1",
+      "axis_local": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "origin_xyz": [
+        0.0,
+        0.000225,
+        -0.066438
+      ],
+      "limits": {
+        "upper": "1.570796",
+        "lower": "-1.570796",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_elbow_yaw",
+      "type": "revolute",
+      "parent": "l_upper_arm_link_1",
+      "child": "l_bicep_link_1",
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "origin_xyz": [
+        0.0,
+        0.000225,
+        -0.066438
+      ],
+      "limits": {
+        "upper": "1.570796",
+        "lower": "-1.570796",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_hip_roll",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "r_hip_link_1",
+      "axis_local": [
+        -0.766044,
+        0.0,
+        0.642788
+      ],
+      "axis_in_base_at_zero": [
+        -0.766044,
+        0.0,
+        0.642788
+      ],
+      "origin_xyz": [
+        -0.044507,
+        0.01,
+        -0.019868
+      ],
+      "limits": {
+        "upper": "1.396263",
+        "lower": "-1.396263",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_hip_roll",
+      "type": "revolute",
+      "parent": "base_link",
+      "child": "l_hip_link_1",
+      "axis_local": [
+        0.766044,
+        -0.0,
+        0.642788
+      ],
+      "axis_in_base_at_zero": [
+        0.766044,
+        0.0,
+        0.642788
+      ],
+      "origin_xyz": [
+        0.043865,
+        0.01,
+        -0.019102
+      ],
+      "limits": {
+        "upper": "1.396263",
+        "lower": "-1.396263",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_elbow_pitch",
+      "type": "revolute",
+      "parent": "r_bicep_link_1",
+      "child": "r_lower_arm_link_1",
+      "axis_local": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.0,
+        0.0,
+        -0.04
+      ],
+      "limits": {
+        "upper": "1.308997",
+        "lower": "-1.570796",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_elbow_pitch",
+      "type": "revolute",
+      "parent": "l_bicep_link_1",
+      "child": "l_lower_arm_link_1",
+      "axis_local": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "axis_in_base_at_zero": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.0,
+        0.0,
+        -0.04
+      ],
+      "limits": {
+        "upper": "1.308997",
+        "lower": "-1.570796",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_hip_pitch",
+      "type": "revolute",
+      "parent": "r_hip_link_1",
+      "child": "r_thigh_link_1",
+      "axis_local": [
+        -0.0,
+        -1.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        -0.03214,
+        0.000225,
+        -0.038303
+      ],
+      "limits": {
+        "upper": "0.785398",
+        "lower": "-2.268928",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_hip_pitch",
+      "type": "revolute",
+      "parent": "l_hip_link_1",
+      "child": "l_thigh_link_1",
+      "axis_local": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.032139,
+        0.000225,
+        -0.038303
+      ],
+      "limits": {
+        "upper": "2.268928",
+        "lower": "-0.785398",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_thigh_yaw",
+      "type": "revolute",
+      "parent": "r_thigh_link_1",
+      "child": "r_knee_link_1",
+      "axis_local": [
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "origin_xyz": [
+        0.0,
+        -5.4e-05,
+        -0.045775
+      ],
+      "limits": {
+        "upper": "0.785398",
+        "lower": "-0.785398",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_thigh_yaw",
+      "type": "revolute",
+      "parent": "l_thigh_link_1",
+      "child": "l_knee_link_1",
+      "axis_local": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "origin_xyz": [
+        0.0,
+        -5.4e-05,
+        -0.045775
+      ],
+      "limits": {
+        "upper": "0.785398",
+        "lower": "-0.785398",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_knee_roll",
+      "type": "revolute",
+      "parent": "l_knee_link_1",
+      "child": "l_calf_link_1",
+      "axis_local": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.0,
+        0.0,
+        -0.0394
+      ],
+      "limits": {
+        "upper": "1.047198",
+        "lower": "-1.570796",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_knee_roll",
+      "type": "revolute",
+      "parent": "r_knee_link_1",
+      "child": "r_calf_link_1",
+      "axis_local": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.0,
+        0.0,
+        -0.0394
+      ],
+      "limits": {
+        "upper": "1.570796",
+        "lower": "-1.047198",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_ankle_roll",
+      "type": "revolute",
+      "parent": "r_calf_link_1",
+      "child": "r_ankle_link_1",
+      "axis_local": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "axis_in_base_at_zero": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.000225,
+        0.0,
+        -0.050053
+      ],
+      "limits": {
+        "upper": "1.570796",
+        "lower": "-0.523599",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_ankle_roll",
+      "type": "revolute",
+      "parent": "l_calf_link_1",
+      "child": "l_ankle_link_1",
+      "axis_local": [
+        -1.0,
+        -0.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "origin_xyz": [
+        -0.000225,
+        0.0,
+        -0.050053
+      ],
+      "limits": {
+        "upper": "1.570796",
+        "lower": "-0.523599",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "head_rotation",
+      "type": "continuous",
+      "parent": "base_link",
+      "child": "head_1",
+      "axis_local": [
+        -0.0,
+        0.0,
+        -1.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "origin_xyz": [
+        0.0,
+        0.011054,
+        0.17045
+      ],
+      "limits": null
+    },
+    {
+      "name": "r_ankle_pitch",
+      "type": "revolute",
+      "parent": "r_ankle_link_1",
+      "child": "r_foot_link_1",
+      "axis_local": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.000225,
+        0.051775,
+        -0.024888
+      ],
+      "limits": {
+        "upper": "0.523599",
+        "lower": "-0.523599",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_ankle_pitch",
+      "type": "revolute",
+      "parent": "l_ankle_link_1",
+      "child": "l_foot_link_1",
+      "axis_local": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        -0.000225,
+        0.051775,
+        -0.024834
+      ],
+      "limits": {
+        "upper": "0.523599",
+        "lower": "-0.523599",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_wrist_yaw",
+      "type": "revolute",
+      "parent": "l_lower_arm_link_1",
+      "child": "l_gripper_base_1",
+      "axis_local": [
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "origin_xyz": [
+        0.000225,
+        0.0,
+        -0.066438
+      ],
+      "limits": {
+        "upper": "1.570796",
+        "lower": "-1.570796",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_finger_slide_bottom",
+      "type": "prismatic",
+      "parent": "l_gripper_base_1",
+      "child": "l_finger_bottom_1",
+      "axis_local": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.13245,
+        0.049725,
+        -0.099597
+      ],
+      "limits": {
+        "upper": "0.03",
+        "lower": "0.0",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "l_finger_slide_top",
+      "type": "prismatic",
+      "parent": "l_gripper_base_1",
+      "child": "l_finger_top_1",
+      "axis_local": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.13245,
+        -0.029275,
+        -0.099597
+      ],
+      "limits": {
+        "upper": "0.03",
+        "lower": "0.0",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_wrist_yaw",
+      "type": "revolute",
+      "parent": "r_lower_arm_link_1",
+      "child": "r_gripper_base_1",
+      "axis_local": [
+        0.0,
+        -0.0,
+        1.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "origin_xyz": [
+        -0.000225,
+        -0.00125,
+        -0.066438
+      ],
+      "limits": {
+        "upper": "1.570796",
+        "lower": "-1.570796",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_finger_slide_top",
+      "type": "prismatic",
+      "parent": "r_gripper_base_1",
+      "child": "r_finger_top_1",
+      "axis_local": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.13245,
+        0.030525,
+        -0.099597
+      ],
+      "limits": {
+        "upper": "0.03",
+        "lower": "0.0",
+        "effort": "100",
+        "velocity": "100"
+      }
+    },
+    {
+      "name": "r_finger_slide_bottom",
+      "type": "prismatic",
+      "parent": "r_gripper_base_1",
+      "child": "r_finger_bottom_1",
+      "axis_local": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "axis_in_base_at_zero": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "origin_xyz": [
+        0.13245,
+        -0.048475,
+        -0.099597
+      ],
+      "limits": {
+        "upper": "0.03",
+        "lower": "0.0",
+        "effort": "100",
+        "velocity": "100"
+      }
+    }
+  ],
+  "links": [
+    {
+      "name": "base_link",
+      "mass_kg": 0.0,
+      "com_in_base_at_zero_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "positive_definite": false,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_shoulder_link_1",
+      "mass_kg": 0.3986750269505554,
+      "com_in_base_at_zero_m": [
+        -0.08724894696000404,
+        0.009999996175022754,
+        0.1439496548660048
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.693627116081651e-05,
+        0.00029899999999999995,
+        0.0003280637288391834
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_shoulder_link_1",
+      "mass_kg": 0.3986750269505554,
+      "com_in_base_at_zero_m": [
+        0.087248946960004,
+        0.010000003824978365,
+        0.14394965486600483
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.693627116081651e-05,
+        0.00029899999999999995,
+        0.0003280637288391834
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_upper_arm_link_1",
+      "mass_kg": 0.3519439657829646,
+      "com_in_base_at_zero_m": [
+        -0.13222257830310027,
+        0.019956380367079384,
+        0.09619893418688362
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.00011275272400687756,
+        0.00031924727599312244,
+        0.000344
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_upper_arm_link_1",
+      "mass_kg": 0.3519439657829646,
+      "com_in_base_at_zero_m": [
+        0.1322274390245986,
+        0.019956380367076497,
+        0.09619893418688358
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.00011275272400687756,
+        0.00031924727599312244,
+        0.000344
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_bicep_link_1",
+      "mass_kg": 0.1543685678014928,
+      "com_in_base_at_zero_m": [
+        -0.13222501784411128,
+        -0.00029099238248130564,
+        0.05887058763570628
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        3.895165060747995e-05,
+        8.3e-05,
+        0.00010104834939252006
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_bicep_link_1",
+      "mass_kg": 0.1543685678014928,
+      "com_in_base_at_zero_m": [
+        0.13222499948358848,
+        -0.0002909923824840968,
+        0.05887058763570628
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        3.895165060747995e-05,
+        8.3e-05,
+        0.00010104834939252006
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_hip_link_1",
+      "mass_kg": 0.21892391386958107,
+      "com_in_base_at_zero_m": [
+        -0.06134476525122357,
+        0.010461301272438061,
+        -0.03993338671099265
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.582764422064565e-05,
+        8.808141297362294e-05,
+        9.809094280573149e-05
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_hip_link_1",
+      "mass_kg": 0.21892391386958107,
+      "com_in_base_at_zero_m": [
+        0.06070102666421824,
+        0.01046130127243791,
+        -0.0391681402325909
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.582764422064565e-05,
+        8.808141297362294e-05,
+        9.809094280573149e-05
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_lower_arm_link_1",
+      "mass_kg": 0.3519439657829646,
+      "com_in_base_at_zero_m": [
+        -0.142181389030926,
+        0.010227439024602752,
+        -0.010239074476967362
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.00011275272400687754,
+        0.00031924727599312244,
+        0.000344
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_lower_arm_link_1",
+      "mass_kg": 0.3519439657829646,
+      "com_in_base_at_zero_m": [
+        0.1421813890309262,
+        0.010222578303102057,
+        -0.010239074476967105
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.00011275272400687754,
+        0.00031924727599312244,
+        0.000344
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_thigh_link_1",
+      "mass_kg": 0.26305255908689523,
+      "com_in_base_at_zero_m": [
+        -0.07664625516005498,
+        0.021574625501256457,
+        -0.08990232206870549
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.742700505019533e-05,
+        0.00014257299494980466,
+        0.000175
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_thigh_link_1",
+      "mass_kg": 0.26305255908689523,
+      "com_in_base_at_zero_m": [
+        0.07600450070867859,
+        0.021574625501256436,
+        -0.08913627762558698
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.742700505019533e-05,
+        0.00014257299494980466,
+        0.000175
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_knee_link_1",
+      "mass_kg": 0.2526902187283429,
+      "com_in_base_at_zero_m": [
+        -0.07664677173920902,
+        -0.0029342082764108983,
+        -0.1102568238455901
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.631934066431689e-05,
+        0.000122,
+        0.00016368065933568312
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_knee_link_1",
+      "mass_kg": 0.2526902187283429,
+      "com_in_base_at_zero_m": [
+        0.07600398412952364,
+        -0.0029342082764110787,
+        -0.10949077940247161
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.631934066431689e-05,
+        0.000122,
+        0.00016368065933568312
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_calf_link_1",
+      "mass_kg": 0.2162533414564245,
+      "com_in_base_at_zero_m": [
+        0.07623615434722934,
+        0.010170473092201822,
+        -0.1667539696071623
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.776393202250021e-05,
+        8.22360679774998e-05,
+        0.00011800000000000001
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_calf_link_1",
+      "mass_kg": 0.2162533414564245,
+      "com_in_base_at_zero_m": [
+        -0.07687894195691448,
+        0.010171729835498659,
+        -0.16752001405028064
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        7.776393202250021e-05,
+        8.22360679774998e-05,
+        0.00011800000000000001
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_ankle_link_1",
+      "mass_kg": 0.3251122883787072,
+      "com_in_base_at_zero_m": [
+        -0.07649700849727208,
+        0.03536537297455345,
+        -0.205924596509196
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0001018519760183334,
+        0.00029511357624132766,
+        0.0003070344477403389
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_ankle_link_1",
+      "mass_kg": 0.32511208567638783,
+      "com_in_base_at_zero_m": [
+        0.07586572137208814,
+        0.03536453425870998,
+        -0.20511878654058438
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.00010182875909421982,
+        0.0002950938705278781,
+        0.0003070773703779021
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "head_1",
+      "mass_kg": 1.4534995468660439,
+      "com_in_base_at_zero_m": [
+        3.660203937989789e-09,
+        0.004630224134196548,
+        0.25797583683252545
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.003249,
+        0.003967740691801137,
+        0.006378259308198863
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_foot_link_1",
+      "mass_kg": 0.8943739103565942,
+      "com_in_base_at_zero_m": [
+        -0.080332133596115,
+        0.015663224845171672,
+        -0.24382612243090124
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0007309466330273056,
+        0.0023441374679264797,
+        0.0030109158990462154
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_foot_link_1",
+      "mass_kg": 0.8943682436050129,
+      "com_in_base_at_zero_m": [
+        0.07968950472774741,
+        0.015662805983173253,
+        -0.24300696651909542
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0007309466330273056,
+        0.0023441374679264797,
+        0.0030109158990462154
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_gripper_base_1",
+      "mass_kg": 0.655536505655269,
+      "com_in_base_at_zero_m": [
+        0.13606878371468328,
+        0.010225274850761443,
+        -0.09357805358269485
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0004087613043978751,
+        0.0007902386956021248,
+        0.0008259999999999999
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_finger_bottom_1",
+      "mass_kg": 0.5237116768984529,
+      "com_in_base_at_zero_m": [
+        0.13160354486123688,
+        0.03460950105191546,
+        -0.14331521585887796
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0002255186070889693,
+        0.00035417956543672293,
+        0.0004113018274743075
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "l_finger_top_1",
+      "mass_kg": 0.5237116768984524,
+      "com_in_base_at_zero_m": [
+        0.13329648979301664,
+        -0.014159483726633471,
+        -0.14331521585887874
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0002255186070889693,
+        0.00035417956543672293,
+        0.0004113018274743075
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_gripper_base_1",
+      "mass_kg": 0.655536505655269,
+      "com_in_base_at_zero_m": [
+        -0.13606878371468276,
+        0.00897474247694583,
+        -0.09357805358269511
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0004087613043978751,
+        0.0007902386956021248,
+        0.0008259999999999999
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_finger_top_1",
+      "mass_kg": 0.5237116768984529,
+      "com_in_base_at_zero_m": [
+        -0.13160354486123588,
+        -0.01540948372420687,
+        -0.14331521585887913
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0002255186070889693,
+        0.00035417956543672293,
+        0.0004113018274743075
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    },
+    {
+      "name": "r_finger_bottom_1",
+      "mass_kg": 0.5237116768984524,
+      "com_in_base_at_zero_m": [
+        -0.1332964897930177,
+        0.03335950105434239,
+        -0.14331521585887833
+      ],
+      "inertia_eigenvalues_kg_m2": [
+        0.0002255186070889693,
+        0.00035417956543672293,
+        0.0004113018274743075
+      ],
+      "positive_definite": true,
+      "principal_triangle_inequality": true
+    }
+  ],
+  "collision_vertex_bounds_at_zero": {
+    "base_link": {
+      "min_in_base_m": [
+        -0.085,
+        -0.065,
+        -0.06941687774658203
+      ],
+      "max_in_base_m": [
+        0.085,
+        0.065,
+        0.1423999938964844
+      ]
+    },
+    "r_shoulder_link_1": {
+      "min_in_base_m": [
+        -0.14397500610351563,
+        -0.014,
+        0.11555400085449219
+      ],
+      "max_in_base_m": [
+        -0.040225009918212894,
+        0.034,
+        0.1538040008544922
+      ]
+    },
+    "l_shoulder_link_1": {
+      "min_in_base_m": [
+        0.040225009918212894,
+        -0.014,
+        0.11555400085449219
+      ],
+      "max_in_base_m": [
+        0.14397500610351563,
+        0.034,
+        0.1538040008544922
+      ]
+    },
+    "r_upper_arm_link_1": {
+      "min_in_base_m": [
+        -0.15022500610351563,
+        -0.010774991035461427,
+        0.049840999603271485
+      ],
+      "max_in_base_m": [
+        -0.11422500610351563,
+        0.04533501052856445,
+        0.14716400146484376
+      ]
+    },
+    "l_upper_arm_link_1": {
+      "min_in_base_m": [
+        0.11422500610351563,
+        -0.010774991035461427,
+        0.049840999603271485
+      ],
+      "max_in_base_m": [
+        0.15022500610351563,
+        0.04533501052856445,
+        0.14716400146484376
+      ]
+    },
+    "r_bicep_link_1": {
+      "min_in_base_m": [
+        -0.15622500610351564,
+        -0.009774991035461426,
+        0.01887840843200685
+      ],
+      "max_in_base_m": [
+        -0.10822500610351563,
+        0.021970245361328126,
+        0.0946159896850586
+      ]
+    },
+    "l_bicep_link_1": {
+      "min_in_base_m": [
+        0.10822500610351563,
+        -0.009774991035461426,
+        0.01887840843200685
+      ],
+      "max_in_base_m": [
+        0.15622500610351564,
+        0.021970245361328126,
+        0.0946159896850586
+      ]
+    },
+    "r_hip_link_1": {
+      "min_in_base_m": [
+        -0.09082875061035156,
+        -0.011,
+        -0.07207522583007812
+      ],
+      "max_in_base_m": [
+        -0.018872697830200194,
+        0.031,
+        0.004245596408843994
+      ]
+    },
+    "l_hip_link_1": {
+      "min_in_base_m": [
+        0.018229909896850586,
+        -0.011,
+        -0.07130917358398438
+      ],
+      "max_in_base_m": [
+        0.09018595886230468,
+        0.031,
+        0.005011640548706055
+      ]
+    },
+    "r_lower_arm_link_1": {
+      "min_in_base_m": [
+        -0.1675600128173828,
+        -0.007774991512298584,
+        -0.05659700775146484
+      ],
+      "max_in_base_m": [
+        -0.11145001983642579,
+        0.028225008010864257,
+        0.04072599029541017
+      ]
+    },
+    "l_lower_arm_link_1": {
+      "min_in_base_m": [
+        0.11145001983642579,
+        -0.007774991512298584,
+        -0.05659700775146484
+      ],
+      "max_in_base_m": [
+        0.1675600128173828,
+        0.028225008010864257,
+        0.04072599029541017
+      ]
+    },
+    "r_thigh_link_1": {
+      "min_in_base_m": [
+        -0.09264677429199218,
+        -0.013599991798400879,
+        -0.12517057037353516
+      ],
+      "max_in_base_m": [
+        -0.06064677047729491,
+        0.04528110122680664,
+        -0.04667057418823242
+      ]
+    },
+    "l_thigh_link_1": {
+      "min_in_base_m": [
+        0.06000398254394532,
+        -0.013599991798400879,
+        -0.12440452575683594
+      ],
+      "max_in_base_m": [
+        0.09200398254394532,
+        0.04528110122680664,
+        -0.0459045295715332
+      ]
+    },
+    "r_knee_link_1": {
+      "min_in_base_m": [
+        -0.10064677429199217,
+        -0.012828898429870606,
+        -0.1550885925292969
+      ],
+      "max_in_base_m": [
+        -0.05264677047729491,
+        0.021920930862426757,
+        -0.08054556274414064
+      ]
+    },
+    "l_knee_link_1": {
+      "min_in_base_m": [
+        0.05200398254394532,
+        -0.012828898429870606,
+        -0.15432254028320314
+      ],
+      "max_in_base_m": [
+        0.10000398254394531,
+        0.021920930862426757,
+        -0.07977951812744141
+      ]
+    },
+    "l_calf_link_1": {
+      "min_in_base_m": [
+        0.05195397567749024,
+        -0.005828898429870606,
+        -0.20412306213378903
+      ],
+      "max_in_base_m": [
+        0.09960397338867187,
+        0.026171100616455077,
+        -0.1324695129394531
+      ]
+    },
+    "r_calf_link_1": {
+      "min_in_base_m": [
+        -0.10024676513671874,
+        -0.005828898429870606,
+        -0.2048891143798828
+      ],
+      "max_in_base_m": [
+        -0.05259676361083983,
+        0.026171100616455077,
+        -0.13323556518554688
+      ]
+    },
+    "r_ankle_link_1": {
+      "min_in_base_m": [
+        -0.0971967544555664,
+        -0.010828898429870606,
+        -0.2285094757080078
+      ],
+      "max_in_base_m": [
+        -0.05519675445556639,
+        0.08317110443115235,
+        -0.18317747497558595
+      ]
+    },
+    "l_ankle_link_1": {
+      "min_in_base_m": [
+        0.0545539665222168,
+        -0.010828898429870606,
+        -0.22774342346191406
+      ],
+      "max_in_base_m": [
+        0.09655397033691407,
+        0.08317110443115235,
+        -0.182357421875
+      ]
+    },
+    "head_1": {
+      "min_in_base_m": [
+        -0.075,
+        -0.016445999145507813,
+        0.17045001220703127
+      ],
+      "max_in_base_m": [
+        0.075,
+        0.03855400085449219,
+        0.3154500122070313
+      ]
+    },
+    "r_foot_link_1": {
+      "min_in_base_m": [
+        -0.13369662475585936,
+        -0.07922891235351563,
+        -0.24828678894042966
+      ],
+      "max_in_base_m": [
+        -0.02869663047790526,
+        0.10077109527587891,
+        -0.20628678894042968
+      ]
+    },
+    "l_foot_link_1": {
+      "min_in_base_m": [
+        0.02805397415161133,
+        -0.07922891235351563,
+        -0.24746746826171875
+      ],
+      "max_in_base_m": [
+        0.13305397033691407,
+        0.10077109527587891,
+        -0.20546746826171874
+      ]
+    },
+    "l_gripper_base_1": {
+      "min_in_base_m": [
+        0.10445001983642578,
+        -0.029274991989135742,
+        -0.12854701232910154
+      ],
+      "max_in_base_m": [
+        0.167614013671875,
+        0.04972500991821289,
+        -0.01182201766967772
+      ]
+    },
+    "l_finger_bottom_1": {
+      "min_in_base_m": [
+        0.10064478302001953,
+        -0.027630281448364265,
+        -0.20203822326660154
+      ],
+      "max_in_base_m": [
+        0.16364479064941406,
+        0.06057373428344726,
+        -0.10583983612060545
+      ]
+    },
+    "l_finger_top_1": {
+      "min_in_base_m": [
+        0.10125524902343751,
+        -0.04012371444702148,
+        -0.20203822326660154
+      ],
+      "max_in_base_m": [
+        0.1642552490234375,
+        0.048080299377441404,
+        -0.10583983612060545
+      ]
+    },
+    "r_gripper_base_1": {
+      "min_in_base_m": [
+        -0.167614013671875,
+        -0.030524991989135743,
+        -0.12854701232910154
+      ],
+      "max_in_base_m": [
+        -0.10445001983642578,
+        0.048475009918212894,
+        -0.01182201766967772
+      ]
+    },
+    "r_finger_top_1": {
+      "min_in_base_m": [
+        -0.16364479064941406,
+        -0.04137371444702149,
+        -0.20203822326660154
+      ],
+      "max_in_base_m": [
+        -0.10064478302001953,
+        0.04683029937744141,
+        -0.10583983612060545
+      ]
+    },
+    "r_finger_bottom_1": {
+      "min_in_base_m": [
+        -0.1642552490234375,
+        -0.028880281448364253,
+        -0.20203822326660154
+      ],
+      "max_in_base_m": [
+        -0.10125524902343751,
+        0.059323734283447276,
+        -0.10583983612060545
+      ]
+    }
+  }
+}

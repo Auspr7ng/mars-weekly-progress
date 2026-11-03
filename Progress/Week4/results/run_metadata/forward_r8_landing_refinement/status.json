@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 17228,
+  "checkpoint": "logs/forward_r8_landing_refinement/model_272_paused.pt",
+  "iteration": 272,
+  "environment_transitions": 4472832,
+  "time": "2026-11-01T01:45:53.936605-04:00",
+  "reason": "STOP file"
+}

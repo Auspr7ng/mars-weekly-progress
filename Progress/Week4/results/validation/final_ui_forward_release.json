@@ -1,0 +1,51 @@
+{
+  "time": 1793610303.1801875,
+  "mode": "Stopped",
+  "joystick_vector_body_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "held": false,
+  "requested_speed_m_s": 0.0,
+  "command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "actual_forward_m_s": 0.00012183985529092609,
+  "actual_yaw_rate_rad_s": -0.0005884638201701887,
+  "root_xyz_m": [
+    0.004806216386364044,
+    -0.009027209534424296,
+    0.24051468612499788
+  ],
+  "drag_gestures": 1,
+  "drag_updates": 6,
+  "last_drag_phase": "end",
+  "connected_clients": 2,
+  "nonzero_command_steps": 6,
+  "last_nonzero_command": [
+    0.07866097890031869,
+    0.0,
+    0.0
+  ],
+  "joystick_limits": {
+    "forward_limit": 0.12,
+    "yaw_limit": 0.25,
+    "backward_limit": 0.06
+  },
+  "hand_distance_max": 0.0,
+  "foot_distance_max": 0.18000787496566772,
+  "foot_distance_max_per_sensor": [
+    0.0803731307387352,
+    0.07878429442644119,
+    0.18000787496566772,
+    0.16845574975013733
+  ],
+  "tactile_kind": "unchanged Week3 distance response; no force calibration",
+  "simulation_time_s": 304.32,
+  "physics_backend": "native_mujoco",
+  "actor_device": "cpu",
+  "real_time_factor": 0.8111553169383158
+}

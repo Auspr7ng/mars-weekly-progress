@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 37756,
+  "checkpoint": "logs/forward_r3_smooth_pilot/model_599.pt",
+  "iteration": 599,
+  "environment_transitions": 4915200,
+  "time": "2026-11-01T00:03:41.642911-04:00",
+  "training_elapsed_s": 930.7541782001499,
+  "gpu_peak_allocated_MiB": 63.6767578125
+}

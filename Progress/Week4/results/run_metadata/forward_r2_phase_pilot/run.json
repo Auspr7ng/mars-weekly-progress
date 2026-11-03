@@ -1,0 +1,29 @@
+{
+  "stage": "forward",
+  "revision": 2,
+  "nominal_sha256": "b26ea512c5850335b46e64bd47c0d9a7854298d6a25d54ef0ea8b0d90bc1b93e",
+  "whole_body": false,
+  "gait_phase": true,
+  "num_envs": 256,
+  "iterations": 400,
+  "seed": 42,
+  "resume": null,
+  "zero_mean_initialization": true,
+  "simulation_only": true,
+  "hardware_calibrated": false,
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "source_hashes": {
+    "env_cfg.py": "6960117f15c9dbd5b0db977948eaff9eb079805bc37ce85e84904e6f85eae284",
+    "mdp.py": "85462553e6ac3809719ea82aa740fa41d0edae886de1feb1ea8a10942ac113fc",
+    "train.py": "a33899faf914d00e57bcc5a3e0ca9e7e452d31b373ce8b20af61ddc233e6ac3f"
+  },
+  "dependencies": {
+    "mjlab": "1.4.0",
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128",
+    "rsl-rl-lib": "5.2.0"
+  },
+  "started": "2026-10-31T23:38:06.576923-04:00"
+}

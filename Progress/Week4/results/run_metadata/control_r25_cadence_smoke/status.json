@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 39796,
+  "checkpoint": "logs/control_r25_cadence_smoke/model_0.pt",
+  "iteration": 0,
+  "environment_transitions": 1024,
+  "time": "2026-11-02T02:46:49.311881-05:00",
+  "training_elapsed_s": 10.27598850009963,
+  "gpu_peak_allocated_MiB": 31.62841796875
+}

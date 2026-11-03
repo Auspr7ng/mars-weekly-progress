@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 7888,
+  "checkpoint": "logs/forward_r5_gait_quality/model_326_paused.pt",
+  "iteration": 326,
+  "environment_transitions": 2678784,
+  "time": "2026-11-01T00:50:41.559343-04:00",
+  "reason": "STOP file"
+}

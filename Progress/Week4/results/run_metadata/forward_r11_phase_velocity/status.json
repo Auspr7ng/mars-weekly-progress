@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 34884,
+  "checkpoint": "logs/forward_r11_phase_velocity/model_120_paused.pt",
+  "iteration": 120,
+  "environment_transitions": 1982464,
+  "time": "2026-11-01T01:21:15.006001-05:00",
+  "reason": "STOP file"
+}

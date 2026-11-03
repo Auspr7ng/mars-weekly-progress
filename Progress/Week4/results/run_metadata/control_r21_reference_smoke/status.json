@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 14024,
+  "checkpoint": "logs/control_r21_reference_smoke/model_0.pt",
+  "iteration": 0,
+  "environment_transitions": 1024,
+  "time": "2026-11-01T23:13:40.257273-05:00",
+  "training_elapsed_s": 5.183633300010115,
+  "gpu_peak_allocated_MiB": 31.625
+}

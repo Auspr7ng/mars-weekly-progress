@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "axis_dead_zone_m": 0.015,
+  "forward_floor_m_s": 0.03,
+  "reverse_floor_m_s": 0.04,
+  "yaw_floor_rad_s": 0.08,
+  "release_always_zero": true,
+  "axis_noise_rejected": true
+}

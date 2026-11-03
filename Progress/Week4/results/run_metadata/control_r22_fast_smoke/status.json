@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 35248,
+  "checkpoint": "logs/control_r22_fast_smoke/model_0.pt",
+  "iteration": 0,
+  "environment_transitions": 1024,
+  "time": "2026-11-02T01:04:05.301453-05:00",
+  "training_elapsed_s": 6.711119000101462,
+  "gpu_peak_allocated_MiB": 31.625
+}

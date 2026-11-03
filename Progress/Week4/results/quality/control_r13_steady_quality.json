@@ -1,0 +1,378 @@
+{
+  "checkpoint": "logs/control_r13_stopping_focus/model_299.pt",
+  "revision": 13,
+  "command_m_s": 0.06,
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "audit_source_sha256": "f4141505084cd97e3b16dc522a94650a0238ea9d8662bbd32f0bd65d7af596f0",
+  "nominal_sha256": "b14189c9bfa5501a0a08874c6c43c3e8364b4891488f21f54f54970c0af48512",
+  "gpu": {
+    "duration_s": 20.0,
+    "forward_m": 0.9920313954353333,
+    "height_peak_to_peak_mm": 9.723246097564697,
+    "roll_peak_to_peak_deg": 6.6883313989041255,
+    "pitch_peak_to_peak_deg": 4.586428059315079,
+    "supported_sole_speed_mean_m_s": 0.007684573787083807,
+    "supported_sole_speed_p95_m_s": 0.027994856022372443,
+    "peak_foot_force_bodyweights": 1.4371086359024048,
+    "flight_fraction": 0.0,
+    "left_right_support_fraction": [
+      0.5977777777777777,
+      0.7033333333333334
+    ],
+    "foot_height_max_mm": [
+      14.596552730433489,
+      15.058679340857745
+    ],
+    "foot_below_ground_min_mm": [
+      -0.8426107551392913,
+      -1.3925611799271276
+    ],
+    "settled_stance_speed_p95_m_s": 0.015652839425888805,
+    "touchdown_speed_p95_m_s": 0.011617119087980944,
+    "complete_swing_peak_clearances_mm": [
+      [
+        14.163692424380239,
+        14.433654036005969,
+        14.596552730433489,
+        14.420810317621472,
+        14.52457144303848,
+        14.40765383112657,
+        14.571711790468518,
+        14.548709446430315,
+        14.522642420614268,
+        14.477132073372312,
+        14.508228362583935,
+        14.409215738059505,
+        14.563271351724126
+      ],
+      [
+        14.943276242383277,
+        15.058679340857745,
+        14.812414037642638,
+        14.845380468269774,
+        14.875764981929033,
+        14.813871586144717,
+        14.908102155185933,
+        14.85082972096767,
+        14.884614434184051,
+        14.850812431909448,
+        14.88529961202186,
+        14.817112057539184
+      ]
+    ],
+    "minimum_swing_peak_mm": [
+      14.163692424380239,
+      14.812414037642638
+    ],
+    "median_swing_peak_mm": [
+      14.508228362583935,
+      14.863297351448352
+    ],
+    "mean_forward_speed_m_s": 0.050356425966516356,
+    "max_lateral_from_initial_m": 0.181404971772281,
+    "final_lateral_displacement_m": 0.181404971772281,
+    "actuator_load": {
+      "r_shoulder_roll": {
+        "peak_limit_ratio": 0.597074031829834,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_shoulder_pitch": {
+        "peak_limit_ratio": 0.12381009757518768,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_elbow_yaw": {
+        "peak_limit_ratio": 0.06870155222713947,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_elbow_pitch": {
+        "peak_limit_ratio": 0.403120219707489,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_wrist_yaw": {
+        "peak_limit_ratio": 0.024051801301538944,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_finger_slide_top": {
+        "peak_limit_ratio": 0.0862899621327718,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_finger_slide_bottom": {
+        "peak_limit_ratio": 0.08678857485453288,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_shoulder_roll": {
+        "peak_limit_ratio": 0.587879940867424,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_shoulder_pitch": {
+        "peak_limit_ratio": 0.1737845316529274,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_elbow_yaw": {
+        "peak_limit_ratio": 0.07426932454109192,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_elbow_pitch": {
+        "peak_limit_ratio": 0.3735896944999695,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_wrist_yaw": {
+        "peak_limit_ratio": 0.04208916798233986,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_finger_slide_bottom": {
+        "peak_limit_ratio": 0.0853644847869873,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_finger_slide_top": {
+        "peak_limit_ratio": 0.08515515327453613,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_hip_roll": {
+        "peak_limit_ratio": 1.0000000149011612,
+        "fraction_above_95pct_limit": 0.11444444444444445
+      },
+      "r_hip_pitch": {
+        "peak_limit_ratio": 1.0000000149011612,
+        "fraction_above_95pct_limit": 0.28888888888888886
+      },
+      "r_thigh_yaw": {
+        "peak_limit_ratio": 0.7253798842430115,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_knee_roll": {
+        "peak_limit_ratio": 1.0000000149011612,
+        "fraction_above_95pct_limit": 0.07444444444444444
+      },
+      "r_ankle_roll": {
+        "peak_limit_ratio": 1.0000000149011612,
+        "fraction_above_95pct_limit": 0.042222222222222223
+      },
+      "r_ankle_pitch": {
+        "peak_limit_ratio": 0.7245736569166183,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_hip_roll": {
+        "peak_limit_ratio": 1.0000000149011612,
+        "fraction_above_95pct_limit": 0.05555555555555555
+      },
+      "l_hip_pitch": {
+        "peak_limit_ratio": 1.0000000149011612,
+        "fraction_above_95pct_limit": 0.19666666666666666
+      },
+      "l_thigh_yaw": {
+        "peak_limit_ratio": 0.7348521053791046,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_knee_roll": {
+        "peak_limit_ratio": 0.999741405248642,
+        "fraction_above_95pct_limit": 0.02666666666666667
+      },
+      "l_ankle_roll": {
+        "peak_limit_ratio": 0.7569453120231628,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_ankle_pitch": {
+        "peak_limit_ratio": 0.8418318629264832,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "head_rotation": {
+        "peak_limit_ratio": 0.044538356363773346,
+        "fraction_above_95pct_limit": 0.0
+      }
+    },
+    "termination_reasons": []
+  },
+  "native": {
+    "duration_s": 20.0,
+    "forward_m": 0.9920820729764727,
+    "height_peak_to_peak_mm": 9.723199983595276,
+    "roll_peak_to_peak_deg": 6.688327775053632,
+    "pitch_peak_to_peak_deg": 4.586408036105951,
+    "supported_sole_speed_mean_m_s": 0.007470905374950872,
+    "supported_sole_speed_p95_m_s": 0.028086058118525898,
+    "peak_foot_force_bodyweights": 1.4247821155597618,
+    "flight_fraction": 0.0,
+    "left_right_support_fraction": [
+      0.5966666666666667,
+      0.7033333333333334
+    ],
+    "foot_height_max_mm": [
+      14.596383848204727,
+      15.058188912333494
+    ],
+    "foot_below_ground_min_mm": [
+      -0.842611817408979,
+      -1.3926579117857163
+    ],
+    "failed": false,
+    "settled_stance_speed_p95_m_s": 0.01652012885571236,
+    "touchdown_speed_p95_m_s": 0.011617368967396437,
+    "complete_swing_peak_clearances_mm": [
+      [
+        14.163733658802244,
+        14.433540167174783,
+        14.596383848204727,
+        14.42071514526441,
+        14.524423573529747,
+        14.408641091748219,
+        14.571809121149867,
+        14.548506109045844,
+        14.522531395475788,
+        14.407835078656028,
+        14.519050845504529,
+        14.518996006638409,
+        14.563160162224461
+      ],
+      [
+        14.94310503751215,
+        15.058188912333494,
+        14.812222540970811,
+        14.845028233285587,
+        14.875455073660895,
+        14.813779780944293,
+        14.907643021754867,
+        14.850635730874094,
+        14.884327735863112,
+        14.816811813726218,
+        14.897666678974062,
+        14.839483622713082
+      ]
+    ],
+    "minimum_swing_peak_mm": [
+      14.163733658802244,
+      14.812222540970811
+    ],
+    "median_swing_peak_mm": [
+      14.519050845504529,
+      14.863045402267495
+    ],
+    "mean_forward_speed_m_s": 0.05035927247721814,
+    "max_lateral_from_initial_m": 0.1814276507821837,
+    "final_lateral_displacement_m": 0.1814276507821837,
+    "actuator_load": {
+      "r_shoulder_roll": {
+        "peak_limit_ratio": 0.5970773756889108,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_shoulder_pitch": {
+        "peak_limit_ratio": 0.12381455470719838,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_elbow_yaw": {
+        "peak_limit_ratio": 0.06871038061063095,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_elbow_pitch": {
+        "peak_limit_ratio": 0.4031239503562567,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_wrist_yaw": {
+        "peak_limit_ratio": 0.024052142656161568,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_finger_slide_top": {
+        "peak_limit_ratio": 0.08629073632565891,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_finger_slide_bottom": {
+        "peak_limit_ratio": 0.08678920201619651,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_shoulder_roll": {
+        "peak_limit_ratio": 0.5878613515934106,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_shoulder_pitch": {
+        "peak_limit_ratio": 0.17380353547385125,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_elbow_yaw": {
+        "peak_limit_ratio": 0.07427980834566375,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_elbow_pitch": {
+        "peak_limit_ratio": 0.3735958222884461,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_wrist_yaw": {
+        "peak_limit_ratio": 0.042089273816209305,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_finger_slide_bottom": {
+        "peak_limit_ratio": 0.08536666495338104,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_finger_slide_top": {
+        "peak_limit_ratio": 0.0851572905445778,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_hip_roll": {
+        "peak_limit_ratio": 1.0,
+        "fraction_above_95pct_limit": 0.11444444444444445
+      },
+      "r_hip_pitch": {
+        "peak_limit_ratio": 1.0,
+        "fraction_above_95pct_limit": 0.28888888888888886
+      },
+      "r_thigh_yaw": {
+        "peak_limit_ratio": 0.7253733697276488,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "r_knee_roll": {
+        "peak_limit_ratio": 1.0,
+        "fraction_above_95pct_limit": 0.07444444444444444
+      },
+      "r_ankle_roll": {
+        "peak_limit_ratio": 1.0,
+        "fraction_above_95pct_limit": 0.042222222222222223
+      },
+      "r_ankle_pitch": {
+        "peak_limit_ratio": 0.7245733370724053,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_hip_roll": {
+        "peak_limit_ratio": 1.0,
+        "fraction_above_95pct_limit": 0.05555555555555555
+      },
+      "l_hip_pitch": {
+        "peak_limit_ratio": 1.0,
+        "fraction_above_95pct_limit": 0.19555555555555557
+      },
+      "l_thigh_yaw": {
+        "peak_limit_ratio": 0.7348483720618992,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_knee_roll": {
+        "peak_limit_ratio": 1.0,
+        "fraction_above_95pct_limit": 0.02666666666666667
+      },
+      "l_ankle_roll": {
+        "peak_limit_ratio": 0.7569509184408219,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "l_ankle_pitch": {
+        "peak_limit_ratio": 0.8418296183229129,
+        "fraction_above_95pct_limit": 0.0
+      },
+      "head_rotation": {
+        "peak_limit_ratio": 0.04453962233333711,
+        "fraction_above_95pct_limit": 0.0
+      }
+    },
+    "self_contact_pairs": []
+  },
+  "native_observation_max_error": 9.100884199142456e-06,
+  "native_observation_errors": {
+    "gyro": 3.725290298461914e-08,
+    "gravity": 1.4901161193847656e-08,
+    "command": 0.0,
+    "joint_pos": 0.0,
+    "joint_vel": 7.450580596923828e-09,
+    "action": 0.0,
+    "phase": 9.100884199142456e-06,
+    "heading": 5.960464477539063e-08,
+    "velocity_feedback": 2.2351741790771484e-08
+  },
+  "notes": "Native rollout uses its own physics and feedback after a single reset. No root driving or copying GPU poses into native rollout."
+}

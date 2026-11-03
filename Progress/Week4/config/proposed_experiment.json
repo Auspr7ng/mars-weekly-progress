@@ -1,0 +1,323 @@
+{
+  "document_kind": "planning_proposal_not_executable_training_config",
+  "version": 1,
+  "created_date": "2026-10-31",
+  "approved": false,
+  "simulation_started": false,
+  "training_started": false,
+  "priorities": [
+    "RL standing and flat-ground walking",
+    "Live Week3 hand and foot distance heatmaps during walking",
+    "Fixed-arm versus natural whole-body arm comparison",
+    "Head-top drag-speed arrow after locomotion"
+  ],
+  "source": {
+    "urdf": "../../Week3/code/model/sunday_a1.urdf",
+    "sha256": "213e7789e85cb452dc8f0a5aee713fe825199fb355df921ea30e1ddeb200d80a",
+    "root_inertia_status": "unresolved; must be established in P0",
+    "source_files_must_remain_unchanged": true
+  },
+  "baseline_dependencies": {
+    "mjlab": "1.4.0",
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128",
+    "rsl-rl-lib": "5.2.0",
+    "viser": "1.1.1",
+    "editable_mjlab_source": "code/vendor/mjlab",
+    "local_head_observed": "4360096b49c1bcc478668c11ce7d458db747e49d",
+    "note": "Freeze source and local diff; metadata alone does not pin editable source. No installation executed."
+  },
+  "policy": {
+    "algorithm": "PPO",
+    "legs_only_actions": 12,
+    "whole_body_actions": 22,
+    "held_joints": 5,
+    "base_is_unactuated": true,
+    "actor_single_frame_dim": "63 + action_dim",
+    "actor_history_frames": 5,
+    "actor_truth_linear_velocity": false,
+    "critic_privileged_state": true,
+    "arm_migration": "independent initialization by default; no direct 12 to 22 checkpoint load"
+  },
+  "physics_proposal": {
+    "timestep_s": 0.002,
+    "decimation": 10,
+    "control_dt_s": 0.02,
+    "root_height_h0": "derive from validated q0, not hard-coded G1 height",
+    "q0": "to be determined in P0",
+    "pd_gains_and_effort_limits": "to be determined in P0; URDF 100 values are unverified"
+  },
+  "ppo_proposal": {
+    "hidden_dims": [
+      256,
+      128,
+      128
+    ],
+    "activation": "elu",
+    "rollout_steps": 24,
+    "epochs": 5,
+    "minibatches": 4,
+    "learning_rate": 0.0003,
+    "schedule": "adaptive",
+    "desired_kl": 0.01,
+    "clip_param": 0.2,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "entropy_coef": 0.01,
+    "max_grad_norm": 1,
+    "obs_normalization": true,
+    "logger": "tensorboard",
+    "upload_model": false
+  },
+  "resource_proposal": {
+    "gpu": "RTX 4070 Laptop GPU",
+    "observed_total_memory_MiB": 8188,
+    "smoke_envs": [
+      16,
+      64
+    ],
+    "debug_envs": 64,
+    "training_env_candidates": [
+      256,
+      512,
+      1024
+    ],
+    "default_assumption_4096_envs": false,
+    "iterations_per_review_segment": 2000,
+    "max_iterations_per_primary_setting": 10000,
+    "checkpoint_interval_iterations": 100,
+    "evaluation_seeds_for_selected_main_config": 3,
+    "wall_time_estimate": "measure after first small run"
+  },
+  "command_curriculum": [
+    {
+      "name": "stand",
+      "vx": [
+        0,
+        0
+      ],
+      "vy": [
+        0,
+        0
+      ],
+      "wz": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "forward",
+      "vx": [
+        0,
+        0.15
+      ],
+      "vy": [
+        0,
+        0
+      ],
+      "wz": [
+        0,
+        0
+      ]
+    },
+    {
+      "name": "intermediate",
+      "vx": [
+        -0.1,
+        0.25
+      ],
+      "vy": [
+        -0.05,
+        0.05
+      ],
+      "wz": [
+        -0.3,
+        0.3
+      ]
+    },
+    {
+      "name": "target",
+      "vx": [
+        -0.15,
+        0.35
+      ],
+      "vy": [
+        -0.15,
+        0.15
+      ],
+      "wz": [
+        -0.6,
+        0.6
+      ]
+    }
+  ],
+  "command_resample_s": [
+    2,
+    5
+  ],
+  "standing_env_fraction": 0.2,
+  "reward_proposal": {
+    "convention": "RewardManager applies dt once to weighted reward rates; costs are nonnegative raw terms with negative weights; no nonnegative total clipping",
+    "weights": {
+      "track_xy": 2,
+      "track_yaw": 1,
+      "upright": 0.8,
+      "height": 0.4,
+      "posture": 0.2,
+      "alive": 0.1,
+      "stand_still": 0.3,
+      "action_rate": -0.05,
+      "normalized_torque": -0.05,
+      "base_vz": -0.1,
+      "body_omega_xy": -0.05,
+      "contact_slip": -0.2,
+      "swing_clearance": -0.1,
+      "soft_limits": -1,
+      "forbidden_ground_contact": -1,
+      "forbidden_self_collision": -0.5,
+      "double_flight": -0.3,
+      "gait_phase": 0,
+      "angular_momentum": 0,
+      "reference_imitation": 0
+    },
+    "normalization": {
+      "xy_sigma_m_s": 0.15,
+      "yaw_sigma_rad_s": 0.3,
+      "tilt_sigma_rad": 0.25,
+      "height_sigma_fraction_h0": 0.08,
+      "torque": "mean((actual_tau/validated_tau_limit)^2)",
+      "slip_speed_m_s": 0.1,
+      "vz_m_s": 0.3,
+      "omega_xy_rad_s": 1,
+      "swing_clearance_m": 0.025,
+      "swing_clearance_sigma_m": 0.02,
+      "soft_limit_range_fraction": 0.9
+    },
+    "optional_weights": {
+      "gait_phase": 0.2,
+      "angular_momentum": -0.02
+    },
+    "empty_swing_set_returns_zero": true,
+    "stance_contact_threshold_enter_bodyweight": 0.03,
+    "stance_contact_threshold_exit_bodyweight": 0.015,
+    "contact_filter_control_steps": 2,
+    "termination_event_penalty": 0,
+    "definitions": "See plan section 6 for formulas, stage-specific activation and units."
+  },
+  "termination_proposal": {
+    "stand_timeout_s": 10,
+    "walk_timeout_s": 20,
+    "tilt_deg": 60,
+    "tilt_duration_s": 0.1,
+    "immediate_tilt_deg": 80,
+    "height_fraction_h0": 0.55,
+    "height_duration_s": 0.1,
+    "forbidden_ground_force_fraction_bodyweight": 0.02,
+    "forbidden_ground_duration_s": 0.04,
+    "self_collision_force_fraction_bodyweight": 0.05,
+    "self_collision_duration_s": 0.04,
+    "nonfinite_state": "quarantine and capture before PPO update; stop on repeated failures",
+    "anomaly_base_speed_m_s": 3,
+    "anomaly_base_omega_rad_s": 15,
+    "eval_boundary_radius_m": 5,
+    "boundary_is_truncation": true,
+    "timeout_is_truncation": true,
+    "poor_tracking_early_termination": false
+  },
+  "tactile_requirements": {
+    "required_in_walking_demo": true,
+    "retain_week3_distance_response": true,
+    "physical_force_to_pressure_heatmap": false,
+    "force_calibration_coefficient": "not specified; laboratory measurement later",
+    "feet": {
+      "patches": 4,
+      "rows": 32,
+      "cols": 32,
+      "pitch_m": 0.0025,
+      "local_plane_z_m": -0.03,
+      "shell_m": 0,
+      "response_depth_m": 0.002,
+      "response": "clip(max(-distance_m,0)/0.002,0,1)",
+      "shared_auto_color_scale": true
+    },
+    "hands": {
+      "patches": 4,
+      "rows": 12,
+      "cols": 32,
+      "pitch_m": 0.002,
+      "response": "clip(5000*max(0.0015-distance_m,0)/2.4,0,1)",
+      "retain_right_hand_alignment_fix": true
+    },
+    "total_sampling_points": 5632,
+    "all_training_envs_full_heatmaps": false,
+    "selected_play_envs": 1,
+    "sensor_hz_proposed": 20,
+    "viewer_hz_proposed": [
+      10,
+      20
+    ],
+    "actor_full_heatmap_input": false,
+    "exports": [
+      "raw_distance_m",
+      "raw_response",
+      "qpos",
+      "qvel",
+      "command",
+      "simulation_timestamp",
+      "sensor_timestamp",
+      "display_color_range",
+      "foot_pose",
+      "png"
+    ]
+  },
+  "interaction_proposal": {
+    "priority": "after RL locomotion and synchronized heatmaps",
+    "anchor": "0.10-0.15 m above actual head",
+    "mapping": "mouse drag speed -> planar velocity command -> arrow length",
+    "normalized_mouse_speed": "pixels / viewport_height_pixels / seconds; use ~100 ms window",
+    "gain_m_per_screen_height": 0.3,
+    "lowpass_time_constant_s": 0.12,
+    "max_linear_acceleration_m_s2": 0.5,
+    "arrow_velocity_scale_s_inverse": 1,
+    "release": "latch recent valid filtered command",
+    "stop": "center/Stop/focused Space",
+    "disconnect_timeout_s": 0.5,
+    "translation_z_locked": true,
+    "yaw": "separate vertical-axis ring, bounded by trained yaw-rate range",
+    "direct_root_pose_control": false
+  },
+  "execution_sequence": [
+    "P0 validate independent floating-base model",
+    "P1 stand and low-speed leg-policy baseline",
+    "P2 full-body walking and arm comparison",
+    "P3 walking plus unchanged hand/foot distance heatmaps",
+    "P4 secondary arrow control, evaluation and export"
+  ],
+  "acceptance_targets": {
+    "stand_success_fraction": 0.9,
+    "walk_success_fraction": 0.9,
+    "stand_trials": 100,
+    "walk_trials_per_speed": 100,
+    "walk_speeds_m_s": [
+      0.1,
+      0.2
+    ],
+    "velocity_rmse_m_s": 0.08,
+    "yaw_rate_rmse_rad_s": 0.2,
+    "stance_mean_slip_m_s": 0.05,
+    "start_stop_cycles": 10,
+    "stop_within_s": 2,
+    "stopped_speed_m_s": 0.03,
+    "onnx_max_abs_action_error": 0.0001
+  },
+  "extensions": [
+    "arm-mode conditioned gestures",
+    "load-carrying locomotion",
+    "Sunday A1 feasible reference motion if needed",
+    "mild terrain",
+    "lab force calibration",
+    "sim-to-real"
+  ]
+}

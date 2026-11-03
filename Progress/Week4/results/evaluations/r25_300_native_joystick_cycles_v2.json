@@ -1,0 +1,253 @@
+{
+  "checkpoint": "policies/joystick_walking_r25_300/model_300.pt",
+  "checkpoint_sha256": "3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202",
+  "original_evaluation": "results/evaluations/r25_300_native_web_joystick.json",
+  "original_accepted": false,
+  "episodes": 1,
+  "survived": 1,
+  "passed": 1,
+  "accepted": true,
+  "raw_release_contract": true,
+  "limits": {
+    "forward_limit": 0.12,
+    "yaw_limit": 0.25,
+    "backward_limit": 0.06
+  },
+  "stages": [
+    {
+      "stage": 0,
+      "start_s": 0.0,
+      "end_s": 3,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    },
+    {
+      "stage": 1,
+      "start_s": 3,
+      "end_s": 8,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        0.07263157894736844,
+        0.0,
+        0.0
+      ],
+      "whole_cycles": 2,
+      "mean_window_start_s": 5.312280893325806,
+      "mean_window_end_s": 8,
+      "cycle_forward_mean": 0.056206861778882296,
+      "cycle_yaw_rate_mean": 0.003620048990105392,
+      "passed": 1
+    },
+    {
+      "stage": 2,
+      "start_s": 8,
+      "end_s": 11,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    },
+    {
+      "stage": 3,
+      "start_s": 11,
+      "end_s": 16,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        0.12,
+        0.0,
+        0.0
+      ],
+      "whole_cycles": 3,
+      "mean_window_start_s": 12.600000023841858,
+      "mean_window_end_s": 16,
+      "cycle_forward_mean": 0.09381627026225411,
+      "cycle_yaw_rate_mean": 0.006097201183196414,
+      "passed": 1
+    },
+    {
+      "stage": 4,
+      "start_s": 16,
+      "end_s": 19,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    },
+    {
+      "stage": 5,
+      "start_s": 19,
+      "end_s": 24,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        0.0,
+        0.0,
+        0.25
+      ],
+      "whole_cycles": 3,
+      "mean_window_start_s": 20.35714280605316,
+      "mean_window_end_s": 24,
+      "cycle_forward_mean": 0.0008452075925176243,
+      "cycle_yaw_rate_mean": 0.24364398471366971,
+      "passed": 1
+    },
+    {
+      "stage": 6,
+      "start_s": 24,
+      "end_s": 27,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    },
+    {
+      "stage": 7,
+      "start_s": 27,
+      "end_s": 32,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        0.0,
+        0.0,
+        -0.25
+      ],
+      "whole_cycles": 3,
+      "mean_window_start_s": 28.35714280605316,
+      "mean_window_end_s": 32,
+      "cycle_forward_mean": 0.0010252648695856885,
+      "cycle_yaw_rate_mean": -0.25363040895040295,
+      "passed": 1
+    },
+    {
+      "stage": 8,
+      "start_s": 32,
+      "end_s": 35,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    },
+    {
+      "stage": 9,
+      "start_s": 35,
+      "end_s": 37.5,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        -0.049473684210526316,
+        0.0,
+        0.0
+      ],
+      "whole_cycles": 1,
+      "mean_window_start_s": 36.5,
+      "mean_window_end_s": 37.5,
+      "cycle_forward_mean": -0.034983488388552926,
+      "cycle_yaw_rate_mean": 0.0025037826520929573,
+      "passed": 1
+    },
+    {
+      "stage": 10,
+      "start_s": 37.5,
+      "end_s": 40,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        -0.06,
+        0.0,
+        0.0
+      ],
+      "whole_cycles": 1,
+      "mean_window_start_s": 39.0,
+      "mean_window_end_s": 40,
+      "cycle_forward_mean": -0.04249063951310251,
+      "cycle_yaw_rate_mean": 0.002146036245038339,
+      "passed": 1
+    },
+    {
+      "stage": 11,
+      "start_s": 40,
+      "end_s": 43,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    },
+    {
+      "stage": 12,
+      "start_s": 43,
+      "end_s": 48,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        0.09473684210526316,
+        0.0,
+        0.17842105263157892
+      ],
+      "whole_cycles": 3,
+      "mean_window_start_s": 44.26315784454346,
+      "mean_window_end_s": 48,
+      "cycle_forward_mean": 0.07487749433947737,
+      "cycle_yaw_rate_mean": 0.18473911417500813,
+      "passed": 1
+    },
+    {
+      "stage": 13,
+      "start_s": 48,
+      "end_s": 51,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    },
+    {
+      "stage": 14,
+      "start_s": 51,
+      "end_s": 52,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        0.12,
+        0.0,
+        0.0
+      ],
+      "whole_cycles": 0,
+      "mean_window_start_s": 51.6,
+      "mean_window_end_s": 52,
+      "cycle_forward_mean": 0.07416715964989627,
+      "cycle_yaw_rate_mean": -0.0793392854834861,
+      "passed": 1
+    },
+    {
+      "stage": 15,
+      "start_s": 52,
+      "end_s": 55,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    },
+    {
+      "stage": 16,
+      "start_s": 55,
+      "end_s": 56,
+      "held": true,
+      "original_passed": null,
+      "command": [
+        0.0,
+        0.0,
+        0.25
+      ],
+      "whole_cycles": 0,
+      "mean_window_start_s": 55.6,
+      "mean_window_end_s": 56,
+      "cycle_forward_mean": 0.010456858836599754,
+      "cycle_yaw_rate_mean": 0.2321137366147486,
+      "passed": 1
+    },
+    {
+      "stage": 17,
+      "start_s": 56,
+      "end_s": 60,
+      "held": false,
+      "original_passed": null,
+      "passed": 1
+    }
+  ],
+  "scope": "Same recorded physics; non-short held velocity is averaged over whole gait cycles within the existing steady window. Original70% thresholds, release quietness, support/landing and short-burst checks remain unchanged."
+}

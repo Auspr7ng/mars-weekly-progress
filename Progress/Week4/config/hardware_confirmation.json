@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-31",
+  "source": "User relayed Jaeeun's measurement and hardware confirmation",
+  "assembled_mass_approx_kg": 3.0,
+  "battery_mass_kg": 0.16,
+  "supply": "wall plug, no battery in current simulation",
+  "supply_voltage_V": 7.2,
+  "servo_reported_model": "ST3215",
+  "urdf_effort_100_and_velocity_100_are_placeholders": true,
+  "simulation_total_mass_kg": 2.84,
+  "interpretation": "Assume the approximately 3 kg measurement includes the battery, subtract 0.16 kg once. Actual per-link mass/COM/inertia and the exact servo suffix remain unmeasured.",
+  "mass_distribution_method": "Normalize the existing modified-link inertia distribution plus a parent-SDK torso template to the no-battery total. Preserve geometry and link COM frames, scale each mass and inertia by the same factor. Torso estimate is included inside 2.84 kg, not added afterwards."
+}

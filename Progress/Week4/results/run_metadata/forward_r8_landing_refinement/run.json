@@ -1,0 +1,33 @@
+{
+  "stage": "forward",
+  "revision": 8,
+  "nominal_sha256": "b14189c9bfa5501a0a08874c6c43c3e8364b4891488f21f54f54970c0af48512",
+  "whole_body": true,
+  "gait_phase": true,
+  "num_envs": 512,
+  "iterations": 400,
+  "seed": 42,
+  "resume": null,
+  "warm_start": null,
+  "initialize_from": "logs/forward_r7_clean_steps_arms/model_200.pt",
+  "zero_mean_initialization": false,
+  "simulation_only": true,
+  "hardware_calibrated": false,
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "source_hashes": {
+    "env_cfg.py": "93457254c98f95ea9f8f11b831313b303149e3a2454494e6d32c2002524deb4a",
+    "mdp.py": "35db1eaa96a0151b176174437e2c73b090163d862f653ddfd8bd367903ad151a",
+    "quality_mdp.py": "531cbbec28a544672954f98aeac706e8205c2a3bdd621c7e4e54bfb982adfcc7",
+    "train.py": "f756f5a47907dbc219edb2d3fc279da740843b82ae78ef19f571ca81623a83ce",
+    "warmstart.py": "3c4cecb9353ffe05b742884dc59836e98885834051184cee4c4d899c5e7f205b"
+  },
+  "dependencies": {
+    "mjlab": "1.4.0",
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128",
+    "rsl-rl-lib": "5.2.0"
+  },
+  "started": "2026-11-01T01:31:04.641509-04:00"
+}

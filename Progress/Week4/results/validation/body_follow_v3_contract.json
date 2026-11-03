@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "real_mujoco_pose_checks": [
+    {
+      "yaw_rad": 0.0,
+      "root_xy_m": [
+        0.0,
+        0.0
+      ],
+      "anchor": [
+        0.0,
+        0.0,
+        0.65
+      ],
+      "forward_world": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "yaw_rad": 1.5707963267948966,
+      "root_xy_m": [
+        0.4,
+        -0.2
+      ],
+      "anchor": [
+        0.4,
+        -0.2,
+        0.6500000000000001
+      ],
+      "forward_world": [
+        0.0,
+        1.0000000000000002,
+        0.0
+      ]
+    },
+    {
+      "yaw_rad": 3.141592653589793,
+      "root_xy_m": [
+        0.7,
+        0.3
+      ],
+      "anchor": [
+        0.7,
+        0.3,
+        0.65
+      ],
+      "forward_world": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ]
+    },
+    {
+      "yaw_rad": -1.5707963267948966,
+      "root_xy_m": [
+        -0.3,
+        0.5
+      ],
+      "anchor": [
+        -0.3,
+        0.5,
+        0.6500000000000001
+      ],
+      "forward_world": [
+        0.0,
+        -1.0000000000000002,
+        -0.0
+      ]
+    }
+  ],
+  "live_yaw_pointer_conversion": true,
+  "held_anchor_follows": true,
+  "held_axes_follow": true,
+  "stationary_pointer_isolated_from_robot_and_camera": true,
+  "body_command_retained_through_turn": true,
+  "projection_uses_rendered_camera_quaternion": true,
+  "off_center_perspective_roundtrip": true,
+  "release_zero": true,
+  "disconnect_zero": true
+}

@@ -1,0 +1,135 @@
+{
+  "checkpoint": "logs/control_r21_reference_clearance/model_275.pt",
+  "episodes": 100,
+  "survived": 100,
+  "passed": 100,
+  "accepted": true,
+  "termination_reasons": {},
+  "stages": [
+    {
+      "stage": 0,
+      "start_s": 0.0,
+      "end_s": 3.0,
+      "vector": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speed_p95_mean": 0.002595587633550167,
+      "drift_mean_m": 0.004484680946916342,
+      "passed": 100
+    },
+    {
+      "stage": 1,
+      "start_s": 3.0,
+      "end_s": 9.0,
+      "vector": [
+        0.12,
+        0.0,
+        0.0
+      ],
+      "heading_error_p95_mean_rad": 0.03676699047908187,
+      "forward_rmse_mean": 0.011996530868518283,
+      "landings_mean": [
+        3.0,
+        2.0
+      ],
+      "progress_along_arrow_mean_m": 0.15013920783996582,
+      "passed": 100
+    },
+    {
+      "stage": 2,
+      "start_s": 9.0,
+      "end_s": 15.0,
+      "vector": [
+        0.3,
+        0.0,
+        0.0
+      ],
+      "heading_error_p95_mean_rad": 0.0184385595312342,
+      "forward_rmse_mean": 0.020438429260068065,
+      "landings_mean": [
+        3.0,
+        3.0
+      ],
+      "progress_along_arrow_mean_m": 0.25223765790462493,
+      "passed": 100
+    },
+    {
+      "stage": 3,
+      "start_s": 15.0,
+      "end_s": 20.0,
+      "vector": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speed_p95_mean": 0.008496183902025223,
+      "drift_mean_m": 0.0077747744508087635,
+      "passed": 100
+    },
+    {
+      "stage": 4,
+      "start_s": 20.0,
+      "end_s": 47.0,
+      "vector": [
+        0.0,
+        0.22,
+        0.0
+      ],
+      "heading_error_p95_mean_rad": 0.03747507438925309,
+      "forward_rmse_mean": 0.01551808413032218,
+      "landings_mean": [
+        3.0,
+        3.0
+      ],
+      "progress_along_arrow_mean_m": 0.21263313859701158,
+      "passed": 100
+    },
+    {
+      "stage": 5,
+      "start_s": 47.0,
+      "end_s": 51.0,
+      "vector": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speed_p95_mean": 0.0032611535862088203,
+      "drift_mean_m": 0.004574602469801903,
+      "passed": 100
+    },
+    {
+      "stage": 6,
+      "start_s": 51.0,
+      "end_s": 96.0,
+      "vector": [
+        0.0,
+        -0.22,
+        0.0
+      ],
+      "heading_error_p95_mean_rad": 0.03174722484615846,
+      "forward_rmse_mean": 0.015599143078604287,
+      "landings_mean": [
+        3.0,
+        3.0
+      ],
+      "progress_along_arrow_mean_m": 0.21135965704917908,
+      "passed": 100
+    },
+    {
+      "stage": 7,
+      "start_s": 96.0,
+      "end_s": 102.0,
+      "vector": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "speed_p95_mean": 0.002483309479430318,
+      "drift_mean_m": 0.002865471877157688,
+      "passed": 100
+    }
+  ],
+  "scope": "Exact web mapper; speed change, stop,90deg steering,180deg reversal,release-and-hold; real PPO feedback, fixed physical model"
+}

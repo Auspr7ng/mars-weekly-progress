@@ -1,0 +1,11 @@
+{
+  "actor_anchor_max_difference": 1.1920928955078125e-07,
+  "critic_anchor_max_difference": 3.814697265625e-06,
+  "source": "policies/fixed_forward_r11/model_100.pt",
+  "source_revision": 11,
+  "optimizer_reset": true,
+  "changed_nominal_pose": false,
+  "changed_phase_period": false,
+  "command_normalization_rebased": true,
+  "comparison_scope": "64 varied proprioception probes at vx=.06,vy=wz=heading_error=0; TF32 disabled"
+}

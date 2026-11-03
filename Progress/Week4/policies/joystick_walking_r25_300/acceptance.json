@@ -1,0 +1,94 @@
+{
+  "accepted": true,
+  "accepted_at": "2026-11-02T03:59:10.330419-05:00",
+  "scope": "Flat-ground simulated hold-to-move speed/stop/restart/both walking and in-place turns/reverse; no hardware acceptance",
+  "checkpoint": "policies/joystick_walking_r25_300/model_300.pt",
+  "checkpoint_sha256": "3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202",
+  "task_revision": 25,
+  "source_run": "logs/control_r25_cadence",
+  "source_checkpoint": "model_300.pt",
+  "model_sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+  "nominal_sha256": "877c3e74609dc365e37aa49f1816be5b1ad2343b796ae00bd71303cc2a6f21f4",
+  "interaction_mode": "hold_to_move_joystick",
+  "joystick_limits": {
+    "forward_limit": 0.12,
+    "yaw_limit": 0.25,
+    "backward_limit": 0.06
+  },
+  "joystick_minimum_commands": {
+    "forward_m_s": 0.03,
+    "reverse_m_s": 0.04,
+    "yaw_rad_s": 0.08
+  },
+  "joystick_axis_dead_zone_m": 0.015,
+  "batch_evaluation": "results/evaluations/control_r25_candidate300_responsive_controls_100.json",
+  "programs": 12,
+  "random_starts_per_program": 100,
+  "all_programs_passed": 1200,
+  "native_evaluation": "results/evaluations/control_r25_candidate300_responsive_native_controls.json",
+  "native_cpu_evaluation": "results/evaluations/control_r25_candidate300_responsive_native_cpu.json",
+  "joystick_raw_evaluation": "results/evaluations/control_r25_candidate300_responsive_joystick_100.json",
+  "joystick_cycle_evaluation": "results/evaluations/control_r25_candidate300_responsive_joystick_cycles_v2.json",
+  "joystick_episodes": 100,
+  "joystick_passed": 100,
+  "joystick_duration_s": 60,
+  "native_joystick_evaluation": "results/evaluations/r25_300_native_joystick_cycles_v2.json",
+  "quality_evaluation": "results/quality/control_r25_candidate300_responsive_steady_quality.json",
+  "fast_quality_evaluation": "results/quality/control_r25_candidate300_responsive_fast_quality.json",
+  "quality_assessment": "results/control_r25_candidate300_responsive_result_assessment_v2.json",
+  "acceptance_criteria": "config/control_acceptance_phase_aware.json",
+  "assessment_note": "Original v1 verdict remains in the source result. Final v2 uses whole-gait-cycle velocity means, separate settled-support/touchdown checks, and5% root-height range at the faster profile.",
+  "visual_review": {
+    "reviewed": true,
+    "frames": "results/videos/r25_300_all_controls_visual_review.png",
+    "videos": {
+      "responsive_speed_stop": "results/videos/control_r25_candidate300_responsive_responsive_speed_stop.mp4",
+      "responsive_turns": "results/videos/control_r25_candidate300_responsive_responsive_turns.mp4",
+      "responsive_in_place": "results/videos/control_r25_candidate300_responsive_responsive_in_place.mp4",
+      "responsive_backstep": "results/videos/control_r25_candidate300_responsive_responsive_backstep.mp4"
+    },
+    "conclusion": "Front/side frames show alternating foot clearance, stepping turns, planted quiet stops and reference-arm clearance. No persistent pivot shuffling observed in reviewed frames."
+  },
+  "tactile_sources": {
+    "flexitac.py": {
+      "sha256": "26edb569d0696d346b4426854edeff2e7bde4bb92ce42f0274a6bb9c79a7b7a4",
+      "matches_week3": true
+    },
+    "feet_tactile.py": {
+      "sha256": "d7fa68d792df3e0a937f6165b0b1bab597b89d0bf4131d83dc401fa67bfe2414",
+      "matches_week3": true
+    },
+    "tactile_display.py": {
+      "sha256": "0d4a0ed7f3006a994740f9d19455d354d62b684bc6464f5b41519888435135fd",
+      "matches_week3": true
+    },
+    "mjlab_flexitac.py": {
+      "sha256": "1a5ce658c0b73f93024cadd8150b7bccc4808c9b3f185ba3f77552c4c0c7f0b7",
+      "matches_week3": true
+    }
+  },
+  "physics_backend": "native_mujoco",
+  "actor_device": "cpu",
+  "web_interaction_verified": true,
+  "hardware_calibrated": false,
+  "measured_total_budget_kg": 2.84,
+  "root_mass_kg": 0.7,
+  "fast_upgrade_pending": false,
+  "unaccepted_experimental_envelope": {
+    "forward_limit": 0.15,
+    "yaw_limit": 0.4
+  },
+  "real_velocity_estimator_required": true,
+  "original_v1_engineering_verdict": false,
+  "original_reports_preserved": true,
+  "web_verified_at": "2026-11-02T04:20:37.525993-05:00",
+  "web_screenshot": "results/web_demo/final_english_joystick.jpg",
+  "web_ui_evidence": "results/validation/final_ui_reset_stop_capture.json",
+  "web_realtime_evidence": "results/validation/final_web_realtime_single_client.json",
+  "web_realtime_factor_mean": 0.8966862491023558,
+  "web_realtime_factor_range": [
+    0.8659293408708851,
+    0.9110346898593448
+  ],
+  "acceptance_criteria_sha256": "d0a5662d2188672bbc47d250cefd56c9414d941704227e659f40741ca405a4f6"
+}

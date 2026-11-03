@@ -1,0 +1,175 @@
+{
+  "samples": [
+    {
+      "time": 1793610890.982241,
+      "real_time_factor": 0.9090575829343173,
+      "simulation_time_s": 414.8,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610891.982673,
+      "real_time_factor": 0.8971230161205517,
+      "simulation_time_s": 415.68,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610892.9921167,
+      "real_time_factor": 0.8827155470021862,
+      "simulation_time_s": 416.6,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610893.9852571,
+      "real_time_factor": 0.9110346898593448,
+      "simulation_time_s": 417.48,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610895.0051963,
+      "real_time_factor": 0.8836234530709256,
+      "simulation_time_s": 418.36,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610896.0237257,
+      "real_time_factor": 0.8659293408708851,
+      "simulation_time_s": 419.28000000000003,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610897.0443091,
+      "real_time_factor": 0.8962468590665024,
+      "simulation_time_s": 420.2,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610898.0626466,
+      "real_time_factor": 0.9027804560087787,
+      "simulation_time_s": 421.12,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610899.0891373,
+      "real_time_factor": 0.905692860427426,
+      "simulation_time_s": 422.04,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610900.1040666,
+      "real_time_factor": 0.8983591469691462,
+      "simulation_time_s": 422.96000000000004,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610901.1258888,
+      "real_time_factor": 0.9062886680526413,
+      "simulation_time_s": 423.88,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    },
+    {
+      "time": 1793610902.148696,
+      "real_time_factor": 0.9013833688455665,
+      "simulation_time_s": 424.8,
+      "held": false,
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "connected_clients": 1,
+      "physics_backend": "native_mujoco",
+      "actor_device": "cpu"
+    }
+  ],
+  "minimum": 0.8659293408708851,
+  "mean": 0.8966862491023558,
+  "maximum": 0.9110346898593448
+}

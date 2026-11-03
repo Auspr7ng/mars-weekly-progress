@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/control_r20_hand_clearance/model_375.pt",
+  "quality_report": "results/quality/r20_375_screen_quality.json"
+}

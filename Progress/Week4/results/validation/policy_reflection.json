@@ -1,0 +1,14 @@
+{
+  "actor_double_reflection_max_error": 0.0,
+  "critic_double_reflection_max_error": 0.0,
+  "action_double_reflection_max_error": 2.9802322387695312e-08,
+  "passed": true,
+  "actor_dim": 460,
+  "critic_dim": 98,
+  "actions": 22,
+  "observations": 32,
+  "augmented_observations": 64,
+  "uses_actual_CAD_axes": true,
+  "uses_nominal_joint_offsets": true,
+  "data_augmentation_for_PPO_likelihood_allowed": false
+}

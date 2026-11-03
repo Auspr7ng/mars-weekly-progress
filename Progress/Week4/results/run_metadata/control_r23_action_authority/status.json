@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 39680,
+  "checkpoint": "logs/control_r23_action_authority/model_196_paused.pt",
+  "iteration": 196,
+  "environment_transitions": 3227648,
+  "time": "2026-11-02T02:19:44.041487-05:00",
+  "reason": "STOP file"
+}

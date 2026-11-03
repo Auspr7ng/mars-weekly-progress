@@ -1,0 +1,100 @@
+{
+  "time": 1793655298.1088617,
+  "mode": "Stopped",
+  "joystick_vector_body_m": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "held": false,
+  "requested_speed_m_s": 0.0,
+  "command": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "actual_forward_m_s": -0.00011216520808807401,
+  "actual_yaw_rate_rad_s": 0.0004124058398023906,
+  "root_xyz_m": [
+    0.016677950360286423,
+    0.0066179214198497475,
+    0.23919614691804145
+  ],
+  "drag_gestures": 3,
+  "drag_updates": 17,
+  "last_drag_phase": "end",
+  "connected_clients": 1,
+  "interaction_ui_version": "body_follow_v3",
+  "free_drag": true,
+  "follow_camera": false,
+  "camera_updates": 15,
+  "robot_yaw_rad": -0.022382026707994503,
+  "joystick_frame_yaw_rad": -0.022382026707994503,
+  "joystick_anchor_world_m": [
+    0.00472824420361358,
+    0.006465014391777231,
+    0.6417421589818958
+  ],
+  "joystick_tip_world_m": [
+    0.00472824420361358,
+    0.006465014391777231,
+    0.6417421589818958
+  ],
+  "input_frame": "current_robot_body",
+  "held_deflection": "body_relative",
+  "anchor_max_error_m": 5.800028507909746e-08,
+  "heading_max_error_rad": 0.0,
+  "held_pose_samples": 12,
+  "held_yaw_range_rad": [
+    -0.03641480726434787,
+    -0.02513393997030329
+  ],
+  "camera_views": [
+    {
+      "position": [
+        0.9001728771063989,
+        -0.574668093213875,
+        0.8913982486158879
+      ],
+      "look_at": [
+        0.3001728771063985,
+        0.2253319067861259,
+        0.29139824861588676
+      ],
+      "wxyz": [
+        -0.4674151367442148,
+        0.8255441175021399,
+        0.27518137250071345,
+        -0.15580504558140484
+      ],
+      "fov_rad": 1.3089969389957474,
+      "aspect": 1.3670886075949367,
+      "image_width": 1188,
+      "image_height": 869
+    }
+  ],
+  "nonzero_command_steps": 17,
+  "last_nonzero_command": [
+    0.05992552884141807,
+    0.0,
+    0.0
+  ],
+  "joystick_limits": {
+    "forward_limit": 0.12,
+    "yaw_limit": 0.25,
+    "backward_limit": 0.06
+  },
+  "hand_distance_max": 0.0,
+  "foot_distance_max": 0.190300852060318,
+  "foot_distance_max_per_sensor": [
+    0.190300852060318,
+    0.16123613715171814,
+    0.06090383604168892,
+    0.08921976387500763
+  ],
+  "tactile_kind": "unchanged Week3 distance response; no force calibration",
+  "simulation_time_s": 97.04,
+  "physics_backend": "native_mujoco",
+  "actor_device": "cpu",
+  "real_time_factor": 0.8574425918168919
+}

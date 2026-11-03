@@ -1,0 +1,72 @@
+[
+  {
+    "name": "SundayA1",
+    "total_explicit_mass_kg": 2.750500599999999,
+    "root_inertial": {
+      "pos": "-0.000806529 0.0624261 0.137332",
+      "mass": "1.17456",
+      "fullinertia": "0.00752665 0.00928457 0.00308896 3.31297e-05 1.59945e-05 -1.8376e-05"
+    },
+    "joint_count": 21
+  },
+  {
+    "name": "SundayA1_ankle_2dof_new",
+    "total_explicit_mass_kg": 2.7111230999999996,
+    "root_inertial": {
+      "pos": "2.7095e-05 0.0575604 0.0537062",
+      "mass": "1.80845",
+      "fullinertia": "0.000633814 0.000946769 0.000831012 2.40779e-08 6.97121e-07 2.0973e-05"
+    },
+    "joint_count": 12
+  },
+  {
+    "name": "SundayA1_full_2dof_arm",
+    "total_explicit_mass_kg": 2.6318413009999997,
+    "root_inertial": {
+      "pos": "-6.33681e-06 0.0282241 0.0910197",
+      "mass": "1.01051",
+      "fullinertia": "0.00617079 0.00804533 0.00309803 6.75776e-08 1.86326e-05 -0.00023831"
+    },
+    "joint_count": 23
+  },
+  {
+    "name": "SundayA1_full_2dof_arm_loco",
+    "total_explicit_mass_kg": 2.6318413009999997,
+    "root_inertial": {
+      "pos": "-6.33681e-06 0.0282241 0.0910197",
+      "mass": "1.01051",
+      "fullinertia": "0.00617079 0.00804533 0.00309803 6.75776e-08 1.86326e-05 -0.00023831"
+    },
+    "joint_count": 23
+  },
+  {
+    "name": "SundayA1_full_2dof_b_new",
+    "total_explicit_mass_kg": 2.6005431009999995,
+    "root_inertial": {
+      "pos": "-6.33681e-06 0.0282241 0.0910197",
+      "mass": "1.01051",
+      "fullinertia": "0.00617079 0.00804533 0.00309803 6.75776e-08 1.86326e-05 -0.00023831"
+    },
+    "joint_count": 23
+  },
+  {
+    "name": "SundayA1_Mujoco_V1.2",
+    "total_explicit_mass_kg": 2.3428477249999995,
+    "root_inertial": {
+      "pos": "-6.33681e-06 0.0282241 0.0910197",
+      "mass": "1.01051",
+      "fullinertia": "0.00617079 0.00804533 0.00309803 6.75776e-08 1.86326e-05 -0.00023831"
+    },
+    "joint_count": 21
+  },
+  {
+    "name": "SundayA1_short_new",
+    "total_explicit_mass_kg": 2.865140501,
+    "root_inertial": {
+      "pos": "-1.6949e-08 0.0488643 0.0348685",
+      "mass": "0.919437",
+      "fullinertia": "0.00340985 0.0045585 0.0026209 8.0934e-10 3.16401e-06 -0.000216638"
+    },
+    "joint_count": 25
+  }
+]

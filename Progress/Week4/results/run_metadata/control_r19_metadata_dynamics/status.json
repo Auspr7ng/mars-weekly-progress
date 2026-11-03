@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 13436,
+  "checkpoint": "logs/control_r19_metadata_dynamics/model_399.pt",
+  "iteration": 399,
+  "environment_transitions": 13107200,
+  "time": "2026-11-01T21:07:45.937033-05:00",
+  "training_elapsed_s": 1914.164782000007,
+  "gpu_peak_allocated_MiB": 361.5107421875
+}

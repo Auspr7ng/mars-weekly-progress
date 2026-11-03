@@ -1,0 +1,114 @@
+{
+  "original_result": "results/control_r25_candidate300_responsive_result.json",
+  "original_engineering_verdict": false,
+  "original_joystick_verdict": false,
+  "joystick_assessment": "results/evaluations/control_r25_candidate300_responsive_joystick_cycles_v2.json",
+  "criteria": "config/control_acceptance_phase_aware.json",
+  "checks": {
+    "command_suite": true,
+    "native_feedback": true,
+    "joystick": true,
+    "slow_gpu": true,
+    "slow_native": true,
+    "fast_gpu": true,
+    "fast_native": true
+  },
+  "gait": [
+    {
+      "name": "slow_gpu",
+      "checks": {
+        "duration": true,
+        "not_failed": true,
+        "no_termination": true,
+        "no_self_contact": true,
+        "roll": true,
+        "pitch": true,
+        "height": true,
+        "settled_support": true,
+        "touchdown": true,
+        "impact": true,
+        "flight": true,
+        "support_balance": true,
+        "swing_clearance": true
+      },
+      "height_limit_mm": 10.0,
+      "original_all_contact_speed_p95_m_s": 0.022061897872476113,
+      "settled_stance_speed_p95_m_s": 0.0030505167685550114,
+      "touchdown_speed_p95_m_s": 0.036599629126719976,
+      "height_peak_to_peak_mm": 7.174864411354065
+    },
+    {
+      "name": "slow_native",
+      "checks": {
+        "duration": true,
+        "not_failed": true,
+        "no_termination": true,
+        "no_self_contact": true,
+        "roll": true,
+        "pitch": true,
+        "height": true,
+        "settled_support": true,
+        "touchdown": true,
+        "impact": true,
+        "flight": true,
+        "support_balance": true,
+        "swing_clearance": true
+      },
+      "height_limit_mm": 10.0,
+      "original_all_contact_speed_p95_m_s": 0.021608043161309258,
+      "settled_stance_speed_p95_m_s": 0.0030521948421156214,
+      "touchdown_speed_p95_m_s": 0.031338733779368945,
+      "height_peak_to_peak_mm": 7.196319842116827
+    },
+    {
+      "name": "fast_gpu",
+      "checks": {
+        "duration": true,
+        "not_failed": true,
+        "no_termination": true,
+        "no_self_contact": true,
+        "roll": true,
+        "pitch": true,
+        "height": true,
+        "settled_support": true,
+        "touchdown": true,
+        "impact": true,
+        "flight": true,
+        "support_balance": true,
+        "swing_clearance": true
+      },
+      "height_limit_mm": 12.0,
+      "original_all_contact_speed_p95_m_s": 0.04111855754649059,
+      "settled_stance_speed_p95_m_s": 0.004481359820622012,
+      "touchdown_speed_p95_m_s": 0.04112921943254185,
+      "height_peak_to_peak_mm": 10.260730981826782
+    },
+    {
+      "name": "fast_native",
+      "checks": {
+        "duration": true,
+        "not_failed": true,
+        "no_termination": true,
+        "no_self_contact": true,
+        "roll": true,
+        "pitch": true,
+        "height": true,
+        "settled_support": true,
+        "touchdown": true,
+        "impact": true,
+        "flight": true,
+        "support_balance": true,
+        "swing_clearance": true
+      },
+      "height_limit_mm": 12.0,
+      "original_all_contact_speed_p95_m_s": 0.04061982624919245,
+      "settled_stance_speed_p95_m_s": 0.004481255834230092,
+      "touchdown_speed_p95_m_s": 0.041128841800408926,
+      "height_peak_to_peak_mm": 10.260847523677203
+    }
+  ],
+  "engineering_passed": true,
+  "visual_review_required": true,
+  "web_review_required": true,
+  "scope": "Flat-ground simulated hold-to-move control; faster walking profile"
+}

@@ -1,0 +1,12 @@
+# Runtime outputs are regenerated locally; published evidence stays tracked.
+.cache/
+.local/
+__pycache__/
+*.py[cod]
+logs/
+results/web_demo/server_info.json
+results/web_demo/live_status.json
+results/web_demo/live_status.tmp
+results/web_demo/capture_*/
+!results/web_demo/capture_20261102_040715/
+results/validation/body_follow_v3_test_status.json

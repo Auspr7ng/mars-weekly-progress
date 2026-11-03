@@ -1,0 +1,837 @@
+{
+  "status": "2.84 KG MEASURED-TOTAL BUDGET; PER-LINK INERTIA ESTIMATED; ST3215 AT 7.2 V",
+  "source": "Modified geometry retained; all mass/inertia tensors normalized together. Root template is included within total, not added above it.",
+  "global_mass_inertia_scale": 0.22034893022808225,
+  "battery_included": false,
+  "added_root_mass_kg": 0.2588130394886963,
+  "root_com_canonical_m": [
+    0.0624261,
+    0.000806529,
+    0.137332
+  ],
+  "root_fullinertia_canonical_kg_m2": [
+    0.0020458450671277458,
+    0.0016584892757011954,
+    0.0006806490315173369,
+    -7.300093953777297e-06,
+    -4.04913194187124e-06,
+    -3.5243709645330618e-06
+  ],
+  "reason": "See config/dynamics_profile.json for exact sources and modified-gripper assumptions",
+  "canonical_frame": "CAD -Y forward rotated +90 deg about Z; original child link frames retained",
+  "collision_proxies": [
+    {
+      "body": "cad_base_link",
+      "center": [
+        -1.358995208033953e-10,
+        9.690809543716483e-10,
+        0.03649155773406612
+      ],
+      "half_size": [
+        0.06970000292180409,
+        0.05330000210386239,
+        0.08684492076152212
+      ]
+    },
+    {
+      "body": "r_shoulder_link_1",
+      "center": [
+        -0.02787500634793185,
+        -1.9977426657380448e-10,
+        0.0076250006162863725
+      ],
+      "half_size": [
+        0.04253749859912369,
+        0.019679999407380896,
+        0.015682500556882317
+      ]
+    },
+    {
+      "body": "r_upper_arm_link_1",
+      "center": [
+        -6.084823634538994e-09,
+        0.007280009306289723,
+        -0.03855149966592275
+      ],
+      "half_size": [
+        0.01476000072221094,
+        0.02300510092965766,
+        0.03990243196683374
+      ]
+    },
+    {
+      "body": "r_bicep_link_1",
+      "center": [
+        -5.713550410568757e-09,
+        -0.00412737285133179,
+        -0.013868799411000492
+      ],
+      "half_size": [
+        0.01968000017106536,
+        0.013015547195903573,
+        0.031052408545265666
+      ]
+    },
+    {
+      "body": "r_lower_arm_link_1",
+      "center": [
+        -0.007280015948483825,
+        8.280336444288494e-09,
+        -0.03855150882344868
+      ],
+      "half_size": [
+        0.023005097567261112,
+        0.014760000537363732,
+        0.0399024306067744
+      ]
+    },
+    {
+      "body": "r_gripper_base_1",
+      "center": [
+        -0.0035820158729406876,
+        8.754938836397219e-09,
+        -0.03436251384031069
+      ],
+      "half_size": [
+        0.02589723814428369,
+        0.032390002132670806,
+        0.047857249908161446
+      ]
+    },
+    {
+      "body": "r_finger_top_1",
+      "center": [
+        -0.134,
+        -0.0309,
+        -0.035
+      ],
+      "half_size": [
+        0.012,
+        0.0005,
+        0.032
+      ]
+    },
+    {
+      "body": "r_finger_bottom_1",
+      "center": [
+        -0.134,
+        0.0488,
+        -0.035
+      ],
+      "half_size": [
+        0.012,
+        0.0005,
+        0.032
+      ]
+    },
+    {
+      "body": "l_shoulder_link_1",
+      "center": [
+        0.02787500636827439,
+        -7.149963468511267e-10,
+        0.007625000613703097
+      ],
+      "half_size": [
+        0.042537498560571894,
+        0.019680000171065408,
+        0.015682500553968592
+      ]
+    },
+    {
+      "body": "l_upper_arm_link_1",
+      "center": [
+        6.136451350530203e-09,
+        0.007280009342705129,
+        -0.03855149956069841
+      ],
+      "half_size": [
+        0.014760000727548739,
+        0.02300510107801949,
+        0.03990243204671824
+      ]
+    },
+    {
+      "body": "l_bicep_link_1",
+      "center": [
+        5.838131200697205e-09,
+        -0.0041273728499505394,
+        -0.013868799404516009
+      ],
+      "half_size": [
+        0.019680000171065356,
+        0.013015547196571935,
+        0.031052408545348794
+      ]
+    },
+    {
+      "body": "l_lower_arm_link_1",
+      "center": [
+        0.007280015823804968,
+        8.239345237331941e-09,
+        -0.03855150881579278
+      ],
+      "half_size": [
+        0.023005097577207333,
+        0.014760000396398722,
+        0.03990243057478152
+      ]
+    },
+    {
+      "body": "l_gripper_base_1",
+      "center": [
+        0.003582015901751617,
+        9.073352402744206e-09,
+        -0.03436251372392765
+      ],
+      "half_size": [
+        0.025897237955888965,
+        0.03239000220960059,
+        0.04785724980096525
+      ]
+    },
+    {
+      "body": "l_finger_bottom_1",
+      "center": [
+        -0.134,
+        -0.0494,
+        -0.035
+      ],
+      "half_size": [
+        0.012,
+        0.0005,
+        0.032
+      ]
+    },
+    {
+      "body": "l_finger_top_1",
+      "center": [
+        -0.134,
+        0.0289,
+        -0.035
+      ],
+      "half_size": [
+        0.012,
+        0.0005,
+        0.032
+      ]
+    },
+    {
+      "body": "r_hip_link_1",
+      "center": [
+        -0.01034372416357741,
+        -3.0141030296637616e-11,
+        -0.014046814259628648
+      ],
+      "half_size": [
+        0.02950198170178938,
+        0.017220000734591345,
+        0.031291537569493245
+      ]
+    },
+    {
+      "body": "r_thigh_link_1",
+      "center": [
+        2.276098830730766e-07,
+        0.005615554241361707,
+        -0.02774957240309193
+      ],
+      "half_size": [
+        0.013120002282644186,
+        0.024141248954091844,
+        0.03218499960216002
+      ]
+    },
+    {
+      "body": "r_knee_link_1",
+      "center": [
+        2.2770807424354889e-07,
+        -0.005624984538060288,
+        -0.013871077292448408
+      ],
+      "half_size": [
+        0.01968000169843438,
+        0.014247430095564626,
+        0.03056264331802783
+      ]
+    },
+    {
+      "body": "r_calf_link_1",
+      "center": [
+        0.00022523558593198247,
+        1.0107391896010953e-07,
+        -0.02571634050606493
+      ],
+      "half_size": [
+        0.019536501415896308,
+        0.013120000269935046,
+        0.02937795587044131
+      ]
+    },
+    {
+      "body": "r_ankle_link_1",
+      "center": [
+        0.00022524555777199765,
+        0.026000103033506104,
+        -0.012444475363110488
+      ],
+      "half_size": [
+        0.017220000729813337,
+        0.03854000259904299,
+        0.018586120621785156
+      ]
+    },
+    {
+      "body": "r_foot_link_1",
+      "center": [
+        -0.005,
+        -0.051175,
+        -0.025
+      ],
+      "half_size": [
+        0.0525,
+        0.09,
+        0.005
+      ]
+    },
+    {
+      "body": "l_hip_link_1",
+      "center": [
+        0.010342934320818103,
+        -3.992965680321703e-12,
+        -0.01404676600568669
+      ],
+      "half_size": [
+        0.029501980141208316,
+        0.017220000746608725,
+        0.03129153449746586
+      ]
+    },
+    {
+      "body": "l_thigh_link_1",
+      "center": [
+        -1.747518002352677e-08,
+        0.005615554040088403,
+        -0.027749527382910685
+      ],
+      "half_size": [
+        0.013120000700122442,
+        0.024141248638006506,
+        0.03218499983481416
+      ]
+    },
+    {
+      "body": "l_knee_link_1",
+      "center": [
+        -1.7291446205436323e-08,
+        -0.0056249836649566705,
+        -0.013871027511195233
+      ],
+      "half_size": [
+        0.019680000171065356,
+        0.01424743055282152,
+        0.030562639183274506
+      ]
+    },
+    {
+      "body": "l_calf_link_1",
+      "center": [
+        -0.0002250254786958783,
+        1.0102949711890408e-07,
+        -0.025716288235554385
+      ],
+      "half_size": [
+        0.019536499850935037,
+        0.013120000297519318,
+        0.029377956047407002
+      ]
+    },
+    {
+      "body": "l_ankle_link_1",
+      "center": [
+        -0.00022503156845066034,
+        0.026000102952379523,
+        -0.012417423032388577
+      ],
+      "half_size": [
+        0.017220002310417648,
+        0.0385400026095521,
+        0.018608261077337384
+      ]
+    },
+    {
+      "body": "l_foot_link_1",
+      "center": [
+        0.005,
+        -0.051175,
+        -0.025
+      ],
+      "half_size": [
+        0.0525,
+        0.09,
+        0.005
+      ]
+    },
+    {
+      "body": "head_1",
+      "center": [
+        1.3131258580489913e-10,
+        8.349587236888834e-10,
+        0.07250001077718207
+      ],
+      "half_size": [
+        0.06150000244379061,
+        0.02255000074300749,
+        0.05945000184514866
+      ]
+    }
+  ],
+  "excluded_pairs": [
+    [
+      "base_link",
+      "cad_base_link"
+    ],
+    [
+      "base_link",
+      "head_1"
+    ],
+    [
+      "base_link",
+      "l_hip_link_1"
+    ],
+    [
+      "base_link",
+      "l_shoulder_link_1"
+    ],
+    [
+      "base_link",
+      "r_hip_link_1"
+    ],
+    [
+      "base_link",
+      "r_shoulder_link_1"
+    ],
+    [
+      "cad_base_link",
+      "head_1"
+    ],
+    [
+      "cad_base_link",
+      "l_hip_link_1"
+    ],
+    [
+      "cad_base_link",
+      "l_shoulder_link_1"
+    ],
+    [
+      "cad_base_link",
+      "l_thigh_link_1"
+    ],
+    [
+      "cad_base_link",
+      "l_upper_arm_link_1"
+    ],
+    [
+      "cad_base_link",
+      "r_hip_link_1"
+    ],
+    [
+      "cad_base_link",
+      "r_shoulder_link_1"
+    ],
+    [
+      "cad_base_link",
+      "r_thigh_link_1"
+    ],
+    [
+      "cad_base_link",
+      "r_upper_arm_link_1"
+    ],
+    [
+      "l_ankle_link_1",
+      "l_calf_link_1"
+    ],
+    [
+      "l_ankle_link_1",
+      "l_foot_link_1"
+    ],
+    [
+      "l_ankle_link_1",
+      "l_knee_link_1"
+    ],
+    [
+      "l_bicep_link_1",
+      "l_gripper_base_1"
+    ],
+    [
+      "l_bicep_link_1",
+      "l_lower_arm_link_1"
+    ],
+    [
+      "l_bicep_link_1",
+      "l_shoulder_link_1"
+    ],
+    [
+      "l_bicep_link_1",
+      "l_upper_arm_link_1"
+    ],
+    [
+      "l_calf_link_1",
+      "l_foot_link_1"
+    ],
+    [
+      "l_calf_link_1",
+      "l_knee_link_1"
+    ],
+    [
+      "l_calf_link_1",
+      "l_thigh_link_1"
+    ],
+    [
+      "l_finger_bottom_1",
+      "l_finger_top_1"
+    ],
+    [
+      "l_finger_bottom_1",
+      "l_gripper_base_1"
+    ],
+    [
+      "l_finger_bottom_1",
+      "l_lower_arm_link_1"
+    ],
+    [
+      "l_finger_top_1",
+      "l_gripper_base_1"
+    ],
+    [
+      "l_finger_top_1",
+      "l_lower_arm_link_1"
+    ],
+    [
+      "l_gripper_base_1",
+      "l_lower_arm_link_1"
+    ],
+    [
+      "l_hip_link_1",
+      "l_knee_link_1"
+    ],
+    [
+      "l_hip_link_1",
+      "l_thigh_link_1"
+    ],
+    [
+      "l_knee_link_1",
+      "l_thigh_link_1"
+    ],
+    [
+      "l_lower_arm_link_1",
+      "l_upper_arm_link_1"
+    ],
+    [
+      "l_shoulder_link_1",
+      "l_upper_arm_link_1"
+    ],
+    [
+      "r_ankle_link_1",
+      "r_calf_link_1"
+    ],
+    [
+      "r_ankle_link_1",
+      "r_foot_link_1"
+    ],
+    [
+      "r_ankle_link_1",
+      "r_knee_link_1"
+    ],
+    [
+      "r_bicep_link_1",
+      "r_gripper_base_1"
+    ],
+    [
+      "r_bicep_link_1",
+      "r_lower_arm_link_1"
+    ],
+    [
+      "r_bicep_link_1",
+      "r_shoulder_link_1"
+    ],
+    [
+      "r_bicep_link_1",
+      "r_upper_arm_link_1"
+    ],
+    [
+      "r_calf_link_1",
+      "r_foot_link_1"
+    ],
+    [
+      "r_calf_link_1",
+      "r_knee_link_1"
+    ],
+    [
+      "r_calf_link_1",
+      "r_thigh_link_1"
+    ],
+    [
+      "r_finger_bottom_1",
+      "r_finger_top_1"
+    ],
+    [
+      "r_finger_bottom_1",
+      "r_gripper_base_1"
+    ],
+    [
+      "r_finger_bottom_1",
+      "r_lower_arm_link_1"
+    ],
+    [
+      "r_finger_top_1",
+      "r_gripper_base_1"
+    ],
+    [
+      "r_finger_top_1",
+      "r_lower_arm_link_1"
+    ],
+    [
+      "r_gripper_base_1",
+      "r_lower_arm_link_1"
+    ],
+    [
+      "r_hip_link_1",
+      "r_knee_link_1"
+    ],
+    [
+      "r_hip_link_1",
+      "r_thigh_link_1"
+    ],
+    [
+      "r_knee_link_1",
+      "r_thigh_link_1"
+    ],
+    [
+      "r_lower_arm_link_1",
+      "r_upper_arm_link_1"
+    ],
+    [
+      "r_shoulder_link_1",
+      "r_upper_arm_link_1"
+    ]
+  ],
+  "actuators": {
+    "r_shoulder_roll": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    },
+    "r_shoulder_pitch": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    },
+    "r_elbow_yaw": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    },
+    "r_elbow_pitch": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    },
+    "r_wrist_yaw": {
+      "kp": 30.0,
+      "kd": 1.0,
+      "effort": 0.8,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.06
+    },
+    "r_finger_slide_top": {
+      "kp": 700.0,
+      "kd": 15.0,
+      "effort": 15.0,
+      "speed": 0.05,
+      "armature": 0.001,
+      "scale": 0.0
+    },
+    "r_finger_slide_bottom": {
+      "kp": 700.0,
+      "kd": 15.0,
+      "effort": 15.0,
+      "speed": 0.05,
+      "armature": 0.001,
+      "scale": 0.0
+    },
+    "l_shoulder_roll": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    },
+    "l_shoulder_pitch": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    },
+    "l_elbow_yaw": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    },
+    "l_elbow_pitch": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    },
+    "l_wrist_yaw": {
+      "kp": 30.0,
+      "kd": 1.0,
+      "effort": 0.8,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.06
+    },
+    "l_finger_slide_bottom": {
+      "kp": 700.0,
+      "kd": 15.0,
+      "effort": 15.0,
+      "speed": 0.05,
+      "armature": 0.001,
+      "scale": 0.0
+    },
+    "l_finger_slide_top": {
+      "kp": 700.0,
+      "kd": 15.0,
+      "effort": 15.0,
+      "speed": 0.05,
+      "armature": 0.001,
+      "scale": 0.0
+    },
+    "r_hip_roll": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "r_hip_pitch": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "r_thigh_yaw": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "r_knee_roll": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "r_ankle_roll": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "r_ankle_pitch": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "l_hip_roll": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "l_hip_pitch": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "l_thigh_yaw": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "l_knee_roll": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "l_ankle_roll": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "l_ankle_pitch": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 1.6,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.2
+    },
+    "head_rotation": {
+      "kp": 50.0,
+      "kd": 1.0,
+      "effort": 0.5,
+      "speed": 4.0,
+      "armature": 0.005,
+      "scale": 0.1
+    }
+  },
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef"
+}

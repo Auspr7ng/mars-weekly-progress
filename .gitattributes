@@ -5,3 +5,17 @@
 *.png binary
 *.mp4 binary
 *.pptx binary
+*.jpg binary
+*.stl binary
+*.pt binary
+*.npz binary
+*.csv text eol=lf
+*.json text eol=lf
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# These artifacts carry byte-level provenance hashes. Preserve their line endings.
+Progress/Week4/model/** -text
+Progress/Week4/policies/joystick_walking_r25_300/source/** -text
+Progress/Week4/policies/joystick_walking_r25_300/dynamics/** -text

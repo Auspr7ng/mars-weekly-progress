@@ -1,0 +1,73 @@
+{
+  "original_action_range_step": {
+    "max_position_error_mm": 10.789638405379234,
+    "sole_heights_m": [
+      0.007573183342662368,
+      0.0002896895406599917
+    ],
+    "joint_target": {
+      "r_hip_roll": -0.035506928290168806,
+      "r_hip_pitch": 0.0025502050585614147,
+      "r_thigh_yaw": 0.023106434639339403,
+      "r_knee_roll": -0.2591562104184282,
+      "r_ankle_roll": -0.23185431816076502,
+      "r_ankle_pitch": -0.0028978006724803824,
+      "l_hip_roll": 0.03899864838098509,
+      "l_hip_pitch": -0.02017320460168501,
+      "l_thigh_yaw": -0.06865205478545137,
+      "l_knee_roll": 0.3644333749995433,
+      "l_ankle_roll": 0.045731425977938056,
+      "l_ankle_pitch": 0.19822718858012472
+    }
+  },
+  "lower_stance": {
+    "max_position_error_mm": 2.342230631600343,
+    "sole_heights_m": [
+      0.000299794120795515,
+      0.0002672125017136942
+    ],
+    "joint_target": {
+      "r_hip_roll": -0.1650288874091858,
+      "r_hip_pitch": -0.005558527223456597,
+      "r_thigh_yaw": 0.10683232762000262,
+      "r_knee_roll": -0.5826692161184626,
+      "r_ankle_roll": -0.4188790500000001,
+      "r_ankle_pitch": -0.006646428591742209,
+      "l_hip_roll": 0.14346180732144365,
+      "l_hip_pitch": 0.00871759687318916,
+      "l_thigh_yaw": -0.09211568341309796,
+      "l_knee_roll": 0.5451330554904229,
+      "l_ankle_roll": -0.4188790500000001,
+      "l_ankle_pitch": -0.001230904112948607
+    }
+  },
+  "lower_root_height_m": 0.24217333405306526,
+  "lower_stance_native_pd": {
+    "passed": true,
+    "tilt_deg": 2.1285749710757287,
+    "drift_m": 0.00788715767277536,
+    "peak_actuator_force": 1.3374217733694422
+  },
+  "proposed_action_range_step": {
+    "max_position_error_mm": 3.2106963691492547,
+    "sole_heights_m": [
+      0.015105340117885363,
+      6.71279947583106e-05
+    ],
+    "joint_target": {
+      "r_hip_roll": -0.1467761143652247,
+      "r_hip_pitch": -0.00357590754431021,
+      "r_thigh_yaw": 0.0952355984268349,
+      "r_knee_roll": -0.5706902499782767,
+      "r_ankle_roll": -0.4188790500000001,
+      "r_ankle_pitch": -0.007783817755208127,
+      "l_hip_roll": 0.19373811530390012,
+      "l_hip_pitch": -0.018733556845554285,
+      "l_thigh_yaw": -0.14181013147708896,
+      "l_knee_roll": 0.9162999999999998,
+      "l_ankle_roll": -0.4188790500000001,
+      "l_ankle_pitch": 0.21965856559874683
+    }
+  },
+  "notes": "Kinematic feasibility and gravity/PD check only. Not a walking controller or learned result."
+}

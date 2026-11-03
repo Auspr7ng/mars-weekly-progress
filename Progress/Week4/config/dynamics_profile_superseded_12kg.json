@@ -1,0 +1,217 @@
+{
+  "status": "MODIFIED URDF MASSES PRESERVED; MISSING ROOT ESTIMATED FROM PARENT SDK",
+  "mass_mode": "preserve_modified_urdf",
+  "repository": "https://github.com/viberobotics/vibe_robotics_sdk",
+  "ref": "4c29bee4683e97d4580bee308d97d3c6c8c2418e",
+  "torso": {
+    "mass_kg": 1.17456,
+    "com_canonical_m": [
+      0.0624261,
+      0.000806529,
+      0.137332
+    ],
+    "fullinertia_canonical_kg_m2": [
+      0.00928457,
+      0.00752665,
+      0.00308896,
+      -3.31297e-05,
+      -1.8376e-05,
+      -1.59945e-05
+    ],
+    "source": "SundayA1/robot.xml body inertial; moving head is separately budgeted in that same file",
+    "uncertainty_fraction": 0.3
+  },
+  "segments": {
+    "r_shoulder_link_1": {
+      "mass_kg": 0.3986750269505554,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_shoulder_link_1": {
+      "mass_kg": 0.3986750269505554,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_upper_arm_link_1": {
+      "mass_kg": 0.3519439657829646,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_upper_arm_link_1": {
+      "mass_kg": 0.3519439657829646,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_bicep_link_1": {
+      "mass_kg": 0.1543685678014928,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_bicep_link_1": {
+      "mass_kg": 0.1543685678014928,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_hip_link_1": {
+      "mass_kg": 0.21892391386958107,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_hip_link_1": {
+      "mass_kg": 0.21892391386958107,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_lower_arm_link_1": {
+      "mass_kg": 0.3519439657829646,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_lower_arm_link_1": {
+      "mass_kg": 0.3519439657829646,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_thigh_link_1": {
+      "mass_kg": 0.26305255908689523,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_thigh_link_1": {
+      "mass_kg": 0.26305255908689523,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_knee_link_1": {
+      "mass_kg": 0.2526902187283429,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_knee_link_1": {
+      "mass_kg": 0.2526902187283429,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_calf_link_1": {
+      "mass_kg": 0.2162533414564245,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_calf_link_1": {
+      "mass_kg": 0.2162533414564245,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_ankle_link_1": {
+      "mass_kg": 0.3251122883787072,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_ankle_link_1": {
+      "mass_kg": 0.32511208567638783,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "head_1": {
+      "mass_kg": 1.4534995468660439,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_foot_link_1": {
+      "mass_kg": 0.8943739103565942,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_foot_link_1": {
+      "mass_kg": 0.8943682436050129,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_gripper_base_1": {
+      "mass_kg": 0.655536505655269,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_finger_bottom_1": {
+      "mass_kg": 0.5237116768984529,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "l_finger_top_1": {
+      "mass_kg": 0.5237116768984524,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_gripper_base_1": {
+      "mass_kg": 0.655536505655269,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_finger_top_1": {
+      "mass_kg": 0.5237116768984529,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    },
+    "r_finger_bottom_1": {
+      "mass_kg": 0.5237116768984524,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve supplied modified-link mass, COM and inertia; no parent-model scaling"
+    }
+  },
+  "modified_declared_mass_kg": 11.714088912705535,
+  "total_estimated_mass_kg": 12.888648912705534,
+  "hardware_clarification": "User confirms motors and battery remain original Sunday A1. Exact servo variant and voltage still need source matching, not arbitrary torque increases.",
+  "actuators": {
+    "rotary_effort_cap_Nm": 1.6,
+    "leg_position_kp_Nm_per_rad": 50.0,
+    "rotary_kd_Nm_s_per_rad": 1.0,
+    "rotary_speed_cap_rad_s": 4.0,
+    "wrist_effort_cap_Nm": 0.8,
+    "head_effort_cap_Nm": 0.5,
+    "finger_effort_cap_N": 15.0,
+    "evidence": "1.6 Nm is an SDK simulation motor cap in SundayA1_Mujoco_V1.2, not a verified continuous rating. 4.9 Nm exists in a different leg-only MPC asset and is NOT applied blindly.",
+    "missing": "Exact Jaeeun servo variants, supply voltage, transmission ratios, continuous duty and modified-finger drive remain unverified."
+  },
+  "source_files": {
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1\\robot.xml": "07486c91379a09044c10434a4a69a20aee29da12b4d1836c8a3e10ef5bf120ce",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_ankle_2dof_new\\robot.xml": "8bde359c0e48447ba7f2510b32c233c03759524417e2d502ef8396a515721a9b",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_full_2dof_arm\\robot.xml": "4f228830dfcbe0117168f0f4d7771973341dcb642fb3f1aa7801a1b7818ff12c",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_full_2dof_arm_loco\\robot.xml": "b59004e6d28277b20ab5ec43ffa5aca02279b695304ef9de5c49f8d757fbfca9",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_full_2dof_b_new\\robot.xml": "77122d37a4b42c8a3e8dd5342b277a1f7b6b89157269f34266f4e76519b3dc73",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_Mujoco_V1.2\\robot.xml": "64c39d2c15f83b359cfa70bf284b09546fc794aa50da3dfc7da0f758536d6b11",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_short_new\\robot.xml": "c72c45677222db97320546d62a51b82f3cf68fdd4702b8a0cdbb4d71c0b3cac3"
+  },
+  "caveats": [
+    "Stock models have 12/21/23/25 joints; modified model has 27. Do not load stock policies directly.",
+    "Root mass is an estimate for the modified torso, not CAD calibration.",
+    "Modified segment masses are NOT replaced with stock 2-3 kg model values.",
+    "Only the missing root is added. Earlier candidate mass-transfer results are superseded and were never used for PPO."
+  ]
+}

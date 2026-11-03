@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 3908,
+  "checkpoint": "logs/control_r13_stopping_focus/model_299.pt",
+  "iteration": 299,
+  "environment_transitions": 4915200,
+  "time": "2026-11-01T16:36:16.452212-05:00",
+  "training_elapsed_s": 1138.2522207999136,
+  "gpu_peak_allocated_MiB": 120.44482421875
+}

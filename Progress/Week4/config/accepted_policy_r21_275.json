@@ -1,0 +1,55 @@
+{
+  "accepted": true,
+  "accepted_at": "2026-11-02T00:31:19.321375",
+  "scope": "Flat-ground simulated speed/stop/restart/both turning directions; original and holdout command sequences; no hardware acceptance",
+  "checkpoint": "policies/command_walking_r21_275/model_275.pt",
+  "checkpoint_sha256": "9bfb6364f5a00f253929f1fca0eea9b058e41bb28f7ee5a0cf29b83af2f825cf",
+  "source_run": "logs/control_r21_reference_clearance",
+  "source_checkpoint": "model_275.pt",
+  "task_revision": 21,
+  "model_sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+  "nominal_sha256": "b14189c9bfa5501a0a08874c6c43c3e8364b4891488f21f54f54970c0af48512",
+  "batch_evaluation": "results/evaluations/control_r21_candidate275_controls_100.json",
+  "native_evaluation": "results/evaluations/control_r21_candidate275_native_controls.json",
+  "quality_evaluation": "results/quality/control_r21_candidate275_steady_quality.json",
+  "programs": 7,
+  "random_starts_per_program": 100,
+  "all_programs_passed": 700,
+  "arrow_102s_passed": 100,
+  "visual_review": {
+    "reviewed": true,
+    "source": "Actual speed_stop/turns/in_place recordings with front+side views",
+    "frames": "results/videos/accepted_candidate275_visual_review.png",
+    "conclusion": "Alternating clearance visible, stopped soles planted; no persistent pivot shuffling seen in reviewed frames"
+  },
+  "tactile_sources": {
+    "flexitac.py": {
+      "sha256": "26edb569d0696d346b4426854edeff2e7bde4bb92ce42f0274a6bb9c79a7b7a4",
+      "matches_week3": true
+    },
+    "feet_tactile.py": {
+      "sha256": "d7fa68d792df3e0a937f6165b0b1bab597b89d0bf4131d83dc401fa67bfe2414",
+      "matches_week3": true
+    },
+    "tactile_display.py": {
+      "sha256": "0d4a0ed7f3006a994740f9d19455d354d62b684bc6464f5b41519888435135fd",
+      "matches_week3": true
+    },
+    "mjlab_flexitac.py": {
+      "sha256": "1a5ce658c0b73f93024cadd8150b7bccc4808c9b3f185ba3f77552c4c0c7f0b7",
+      "matches_week3": true
+    }
+  },
+  "web_interaction_verified": false,
+  "hardware_calibrated": false,
+  "measured_total_budget_kg": 2.84,
+  "root_mass_kg": 0.7,
+  "interaction_mode": "hold_to_move_joystick",
+  "joystick_limits": {
+    "forward_limit": 0.08,
+    "yaw_limit": 0.12,
+    "backward_limit": 0.0
+  },
+  "fast_upgrade_pending": true,
+  "historical_world_arrow_evaluation": "results/evaluations/arrow_candidate275_100.json"
+}

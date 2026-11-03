@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/control_r25_cadence_smoke/model_initial.pt",
+  "quality_report": "results/quality/r25_phase_smoke_quality.json"
+}

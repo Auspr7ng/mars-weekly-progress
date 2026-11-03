@@ -1,0 +1,8 @@
+{
+  "source": "logs/forward_r7_clean_steps_arms/model_200.pt",
+  "optimizer_reset": true,
+  "changed_nominal_pose": false,
+  "changed_phase_period": false,
+  "source_revision": 7,
+  "same_physical_mass_inertia_torque_limits": true
+}

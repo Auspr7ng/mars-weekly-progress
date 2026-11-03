@@ -1,0 +1,53 @@
+{
+  "total_mass_kg": 2.8400000000000007,
+  "root_mass_kg": 0.7,
+  "nonroot_mass_kg": 2.1400000000000006,
+  "root_com_canonical_m": [
+    -0.002407316815271336,
+    -0.0001276045370263629,
+    0.0847502021690749
+  ],
+  "root_fullinertia_canonical_kg_m2": [
+    0.004502184175669257,
+    0.003421346261636745,
+    0.0032027156890302496,
+    -5.7525699570998296e-06,
+    -0.00012678346869464177,
+    4.7230095585686315e-06
+  ],
+  "nonroot_rescale_factor": 0.8290759378298154,
+  "model_sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+  "backup": "model/archive/pre_metadata_r18",
+  "geometry_axes_limits_actuators_unchanged": true,
+  "inertia_positive_definite": true,
+  "joint_order": [
+    "r_shoulder_roll",
+    "r_shoulder_pitch",
+    "r_elbow_yaw",
+    "r_elbow_pitch",
+    "r_wrist_yaw",
+    "r_finger_slide_top",
+    "r_finger_slide_bottom",
+    "l_shoulder_roll",
+    "l_shoulder_pitch",
+    "l_elbow_yaw",
+    "l_elbow_pitch",
+    "l_wrist_yaw",
+    "l_finger_slide_bottom",
+    "l_finger_slide_top",
+    "r_hip_roll",
+    "r_hip_pitch",
+    "r_thigh_yaw",
+    "r_knee_roll",
+    "r_ankle_roll",
+    "r_ankle_pitch",
+    "l_hip_roll",
+    "l_hip_pitch",
+    "l_thigh_yaw",
+    "l_knee_roll",
+    "l_ankle_roll",
+    "l_ankle_pitch",
+    "head_rotation"
+  ],
+  "simulation_only": true
+}

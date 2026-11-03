@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 45748,
+  "checkpoint": "logs/control_r23_range_smoke/model_0.pt",
+  "iteration": 0,
+  "environment_transitions": 1024,
+  "time": "2026-11-02T01:47:37.920948-05:00",
+  "training_elapsed_s": 11.787011099979281,
+  "gpu_peak_allocated_MiB": 31.7373046875
+}

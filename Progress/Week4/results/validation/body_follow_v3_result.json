@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "interaction_ui_version": "body_follow_v3",
+  "input_frame": "current_robot_body",
+  "head_and_body_tracking_while_held": true,
+  "current_rendered_camera_perspective": true,
+  "regression": "results/validation/body_follow_v3_contract.json",
+  "browser_checks": {
+    "forward": {
+      "passed": true,
+      "last_held_command": [
+        0.06421012186816917,
+        0.0,
+        0.0
+      ],
+      "release_zero": true
+    },
+    "turn": {
+      "passed": true,
+      "last_held_command": [
+        0.0,
+        0.0,
+        0.20509916048385318
+      ],
+      "release_zero": true
+    },
+    "off_center": {
+      "passed": true,
+      "last_held_command": [
+        0.05992552884141807,
+        0.0,
+        0.0
+      ],
+      "release_zero": true
+    }
+  },
+  "screenshot": "results/web_demo/body_follow_v3.jpg",
+  "checkpoint_sha256": "3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202",
+  "source_sha256": {
+    "code/src/sunday_locomotion/arrow_control.py": "d491832614bc354857ff5a48a6204c68219a191cf1963736fd77643c3195988d",
+    "code/scripts/play.py": "2f7963b447870f4342d996384a68294fdcf14fbb19841fa6726896ecfb4adcf2",
+    "code/run_demo.py": "eb90e151e61d9d6f73c990a3a25af6afdcf8d8f7c5ea4f7251e076b7d97fa711",
+    "code/scripts/check_body_joystick.py": "72a99c02d47b1780a384a9322c42faa86e49f20d53524f2b86d6dac552e2cecd"
+  },
+  "tactile_sha256": {
+    "flexitac.py": "26edb569d0696d346b4426854edeff2e7bde4bb92ce42f0274a6bb9c79a7b7a4",
+    "feet_tactile.py": "d7fa68d792df3e0a937f6165b0b1bab597b89d0bf4131d83dc401fa67bfe2414",
+    "tactile_display.py": "0d4a0ed7f3006a994740f9d19455d354d62b684bc6464f5b41519888435135fd",
+    "mjlab_flexitac.py": "1a5ce658c0b73f93024cadd8150b7bccc4808c9b3f185ba3f77552c4c0c7f0b7"
+  },
+  "policy_training_rerun": false,
+  "preserved_diagnostic": "results/validation/body_follow_v3_before_perspective_fix.json",
+  "scope": "MuJoCo pose/callback regression at 0,+90,180,-90 degrees plus actual browser forward, steering, off-centre forward and release checks"
+}

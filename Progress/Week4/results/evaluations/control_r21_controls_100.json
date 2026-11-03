@@ -1,0 +1,931 @@
+{
+  "checkpoint": "logs/control_r21_reference_clearance/model_299.pt",
+  "revision": 21,
+  "seed": 20261108,
+  "simulation_only": true,
+  "checkpoint_sha256": "3af639ca97b5f5b7f3d493d6bb920e812a8a256edbc173f7a50c72446176e00b",
+  "model_sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+  "nominal_sha256": "b14189c9bfa5501a0a08874c6c43c3e8364b4891488f21f54f54970c0af48512",
+  "action_order": [
+    "r_shoulder_roll",
+    "r_shoulder_pitch",
+    "r_elbow_yaw",
+    "r_elbow_pitch",
+    "r_wrist_yaw",
+    "l_shoulder_roll",
+    "l_shoulder_pitch",
+    "l_elbow_yaw",
+    "l_elbow_pitch",
+    "l_wrist_yaw",
+    "r_hip_roll",
+    "r_hip_pitch",
+    "r_thigh_yaw",
+    "r_knee_roll",
+    "r_ankle_roll",
+    "r_ankle_pitch",
+    "l_hip_roll",
+    "l_hip_pitch",
+    "l_thigh_yaw",
+    "l_knee_roll",
+    "l_ankle_roll",
+    "l_ankle_pitch"
+  ],
+  "training_rewards_computed": false,
+  "command_programs": [
+    "idle",
+    "steady",
+    "speed_stop",
+    "turns",
+    "in_place",
+    "right_first",
+    "mixed_holdout"
+  ],
+  "programs": [
+    {
+      "program": "idle",
+      "episodes": 100,
+      "seconds": 10.0,
+      "successes": 100,
+      "capability_passed_episodes": 100,
+      "capability_pass_rate": 1.0,
+      "engineering_passed": true,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 10.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0004557080683298409,
+          "yaw_rate_rmse_mean": 0.0006268724100664258,
+          "mean_forward_velocity": -0.0003840193385258317,
+          "mean_yaw_rate": 0.00032219779677689075,
+          "heading_rmse_mean": 0.00732168834656477,
+          "mean_landings_left_right": [
+            0.0,
+            0.0
+          ],
+          "planar_speed_p95_mean": 0.0015633453149348497,
+          "abs_yaw_rate_p95_mean": 0.0011587035842239857,
+          "drift_after_settling_mean_m": 0.007104884833097458,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 0.5398000025749207,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        }
+      ],
+      "max_lateral_m": null,
+      "notes": "First episode only. Stop checks begin 1.2s after the raw zero command; require sustained quiet double support. Turn sign and yaw amount are checked. These checks do not replace gait-quality/video review.",
+      "termination_reasons": {},
+      "planned_seconds": 10.0
+    },
+    {
+      "program": "steady",
+      "episodes": 100,
+      "seconds": 20.0,
+      "successes": 100,
+      "capability_passed_episodes": 100,
+      "capability_pass_rate": 1.0,
+      "engineering_passed": true,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 20.0,
+          "command": [
+            0.06,
+            0.0,
+            0
+          ],
+          "kind": "walk",
+          "forward_rmse_mean": 0.014607250690460205,
+          "yaw_rate_rmse_mean": 0.039996564388275146,
+          "mean_forward_velocity": 0.04615935683250427,
+          "mean_yaw_rate": 0.0026596507523208857,
+          "heading_rmse_mean": 0.024680297821760178,
+          "mean_landings_left_right": [
+            14.0,
+            13.0
+          ],
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        }
+      ],
+      "max_lateral_m": 0.08393669128417969,
+      "notes": "First episode only. Stop checks begin 1.2s after the raw zero command; require sustained quiet double support. Turn sign and yaw amount are checked. These checks do not replace gait-quality/video review.",
+      "termination_reasons": {},
+      "planned_seconds": 20.0
+    },
+    {
+      "program": "speed_stop",
+      "episodes": 100,
+      "seconds": 30.0,
+      "successes": 100,
+      "capability_passed_episodes": 100,
+      "capability_pass_rate": 1.0,
+      "engineering_passed": true,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.0,
+          "command": [
+            0.06,
+            0.0,
+            0
+          ],
+          "kind": "walk",
+          "forward_rmse_mean": 0.014642194844782352,
+          "yaw_rate_rmse_mean": 0.04265112429857254,
+          "mean_forward_velocity": 0.04619793966412544,
+          "mean_yaw_rate": 0.0071477703750133514,
+          "heading_rmse_mean": 0.022326944395899773,
+          "mean_landings_left_right": [
+            2.0,
+            2.0
+          ],
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 4.0,
+          "end": 9.0,
+          "command": [
+            0.03,
+            0.0,
+            0
+          ],
+          "kind": "walk",
+          "forward_rmse_mean": 0.009970578365027905,
+          "yaw_rate_rmse_mean": 0.03654862940311432,
+          "mean_forward_velocity": 0.020977500826120377,
+          "mean_yaw_rate": 0.006466141436249018,
+          "heading_rmse_mean": 0.0347919836640358,
+          "mean_landings_left_right": [
+            4.0,
+            3.0
+          ],
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 9.0,
+          "end": 14.0,
+          "command": [
+            0.08,
+            0.0,
+            0
+          ],
+          "kind": "walk",
+          "forward_rmse_mean": 0.0205767210572958,
+          "yaw_rate_rmse_mean": 0.03905029222369194,
+          "mean_forward_velocity": 0.06022926792502403,
+          "mean_yaw_rate": -0.000639937468804419,
+          "heading_rmse_mean": 0.016639988869428635,
+          "mean_landings_left_right": [
+            4.0,
+            4.0
+          ],
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 14.0,
+          "end": 21.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.000413316156482324,
+          "yaw_rate_rmse_mean": 0.003618749091401696,
+          "mean_forward_velocity": 0.00010162337275687605,
+          "mean_yaw_rate": -0.0033192222472280264,
+          "heading_rmse_mean": 0.02263842150568962,
+          "mean_landings_left_right": [
+            0.0,
+            1.0
+          ],
+          "planar_speed_p95_mean": 0.004052130971103907,
+          "abs_yaw_rate_p95_mean": 0.00551298912614584,
+          "drift_after_settling_mean_m": 0.0097812470048666,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.1800003051757812,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 21.0,
+          "end": 27.0,
+          "command": [
+            0.06,
+            0.0,
+            0
+          ],
+          "kind": "walk",
+          "forward_rmse_mean": 0.01510878000408411,
+          "yaw_rate_rmse_mean": 0.04057885706424713,
+          "mean_forward_velocity": 0.04571529105305672,
+          "mean_yaw_rate": 0.008309018798172474,
+          "heading_rmse_mean": 0.022382011637091637,
+          "mean_landings_left_right": [
+            4.0,
+            3.0
+          ],
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 27.0,
+          "end": 30.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0007881235214881599,
+          "yaw_rate_rmse_mean": 0.00923131499439478,
+          "mean_forward_velocity": 0.000367948116036132,
+          "mean_yaw_rate": -0.008699394762516022,
+          "heading_rmse_mean": 0.04257252812385559,
+          "mean_landings_left_right": [
+            0.0,
+            1.0
+          ],
+          "planar_speed_p95_mean": 0.0018955169944092631,
+          "abs_yaw_rate_p95_mean": 0.01540969219058752,
+          "drift_after_settling_mean_m": 0.0013764060568064451,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.1998007583618164,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        }
+      ],
+      "max_lateral_m": 0.06104087829589844,
+      "notes": "First episode only. Stop checks begin 1.2s after the raw zero command; require sustained quiet double support. Turn sign and yaw amount are checked. These checks do not replace gait-quality/video review.",
+      "termination_reasons": {},
+      "planned_seconds": 30.0
+    },
+    {
+      "program": "turns",
+      "episodes": 100,
+      "seconds": 30.0,
+      "successes": 100,
+      "capability_passed_episodes": 100,
+      "capability_pass_rate": 1.0,
+      "engineering_passed": true,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.0,
+          "command": [
+            0.06,
+            0.0,
+            0
+          ],
+          "kind": "walk",
+          "forward_rmse_mean": 0.014658566564321518,
+          "yaw_rate_rmse_mean": 0.04264764487743378,
+          "mean_forward_velocity": 0.046182237565517426,
+          "mean_yaw_rate": 0.007107737474143505,
+          "heading_rmse_mean": 0.02236350253224373,
+          "mean_landings_left_right": [
+            2.0,
+            2.0
+          ],
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 4.0,
+          "end": 10.0,
+          "command": [
+            0.05,
+            0.0,
+            0.12
+          ],
+          "kind": "turn",
+          "forward_rmse_mean": 0.011450821533799171,
+          "yaw_rate_rmse_mean": 0.043311625719070435,
+          "mean_forward_velocity": 0.039718881249427795,
+          "mean_yaw_rate": 0.11909245699644089,
+          "heading_rmse_mean": 0.03193370997905731,
+          "mean_landings_left_right": [
+            5.0,
+            4.0
+          ],
+          "mean_yaw_change_rad": 0.6876969933509827,
+          "mean_command_yaw_integral_rad": 0.6982212662696838,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 10.0,
+          "end": 13.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0012704816181212664,
+          "yaw_rate_rmse_mean": 0.01188548281788826,
+          "mean_forward_velocity": 0.001211918075568974,
+          "mean_yaw_rate": -0.011101367883384228,
+          "heading_rmse_mean": 0.03117927350103855,
+          "mean_landings_left_right": [
+            0.0,
+            1.0
+          ],
+          "planar_speed_p95_mean": 0.0034011921379715204,
+          "abs_yaw_rate_p95_mean": 0.019871855154633522,
+          "drift_after_settling_mean_m": 0.002892100252211094,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.0600004196166992,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 13.0,
+          "end": 19.0,
+          "command": [
+            0.05,
+            0.0,
+            -0.12
+          ],
+          "kind": "turn",
+          "forward_rmse_mean": 0.015550251118838787,
+          "yaw_rate_rmse_mean": 0.047921594232320786,
+          "mean_forward_velocity": 0.03508005291223526,
+          "mean_yaw_rate": -0.09828976541757584,
+          "heading_rmse_mean": 0.03860419616103172,
+          "mean_landings_left_right": [
+            4.0,
+            4.0
+          ],
+          "mean_yaw_change_rad": -0.6758548617362976,
+          "mean_command_yaw_integral_rad": -0.6982212662696838,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 19.0,
+          "end": 22.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.002078389283269644,
+          "yaw_rate_rmse_mean": 0.005788363981992006,
+          "mean_forward_velocity": 0.001888577826321125,
+          "mean_yaw_rate": -0.005623953882604837,
+          "heading_rmse_mean": 0.05936231464147568,
+          "mean_landings_left_right": [
+            1.0,
+            0.0
+          ],
+          "planar_speed_p95_mean": 0.004327732603996992,
+          "abs_yaw_rate_p95_mean": 0.007784123532474041,
+          "drift_after_settling_mean_m": 0.005071541760116816,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.0659996032714845,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 22.0,
+          "end": 26.0,
+          "command": [
+            0,
+            0.0,
+            0.12
+          ],
+          "kind": "in_place",
+          "forward_rmse_mean": 0.005709266290068626,
+          "yaw_rate_rmse_mean": 0.05218745768070221,
+          "mean_forward_velocity": 0.0010537944035604596,
+          "mean_yaw_rate": 0.11569929867982864,
+          "heading_rmse_mean": 0.05783069133758545,
+          "mean_landings_left_right": [
+            2.0,
+            3.0
+          ],
+          "mean_yaw_change_rad": 0.45218613743782043,
+          "mean_command_yaw_integral_rad": 0.4582206606864929,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 26.0,
+          "end": 30.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0012549557723104954,
+          "yaw_rate_rmse_mean": 0.003785177366808057,
+          "mean_forward_velocity": -0.0011341824429109693,
+          "mean_yaw_rate": -0.0032714474946260452,
+          "heading_rmse_mean": 0.011033978313207626,
+          "mean_landings_left_right": [
+            1.0,
+            0.0
+          ],
+          "planar_speed_p95_mean": 0.003497749799862504,
+          "abs_yaw_rate_p95_mean": 0.006833020597696304,
+          "drift_after_settling_mean_m": 0.004131542053073645,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.1200008392333984,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        }
+      ],
+      "max_lateral_m": null,
+      "notes": "First episode only. Stop checks begin 1.2s after the raw zero command; require sustained quiet double support. Turn sign and yaw amount are checked. These checks do not replace gait-quality/video review.",
+      "termination_reasons": {},
+      "planned_seconds": 30.0
+    },
+    {
+      "program": "in_place",
+      "episodes": 100,
+      "seconds": 24.0,
+      "successes": 100,
+      "capability_passed_episodes": 100,
+      "capability_pass_rate": 1.0,
+      "engineering_passed": true,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0006522141629830003,
+          "yaw_rate_rmse_mean": 0.0006365969893522561,
+          "mean_forward_velocity": -0.0006437398842535913,
+          "mean_yaw_rate": -3.694330371217802e-05,
+          "heading_rmse_mean": 0.0047201793640851974,
+          "mean_landings_left_right": [
+            0.0,
+            0.0
+          ],
+          "planar_speed_p95_mean": 0.0015841631684452295,
+          "abs_yaw_rate_p95_mean": 0.0011239397572353482,
+          "drift_after_settling_mean_m": 0.002717655384913087,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 0.5404000025987625,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 3.0,
+          "end": 9.0,
+          "command": [
+            0,
+            0.0,
+            0.12
+          ],
+          "kind": "in_place",
+          "forward_rmse_mean": 0.00627903500571847,
+          "yaw_rate_rmse_mean": 0.05086393654346466,
+          "mean_forward_velocity": 0.00040847487980499864,
+          "mean_yaw_rate": 0.12730921804904938,
+          "heading_rmse_mean": 0.04112570360302925,
+          "mean_landings_left_right": [
+            4.0,
+            4.0
+          ],
+          "mean_yaw_change_rad": 0.7342513203620911,
+          "mean_command_yaw_integral_rad": 0.6982212662696838,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 9.0,
+          "end": 12.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0012133648851886392,
+          "yaw_rate_rmse_mean": 0.007940670475363731,
+          "mean_forward_velocity": -0.000992535031400621,
+          "mean_yaw_rate": -0.007327989209443331,
+          "heading_rmse_mean": 0.02595125138759613,
+          "mean_landings_left_right": [
+            1.0,
+            0.0
+          ],
+          "planar_speed_p95_mean": 0.0070075965486466885,
+          "abs_yaw_rate_p95_mean": 0.013783053494989872,
+          "drift_after_settling_mean_m": 0.003983570262789726,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.2200002670288086,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 12.0,
+          "end": 18.0,
+          "command": [
+            0,
+            0.0,
+            -0.12
+          ],
+          "kind": "in_place",
+          "forward_rmse_mean": 0.004830969963222742,
+          "yaw_rate_rmse_mean": 0.06226585432887077,
+          "mean_forward_velocity": 0.0004539985384326428,
+          "mean_yaw_rate": -0.10053142160177231,
+          "heading_rmse_mean": 0.12291737645864487,
+          "mean_landings_left_right": [
+            3.0,
+            4.0
+          ],
+          "mean_yaw_change_rad": -0.5663468241691589,
+          "mean_command_yaw_integral_rad": -0.6982212662696838,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 18.0,
+          "end": 24.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0009803969878703356,
+          "yaw_rate_rmse_mean": 0.0033483204897493124,
+          "mean_forward_velocity": 8.254694694187492e-05,
+          "mean_yaw_rate": -0.0029745670035481453,
+          "heading_rmse_mean": 0.07112957537174225,
+          "mean_landings_left_right": [
+            1.0,
+            0.0
+          ],
+          "planar_speed_p95_mean": 0.006107320077717304,
+          "abs_yaw_rate_p95_mean": 0.006720007862895727,
+          "drift_after_settling_mean_m": 0.005199955310672522,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.2127998352050782,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        }
+      ],
+      "max_lateral_m": null,
+      "notes": "First episode only. Stop checks begin 1.2s after the raw zero command; require sustained quiet double support. Turn sign and yaw amount are checked. These checks do not replace gait-quality/video review.",
+      "termination_reasons": {},
+      "planned_seconds": 24.0
+    },
+    {
+      "program": "right_first",
+      "episodes": 100,
+      "seconds": 24.0,
+      "successes": 100,
+      "capability_passed_episodes": 100,
+      "capability_pass_rate": 1.0,
+      "engineering_passed": true,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0006561412010341883,
+          "yaw_rate_rmse_mean": 0.0006983125931583345,
+          "mean_forward_velocity": -0.0006449575303122401,
+          "mean_yaw_rate": -1.600886753294617e-05,
+          "heading_rmse_mean": 0.004617274273186922,
+          "mean_landings_left_right": [
+            0.0,
+            0.0
+          ],
+          "planar_speed_p95_mean": 0.0015974999405443668,
+          "abs_yaw_rate_p95_mean": 0.0012234719470143318,
+          "drift_after_settling_mean_m": 0.0027320776134729385,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 0.5378000032901764,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 3.0,
+          "end": 9.0,
+          "command": [
+            0,
+            0.0,
+            -0.12
+          ],
+          "kind": "in_place",
+          "forward_rmse_mean": 0.004957456141710281,
+          "yaw_rate_rmse_mean": 0.0654464140534401,
+          "mean_forward_velocity": 0.0013090359279885888,
+          "mean_yaw_rate": -0.09254224598407745,
+          "heading_rmse_mean": 0.11035773158073425,
+          "mean_landings_left_right": [
+            4.0,
+            3.0
+          ],
+          "mean_yaw_change_rad": -0.587617814540863,
+          "mean_command_yaw_integral_rad": -0.6982212662696838,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 9.0,
+          "end": 12.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0009366943850181997,
+          "yaw_rate_rmse_mean": 0.005272384732961655,
+          "mean_forward_velocity": 0.00034315965604037046,
+          "mean_yaw_rate": -0.004668086301535368,
+          "heading_rmse_mean": 0.12533213198184967,
+          "mean_landings_left_right": [
+            1.0,
+            1.0
+          ],
+          "planar_speed_p95_mean": 0.002043351763859391,
+          "abs_yaw_rate_p95_mean": 0.009616367518901825,
+          "drift_after_settling_mean_m": 0.0023852253798395395,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.265600004196167,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 12.0,
+          "end": 18.0,
+          "command": [
+            0,
+            0.0,
+            0.12
+          ],
+          "kind": "in_place",
+          "forward_rmse_mean": 0.006119405850768089,
+          "yaw_rate_rmse_mean": 0.05355846881866455,
+          "mean_forward_velocity": 0.0006605140515603125,
+          "mean_yaw_rate": 0.10639315843582153,
+          "heading_rmse_mean": 0.06659644097089767,
+          "mean_landings_left_right": [
+            3.0,
+            4.0
+          ],
+          "mean_yaw_change_rad": 0.6462762355804443,
+          "mean_command_yaw_integral_rad": 0.6982212662696838,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 18.0,
+          "end": 24.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.001234348863363266,
+          "yaw_rate_rmse_mean": 0.011050740256905556,
+          "mean_forward_velocity": 0.0005088092293590307,
+          "mean_yaw_rate": -0.00559507729485631,
+          "heading_rmse_mean": 0.009583046659827232,
+          "mean_landings_left_right": [
+            1.0,
+            1.0
+          ],
+          "planar_speed_p95_mean": 0.00306593906134367,
+          "abs_yaw_rate_p95_mean": 0.03178630769252777,
+          "drift_after_settling_mean_m": 0.003292498644441366,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.239999771118164,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        }
+      ],
+      "max_lateral_m": null,
+      "notes": "First episode only. Stop checks begin 1.2s after the raw zero command; require sustained quiet double support. Turn sign and yaw amount are checked. These checks do not replace gait-quality/video review.",
+      "termination_reasons": {},
+      "planned_seconds": 24.0
+    },
+    {
+      "program": "mixed_holdout",
+      "episodes": 100,
+      "seconds": 32.0,
+      "successes": 14,
+      "capability_passed_episodes": 14,
+      "capability_pass_rate": 0.14,
+      "engineering_passed": false,
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.0,
+          "command": [
+            0.04,
+            0.0,
+            0
+          ],
+          "kind": "walk",
+          "forward_rmse_mean": 0.01085916068404913,
+          "yaw_rate_rmse_mean": 0.040356386452913284,
+          "mean_forward_velocity": 0.030062658712267876,
+          "mean_yaw_rate": 0.007983698509633541,
+          "heading_rmse_mean": 0.02854820527136326,
+          "mean_landings_left_right": [
+            2.0,
+            2.0
+          ],
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 4.0,
+          "end": 9.0,
+          "command": [
+            0.07,
+            0.0,
+            0.1
+          ],
+          "kind": "turn",
+          "forward_rmse_mean": 0.016070283949375153,
+          "yaw_rate_rmse_mean": 0.043443430215120316,
+          "mean_forward_velocity": 0.054854754358530045,
+          "mean_yaw_rate": 0.09522245824337006,
+          "heading_rmse_mean": 0.026794586330652237,
+          "mean_landings_left_right": [
+            4.0,
+            3.0
+          ],
+          "mean_yaw_change_rad": 0.4429958462715149,
+          "mean_command_yaw_integral_rad": 0.4847010374069214,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 9.0,
+          "end": 13.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.0012018417473882437,
+          "yaw_rate_rmse_mean": 0.0058936611749231815,
+          "mean_forward_velocity": -0.0006229883874766529,
+          "mean_yaw_rate": -0.004996887408196926,
+          "heading_rmse_mean": 0.029437152668833733,
+          "mean_landings_left_right": [
+            1.0,
+            1.0
+          ],
+          "planar_speed_p95_mean": 0.005596551112830639,
+          "abs_yaw_rate_p95_mean": 0.010053353384137154,
+          "drift_after_settling_mean_m": 0.0019958512857556343,
+          "double_support_fraction_mean": 1.0,
+          "settled_fraction": 1.0,
+          "settling_latency_mean_s": 1.2200002670288086,
+          "passed_episodes": 100,
+          "pass_rate": 1.0
+        },
+        {
+          "start": 13.0,
+          "end": 18.0,
+          "command": [
+            0,
+            0.0,
+            -0.1
+          ],
+          "kind": "in_place",
+          "forward_rmse_mean": 0.00765264593064785,
+          "yaw_rate_rmse_mean": 0.06153201684355736,
+          "mean_forward_velocity": 0.00701118865981698,
+          "mean_yaw_rate": -0.04228275269269943,
+          "heading_rmse_mean": 0.015331635251641273,
+          "mean_landings_left_right": [
+            0.67,
+            0.42
+          ],
+          "mean_yaw_change_rad": -0.1306113749742508,
+          "mean_command_yaw_integral_rad": -0.4732631742954254,
+          "passed_episodes": 14,
+          "pass_rate": 0.14
+        },
+        {
+          "start": 18.0,
+          "end": 22.0,
+          "command": [
+            0.05,
+            0.0,
+            0
+          ],
+          "kind": "walk",
+          "forward_rmse_mean": 0.03783619403839111,
+          "yaw_rate_rmse_mean": 0.03931403160095215,
+          "mean_forward_velocity": 0.01228462252765894,
+          "mean_yaw_rate": -0.035182446241378784,
+          "heading_rmse_mean": 0.009834094904363155,
+          "mean_landings_left_right": [
+            0.42,
+            0.42
+          ],
+          "passed_episodes": 14,
+          "pass_rate": 0.14
+        },
+        {
+          "start": 22.0,
+          "end": 27.0,
+          "command": [
+            0.03,
+            0.0,
+            -0.1
+          ],
+          "kind": "turn",
+          "forward_rmse_mean": 0.020379740744829178,
+          "yaw_rate_rmse_mean": 0.05876919627189636,
+          "mean_forward_velocity": 0.009731374680995941,
+          "mean_yaw_rate": -0.04571027681231499,
+          "heading_rmse_mean": 0.010855207219719887,
+          "mean_landings_left_right": [
+            0.56,
+            0.42
+          ],
+          "mean_yaw_change_rad": -0.06692606955766678,
+          "mean_command_yaw_integral_rad": -0.4847010374069214,
+          "passed_episodes": 14,
+          "pass_rate": 0.14
+        },
+        {
+          "start": 27.0,
+          "end": 32.0,
+          "command": [
+            0,
+            0.0,
+            0
+          ],
+          "kind": "stop",
+          "forward_rmse_mean": 0.007074850611388683,
+          "yaw_rate_rmse_mean": 0.03476765751838684,
+          "mean_forward_velocity": 0.006823136005550623,
+          "mean_yaw_rate": -0.034378185868263245,
+          "heading_rmse_mean": 0.00985011737793684,
+          "mean_landings_left_right": [
+            0.0,
+            0.14
+          ],
+          "planar_speed_p95_mean": 0.06027872487902641,
+          "abs_yaw_rate_p95_mean": 0.03646773472428322,
+          "drift_after_settling_mean_m": 0.00030635742587037385,
+          "double_support_fraction_mean": 0.39,
+          "settled_fraction": 0.14,
+          "settling_latency_mean_s": 1.239999771118164,
+          "passed_episodes": 14,
+          "pass_rate": 0.14
+        }
+      ],
+      "max_lateral_m": null,
+      "notes": "First episode only. Stop checks begin 1.2s after the raw zero command; require sustained quiet double support. Turn sign and yaw amount are checked. These checks do not replace gait-quality/video review.",
+      "termination_reasons": {
+        "self": 86
+      },
+      "planned_seconds": 32.0
+    }
+  ],
+  "all_requested_programs_passed": false,
+  "complete_control_suite": true,
+  "visual_review_required": true
+}

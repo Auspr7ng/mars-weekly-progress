@@ -1,0 +1,14 @@
+{
+  "revision": 15,
+  "actor_dim": 460,
+  "critic_dim": 98,
+  "actions": 22,
+  "zero_action_failures": 0,
+  "sampled_commands": 640,
+  "stopped_samples": 179,
+  "left_turn_samples": 139,
+  "right_turn_samples": 134,
+  "max_speed": 0.07997467368841171,
+  "max_abs_yaw_rate": 0.11993304640054703,
+  "passed": true
+}

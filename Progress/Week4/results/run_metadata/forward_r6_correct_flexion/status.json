@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 26552,
+  "checkpoint": "logs/forward_r6_correct_flexion/model_519_paused.pt",
+  "iteration": 519,
+  "environment_transitions": 4259840,
+  "time": "2026-11-01T01:14:41.971844-04:00",
+  "reason": "STOP file"
+}

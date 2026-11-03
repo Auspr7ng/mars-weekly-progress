@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 33844,
+  "checkpoint": "logs/control_r22_fast_joystick/model_288_paused.pt",
+  "iteration": 288,
+  "environment_transitions": 9469952,
+  "time": "2026-11-02T01:50:37.563224-05:00",
+  "reason": "STOP file"
+}

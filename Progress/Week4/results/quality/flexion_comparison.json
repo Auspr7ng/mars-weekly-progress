@@ -1,0 +1,26 @@
+{
+  "Earlier reverse-flexion stance": {
+    "l": {
+      "knee_forward_of_hip_ankle_line_mm": -19.89549400461174,
+      "knee_joint_deg": 31.233823352672143,
+      "ankle_joint_deg": -24.00000169144939
+    },
+    "r": {
+      "knee_forward_of_hip_ankle_line_mm": -21.261140492963396,
+      "knee_joint_deg": -33.38448693578395,
+      "ankle_joint_deg": -24.00000169144939
+    }
+  },
+  "Corrected flexion stance": {
+    "l": {
+      "knee_forward_of_hip_ankle_line_mm": 23.312331955493402,
+      "knee_joint_deg": -36.2002683422446,
+      "ankle_joint_deg": 26.094133705152995
+    },
+    "r": {
+      "knee_forward_of_hip_ankle_line_mm": 24.430248052813546,
+      "knee_joint_deg": 38.085859344147536,
+      "ankle_joint_deg": 27.64825553181615
+    }
+  }
+}

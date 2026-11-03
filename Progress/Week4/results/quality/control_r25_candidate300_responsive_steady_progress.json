@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/control_r25_cadence/model_300.pt",
+  "quality_report": "results/quality/control_r25_candidate300_responsive_steady_quality.json"
+}

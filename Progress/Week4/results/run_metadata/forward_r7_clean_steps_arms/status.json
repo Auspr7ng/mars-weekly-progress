@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 952,
+  "checkpoint": "logs/forward_r7_clean_steps_arms/model_247_paused.pt",
+  "iteration": 247,
+  "environment_transitions": 8126464,
+  "time": "2026-11-01T01:30:56.279213-04:00",
+  "reason": "STOP file"
+}

@@ -1,0 +1,13 @@
+{
+  "source_checkpoint": "logs/forward_r8_landing_refinement/model_200.pt",
+  "source_revision": 8,
+  "actor_max_output_difference": 1.1920928955078125e-07,
+  "old_actor_dim": 445,
+  "new_actor_dim": 460,
+  "critic_dim_unchanged": 98,
+  "extra_feature_weights_initialized_zero": true,
+  "optimizer_reset": true,
+  "iteration_reset": true,
+  "simulated_velocity_requires_real_estimator": true,
+  "comparison_precision": "float32 without TF32"
+}

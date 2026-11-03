@@ -1,0 +1,333 @@
+{
+  "checkpoint": "logs/control_r25_cadence/model_336_paused.pt",
+  "episodes": 100,
+  "survived": 100,
+  "passed": 100,
+  "release_zero_contract": true,
+  "accepted": true,
+  "termination_reasons": {},
+  "limits": {
+    "forward_limit": 0.12,
+    "yaw_limit": 0.25,
+    "backward_limit": 0.06
+  },
+  "stages": [
+    {
+      "stage": 0,
+      "start_s": 0.0,
+      "end_s": 3,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.006514261942356825,
+      "yaw_rate_p95_mean": 0.007331248372793198,
+      "drift_mean_m": 0.010561673901975155,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    },
+    {
+      "stage": 1,
+      "start_s": 3,
+      "end_s": 8,
+      "held": true,
+      "vector": [
+        0.15,
+        0,
+        0
+      ],
+      "landings_mean": [
+        3.0,
+        3.0
+      ],
+      "command": [
+        0.07263157894736844,
+        0.0,
+        0.0
+      ],
+      "actual_vx_mean": 0.05631806701421738,
+      "actual_yaw_rate_mean": 0.009766126982867718,
+      "passed": 100
+    },
+    {
+      "stage": 2,
+      "start_s": 8,
+      "end_s": 11,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.006536975968629122,
+      "yaw_rate_p95_mean": 0.026796501129865646,
+      "drift_mean_m": 0.004184874705970287,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    },
+    {
+      "stage": 3,
+      "start_s": 11,
+      "end_s": 16,
+      "held": true,
+      "vector": [
+        0.3,
+        0,
+        0
+      ],
+      "landings_mean": [
+        4.0,
+        3.0
+      ],
+      "command": [
+        0.12,
+        0.0,
+        0.0
+      ],
+      "actual_vx_mean": 0.0932704359292984,
+      "actual_yaw_rate_mean": 0.01036216039210558,
+      "passed": 100
+    },
+    {
+      "stage": 4,
+      "start_s": 16,
+      "end_s": 19,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.011857493780553341,
+      "yaw_rate_p95_mean": 0.01237182505428791,
+      "drift_mean_m": 0.011700980365276337,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    },
+    {
+      "stage": 5,
+      "start_s": 19,
+      "end_s": 24,
+      "held": true,
+      "vector": [
+        0,
+        0.3,
+        0
+      ],
+      "landings_mean": [
+        4.0,
+        4.0
+      ],
+      "command": [
+        0.0,
+        0.0,
+        0.25
+      ],
+      "actual_vx_mean": 0.0008142076549120247,
+      "actual_yaw_rate_mean": 0.24333196878433228,
+      "passed": 100
+    },
+    {
+      "stage": 6,
+      "start_s": 24,
+      "end_s": 27,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.004203597083687782,
+      "yaw_rate_p95_mean": 0.006066627334803343,
+      "drift_mean_m": 0.0036053985822945833,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    },
+    {
+      "stage": 7,
+      "start_s": 27,
+      "end_s": 32,
+      "held": true,
+      "vector": [
+        0,
+        -0.3,
+        0
+      ],
+      "landings_mean": [
+        3.0,
+        3.0
+      ],
+      "command": [
+        0.0,
+        0.0,
+        -0.25
+      ],
+      "actual_vx_mean": 0.0016403247136622667,
+      "actual_yaw_rate_mean": -0.25704440474510193,
+      "passed": 100
+    },
+    {
+      "stage": 8,
+      "start_s": 32,
+      "end_s": 35,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.005534911062568426,
+      "yaw_rate_p95_mean": 0.021504230797290802,
+      "drift_mean_m": 0.004057052079588175,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    },
+    {
+      "stage": 9,
+      "start_s": 35,
+      "end_s": 37.5,
+      "held": true,
+      "vector": [
+        -0.15,
+        0,
+        0
+      ],
+      "landings_mean": [
+        2.0,
+        2.0
+      ],
+      "command": [
+        -0.049473684210526316,
+        0.0,
+        0.0
+      ],
+      "actual_vx_mean": -0.03637714311480522,
+      "actual_yaw_rate_mean": -0.0019287976901978254,
+      "passed": 100
+    },
+    {
+      "stage": 10,
+      "start_s": 37.5,
+      "end_s": 40,
+      "held": true,
+      "vector": [
+        -0.3,
+        0,
+        0
+      ],
+      "landings_mean": [
+        3.0,
+        2.0
+      ],
+      "command": [
+        -0.06,
+        0.0,
+        0.0
+      ],
+      "actual_vx_mean": -0.043943166732788086,
+      "actual_yaw_rate_mean": 0.010250283405184746,
+      "passed": 100
+    },
+    {
+      "stage": 11,
+      "start_s": 40,
+      "end_s": 43,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.008289260789752007,
+      "yaw_rate_p95_mean": 0.007008357439190149,
+      "drift_mean_m": 0.012787661515176296,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    },
+    {
+      "stage": 12,
+      "start_s": 43,
+      "end_s": 48,
+      "held": true,
+      "vector": [
+        0.22,
+        0.18,
+        0
+      ],
+      "landings_mean": [
+        4.0,
+        3.0
+      ],
+      "command": [
+        0.09473684210526316,
+        0.0,
+        0.17842105263157892
+      ],
+      "actual_vx_mean": 0.07494568079710007,
+      "actual_yaw_rate_mean": 0.19200588762760162,
+      "passed": 100
+    },
+    {
+      "stage": 13,
+      "start_s": 48,
+      "end_s": 51,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.005256389267742634,
+      "yaw_rate_p95_mean": 0.00967288576066494,
+      "drift_mean_m": 0.002728275954723358,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    },
+    {
+      "stage": 14,
+      "start_s": 51,
+      "end_s": 52,
+      "held": true,
+      "vector": [
+        0.3,
+        0,
+        0
+      ],
+      "command": [
+        0.12,
+        0.0,
+        0.0
+      ],
+      "actual_vx_mean": 0.07338032871484756,
+      "actual_yaw_rate_mean": -0.08297543227672577,
+      "passed": 100
+    },
+    {
+      "stage": 15,
+      "start_s": 52,
+      "end_s": 55,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.0010195814538747072,
+      "yaw_rate_p95_mean": 0.02059742994606495,
+      "drift_mean_m": 0.0006147780222818255,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    },
+    {
+      "stage": 16,
+      "start_s": 55,
+      "end_s": 56,
+      "held": true,
+      "vector": [
+        0,
+        0.3,
+        0
+      ],
+      "command": [
+        0.0,
+        0.0,
+        0.25
+      ],
+      "actual_vx_mean": 0.009103273041546345,
+      "actual_yaw_rate_mean": 0.23510265350341797,
+      "passed": 100
+    },
+    {
+      "stage": 17,
+      "start_s": 56,
+      "end_s": 60,
+      "held": false,
+      "vector": null,
+      "raw_command_always_zero": true,
+      "planar_speed_p95_mean": 0.005505677312612534,
+      "yaw_rate_p95_mean": 0.0132046639919281,
+      "drift_mean_m": 0.009223107248544693,
+      "double_support_fraction_mean": 1.0,
+      "passed": 100
+    }
+  ],
+  "scope": "Exact body-frame hold-to-move mapper and release lifecycle; includes one-second bursts and repeat release/quiet support; real PPO feedback"
+}

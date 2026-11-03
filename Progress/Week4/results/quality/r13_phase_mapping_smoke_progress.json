@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/r13_transfer_smoke/model_0.pt",
+  "quality_report": "results/quality/r13_phase_mapping_smoke_quality.json"
+}

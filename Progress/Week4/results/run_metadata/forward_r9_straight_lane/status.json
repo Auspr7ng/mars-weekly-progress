@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 28764,
+  "checkpoint": "logs/forward_r9_straight_lane/model_247_paused.pt",
+  "iteration": 247,
+  "environment_transitions": 4063232,
+  "time": "2026-11-01T01:00:48.419399-05:00",
+  "reason": "STOP file"
+}

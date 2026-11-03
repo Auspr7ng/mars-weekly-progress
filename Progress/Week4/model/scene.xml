@@ -1,0 +1,8 @@
+<mujoco model="Sunday_A1_Week4_native">
+  <include file="sunday_a1_locomotion.xml" />
+  <option timestep="0.002" integrator="implicitfast" iterations="30" cone="elliptic" />
+  <worldbody>
+    <geom name="ground" type="plane" size="20 20 .1" rgba=".2 .23 .28 1" friction=".8 .005 .0001" />
+    <light pos="0 -2 3" dir="0 0 -1" diffuse=".8 .8 .8" />
+  </worldbody>
+</mujoco>

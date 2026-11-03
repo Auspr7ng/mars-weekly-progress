@@ -1,0 +1,122 @@
+[
+  {
+    "root_z": 0.24,
+    "body_pitch": 0.0,
+    "swing": "left",
+    "max_position_error_mm": 0.4023933893092762,
+    "whole_sole_clearance_mm": [
+      19.91113675185218,
+      0.15327746808347933
+    ]
+  },
+  {
+    "root_z": 0.24,
+    "body_pitch": 0.0,
+    "swing": "right",
+    "max_position_error_mm": 0.19466202608448244,
+    "whole_sole_clearance_mm": [
+      0.15242502112263542,
+      20.127019239101678
+    ]
+  },
+  {
+    "root_z": 0.24,
+    "body_pitch": 0.05,
+    "swing": "left",
+    "max_position_error_mm": 0.10052510766414477,
+    "whole_sole_clearance_mm": [
+      20.13804271931483,
+      0.15328121979416895
+    ]
+  },
+  {
+    "root_z": 0.24,
+    "body_pitch": 0.05,
+    "swing": "right",
+    "max_position_error_mm": 7.917744215130315e-05,
+    "whole_sole_clearance_mm": [
+      0.15243173906449792,
+      20.153164292385636
+    ]
+  },
+  {
+    "root_z": 0.238,
+    "body_pitch": 0.0,
+    "swing": "left",
+    "max_position_error_mm": 1.5658735545904474,
+    "whole_sole_clearance_mm": [
+      17.853711355005103,
+      0.15324278109146391
+    ]
+  },
+  {
+    "root_z": 0.238,
+    "body_pitch": 0.0,
+    "swing": "right",
+    "max_position_error_mm": 1.3539754954808019,
+    "whole_sole_clearance_mm": [
+      0.1523828965202136,
+      18.22228306689975
+    ]
+  },
+  {
+    "root_z": 0.238,
+    "body_pitch": 0.05,
+    "swing": "left",
+    "max_position_error_mm": 1.2692476308481835,
+    "whole_sole_clearance_mm": [
+      18.383098630636702,
+      0.15324194576137357
+    ]
+  },
+  {
+    "root_z": 0.238,
+    "body_pitch": 0.05,
+    "swing": "right",
+    "max_position_error_mm": 1.051577296170429,
+    "whole_sole_clearance_mm": [
+      0.15238262345040204,
+      18.762571234512304
+    ]
+  },
+  {
+    "root_z": 0.236,
+    "body_pitch": 0.0,
+    "swing": "left",
+    "max_position_error_mm": 2.696450943041689,
+    "whole_sole_clearance_mm": [
+      15.823840616565242,
+      0.15322315485445812
+    ]
+  },
+  {
+    "root_z": 0.236,
+    "body_pitch": 0.0,
+    "swing": "right",
+    "max_position_error_mm": 2.4812133878512803,
+    "whole_sole_clearance_mm": [
+      0.15236096749745762,
+      16.195029108886136
+    ]
+  },
+  {
+    "root_z": 0.236,
+    "body_pitch": 0.05,
+    "swing": "left",
+    "max_position_error_mm": 2.40476761858122,
+    "whole_sole_clearance_mm": [
+      16.354029566742764,
+      0.15322089381857318
+    ]
+  },
+  {
+    "root_z": 0.236,
+    "body_pitch": 0.05,
+    "swing": "right",
+    "max_position_error_mm": 2.18344489120992,
+    "whole_sole_clearance_mm": [
+      0.15235883914063417,
+      16.736480898919076
+    ]
+  }
+]

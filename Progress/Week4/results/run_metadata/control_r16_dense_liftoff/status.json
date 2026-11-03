@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 26052,
+  "checkpoint": "logs/control_r16_dense_liftoff/model_233_paused.pt",
+  "iteration": 233,
+  "environment_transitions": 15335424,
+  "time": "2026-11-01T18:10:44.430912-05:00",
+  "reason": "STOP file"
+}

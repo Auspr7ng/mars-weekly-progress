@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "bounded_viewer_wall_time_s": 10,
+  "simulation_time_s": 8.24,
+  "physics_backend": "native_mujoco",
+  "actor_device": "cpu",
+  "foot_distance_max": 0.16432812809944153,
+  "hand_distance_max": 0.0,
+  "exit_code": 0,
+  "viewer_port": 8087,
+  "unrelated_live_viewer_untouched": true
+}

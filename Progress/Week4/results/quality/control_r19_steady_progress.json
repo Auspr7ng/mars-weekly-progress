@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/control_r19_metadata_dynamics/model_399.pt",
+  "quality_report": "results/quality/control_r19_steady_quality.json"
+}

@@ -1,0 +1,9 @@
+{
+  "passed": false,
+  "seconds": 5,
+  "root_height_min": -121.55256264000141,
+  "root_height_end": -121.55256264000141,
+  "max_tilt_rad": 4.011957699390193e-14,
+  "all_reference_targets_inside_soft_limits": true,
+  "harness_error": "Standalone robot XML omits the terrain normally supplied by mjlab; this first test was free fall."
+}

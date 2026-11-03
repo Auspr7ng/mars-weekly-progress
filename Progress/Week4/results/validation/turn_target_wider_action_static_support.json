@@ -1,0 +1,122 @@
+[
+  {
+    "root_sway_m": 0.018,
+    "swing": "left",
+    "position_error_max_mm": 7.632783294297951e-14,
+    "orientation_error_max_rad": 2.2957966587234885e-16,
+    "whole_robot_com_m": [
+      0.03514455448226248,
+      -0.015107634806867627,
+      0.22014823706279277
+    ],
+    "stance_support_margin_mm": -2.042596667313011,
+    "peak_required_leg_static_torque_Nm": 1.6350813125867472,
+    "limiting_joint": "r_hip_pitch",
+    "action_bounds_active": [],
+    "notes": "Static IK diagnostic with both feet flat and one raised24mm. Root pose is prescribed only inside this offline calculation. Not a physical rollout or proof of dynamic stability.",
+    "knee_scale": 0.9,
+    "ankle_roll_scale": 0.65,
+    "root_roll_amplitude_rad": 0.04,
+    "target_clearance_m": 0.024
+  },
+  {
+    "root_sway_m": 0.018,
+    "swing": "right",
+    "position_error_max_mm": 7.979727989493313e-14,
+    "orientation_error_max_rad": 3.6116161617657104e-16,
+    "whole_robot_com_m": [
+      0.03511109476036335,
+      0.015194842182079216,
+      0.2201354861603956
+    ],
+    "stance_support_margin_mm": -1.9159481899878525,
+    "peak_required_leg_static_torque_Nm": 1.6341788177814198,
+    "limiting_joint": "l_hip_pitch",
+    "action_bounds_active": [],
+    "notes": "Static IK diagnostic with both feet flat and one raised24mm. Root pose is prescribed only inside this offline calculation. Not a physical rollout or proof of dynamic stability.",
+    "knee_scale": 0.9,
+    "ankle_roll_scale": 0.65,
+    "root_roll_amplitude_rad": 0.04,
+    "target_clearance_m": 0.024
+  },
+  {
+    "root_sway_m": 0.028,
+    "swing": "left",
+    "position_error_max_mm": 9.020562075079397e-14,
+    "orientation_error_max_rad": 3.5199683048240445e-16,
+    "whole_robot_com_m": [
+      0.03496486284262966,
+      -0.022825825363684715,
+      0.22011270936170332
+    ],
+    "stance_support_margin_mm": 5.675300264620035,
+    "peak_required_leg_static_torque_Nm": 1.6866933076661739,
+    "limiting_joint": "r_hip_pitch",
+    "action_bounds_active": [],
+    "notes": "Static IK diagnostic with both feet flat and one raised24mm. Root pose is prescribed only inside this offline calculation. Not a physical rollout or proof of dynamic stability.",
+    "knee_scale": 0.9,
+    "ankle_roll_scale": 0.65,
+    "root_roll_amplitude_rad": 0.04,
+    "target_clearance_m": 0.024
+  },
+  {
+    "root_sway_m": 0.028,
+    "swing": "right",
+    "position_error_max_mm": 4.85722573273506e-14,
+    "orientation_error_max_rad": 4.586736400983525e-16,
+    "whole_robot_com_m": [
+      0.034920697391978374,
+      0.022913391683073707,
+      0.22009743630808448
+    ],
+    "stance_support_margin_mm": 5.802304189961694,
+    "peak_required_leg_static_torque_Nm": 1.6892061434445826,
+    "limiting_joint": "l_hip_pitch",
+    "action_bounds_active": [],
+    "notes": "Static IK diagnostic with both feet flat and one raised24mm. Root pose is prescribed only inside this offline calculation. Not a physical rollout or proof of dynamic stability.",
+    "knee_scale": 0.9,
+    "ankle_roll_scale": 0.65,
+    "root_roll_amplitude_rad": 0.04,
+    "target_clearance_m": 0.024
+  },
+  {
+    "root_sway_m": 0.035,
+    "swing": "left",
+    "position_error_max_mm": 3.481936960980647e-11,
+    "orientation_error_max_rad": 6.093071770290021e-14,
+    "whole_robot_com_m": [
+      0.034755308495255204,
+      -0.028232996586756803,
+      0.22007173643236946
+    ],
+    "stance_support_margin_mm": 11.082136648665273,
+    "peak_required_leg_static_torque_Nm": 1.7431912645443346,
+    "limiting_joint": "r_hip_pitch",
+    "action_bounds_active": [],
+    "notes": "Static IK diagnostic with both feet flat and one raised24mm. Root pose is prescribed only inside this offline calculation. Not a physical rollout or proof of dynamic stability.",
+    "knee_scale": 0.9,
+    "ankle_roll_scale": 0.65,
+    "root_roll_amplitude_rad": 0.04,
+    "target_clearance_m": 0.024
+  },
+  {
+    "root_sway_m": 0.035,
+    "swing": "right",
+    "position_error_max_mm": 2.42861286636753e-14,
+    "orientation_error_max_rad": 1.3936250771883507e-16,
+    "whole_robot_com_m": [
+      0.034685037362858745,
+      0.028321469591231607,
+      0.22005112351861822
+    ],
+    "stance_support_margin_mm": 11.210024504651459,
+    "peak_required_leg_static_torque_Nm": 1.7527490829021215,
+    "limiting_joint": "l_hip_pitch",
+    "action_bounds_active": [],
+    "notes": "Static IK diagnostic with both feet flat and one raised24mm. Root pose is prescribed only inside this offline calculation. Not a physical rollout or proof of dynamic stability.",
+    "knee_scale": 0.9,
+    "ankle_roll_scale": 0.65,
+    "root_roll_amplitude_rad": 0.04,
+    "target_clearance_m": 0.024
+  }
+]

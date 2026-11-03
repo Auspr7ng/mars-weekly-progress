@@ -1,0 +1,8 @@
+{
+  "source": "logs/forward_r10_velocity_feedback/model_100.pt",
+  "optimizer_reset": true,
+  "changed_nominal_pose": false,
+  "changed_phase_period": false,
+  "source_revision": 10,
+  "same_physical_mass_inertia_torque_limits": true
+}

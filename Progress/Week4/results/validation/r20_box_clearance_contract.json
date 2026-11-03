@@ -1,0 +1,13 @@
+{
+  "analytic_separation_contact_penetration_m": [
+    0.004999997094273567,
+    0.0,
+    -0.000999998301267624
+  ],
+  "random_robot_poses": 240,
+  "native_box_collision_sign_disagreements": 0,
+  "penetrating_poses": 38,
+  "max_native_penetration_gap_m": 1.0364972768961422e-16,
+  "native_probe": "Separate free bodies carrying the exact robot hand/knee OBBs and world transforms; direct mj_forward collision contacts, no collision filters.",
+  "unchanged_robot_model": true
+}

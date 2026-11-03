@@ -1,0 +1,35 @@
+[
+  {
+    "root_height": 0.24,
+    "ik_error_mm": 0.2014656293429541,
+    "initial_sole_tilt_deg": [
+      0.1392722053193022,
+      0.9858791465784168
+    ],
+    "native_10s_tilt_deg": 1.0949254154799408,
+    "native_drift_m": 0.0035599029492815863,
+    "passed": true
+  },
+  {
+    "root_height": 0.238,
+    "ik_error_mm": 0.5697557637738399,
+    "initial_sole_tilt_deg": [
+      2.397777372671254,
+      3.1857338067010454
+    ],
+    "native_10s_tilt_deg": 3.603195349686418,
+    "native_drift_m": 0.013581909441425014,
+    "passed": true
+  },
+  {
+    "root_height": 0.236,
+    "ik_error_mm": 0.8395931267890899,
+    "initial_sole_tilt_deg": [
+      4.513368480154117,
+      5.2403870825917
+    ],
+    "native_10s_tilt_deg": 5.96671809764775,
+    "native_drift_m": 0.02289283357497914,
+    "passed": false
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "gpu": {
+    "duration_s": 10.0,
+    "forward_m": 0.383711040019989,
+    "height_peak_to_peak_mm": 8.145198225975037,
+    "roll_peak_to_peak_deg": 13.006914408146757,
+    "pitch_peak_to_peak_deg": 4.528224987359862,
+    "supported_sole_speed_mean_m_s": 0.02016283209761483,
+    "supported_sole_speed_p95_m_s": 0.13874316347596402,
+    "peak_foot_force_bodyweights": 1.5385723114013672,
+    "flight_fraction": 0.0,
+    "left_right_support_fraction": [
+      0.6025,
+      0.6
+    ],
+    "foot_height_max_mm": [
+      15.313845236421129,
+      19.806217150713078
+    ],
+    "foot_below_ground_min_mm": [
+      -1.1892065073594253,
+      -2.2810939279123588
+    ],
+    "termination_reasons": [],
+    "settled_stance_speed_p95_m_s": 0.004181396121411132,
+    "touchdown_speed_p95_m_s": 0.14881304749601207,
+    "complete_swing_peak_clearances_mm": [
+      [
+        15.313845236421129,
+        15.242013559704084,
+        14.826572218953565,
+        15.279691453582739,
+        15.173960360081667,
+        15.179773901738095
+      ],
+      [
+        19.480696564358727,
+        19.80130475150089,
+        19.806217150713078,
+        19.68280032623656,
+        19.63929115129787
+      ]
+    ],
+    "minimum_swing_peak_mm": [
+      14.826572218953565,
+      19.480696564358727
+    ],
+    "median_swing_peak_mm": [
+      15.21089373072109,
+      19.68280032623656
+    ],
+    "mean_forward_speed_m_s": 0.03917489415571504
+  },
+  "native": {
+    "duration_s": 10.0,
+    "forward_m": 0.3844730536953971,
+    "height_peak_to_peak_mm": 8.21001772210389,
+    "roll_peak_to_peak_deg": 13.226822265332697,
+    "pitch_peak_to_peak_deg": 4.4665846766205695,
+    "supported_sole_speed_mean_m_s": 0.019247010095770786,
+    "supported_sole_speed_p95_m_s": 0.12675827249597216,
+    "peak_foot_force_bodyweights": 1.5112720807613358,
+    "flight_fraction": 0.0,
+    "left_right_support_fraction": [
+      0.595,
+      0.6
+    ],
+    "foot_height_max_mm": [
+      15.523241131353709,
+      20.13901047239893
+    ],
+    "foot_below_ground_min_mm": [
+      -1.2716356576034218,
+      -2.3003697916318346
+    ],
+    "failed": false,
+    "self_contact_pairs": [],
+    "settled_stance_speed_p95_m_s": 0.004185971373470427,
+    "touchdown_speed_p95_m_s": 0.1712668321870635,
+    "complete_swing_peak_clearances_mm": [
+      [
+        15.264012108243021,
+        15.523241131353709,
+        14.9832088426609,
+        15.397056235882548,
+        15.38331913497668,
+        15.42839120165523
+      ],
+      [
+        19.87747722801849,
+        19.88187127889888,
+        19.87236395993756,
+        20.01722931340929,
+        20.13901047239893
+      ]
+    ],
+    "minimum_swing_peak_mm": [
+      14.9832088426609,
+      19.87236395993756
+    ],
+    "median_swing_peak_mm": [
+      15.390187685429614,
+      19.88187127889888
+    ],
+    "mean_forward_speed_m_s": 0.03927794385987733
+  },
+  "native_observation_max_error": 0.005402177572250366,
+  "native_observation_errors": {
+    "gyro": 0.005402177572250366,
+    "gravity": 5.960464477539063e-08,
+    "command": 0.0,
+    "joint_pos": 0.0,
+    "joint_vel": 7.450580596923828e-09,
+    "action": 0.0,
+    "phase": 4.231929779052734e-06,
+    "heading": 7.450580596923828e-09
+  },
+  "notes": "Native rollout uses its own physics and feedback after a single reset. No root driving or copying GPU poses into native rollout.",
+  "checkpoint": "logs/forward_r7_clean_steps_arms/model_75.pt",
+  "revision": 7,
+  "command_m_s": 0.02,
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "nominal_sha256": "b14189c9bfa5501a0a08874c6c43c3e8364b4891488f21f54f54970c0af48512"
+}

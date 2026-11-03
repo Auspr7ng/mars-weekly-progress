@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/control_r21_reference_clearance/model_275.pt",
+  "quality_report": "results/quality/control_r21_candidate275_steady_quality.json"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "accepted",
+  "checkpoint_sha256": "3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202",
+  "physical_model_sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+  "nominal_sha256": "877c3e74609dc365e37aa49f1816be5b1ad2343b796ae00bd71303cc2a6f21f4",
+  "source_run": "logs/control_r25_cadence",
+  "source_checkpoint": "model_300.pt",
+  "gpu_command_passes": 1200,
+  "gpu_command_trials": 1200,
+  "native_cpu_programs_passed": 12,
+  "joystick_and_gait_review_pending": false,
+  "assessment": "results/control_r25_candidate300_responsive_result_assessment_v2.json",
+  "web_interaction_verified": true,
+  "accepted_manifest": "config/accepted_policy.json"
+}

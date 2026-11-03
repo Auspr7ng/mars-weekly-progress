@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 8252,
+  "checkpoint": "logs/control_r18_load_transfer/model_52_paused.pt",
+  "iteration": 52,
+  "environment_transitions": 3473408,
+  "time": "2026-11-01T18:44:26.089952-05:00",
+  "reason": "STOP file"
+}

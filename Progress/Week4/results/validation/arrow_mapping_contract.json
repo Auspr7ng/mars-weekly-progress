@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "bounded_direction_probes": 2525,
+  "stop_and_both_turns": true,
+  "vertical_command_disabled": true
+}

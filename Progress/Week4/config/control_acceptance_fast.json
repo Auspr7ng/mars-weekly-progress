@@ -1,0 +1,77 @@
+{
+  "scope": "Faster joystick flat-ground simulation; physics and old gates preserved",
+  "command_range": {
+    "forward_speed_m_s": [
+      -0.06,
+      0.15
+    ],
+    "yaw_rate_rad_s": [
+      -0.4,
+      0.4
+    ],
+    "zero_command_stand": true
+  },
+  "required_programs": [
+    "idle",
+    "steady",
+    "speed_stop",
+    "turns",
+    "in_place",
+    "fast_steady",
+    "fast_speed_stop",
+    "fast_turns",
+    "fast_in_place",
+    "reverse_stop"
+  ],
+  "holdout_programs": [
+    "right_first",
+    "mixed_holdout"
+  ],
+  "random_starts_per_program": 100,
+  "survival_fraction_min": 0.95,
+  "complete_program_pass_fraction_min": 0.9,
+  "stop": {
+    "after_command_window_delay_s": 1.2,
+    "planar_speed_p95_max_m_s": 0.025,
+    "yaw_rate_p95_max_rad_s": 0.1,
+    "window_displacement_max_m": 0.04,
+    "double_support_fraction_min": 0.85,
+    "continuous_quiet_support_s": 0.5,
+    "quiet_support_completion_max_s": 1.8
+  },
+  "walking": {
+    "forward_velocity_rmse_max_m_s": 0.04,
+    "yaw_rate_rmse_max_rad_s": 0.08,
+    "heading_rmse_max_rad": 0.25,
+    "valid_swing_height_min_m": 0.004,
+    "valid_swing_min_ticks": 3,
+    "minimum_valid_landing_per_foot_per_segment": 1,
+    "straight20s_lateral_max_m": 0.15,
+    "speed_stop_lateral_max_m": 0.2,
+    "in_place_segment_drift_max_m": 0.08
+  },
+  "gait_quality": {
+    "audit_seconds": 20,
+    "whole_sole_swing_peak_min_mm": 15,
+    "roll_peak_to_peak_max_deg": 8,
+    "pitch_peak_to_peak_max_deg": 6,
+    "height_peak_to_peak_max_mm": 10,
+    "supported_sole_speed_p95_max_m_s": 0.035,
+    "peak_foot_force_max_bodyweights": 1.8,
+    "flight_fraction_max": 0.01,
+    "left_right_support_fraction_difference_max": 0.08
+  },
+  "native": "Independent CPU MuJoCo feedback for original and holdout command programs plus20s gait audit; no GPU pose copies after reset",
+  "visual_review": "Front and side actual policy replay including both directions, foot planting and eight unchanged distance heatmaps; reject persistent shuffling/pivot slip",
+  "completion": "Only select a new demonstration policy after required and holdout programmes, native feedback, gait-quality checks and visual review pass. Continue correcting failures without asking for renewed authorization.",
+  "fast_tracking": {
+    "forward_mean_at_0p15_min_m_s": 0.12,
+    "signed_mean_yaw_at_0p4_min_rad_s": 0.28,
+    "reverse_mean_fraction_min": 0.7
+  },
+  "joystick": {
+    "hold_to_move": true,
+    "release_recenters": true,
+    "release_raw_command_zero": true
+  }
+}

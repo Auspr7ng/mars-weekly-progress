@@ -1,0 +1,17 @@
+{
+  "revision": 23,
+  "training_start_mixture": true,
+  "initial_nominal_starts": 7,
+  "evaluation_reset_mixture_disabled": true,
+  "actor_dim": 460,
+  "critic_dim": 98,
+  "actions": 22,
+  "zero_action_failures": 0,
+  "sampled_commands": 640,
+  "stopped_samples": 130,
+  "left_turn_samples": 106,
+  "right_turn_samples": 95,
+  "max_speed": 0.15000000596046448,
+  "max_abs_yaw_rate": 0.4000000059604645,
+  "passed": true
+}

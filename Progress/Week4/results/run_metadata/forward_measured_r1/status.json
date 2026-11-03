@@ -1,0 +1,10 @@
+{
+  "state": "completed",
+  "pid": 14260,
+  "checkpoint": "logs/forward_measured_r1/model_999.pt",
+  "iteration": 999,
+  "environment_transitions": 6144000,
+  "time": "2026-10-31T23:03:07.221048-04:00",
+  "training_elapsed_s": 1009.3403758001514,
+  "gpu_peak_allocated_MiB": 53.1884765625
+}

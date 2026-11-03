@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "interaction_ui_version": "free_drag_v2",
+  "policy_unchanged": true,
+  "checkpoint_sha256": "3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202",
+  "actual_browser_checks": {
+    "diagonal_drag_release": true,
+    "combined_forward_turn_release": true,
+    "low_view_drag_release": true,
+    "orbit": true,
+    "zoom": true,
+    "pan_via_keyboard": true,
+    "optional_follow_orbit": true,
+    "reset_camera": true,
+    "default_free_camera": true,
+    "final_stopped": true
+  },
+  "camera_orientation_contract": "results/validation/free_drag_v2_contract.json",
+  "screenshot": "results/web_demo/free_drag_v2.jpg",
+  "source_sha256": {
+    "code/src/sunday_locomotion/arrow_control.py": "9104d7e02d499efb11d95eb4218e2b2aab701d73b3df50e6939fcb5ac50d497e",
+    "code/scripts/play.py": "081ea62bd7733a0cb88145ffa74008fee451e776f421113159321353e5c673a7",
+    "code/run_demo.py": "bea06b4da994d61a8ce29c7332a8e9f25aba38238132d3f4b3351c81c2a8591c"
+  },
+  "tactile_unchanged": true,
+  "tactile_sha256": {
+    "flexitac.py": "26edb569d0696d346b4426854edeff2e7bde4bb92ce42f0274a6bb9c79a7b7a4",
+    "feet_tactile.py": "d7fa68d792df3e0a937f6165b0b1bab597b89d0bf4131d83dc401fa67bfe2414",
+    "tactile_display.py": "0d4a0ed7f3006a994740f9d19455d354d62b684bc6464f5b41519888435135fd",
+    "mjlab_flexitac.py": "1a5ce658c0b73f93024cadd8150b7bccc4808c9b3f185ba3f77552c4c0c7f0b7"
+  },
+  "policy_training_rerun": false,
+  "evidence": [
+    "results/validation/free_drag_v2_camera_orbit.json",
+    "results/validation/free_drag_v2_camera_pan.json",
+    "results/validation/free_drag_v2_contract.json",
+    "results/validation/free_drag_v2_diagonal_release.json",
+    "results/validation/free_drag_v2_follow_orbit.json",
+    "results/validation/free_drag_v2_low_view_release.json",
+    "results/validation/free_drag_v2_mixed_release.json"
+  ]
+}

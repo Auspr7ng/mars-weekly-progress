@@ -1,0 +1,249 @@
+{
+  "status": "APPROXIMATE MEASURED TOTAL; ESTIMATED PER-LINK DISTRIBUTION",
+  "mass_mode": "normalize_to_measured_total",
+  "global_mass_inertia_scale": 0.22034893022808225,
+  "measured_total_with_battery_kg": 3.0,
+  "battery_removed_kg": 0.16,
+  "repository": "https://github.com/viberobotics/vibe_robotics_sdk",
+  "ref": "4c29bee4683e97d4580bee308d97d3c6c8c2418e",
+  "torso": {
+    "mass_kg": 0.2588130394886963,
+    "com_canonical_m": [
+      0.0624261,
+      0.000806529,
+      0.137332
+    ],
+    "fullinertia_canonical_kg_m2": [
+      0.0020458450671277458,
+      0.0016584892757011954,
+      0.0006806490315173369,
+      -7.300093953777297e-06,
+      -4.04913194187124e-06,
+      -3.5243709645330618e-06
+    ],
+    "source": "SundayA1/robot.xml root template, included in the normalized total; not an additional mass on top of measured robot",
+    "uncertainty_fraction": 0.3
+  },
+  "segments": {
+    "r_shoulder_link_1": {
+      "mass_kg": 0.08784761569720674,
+      "source_mass_kg": 0.3986750269505554,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_shoulder_link_1": {
+      "mass_kg": 0.08784761569720674,
+      "source_mass_kg": 0.3986750269505554,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_upper_arm_link_1": {
+      "mass_kg": 0.07755047636050504,
+      "source_mass_kg": 0.3519439657829646,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_upper_arm_link_1": {
+      "mass_kg": 0.07755047636050504,
+      "source_mass_kg": 0.3519439657829646,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_bicep_link_1": {
+      "mass_kg": 0.03401494877590012,
+      "source_mass_kg": 0.1543685678014928,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_bicep_link_1": {
+      "mass_kg": 0.03401494877590012,
+      "source_mass_kg": 0.1543685678014928,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_hip_link_1": {
+      "mass_kg": 0.04823965022250701,
+      "source_mass_kg": 0.21892391386958107,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_hip_link_1": {
+      "mass_kg": 0.04823965022250701,
+      "source_mass_kg": 0.21892391386958107,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_lower_arm_link_1": {
+      "mass_kg": 0.07755047636050504,
+      "source_mass_kg": 0.3519439657829646,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_lower_arm_link_1": {
+      "mass_kg": 0.07755047636050504,
+      "source_mass_kg": 0.3519439657829646,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_thigh_link_1": {
+      "mass_kg": 0.05796334998855676,
+      "source_mass_kg": 0.26305255908689523,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_thigh_link_1": {
+      "mass_kg": 0.05796334998855676,
+      "source_mass_kg": 0.26305255908689523,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_knee_link_1": {
+      "mass_kg": 0.055680019375890476,
+      "source_mass_kg": 0.2526902187283429,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_knee_link_1": {
+      "mass_kg": 0.055680019375890476,
+      "source_mass_kg": 0.2526902187283429,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_calf_link_1": {
+      "mass_kg": 0.04765119244817133,
+      "source_mass_kg": 0.2162533414564245,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_calf_link_1": {
+      "mass_kg": 0.04765119244817133,
+      "source_mass_kg": 0.2162533414564245,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_ankle_link_1": {
+      "mass_kg": 0.07163814494825191,
+      "source_mass_kg": 0.3251122883787072,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_ankle_link_1": {
+      "mass_kg": 0.07163810028301268,
+      "source_mass_kg": 0.32511208567638783,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "head_1": {
+      "mass_kg": 0.32027707023893504,
+      "source_mass_kg": 1.4534995468660439,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_foot_link_1": {
+      "mass_kg": 0.19707433437098226,
+      "source_mass_kg": 0.8943739103565942,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_foot_link_1": {
+      "mass_kg": 0.19707308570833346,
+      "source_mass_kg": 0.8943682436050129,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_gripper_base_1": {
+      "mass_kg": 0.1444467677465937,
+      "source_mass_kg": 0.655536505655269,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_finger_bottom_1": {
+      "mass_kg": 0.11539930775252914,
+      "source_mass_kg": 0.5237116768984529,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "l_finger_top_1": {
+      "mass_kg": 0.11539930775252905,
+      "source_mass_kg": 0.5237116768984524,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_gripper_base_1": {
+      "mass_kg": 0.1444467677465937,
+      "source_mass_kg": 0.655536505655269,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_finger_top_1": {
+      "mass_kg": 0.11539930775252914,
+      "source_mass_kg": 0.5237116768984529,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    },
+    "r_finger_bottom_1": {
+      "mass_kg": 0.11539930775252905,
+      "source_mass_kg": 0.5237116768984524,
+      "source_variant": "Week3 modified Sunday A1 URDF",
+      "source_joint": null,
+      "method": "preserve geometry, COM and inertial radius; mass and inertia scaled together to measured-total budget"
+    }
+  },
+  "modified_raw_declared_mass_kg": 11.714088912705535,
+  "total_estimated_mass_kg": 2.84,
+  "hardware_clarification": "Jaeeun measured approximately 3 kg including 160 g battery; use 2.84 kg with wall supply. ST3215 at 7.2 V. The URDF 100 limits are placeholders.",
+  "actuators": {
+    "rotary_effort_cap_Nm": 1.6,
+    "leg_position_kp_Nm_per_rad": 50.0,
+    "rotary_kd_Nm_s_per_rad": 1.0,
+    "rotary_speed_cap_rad_s": 4.0,
+    "wrist_effort_cap_Nm": 0.8,
+    "head_effort_cap_Nm": 0.5,
+    "finger_effort_cap_N": 15.0,
+    "evidence": "1.6 Nm is an SDK simulation motor cap in SundayA1_Mujoco_V1.2, not a verified continuous rating. 4.9 Nm exists in a different leg-only MPC asset and is NOT applied blindly.",
+    "model": "ST3215",
+    "supply_voltage_V": 7.2,
+    "missing": "Exact servo suffix/gear variant, measured torque-speed curve, continuous-duty behavior and modified-finger transmission remain unmeasured."
+  },
+  "source_files": {
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1\\robot.xml": "07486c91379a09044c10434a4a69a20aee29da12b4d1836c8a3e10ef5bf120ce",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_ankle_2dof_new\\robot.xml": "8bde359c0e48447ba7f2510b32c233c03759524417e2d502ef8396a515721a9b",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_full_2dof_arm\\robot.xml": "4f228830dfcbe0117168f0f4d7771973341dcb642fb3f1aa7801a1b7818ff12c",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_full_2dof_arm_loco\\robot.xml": "b59004e6d28277b20ab5ec43ffa5aca02279b695304ef9de5c49f8d757fbfca9",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_full_2dof_b_new\\robot.xml": "77122d37a4b42c8a3e8dd5342b277a1f7b6b89157269f34266f4e76519b3dc73",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_Mujoco_V1.2\\robot.xml": "64c39d2c15f83b359cfa70bf284b09546fc794aa50da3dfc7da0f758536d6b11",
+    "research\\vibe_sdk\\viberobotics\\assets\\mujoco\\SundayA1_short_new\\robot.xml": "c72c45677222db97320546d62a51b82f3cf68fdd4702b8a0cdbb4d71c0b3cac3"
+  },
+  "caveats": [
+    "Stock models have 12/21/23/25 joints; modified model has 27. Do not load stock policies directly.",
+    "The total is anchored to an approximate measurement; per-link distribution is still an estimate.",
+    "Battery is excluded from the total budget once; its unknown position is not fabricated.",
+    "Previous 11.714/12.889 kg models and their checkpoints are superseded; start a fresh policy."
+  ]
+}

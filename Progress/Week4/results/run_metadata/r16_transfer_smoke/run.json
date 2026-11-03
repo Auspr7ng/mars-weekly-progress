@@ -1,0 +1,36 @@
+{
+  "stage": "control",
+  "revision": 16,
+  "nominal_sha256": "b14189c9bfa5501a0a08874c6c43c3e8364b4891488f21f54f54970c0af48512",
+  "whole_body": true,
+  "gait_phase": true,
+  "num_envs": 16,
+  "iterations": 1,
+  "seed": 42,
+  "resume": null,
+  "warm_start": null,
+  "initialize_from": "logs/control_r15_turn_transfer/model_150.pt",
+  "zero_mean_initialization": false,
+  "simulation_only": true,
+  "hardware_calibrated": false,
+  "actor_linear_velocity_source": "simulated base velocity",
+  "real_velocity_estimator_required": true,
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "source_hashes": {
+    "control_mdp.py": "f5160e1af47a765406c83efcb84a3f8891c375d8964fb6fe7b95e4f16a0117f7",
+    "env_cfg.py": "69ecd5cfa7e2594349f83db83916d2721b60898e7b0196d3c45d1756ded2703a",
+    "mdp.py": "4f94b8c965147a1bb8fde6a6a5a42ff6aa29a181672387563203f55a1e9c580a",
+    "quality_mdp.py": "d13e75b1f3175316efe9ea3008ede210e1902e20dacc0f2488bf2a2a62f0b7ac",
+    "train.py": "19ba45a01c76def906cdd92465ee440b08a905e28d6f414f996542f18267d183",
+    "warmstart.py": "b24ebfbcf8747c947285903856e3d395bc3f5f7535ec981e92510f4949bae566"
+  },
+  "dependencies": {
+    "mjlab": "1.4.0",
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128",
+    "rsl-rl-lib": "5.2.0"
+  },
+  "started": "2026-11-01T17:42:34.972262-05:00"
+}

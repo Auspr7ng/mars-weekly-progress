@@ -1,0 +1,5 @@
+{
+  "state": "completed",
+  "checkpoint": "logs/control_r22_fast_joystick/model_275.pt",
+  "quality_report": "results/quality/r22_275_responsive_quality.json"
+}

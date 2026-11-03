@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 17672,
+  "checkpoint": "logs/control_r17_mirror_consistency/model_233_paused.pt",
+  "iteration": 233,
+  "environment_transitions": 15335424,
+  "time": "2026-11-01T18:38:34.238967-05:00",
+  "reason": "STOP file"
+}

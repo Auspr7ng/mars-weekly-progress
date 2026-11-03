@@ -1,0 +1,40 @@
+{
+  "stage": "control",
+  "revision": 19,
+  "nominal_sha256": "b14189c9bfa5501a0a08874c6c43c3e8364b4891488f21f54f54970c0af48512",
+  "whole_body": true,
+  "gait_phase": true,
+  "num_envs": 1024,
+  "iterations": 400,
+  "seed": 42,
+  "resume": null,
+  "warm_start": null,
+  "initialize_from": null,
+  "dynamics_transfer": "logs/control_r18_load_transfer/model_52_paused.pt",
+  "zero_mean_initialization": false,
+  "simulation_only": true,
+  "hardware_calibrated": false,
+  "actor_linear_velocity_source": "simulated base velocity",
+  "real_velocity_estimator_required": true,
+  "model_sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+  "source_hashes": {
+    "control_mdp.py": "f5160e1af47a765406c83efcb84a3f8891c375d8964fb6fe7b95e4f16a0117f7",
+    "env_cfg.py": "ef688d9abab9f802f5593b0d965d91e11a1e73037eb8fba6467713a4003ca426",
+    "learning_cfg.py": "548d1dd7936abd39cb6bc65aaae7f86cb1d4098712b1901b4de05e55f8ee2376",
+    "mdp.py": "cb82036ced64bbffb33d4bdbb2a40564c5ccc9f24e7fac217ecdf6a0ceb1aaeb",
+    "mirror_map.json": "fcfd4462ba1516c120ee21f2114f9508d9a51c7893603f621fb1ef429b3dcc28",
+    "quality_mdp.py": "9bac228552dc396241873a301e575117d4b23848d8ed789bef87dc34acbe0665",
+    "symmetry.py": "a2656795633f2b4dfcaca7936a860edd8d3a8c18cf1f2a1a802d39e526f54c3c",
+    "train.py": "e9bb71401c1d1985dc1db32eb8e6cfb2ec007b88966fe7c26ee6e2375e567c99",
+    "warmstart.py": "273488e636e4d2669993d951cc1bf7fdd8f18d6e291043840ad9009221844e64"
+  },
+  "dependencies": {
+    "mjlab": "1.4.0",
+    "mujoco": "3.8.1",
+    "mujoco-warp": "3.8.1",
+    "warp-lang": "1.13.0",
+    "torch": "2.7.1+cu128",
+    "rsl-rl-lib": "5.2.0"
+  },
+  "started": "2026-11-01T20:35:41.081709-05:00"
+}

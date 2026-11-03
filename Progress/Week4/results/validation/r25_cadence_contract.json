@@ -1,0 +1,9 @@
+{
+  "period_numpy_torch_max_error": 0.0,
+  "phase_40s_numpy_torch_max_error": 0,
+  "period_range_s": [
+    1.0,
+    1.399999976158142
+  ],
+  "all_extra_action_range_gains_removed": true
+}

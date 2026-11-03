@@ -1,0 +1,13 @@
+{
+  "actor_weights_exactly_copied": true,
+  "critic_weights_exactly_copied": true,
+  "source": "logs/control_r18_load_transfer/model_52_paused.pt",
+  "source_checkpoint_sha256": "e22239a8b4d442630b91c899130f4250f6e23e1d60622e30188a847c00eea189",
+  "source_model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "target_model_sha256": "c1168aee2b339adc15fa8fc3338e42c729dc92f0db07891c685cf96ca604bcd2",
+  "optimizer_reset": true,
+  "iteration_reset": true,
+  "dynamics_changed": true,
+  "changed_nominal_pose": false,
+  "scope": "PPO adaptation on revised mass/COM/inertia; old performance is not retained as a verified result"
+}

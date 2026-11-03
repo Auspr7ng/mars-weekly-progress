@@ -1,0 +1,222 @@
+[
+  {
+    "joint": "r_shoulder_roll",
+    "clipped_fraction": 0.1413427561837456,
+    "abs_mean_max": 1.1686204671859741,
+    "action_percentiles": [
+      -1.0,
+      -0.2806386649608612,
+      0.5853983378410339
+    ]
+  },
+  {
+    "joint": "r_shoulder_pitch",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.6460058689117432,
+    "action_percentiles": [
+      -0.6443663775920868,
+      -0.30790770053863525,
+      0.5776772165298462
+    ]
+  },
+  {
+    "joint": "r_elbow_yaw",
+    "clipped_fraction": 0.21083627797408716,
+    "abs_mean_max": 1.1654738187789917,
+    "action_percentiles": [
+      -0.6725892347097396,
+      0.16894735395908356,
+      1.0
+    ]
+  },
+  {
+    "joint": "r_elbow_pitch",
+    "clipped_fraction": 0.21098351001177856,
+    "abs_mean_max": 1.4800585508346558,
+    "action_percentiles": [
+      -0.5192117267847061,
+      0.013604773208498955,
+      1.0
+    ]
+  },
+  {
+    "joint": "r_wrist_yaw",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.7170010805130005,
+    "action_percentiles": [
+      -0.7086342293024063,
+      -0.036065997555851936,
+      0.6031711882352829
+    ]
+  },
+  {
+    "joint": "l_shoulder_roll",
+    "clipped_fraction": 0.19434628975265017,
+    "abs_mean_max": 1.1509965658187866,
+    "action_percentiles": [
+      -0.47122338294982913,
+      0.2108616679906845,
+      1.0
+    ]
+  },
+  {
+    "joint": "l_shoulder_pitch",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.6651259660720825,
+    "action_percentiles": [
+      -0.44575158178806307,
+      -0.2098122164607048,
+      0.621378424167633
+    ]
+  },
+  {
+    "joint": "l_elbow_yaw",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.8338660597801208,
+    "action_percentiles": [
+      -0.8257430255413055,
+      -0.3016362339258194,
+      0.17816806137561797
+    ]
+  },
+  {
+    "joint": "l_elbow_pitch",
+    "clipped_fraction": 0.11778563015312132,
+    "abs_mean_max": 1.2967298030853271,
+    "action_percentiles": [
+      -0.503730183839798,
+      0.09397179633378983,
+      1.0
+    ]
+  },
+  {
+    "joint": "l_wrist_yaw",
+    "clipped_fraction": 0.05005889281507656,
+    "abs_mean_max": 1.0156497955322266,
+    "action_percentiles": [
+      -1.0,
+      0.03180897608399391,
+      1.0
+    ]
+  },
+  {
+    "joint": "r_hip_roll",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.6888209581375122,
+    "action_percentiles": [
+      -0.6794422787427902,
+      -0.2614942640066147,
+      0.3974867880344391
+    ]
+  },
+  {
+    "joint": "r_hip_pitch",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.6273483037948608,
+    "action_percentiles": [
+      -0.6257432752847671,
+      -0.011627689003944397,
+      0.4272126433253288
+    ]
+  },
+  {
+    "joint": "r_thigh_yaw",
+    "clipped_fraction": 0.08716136631330977,
+    "abs_mean_max": 1.0643945932388306,
+    "action_percentiles": [
+      0.40544845163822174,
+      0.827235221862793,
+      1.0
+    ]
+  },
+  {
+    "joint": "r_knee_roll",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.5923261046409607,
+    "action_percentiles": [
+      -0.33194838494062423,
+      0.19319552183151245,
+      0.5823645037412644
+    ]
+  },
+  {
+    "joint": "r_ankle_roll",
+    "clipped_fraction": 0.22614840989399293,
+    "abs_mean_max": 1.334713101387024,
+    "action_percentiles": [
+      -0.4553094685077667,
+      0.1352822184562683,
+      1.0
+    ]
+  },
+  {
+    "joint": "r_ankle_pitch",
+    "clipped_fraction": 0.2508833922261484,
+    "abs_mean_max": 1.7292730808258057,
+    "action_percentiles": [
+      -0.33959285616874696,
+      0.31413987278938293,
+      1.0
+    ]
+  },
+  {
+    "joint": "l_hip_roll",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.8712934255599976,
+    "action_percentiles": [
+      -0.8679294049739837,
+      -0.007288768887519836,
+      0.4562047961354256
+    ]
+  },
+  {
+    "joint": "l_hip_pitch",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.49780866503715515,
+    "action_percentiles": [
+      -0.3045754459500313,
+      0.07290498167276382,
+      0.4931313598155975
+    ]
+  },
+  {
+    "joint": "l_thigh_yaw",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.9775677919387817,
+    "action_percentiles": [
+      -0.9726322084665299,
+      -0.7087560296058655,
+      -0.3069868955016136
+    ]
+  },
+  {
+    "joint": "l_knee_roll",
+    "clipped_fraction": 0.0,
+    "abs_mean_max": 0.7858421802520752,
+    "action_percentiles": [
+      -0.7805124461650849,
+      -0.11423012241721153,
+      0.5226087343692779
+    ]
+  },
+  {
+    "joint": "l_ankle_roll",
+    "clipped_fraction": 0.0989399293286219,
+    "abs_mean_max": 1.1584904193878174,
+    "action_percentiles": [
+      -0.963525636792183,
+      -0.16409996896982193,
+      1.0
+    ]
+  },
+  {
+    "joint": "l_ankle_pitch",
+    "clipped_fraction": 0.2832744405182568,
+    "abs_mean_max": 1.550711750984192,
+    "action_percentiles": [
+      -1.0,
+      -0.33114470541477203,
+      0.50163529753685
+    ]
+  }
+]

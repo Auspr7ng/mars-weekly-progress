@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "seconds": 5,
+  "root_height_min": 0.23917595970531824,
+  "root_height_end": 0.23974158932030976,
+  "max_tilt_rad": 0.025101958892772707,
+  "all_reference_targets_inside_soft_limits": true,
+  "ground_plane_included": true
+}

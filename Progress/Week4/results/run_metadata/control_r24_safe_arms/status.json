@@ -1,0 +1,9 @@
+{
+  "state": "paused",
+  "pid": 36640,
+  "checkpoint": "logs/control_r24_safe_arms/model_206_paused.pt",
+  "iteration": 206,
+  "environment_transitions": 3391488,
+  "time": "2026-11-02T02:47:22.732871-05:00",
+  "reason": "STOP file"
+}

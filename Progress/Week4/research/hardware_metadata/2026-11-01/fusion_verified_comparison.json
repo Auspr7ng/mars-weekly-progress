@@ -1,0 +1,799 @@
+{
+  "source_audit": "research/hardware_metadata/2026-11-01/fusion_native_audit_20261101_200848.json",
+  "source_audit_sha256": "d91be2dfebd19c8c0e8aff0f309068428b3579d7009e6323baf84a94d57f1283",
+  "source_archive_sha256": "428952bf8722146ae36407b49ec5dd456ecdab926c217176f105146556f205f4",
+  "source_context": {
+    "cloud_source_data_file_id": "urn:adsk.wipprod:dm.lineage:ZH92QeggS_e2jHhKUBi50g",
+    "source_f3z_sha256": "428952bf8722146ae36407b49ec5dd456ecdab926c217176f105146556f205f4"
+  },
+  "native_document_modified_before": false,
+  "native_document_modified_after": false,
+  "native_joints": 27,
+  "bounded_joints": 26,
+  "max_urdf_axis_error": 5.838288961371739e-07,
+  "max_urdf_bound_error": 4.901923449374124e-07,
+  "max_mjcf_bound_error": 4.490192345052435e-06,
+  "max_rotary_pivot_error_m": 5.401894953043798e-07,
+  "max_zero_pose_com_error_m": 3.5151121644754904e-07,
+  "all_CAD_saved_q_zero": true,
+  "all_topology_matches": true,
+  "all_occurrence_count": 59,
+  "joint_connected_reference_occurrences": 28,
+  "additional_nonreference_geometry_occurrences": 28,
+  "additional_empty_occurrences": 3,
+  "CAD_total_mass_including_duplicates_kg": 32.96558527053608,
+  "CAD_joint_connected_mass_kg": 16.48277281809941,
+  "CAD_base_material_mass_kg": 4.768682824426422,
+  "CAD_base_COM_in_URDF_reference_m": [
+    -0.0001276045370263629,
+    0.002407316815271336,
+    0.0847502021690749
+  ],
+  "CAD_base_COM_inertia_kgm2": [
+    [
+      0.02330759307754671,
+      3.9188830786762e-05,
+      3.2175049373640074e-05
+    ],
+    [
+      3.9188830786762e-05,
+      0.03067069764416917,
+      0.0008637002136933475
+    ],
+    [
+      3.2175049373640074e-05,
+      0.0008637002136933475,
+      0.021818193282570838
+    ]
+  ],
+  "CAD_base_uniform_mass_0p7kg_inertia_ESTIMATE_kgm2": [
+    [
+      0.003421346261636745,
+      5.7525699570998296e-06,
+      4.7230095585686315e-06
+    ],
+    [
+      5.7525699570998296e-06,
+      0.004502184175669257,
+      0.00012678346869464177
+    ],
+    [
+      4.7230095585686315e-06,
+      0.00012678346869464177,
+      0.0032027156890302496
+    ]
+  ],
+  "mass_credibility": "All 57 BRep bodies of the 28 joint-connected components use steel at 7850 kg/m3; 28 additional geometry copies double the assembly mass. Do not apply these masses to the real robot.",
+  "hardware_encoder_zero_and_direction_verified": false,
+  "model_updated": false,
+  "training_resumed": false,
+  "model_sha256": "23e1e3d6b5245c1dd6a8f2c0299560cfdb372a7b1bcaea84e3b7456fef7e5fef",
+  "joints": [
+    {
+      "name": "r_shoulder_roll",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.4835298641951802,
+        1.48352986419518
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.0,
+        -6.938893903907236e-18,
+        1.7347234759768117e-18
+      ],
+      "urdf_axis_error": 7.152448122691005e-18,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 2.744263541049022e-08,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 8.663849679346747e-09,
+      "urdf_bound_error_SI": 1.3580482005615124e-07,
+      "mjcf_bound_error_SI": 1.3580482005615124e-07,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_shoulder_roll",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.4835298641951802,
+        1.4835298641951802
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        1.0,
+        6.938893903907236e-18,
+        -1.7347234759768117e-18
+      ],
+      "urdf_axis_error": 7.152448122691005e-18,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 2.7442635397463804e-08,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 8.663849679346747e-09,
+      "urdf_bound_error_SI": 1.3580481983410664e-07,
+      "mjcf_bound_error_SI": 1.3580481983410664e-07,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_shoulder_pitch",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.2617993877991494,
+        2.356194490192345
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        4.4075854077618853e-14,
+        1.0,
+        6.775761922274095e-16
+      ],
+      "urdf_axis_error": 4.40810619446472e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 3.469446951953614e-18,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 8.663849637713913e-09,
+      "urdf_bound_error_SI": 4.901923449374124e-07,
+      "mjcf_bound_error_SI": 4.490192345052435e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 2.356194490192345,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_shoulder_pitch",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.2617993877991494,
+        2.356194490192345
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        1.8318679906315793e-15,
+        -1.0,
+        -1.6313198163567315e-17
+      ],
+      "urdf_axis_error": 1.8319406255484656e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 0.0,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 8.663849720980112e-09,
+      "urdf_bound_error_SI": 4.901923449374124e-07,
+      "mjcf_bound_error_SI": 4.490192345052435e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.17453292519943275,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_elbow_yaw",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        9.454242944048655e-16,
+        -1.446968214342897e-14,
+        1.0
+      ],
+      "urdf_axis_error": 1.45005354531589e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 3.5151121644547185e-07,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 1.5006230038164356e-08,
+      "urdf_bound_error_SI": 3.2679489647691184e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": -0.6108652381980155,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_elbow_yaw",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.6962262097882463e-15,
+        -1.4335775086061972e-14,
+        1.0
+      ],
+      "urdf_axis_error": 1.443577606756657e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 3.5151121644754904e-07,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 1.5006228516820285e-08,
+      "urdf_bound_error_SI": 3.2679489647691184e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": true,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_hip_roll",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.3962634015954638,
+        1.3962634015954634
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -0.7660444431189769,
+        1.11022302462516e-16,
+        0.6427876096865409
+      ],
+      "urdf_axis_error": 5.838288961371739e-07,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 1.734723475976807e-18,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 5.25897749304788e-07,
+      "urdf_bound_error_SI": 4.0159546377260824e-07,
+      "mjcf_bound_error_SI": 3.401595463747853e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 1.2217304763960306,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_hip_roll",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.3962634015954636,
+        1.3962634015954636
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        0.7660444431189769,
+        -8.326672684688784e-17,
+        0.6427876096865409
+      ],
+      "urdf_axis_error": 5.838288961371739e-07,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 0.0,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 5.013232340159321e-07,
+      "urdf_bound_error_SI": 4.0159546355056364e-07,
+      "mjcf_bound_error_SI": 3.4015954635258083e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_elbow_pitch",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.5707963267948966,
+        1.3089969389957472
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.0,
+        4.558609753831485e-14,
+        3.885780586194616e-16
+      ],
+      "urdf_axis_error": 4.5587753637138074e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 6.938893903907228e-18,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 1.5006230663127277e-08,
+      "urdf_bound_error_SI": 3.2679489647691184e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": -0.4363323129985819,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_elbow_pitch",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.5707963267948966,
+        1.3089969389957472
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.0,
+        -9.814031390480425e-15,
+        -2.109423746787897e-15
+      ],
+      "urdf_axis_error": 1.0038171181886062e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 1.0408340855860843e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 1.5006228983539353e-08,
+      "urdf_bound_error_SI": 3.2679489647691184e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_hip_pitch",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -2.2689280275926285,
+        0.7853981633974483
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.265019989801773e-15,
+        -1.0,
+        1.3739009929736296e-15
+      ],
+      "urdf_axis_error": 1.867586547684472e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 1.962615573354719e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 4.837614883836189e-07,
+      "urdf_bound_error_SI": 1.6339744823845592e-07,
+      "mjcf_bound_error_SI": 1.972407371653162e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.7853981633974483,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_hip_pitch",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.7853981633974483,
+        2.268928027592628
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -7.848315062891554e-16,
+        -1.0,
+        -8.222589276130075e-16
+      ],
+      "urdf_axis_error": 1.1366926749580987e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 0.0,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 4.71225517406696e-07,
+      "urdf_bound_error_SI": 1.6339744823845592e-07,
+      "mjcf_bound_error_SI": 1.9724073720972513e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_thigh_yaw",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.7347234759768335e-15,
+        7.499908459430442e-16,
+        1.0
+      ],
+      "urdf_axis_error": 1.8899078832322782e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 1.9645312551903404e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 5.017063240020338e-07,
+      "urdf_bound_error_SI": 1.6339744823845592e-07,
+      "mjcf_bound_error_SI": 1.6339744823845592e-07,
+      "rest_enabled": false,
+      "rest_value_SI": 0.7853981633974483,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_thigh_yaw",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.7853981633974483,
+        0.7853981633974483
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        7.535638779643263e-15,
+        -7.216546155888502e-16,
+        1.0
+      ],
+      "urdf_axis_error": 7.570114741631337e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 0.0,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 4.904157852893019e-07,
+      "urdf_bound_error_SI": 1.6339744823845592e-07,
+      "mjcf_bound_error_SI": 1.6339744823845592e-07,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_knee_roll",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.5707963267948966,
+        1.0471975511965976
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.0,
+        6.964214069167251e-15,
+        5.148659276699155e-15
+      ],
+      "urdf_axis_error": 8.660771902592016e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 2.7755575615628914e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 4.90415785361084e-07,
+      "urdf_bound_error_SI": 4.4880340244191075e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_knee_roll",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.0471975511965976,
+        1.5707963267948966
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        1.0,
+        2.0819117122077454e-14,
+        1.0713652187632767e-14
+      ],
+      "urdf_axis_error": 2.3414055200676944e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 1.3877787807814457e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 5.017063244503991e-07,
+      "urdf_bound_error_SI": 4.4880340244191075e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_ankle_roll",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.5235987755982988,
+        1.5707963267948966
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.0,
+        -1.4710455076283287e-15,
+        -8.271161533457601e-15
+      ],
+      "urdf_axis_error": 8.400957564353135e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 6.35911991827568e-08,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 5.378729792449452e-07,
+      "urdf_bound_error_SI": 3.2679489647691184e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.08726646259971649,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_ankle_roll",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.5235987755982988,
+        1.5707963267948966
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.0,
+        -6.776263577948897e-20,
+        3.4833247397614286e-15
+      ],
+      "urdf_axis_error": 3.4833247404205365e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 1.6833401451757888e-07,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 4.402134920916878e-07,
+      "urdf_bound_error_SI": 3.2679489647691184e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "head_rotation",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": null,
+      "minimum_enabled": false,
+      "maximum_enabled": false,
+      "axis_in_cad_world_at_zero": [
+        -8.900951993705161e-16,
+        0.0,
+        -1.0
+      ],
+      "urdf_axis_error": 8.900951993705161e-16,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 0.0,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 8.663849832002413e-09,
+      "urdf_bound_error_SI": null,
+      "mjcf_bound_error_SI": null,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_ankle_pitch",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        4.12170297892093e-15,
+        -1.0,
+        2.0874356891111438e-16
+      ],
+      "urdf_axis_error": 4.1269855008235026e-15,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 3.1031676915590914e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 5.401894953043798e-07,
+      "urdf_bound_error_SI": 2.2440170122095537e-07,
+      "mjcf_bound_error_SI": 2.2440170122095537e-07,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_ankle_pitch",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -0.5235987755982988,
+        0.5235987755982988
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -3.0295210784459104e-14,
+        -1.0,
+        -7.216054876777103e-16
+      ],
+      "urdf_axis_error": 3.030380357240084e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 3.122502256758253e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 4.388678972251332e-07,
+      "urdf_bound_error_SI": 2.2440170122095537e-07,
+      "mjcf_bound_error_SI": 2.2440170122095537e-07,
+      "rest_enabled": false,
+      "rest_value_SI": -0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_wrist_yaw",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -1.6484396785917577e-14,
+        -1.439700742601931e-14,
+        1.0
+      ],
+      "urdf_axis_error": 2.1886277897815906e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 1.2092386624421646e-07,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 2.5991551268316448e-08,
+      "urdf_bound_error_SI": 3.2679489647691184e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_finger_slide_bottom",
+      "type": "prismatic",
+      "units": "m",
+      "effective_bounds": [
+        0.0,
+        0.03
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        9.282156998778303e-15,
+        1.0,
+        1.4397007426019463e-14
+      ],
+      "urdf_axis_error": 1.7129864604684667e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 2.8609792490763984e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": null,
+      "urdf_bound_error_SI": 0.0,
+      "mjcf_bound_error_SI": 0.0,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "l_finger_slide_top",
+      "type": "prismatic",
+      "units": "m",
+      "effective_bounds": [
+        0.0,
+        0.03
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -9.282156998778303e-15,
+        -1.0,
+        -1.4397007426019463e-14
+      ],
+      "urdf_axis_error": 1.7129864604684667e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 2.823925224926892e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": null,
+      "urdf_bound_error_SI": 0.0,
+      "mjcf_bound_error_SI": 0.0,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_wrist_yaw",
+      "type": "revolute",
+      "units": "rad",
+      "effective_bounds": [
+        -1.5707963267948966,
+        1.5707963267948966
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        1.490232897582686e-14,
+        -1.428598512355678e-14,
+        1.0
+      ],
+      "urdf_axis_error": 2.064385574097665e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 1.2092386624426728e-07,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": 2.5991551920572736e-08,
+      "urdf_bound_error_SI": 3.2679489647691184e-07,
+      "mjcf_bound_error_SI": 3.673205103416066e-06,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_finger_slide_top",
+      "type": "prismatic",
+      "units": "m",
+      "effective_bounds": [
+        0.0,
+        0.03
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        -2.5320165260097072e-17,
+        -1.0,
+        -1.4285985123557446e-14
+      ],
+      "urdf_axis_error": 1.428600756199133e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 2.7755575615628914e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": null,
+      "urdf_bound_error_SI": 0.0,
+      "mjcf_bound_error_SI": 0.0,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    },
+    {
+      "name": "r_finger_slide_bottom",
+      "type": "prismatic",
+      "units": "m",
+      "effective_bounds": [
+        0.0,
+        0.03
+      ],
+      "minimum_enabled": true,
+      "maximum_enabled": true,
+      "axis_in_cad_world_at_zero": [
+        2.5320165260097072e-17,
+        1.0,
+        1.4285985123557446e-14
+      ],
+      "urdf_axis_error": 1.428600756199133e-14,
+      "cad_saved_q": 0.0,
+      "zero_pose_comparison_error_m": 6.245004513516506e-17,
+      "topology_matches_urdf": true,
+      "rotary_pivot_error_m": null,
+      "urdf_bound_error_SI": 0.0,
+      "mjcf_bound_error_SI": 0.0,
+      "rest_enabled": false,
+      "rest_value_SI": 0.0,
+      "hardware_encoder_zero": null,
+      "hardware_servo_direction": null
+    }
+  ]
+}
