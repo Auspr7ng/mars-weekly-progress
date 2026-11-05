@@ -40,6 +40,7 @@ These are simulated results. The wider experimental envelope of 0.15 m/s and +/-
 
 | Item | What to inspect |
 | --- | --- |
+| [Weekly progress slides](Weekly_Progress_2026-11-05_RL_Walking.pptx) | Walking results, PPO rewards, foot contact research, and the planned Xbox hardware test |
 | [Acceptance report](docs/Acceptance_Report.md) | 1,200 command sequences, 100 cycle-aware joystick trials, gait measurements, criteria revisions, and limitations |
 | [Training plan](docs/Training_Plan.md) | Initial rewards, termination conditions, curriculum, sensing, and arm-control design; clearly separated from final settings |
 | [Training history](docs/Training_History.md) | R1–R25 decisions and failed approaches, including the withdrawn early gait verdict |
