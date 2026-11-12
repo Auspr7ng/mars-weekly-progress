@@ -6,6 +6,8 @@ Weeks 1 and 2 depend on local robot assets and an Isaac Sim environment. Week 3 
 
 Week 4 adds whole-body RL walking, speed/stop/reverse/turn control, a body-relative spring joystick, and the original eight distance heatmaps. Its English release includes the accepted checkpoint, frozen framework/viewer sources, model assets, evaluation reports and control recordings. Start at the [Week 4 guide](Progress/Week4/README.md).
 
+Week 5 adds Bluetooth Xbox control through the same walking policy, a foot-tactile research plan, and independent cart model validation. The release includes English code documentation, recorded evidence, and an eight-slide weekly presentation. Start at the [Week 5 guide](Progress/Week5/README.md).
+
 ## Weeks
 
 | Week | Code | Progress |
@@ -14,6 +16,7 @@ Week 4 adds whole-body RL walking, speed/stop/reverse/turn control, a body-relat
 | Week 2 | [Four-finger sensor setup](Progress/Week2/code/README.md) | [Slides, screenshots, and demo](Progress/Week2/progress/README.md) |
 | Week 3 | [mjlab dual-grasp and eight-array demo](Progress/Week3/README.md) | [Weekly slides](Progress/Week3/Weekly_Progress_2026-10-29_mjlab_Tactile.pptx) and [migration report](Progress/Week3/Week3_Migration_Report.md) |
 | Week 4 | [RL walking and robot-relative joystick](Progress/Week4/README.md) | [Acceptance report](Progress/Week4/docs/Acceptance_Report.md), [training history](Progress/Week4/docs/Training_History.md), and [results](Progress/Week4/results/README.md) |
+| Week 5 | [Xbox control, tactile research, and cart validation](Progress/Week5/README.md) | [Weekly slides](Progress/Week5/Weekly_Progress_2026-11-12_Xbox_Tactile_Cart.pptx), [tactile plan](Progress/Week5/research/Foot_Tactile_Research_Plan.md), and [cart report](Progress/Week5/cart_validation/Validation_Report.md) |
 
 Weeks 1 and 2 separate runnable scripts in `code/` from reports in `progress/`. Week 3 keeps `start_demo.bat`, the README, report, slides, and selected media together, with implementation in `code/` and saved evidence in `results/`.
 
@@ -30,3 +33,5 @@ Weeks 1 and 2 separate runnable scripts in `code/` from reports in `progress/`. 
 The Week 1 two-foot setup uses a provisional aggregate-force calibration. The Week 2 finger heatmaps and Week 3 hand/foot heatmaps are normalized geometry-based responses, not calibrated pressure or force measurements. Week 3 obtains physical grasp forces separately from the MuJoCo contact solver. See each week's README for details.
 
 Week 4 preserves the Week 3 distance response and reports physical contact metrics separately. Its acceptance is limited to flat-ground simulation; it does not establish calibrated tactile pressure or hardware walking.
+
+Week 5's tactile method remains a proposal awaiting labelled hardware data. Cart results use a diagnostic copy with assumed caster inertials because the original XML fails to compile. Robot-cart pushing remains next week's work.

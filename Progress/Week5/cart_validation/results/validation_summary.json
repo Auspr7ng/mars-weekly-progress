@@ -1,0 +1,437 @@
+{
+  "mujoco_version": "3.8.1",
+  "source_sha256": "4fd8ffcf0ddc494a8c2d4eb0c744564d2a7a1fc7907fe91af512aa70e1f57370",
+  "original": {
+    "compiles": false,
+    "error": "Error: mass and inertia of moving bodies must be larger than mjMINVAL\nElement name 'caster_fl', id 2, line 61"
+  },
+  "validation_copy": "results\\cart_test_fork_0.05kg.xml",
+  "assumptions": {
+    "fork_mass_kg_each": 0.05,
+    "fork_inertia_kg_m2": [
+      2e-05,
+      2e-05,
+      5e-06
+    ],
+    "fork_inertial_position_m": [
+      0.0075,
+      0,
+      -0.0254
+    ],
+    "floor_friction": [
+      0.8,
+      0.01,
+      0.001
+    ],
+    "force_location": "handle midpoint; 2 to 4 simulated seconds",
+    "no_robot_or_learning": true
+  },
+  "cases": [
+    {
+      "name": "rest",
+      "duration_s": 12.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.029550155784781727,
+      "xyz_displacement_m": [
+        1.4236204727699912e-07,
+        -2.0986328366315097e-18,
+        -0.00022299725135662156
+      ],
+      "rest_drift_m": 1.4236204727699912e-07,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        4.709136703362169e-18,
+        3.4041776337019104e-19,
+        -9.120482391502629e-18
+      ],
+      "final_second_mean_speed_m_s": 3.984117384655757e-17,
+      "max_speed_m_s": 0.019620000000000005,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 5.3243188548110424e-17,
+      "final_swivel_angles_deg": [
+        4.073978605851694e-15,
+        6.739304827284802e-16,
+        1.7868882335503086e-14,
+        -4.3682529612860036e-15
+      ],
+      "trace_file": "rest.json"
+    },
+    {
+      "name": "coast_forward",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.05288846622107747,
+      "xyz_displacement_m": [
+        0.003338386225683236,
+        -1.8627431071838057e-18,
+        -0.00022299725135660752
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        -3.3920085213942235e-19,
+        -7.995497026265451e-20,
+        -2.023753516864882e-18
+      ],
+      "final_second_mean_speed_m_s": 2.950892591450255e-17,
+      "max_speed_m_s": 0.17634766166274257,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 1.9728739630015802e-16,
+      "final_swivel_angles_deg": [
+        5.459324616482883e-15,
+        1.23491430336854e-14,
+        2.5895797417398325e-15,
+        2.015751494495182e-15
+      ],
+      "trace_file": "coast_forward.json"
+    },
+    {
+      "name": "push_forward_5N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.02955606485675016,
+      "xyz_displacement_m": [
+        0.016875800582308552,
+        8.941689399717393e-19,
+        -0.00022299725135662156
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        0.008437804145419921,
+        6.28848326439674e-19,
+        4.734486117272868e-18
+      ],
+      "final_second_mean_speed_m_s": 3.08942496549992e-17,
+      "max_speed_m_s": 0.019620000000000005,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 2.998980140838386e-17,
+      "final_swivel_angles_deg": [
+        1.4558901606833576e-16,
+        2.954479092762796e-15,
+        -8.245833805541255e-16,
+        6.141700076788227e-15
+      ],
+      "trace_file": "push_forward_5N.json"
+    },
+    {
+      "name": "push_forward_10N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.029590332790594327,
+      "xyz_displacement_m": [
+        0.048615801352920825,
+        8.255948331661624e-20,
+        -0.00022299725135659364
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        0.02431313503183576,
+        -7.905843820528129e-19,
+        4.5625183542656126e-18
+      ],
+      "final_second_mean_speed_m_s": 3.647701870219353e-17,
+      "max_speed_m_s": 0.026699748352916573,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 5.676828444018462e-17,
+      "final_swivel_angles_deg": [
+        1.3200061965246826e-15,
+        -4.31144592168983e-15,
+        6.46221889459405e-15,
+        1.649591137292275e-16
+      ],
+      "trace_file": "push_forward_10N.json"
+    },
+    {
+      "name": "push_forward_20N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.10606133174705012,
+      "xyz_displacement_m": [
+        0.1210383191630025,
+        4.56523547603653e-19,
+        -0.00022299725135660752
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        0.060537095924757506,
+        -9.549949372701085e-20,
+        -7.658458053306814e-18
+      ],
+      "final_second_mean_speed_m_s": 3.253645786623765e-17,
+      "max_speed_m_s": 0.06464545629869123,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 8.709836629715812e-17,
+      "final_swivel_angles_deg": [
+        -6.221236283385876e-16,
+        -7.670861794740921e-15,
+        3.899823332690592e-15,
+        3.810263256339815e-15
+      ],
+      "trace_file": "push_forward_20N.json"
+    },
+    {
+      "name": "push_reverse_10N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.08623050018503087,
+      "xyz_displacement_m": [
+        -0.04862053303165758,
+        -4.730114873855412e-19,
+        -0.0002229972513566769
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        -0.024315913739966506,
+        -8.931477995733939e-19,
+        6.087091724323459e-18
+      ],
+      "final_second_mean_speed_m_s": 3.13355578363325e-17,
+      "max_speed_m_s": 0.02670066607637132,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 5.189815397550873e-17,
+      "final_swivel_angles_deg": [
+        7.350439196452669e-15,
+        4.95036116862543e-15,
+        9.978283336855452e-15,
+        1.3539889429914968e-14
+      ],
+      "trace_file": "push_reverse_10N.json"
+    },
+    {
+      "name": "push_sideways_10N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.047618881152613,
+      "xyz_displacement_m": [
+        -0.007682140490240782,
+        0.008459084048897472,
+        -0.00022289141494200655
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        -0.00587913383889968,
+        0.004576945230517142,
+        -1.1768975372385928e-06
+      ],
+      "final_second_mean_speed_m_s": 1.1228690588805395e-07,
+      "max_speed_m_s": 0.019620000000000005,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 0.0796388414125802,
+      "final_swivel_angles_deg": [
+        5.4897368314362085,
+        4.433712176600107,
+        -11.896373376956763,
+        -9.057446670826652
+      ],
+      "trace_file": "push_sideways_10N.json"
+    },
+    {
+      "name": "push_diagonal_10N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.029550155784781727,
+      "xyz_displacement_m": [
+        0.023894904687264535,
+        0.004276434896112685,
+        -0.00022292212078152418
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        0.01044590147048405,
+        0.0018773906239610385,
+        -7.525104072006571e-07
+      ],
+      "final_second_mean_speed_m_s": 8.97750860053926e-08,
+      "max_speed_m_s": 0.019620000000000005,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 0.06579510239524905,
+      "final_swivel_angles_deg": [
+        4.782432262160018,
+        3.9878401440281106,
+        -9.606361542583265,
+        -7.893311131954437
+      ],
+      "trace_file": "push_diagonal_10N.json"
+    },
+    {
+      "name": "casters_90deg_push10N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.05119413000160137,
+      "xyz_displacement_m": [
+        0.006134699358296548,
+        -0.0010216385698164647,
+        -0.0002569024399941595
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        0.0030863687618774044,
+        -0.0007612107898995222,
+        -3.478821735820189e-07
+      ],
+      "final_second_mean_speed_m_s": 2.944872630681349e-07,
+      "max_speed_m_s": 0.004991363268398562,
+      "max_vertical_speed_m_s": 0.0049903936803568855,
+      "max_yaw_speed_rad_s": 0.002469031123534663,
+      "final_swivel_angles_deg": [
+        93.69584337999511,
+        94.55392057712918,
+        93.59563501549931,
+        94.37850979199325
+      ],
+      "trace_file": "casters_90deg_push10N.json"
+    },
+    {
+      "name": "casters_mixed_push10N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.04235318933668453,
+      "xyz_displacement_m": [
+        0.015322339980033883,
+        0.0003476192412464227,
+        -0.00023404771749174855
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        0.007853402169120487,
+        0.0002841168960955013,
+        -2.0562445519193578e-07
+      ],
+      "final_second_mean_speed_m_s": 1.513976958391623e-07,
+      "max_speed_m_s": 0.013009495769405733,
+      "max_vertical_speed_m_s": 0.011499039619306222,
+      "max_yaw_speed_rad_s": 0.0323856919404705,
+      "final_swivel_angles_deg": [
+        4.3222838177440766,
+        96.73800777622462,
+        184.27538062049334,
+        -94.61167377358213
+      ],
+      "trace_file": "casters_mixed_push10N.json"
+    },
+    {
+      "name": "yaw_torque_0p4Nm",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.198829051158399,
+      "max_tilt_deg": 0.029573025357517255,
+      "xyz_displacement_m": [
+        -0.00011061894138846915,
+        -0.00022462568458220546,
+        -0.00022299425012957353
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        -8.249044063286152e-05,
+        -0.0001129066406558998,
+        2.162979457368543e-09
+      ],
+      "final_second_mean_speed_m_s": 6.107029817542426e-09,
+      "max_speed_m_s": 0.019620000000000005,
+      "max_vertical_speed_m_s": 0.019620000000000005,
+      "max_yaw_speed_rad_s": 0.014522555654719138,
+      "final_swivel_angles_deg": [
+        -1.6099875225936415,
+        -1.6608039898883065,
+        1.1543098713813418,
+        1.193084475417501
+      ],
+      "trace_file": "yaw_torque_0p4Nm.json"
+    }
+  ],
+  "mass_sensitivity": [
+    {
+      "name": "fork_mass_0.01_push10N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.038829051158399,
+      "max_tilt_deg": 0.03072987764921016,
+      "xyz_displacement_m": [
+        0.04888123500420858,
+        -8.47228377852643e-19,
+        -0.00023022499893918534
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        0.024443351776125423,
+        1.5243389202449675e-18,
+        -6.154436352451519e-19
+      ],
+      "final_second_mean_speed_m_s": 3.4808503108983206e-17,
+      "max_speed_m_s": 0.026932737580797457,
+      "max_vertical_speed_m_s": 0.01962,
+      "max_yaw_speed_rad_s": 7.479734885660347e-17,
+      "final_swivel_angles_deg": [
+        3.1171017211176323e-15,
+        -6.9369932550633165e-15,
+        -1.82385559224005e-16,
+        4.0611686533834985e-15
+      ],
+      "trace_file": "fork_mass_0.01_push10N.json"
+    },
+    {
+      "name": "fork_mass_0.1_push10N",
+      "duration_s": 8.0,
+      "finite": true,
+      "warning_counts": {},
+      "total_mass_kg": 6.3988290511583985,
+      "max_tilt_deg": 0.02830459093134377,
+      "xyz_displacement_m": [
+        0.04832160775239173,
+        -1.059699406859523e-18,
+        -0.00021503398589045906
+      ],
+      "rest_drift_m": null,
+      "settled_wheel_contact_count_mean": 4.0,
+      "forced_last_second_mean_velocity_m_s": [
+        0.024169220895619153,
+        -1.0769615944868738e-18,
+        3.923812850190935e-18
+      ],
+      "final_second_mean_speed_m_s": 2.4800214123530657e-17,
+      "max_speed_m_s": 0.02642204376486519,
+      "max_vertical_speed_m_s": 0.019620000000000002,
+      "max_yaw_speed_rad_s": 5.951544766545127e-17,
+      "final_swivel_angles_deg": [
+        -8.068724264274995e-15,
+        4.8163975963070774e-15,
+        -7.571691784571081e-15,
+        1.3469615759649199e-15
+      ],
+      "trace_file": "fork_mass_0.1_push10N.json"
+    }
+  ],
+  "note": "Model validation only. Test-copy inertials and environment are assumptions, not measured hardware parameters."
+}

@@ -19,3 +19,7 @@
 Progress/Week4/model/** -text
 Progress/Week4/policies/joystick_walking_r25_300/source/** -text
 Progress/Week4/policies/joystick_walking_r25_300/dynamics/** -text
+Progress/Week5/**/*.xml text eol=lf
+Progress/Week5/**/*.jsonl text eol=lf
+Progress/Week5/code/requirements.txt text eol=lf
+Progress/Week5/cart_validation/source/cart_v2.xml -text whitespace=cr-at-eol

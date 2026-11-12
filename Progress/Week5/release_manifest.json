@@ -1,0 +1,301 @@
+{
+  "date": "2026-11-12",
+  "note": "Curated release; manifest excludes its own hash and ignored runtime caches.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 84,
+      "sha256": "6ce972e8d66a595ba09036e9b87f95f0462d099f8a0df9914465fbbb16f63ed0"
+    },
+    {
+      "path": "cart_validation/code/plot_results.py",
+      "bytes": 1547,
+      "sha256": "20ad9250d411a9c3161020eab58f90ea78d836e13701f2f6fff5d311ff6c3cdf"
+    },
+    {
+      "path": "cart_validation/code/validate_cart.py",
+      "bytes": 11159,
+      "sha256": "e55a20604a59b4a9eba27f1406568d63018947269c074c119e8fd8b155de11fa"
+    },
+    {
+      "path": "cart_validation/Feedback_EN.md",
+      "bytes": 1260,
+      "sha256": "92624082d3121b31836285ce86c74c44a9cf4d175bca4b1bab03c8eed590ce38"
+    },
+    {
+      "path": "cart_validation/README.md",
+      "bytes": 1359,
+      "sha256": "6717231282c475df2390eca90933cd4e8f2e1eba37abb478a4ef33f4e930db25"
+    },
+    {
+      "path": "cart_validation/results/cart_test_fork_0.01kg.xml",
+      "bytes": 4156,
+      "sha256": "79e60162c4c870817b87baf7889e9b556e8cdd3021bb5efeb8793f1d27d41664"
+    },
+    {
+      "path": "cart_validation/results/cart_test_fork_0.05kg.xml",
+      "bytes": 4156,
+      "sha256": "8ef84d8d7be2504978fa3bcdada5c4571348cc5e479e9261ec04cedebbbcb373"
+    },
+    {
+      "path": "cart_validation/results/cart_test_fork_0.1kg.xml",
+      "bytes": 4152,
+      "sha256": "6384b363031f4eecb6da13acdc2b09b422b4c2b3bc9e7ce0e41b740fd65c46de"
+    },
+    {
+      "path": "cart_validation/results/cart_validation.mp4",
+      "bytes": 826925,
+      "sha256": "6d9f1d693129f0b82eb9d3b6e6c9459a7bdb76ab8e3761c67cdc319186e85047"
+    },
+    {
+      "path": "cart_validation/results/casters_90deg_push10N.json",
+      "bytes": 357466,
+      "sha256": "fa62781be24cef9f6aa6bb38739273a57b5a6b9f4a8955d01431920b8b298a95"
+    },
+    {
+      "path": "cart_validation/results/casters_90deg_push10N.png",
+      "bytes": 378214,
+      "sha256": "db0f10cbaa7f74eb6586493e75594f5682f3f5ba543024e441229842c0374664"
+    },
+    {
+      "path": "cart_validation/results/casters_mixed_push10N.json",
+      "bytes": 359876,
+      "sha256": "2aaf00fe3f2ddd54230eefbd46d7ee4711583b606d6f71bd63a5c664e1292370"
+    },
+    {
+      "path": "cart_validation/results/coast_forward.json",
+      "bytes": 363910,
+      "sha256": "67eca16ab03be2ef4763895871417948b1e14f17379d48ee46f4f8ee64638e14"
+    },
+    {
+      "path": "cart_validation/results/delivery_checks.json",
+      "bytes": 272,
+      "sha256": "ea2b00ded78af9221290171ba5b3cb77a8352a21e426dad1a3bf94bd48847c0d"
+    },
+    {
+      "path": "cart_validation/results/fork_mass_0.01_push10N.json",
+      "bytes": 363791,
+      "sha256": "b6c592711eb68c4cfae0cf24a827974d166357df85cc92abbeaf0a31860821c0"
+    },
+    {
+      "path": "cart_validation/results/fork_mass_0.1_push10N.json",
+      "bytes": 364006,
+      "sha256": "bf165330397c6055ed6de50bef81038f030a3218bf6fc5e8584aef1f16a6ba40"
+    },
+    {
+      "path": "cart_validation/results/motion_comparison.png",
+      "bytes": 128970,
+      "sha256": "82ddaf2157ebf737dc4a9895d0df67e66496809ee498f960f85daa0c44f851c8"
+    },
+    {
+      "path": "cart_validation/results/push_diagonal_10N.json",
+      "bytes": 363594,
+      "sha256": "5dcd57a3774bdfae4ab604d52aff22a903ee866ecc8189b9730de4d1eef09fd1"
+    },
+    {
+      "path": "cart_validation/results/push_forward_10N.json",
+      "bytes": 363950,
+      "sha256": "2c878133474d0aaa117e0f80e5239436cbb922acfd3f7ed6009fb1e9e939f278"
+    },
+    {
+      "path": "cart_validation/results/push_forward_10N.png",
+      "bytes": 378554,
+      "sha256": "ebe53ec38f96bdaad2994e7cf849efd5bd2542f33e10012857999c46a2b8c61d"
+    },
+    {
+      "path": "cart_validation/results/push_forward_20N.json",
+      "bytes": 363469,
+      "sha256": "b2298a5d4541891767fee8c66d67e992d70c5cfa60fef66f6b605f0b6b74ffa4"
+    },
+    {
+      "path": "cart_validation/results/push_forward_5N.json",
+      "bytes": 362078,
+      "sha256": "b1ee9db67a46dfff8c052120698c0386b9b675e4a83f31e49dba5f50605fb207"
+    },
+    {
+      "path": "cart_validation/results/push_reverse_10N.json",
+      "bytes": 364179,
+      "sha256": "986718f810e9bb032c92760b2914c3290c01fbb9610bdc361f72e2f0ac80f7dd"
+    },
+    {
+      "path": "cart_validation/results/push_sideways_10N.json",
+      "bytes": 360827,
+      "sha256": "71a893d61528c3ba0b42df6cfc2fb7ee60d7616538fa9185aeaed353a54128ff"
+    },
+    {
+      "path": "cart_validation/results/push_sideways_10N.png",
+      "bytes": 379458,
+      "sha256": "eea645e98b4954df779fbc9f46a50758de6326dad4063f01abcedebf26705522"
+    },
+    {
+      "path": "cart_validation/results/rest.json",
+      "bytes": 546457,
+      "sha256": "9d0b6c58c7758500c115f2bc3145560a08257b3823484586b7379f37ad672db6"
+    },
+    {
+      "path": "cart_validation/results/rest.png",
+      "bytes": 377605,
+      "sha256": "888bf9f39aabe3415a185875f5f171baeabb7b9fefd3c0eeffaaa6ea348cef25"
+    },
+    {
+      "path": "cart_validation/results/validation_summary.json",
+      "bytes": 13673,
+      "sha256": "9e542a8a6c785eafcfc14316c44e20618e203c3febeec12b820164e024e4c3b8"
+    },
+    {
+      "path": "cart_validation/results/yaw_torque_0p4Nm.json",
+      "bytes": 362865,
+      "sha256": "2845e0d8c17aab5b67134859eb81befa2005c83395c7de1f420ecb672c9309df"
+    },
+    {
+      "path": "cart_validation/source/cart_v2.xml",
+      "bytes": 5387,
+      "sha256": "4fd8ffcf0ddc494a8c2d4eb0c744564d2a7a1fc7907fe91af512aa70e1f57370"
+    },
+    {
+      "path": "cart_validation/Validation_Report.md",
+      "bytes": 5363,
+      "sha256": "d0bb74a3f74eca052522059c71148e366641381f400fb1a5c05f149bfa1aaa3d"
+    },
+    {
+      "path": "check_controller.bat",
+      "bytes": 333,
+      "sha256": "a22d04c994cfab1969217452fc8f03e93dd60a43c7f383d893305b1d50c47de8"
+    },
+    {
+      "path": "code/check_controller.py",
+      "bytes": 5978,
+      "sha256": "23551ab65639b9bb8164c549ae8e75ca337c338d5400856eb56ed2487f7c43de"
+    },
+    {
+      "path": "code/controller.py",
+      "bytes": 6219,
+      "sha256": "ff2cf2f5e3a22deb0e34d9de3d7f5c7e7eef1a337548c406401e42e40e0ad8c5"
+    },
+    {
+      "path": "code/native_input.py",
+      "bytes": 4692,
+      "sha256": "3acba3b630850548b90d9dfe95e39d39adc17790dee0f78bfaeee286a88e9287"
+    },
+    {
+      "path": "code/README.md",
+      "bytes": 2663,
+      "sha256": "8c551154f11551fe17ba2f988619e693fd766587de0b5664c91246b4188c2bd2"
+    },
+    {
+      "path": "code/requirements.txt",
+      "bytes": 147,
+      "sha256": "20e091ebc3ba23de961912a19bab9d035c889d9c360af8d5eaab4c537fdaa56e"
+    },
+    {
+      "path": "code/run_demo.py",
+      "bytes": 5547,
+      "sha256": "6449481e0c2f9ee872f6365b10946f1b3b3aacc032125249a6dd993cb3b5a3b0"
+    },
+    {
+      "path": "code/summarize_run.py",
+      "bytes": 3319,
+      "sha256": "db98eaa76f7d8fb2dd075ac5bed822843ebed220559166d9b672c587f6aff76a"
+    },
+    {
+      "path": "code/test_controller.py",
+      "bytes": 3757,
+      "sha256": "c160d1fc5a30495f488bb2eb691f9730ce56254e7a3172d317bcdb4cfa6a89d8"
+    },
+    {
+      "path": "code/test_week4_mapping.py",
+      "bytes": 1257,
+      "sha256": "55c7b5e231812b6a10fcb6f296db9f7b66a8f06f1e82fb5ab8fe654bedf53a5a"
+    },
+    {
+      "path": "code/viewer.py",
+      "bytes": 7911,
+      "sha256": "699cf007e7bcef4aca4b317ff5974147db47d2a3ba165ac02b0546a5a37071c5"
+    },
+    {
+      "path": "code/week4_mapping.py",
+      "bytes": 650,
+      "sha256": "18f29cfbf50eb2e8b41680ae72d598b89cf00c09b5aac55f5e2fa1de0cb9de61"
+    },
+    {
+      "path": "progress/media/distance_maps_viewer.jpg",
+      "bytes": 157082,
+      "sha256": "6e935e80aeba5a1663d25737c7a2ffc91cb53cb348ca5b47926bef00c5858e7a"
+    },
+    {
+      "path": "progress/media/xbox_left_stick.jpg",
+      "bytes": 98947,
+      "sha256": "d7587327ae15698d5132001beabc92c53041e963016872b6b2312cde13fdfccf"
+    },
+    {
+      "path": "progress/README.md",
+      "bytes": 1010,
+      "sha256": "bc1389c5c01f6e6d364e35228107c047f29512d5b8e4e3a5b62b1186184a644f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5485,
+      "sha256": "0c0d2cdb2ca70fc44a5f265a608c6487fd687a0a927d40ff568d2ab7f0e9b1f4"
+    },
+    {
+      "path": "research/Foot_Tactile_Research_Plan.md",
+      "bytes": 10754,
+      "sha256": "109af5af675961644a09e4c93a7763482c1ba9b583ecd45f49e1ecd693b1e98f"
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 1420,
+      "sha256": "7f819cd15953cac9835ae69399270030d8e7097827d3dbb87315015314af5f83"
+    },
+    {
+      "path": "results/controller_diagnostics.json",
+      "bytes": 11062,
+      "sha256": "dc2448ee4b7008a70e0097baf0f85a37222451886130ee20d8b777eb5410f6dc"
+    },
+    {
+      "path": "results/dual_stick_initial_verification.json",
+      "bytes": 1153,
+      "sha256": "a9afdcf4dd5428fd1b59d6462fb8ccbd9fea8ddb9ae581aa739594715dcdbaaa"
+    },
+    {
+      "path": "results/input_contract_tests.json",
+      "bytes": 397,
+      "sha256": "8492b04ab234372b2dbaa81197e138ba83dd6cdff50e4b34a990ed63f06f39c9"
+    },
+    {
+      "path": "results/input_trace.jsonl",
+      "bytes": 330967,
+      "sha256": "2d7c7f41ee275a8e8078a8aca5679af1d06386abd3d379b24ea9157cc48cbe26"
+    },
+    {
+      "path": "results/README.md",
+      "bytes": 1207,
+      "sha256": "d9191a8b005500b8fbf7848823d03b620b0e340844b07533c691aef5afe69f88"
+    },
+    {
+      "path": "results/release_checks.json",
+      "bytes": 480,
+      "sha256": "2d89e6d3feb7dec4ed1d1447ce72e9b1920e175fca525a3b2f54ca88d6c53647"
+    },
+    {
+      "path": "results/run_verification.json",
+      "bytes": 1282,
+      "sha256": "7822343642402e8c046f6c0e225d1d783045bd5994af1976e3f56e2e3e3cffca"
+    },
+    {
+      "path": "results/simulation_trace.jsonl",
+      "bytes": 351363,
+      "sha256": "3acab0232600ccdc9264162870d9af97187775413c98a15c4f8fc41e2daf1431"
+    },
+    {
+      "path": "start_demo.bat",
+      "bytes": 347,
+      "sha256": "cc027afea6423366a9562433f1a79dab03ef0be168bf355379d9a5cf59523b8f"
+    },
+    {
+      "path": "Weekly_Progress_2026-11-12_Xbox_Tactile_Cart.pptx",
+      "bytes": 1852295,
+      "sha256": "761434b27131fccaecdb798202892f5976d20dbb50cb95a0fe25243cd20297b2"
+    }
+  ]
+}

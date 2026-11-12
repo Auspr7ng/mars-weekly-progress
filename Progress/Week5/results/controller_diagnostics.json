@@ -1,0 +1,749 @@
+{
+  "timestamp": "2026-11-11T23:36:52.948940-05:00",
+  "purpose": "Read-only controller diagnostics; no model or motor control",
+  "xinput": [
+    {
+      "dll": "xinput1_4.dll",
+      "slots": [
+        {
+          "slot": 0,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 1,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 2,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 3,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        }
+      ]
+    },
+    {
+      "dll": "xinput1_3.dll",
+      "slots": [
+        {
+          "slot": 0,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 1,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 2,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 3,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        }
+      ]
+    },
+    {
+      "dll": "xinput9_1_0.dll",
+      "slots": [
+        {
+          "slot": 0,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 1,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 2,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        },
+        {
+          "slot": 3,
+          "result_hex": "0x48f",
+          "connected": false,
+          "axes": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "buttons": 0
+        }
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "name": "Xbox Series X Controller",
+      "guid": "0300509d5e040000130b000009056800",
+      "instance": 0,
+      "axes": 6,
+      "buttons": 16,
+      "standard_mapping": true
+    }
+  ],
+  "samples": [
+    {
+      "t": 0.0,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 0.203,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 0.406,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 0.609,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 0.812,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 1.015,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 1.218,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 1.422,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 1.625,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 1.828,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 2.031,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 2.234,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 2.437,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 2.64,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    },
+    {
+      "t": 2.843,
+      "instance": 0,
+      "raw_axes": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        -1.0
+      ],
+      "raw_buttons": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "standard_axes": {
+        "left_y": 0,
+        "right_x": 0
+      },
+      "standard_buttons": {
+        "lb": false,
+        "b": false
+      }
+    }
+  ],
+  "detected": true,
+  "physical_input_verified": false
+}

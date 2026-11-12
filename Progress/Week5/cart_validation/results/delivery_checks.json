@@ -1,0 +1,14 @@
+{
+  "source_unchanged": true,
+  "original_compiles": false,
+  "diagnostic_cases": 13,
+  "all_finite": true,
+  "warning_counts": [],
+  "video_frames_decoded": 900,
+  "video_duration_s": 36.0,
+  "video_size": [
+    960,
+    720
+  ],
+  "robot_integration_performed": false
+}

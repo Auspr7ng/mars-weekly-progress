@@ -1,0 +1,6 @@
+.deps/
+.cache/
+__pycache__/
+*.pyc
+results/server_info.json
+results/live_status.json

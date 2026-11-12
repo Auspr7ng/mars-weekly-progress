@@ -1,0 +1,18 @@
+{
+  "tests_run": 17,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "scope": "command-layer and Week4 mapper parity tests; physical evidence is separate",
+  "syntax_checked": [
+    "check_controller.py",
+    "controller.py",
+    "native_input.py",
+    "run_demo.py",
+    "summarize_run.py",
+    "test_controller.py",
+    "test_week4_mapping.py",
+    "viewer.py",
+    "week4_mapping.py"
+  ]
+}

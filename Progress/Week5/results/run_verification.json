@@ -1,0 +1,39 @@
+{
+  "created_at_unix": 1794459035.3007116,
+  "input_backend": "pygame_sdl_standard",
+  "walking_input": "left_stick_xy",
+  "command_mapper": "Week4 joystick_to_command",
+  "right_stick": "reserved_for_arms_not_bound",
+  "physical_controller_detected": true,
+  "device": "Xbox Series X Controller",
+  "samples": 460,
+  "forward_samples": 249,
+  "reverse_samples": 19,
+  "left_turn_samples": 17,
+  "right_turn_samples": 131,
+  "diagonal_walk_turn_samples": 138,
+  "b_button_observed": false,
+  "menu_button_observed": false,
+  "root_x_range_m": 0.5490575384740308,
+  "root_y_range_m": 1.7893835548095007,
+  "actual_forward_velocity_range_m_s": [
+    -0.06369258438123301,
+    0.1137194584384914
+  ],
+  "actual_yaw_velocity_range_rad_s": [
+    -0.3275865855073893,
+    0.3568112081657737
+  ],
+  "all_commands_bounded": true,
+  "zero_command_samples_at_end": 0,
+  "mean_abs_forward_at_zero_m_s": null,
+  "mean_abs_yaw_at_zero_rad_s": null,
+  "termination_observed": false,
+  "physical_disconnect_reconnect_tested": false,
+  "evidence": [
+    "results/input_trace.jsonl",
+    "results/simulation_trace.jsonl",
+    "progress/media/xbox_left_stick.jpg"
+  ],
+  "note": "Observed controller inputs and native MuJoCo responses; a short interactive check, not a new full policy acceptance."
+}

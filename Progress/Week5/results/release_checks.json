@@ -1,0 +1,17 @@
+{
+  "python_files_syntax_checked": 11,
+  "english_text_check": true,
+  "relative_markdown_links_valid": true,
+  "frozen_checkpoint_sha256": "3bf72dd99c3c75049db74b4d50c94a6f3ce270af6887a7c048a16130b1ba6202",
+  "original_cart_hash_preserved": true,
+  "json_and_jsonl_parse": true,
+  "presentation_slides": 8,
+  "native_table_slides": [
+    3,
+    5,
+    7
+  ],
+  "embedded_video_matches_source": true,
+  "final_slides_individually_reviewed": true,
+  "all_files_below_50mb": true
+}

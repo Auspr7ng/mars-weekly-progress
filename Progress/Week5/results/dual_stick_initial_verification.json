@@ -1,0 +1,35 @@
+{
+  "created_at_unix": 1794458725.1378505,
+  "input_backend": "pygame_sdl_standard",
+  "physical_controller_detected": true,
+  "device": "Xbox Series X Controller",
+  "samples": 1122,
+  "forward_samples": 164,
+  "reverse_samples": 49,
+  "left_turn_samples": 12,
+  "right_turn_samples": 42,
+  "b_button_observed": false,
+  "menu_button_observed": false,
+  "root_x_range_m": 0.9504418844968697,
+  "root_y_range_m": 0.41843487158832715,
+  "actual_forward_velocity_range_m_s": [
+    -0.07608095737470669,
+    0.1046312214913345
+  ],
+  "actual_yaw_velocity_range_rad_s": [
+    -0.3778168286527523,
+    0.37144936287471797
+  ],
+  "all_commands_bounded": true,
+  "zero_command_samples_at_end": 20,
+  "mean_abs_forward_at_zero_m_s": 2.8763947399799813e-06,
+  "mean_abs_yaw_at_zero_rad_s": 2.0795371615388817e-06,
+  "termination_observed": false,
+  "physical_disconnect_reconnect_tested": false,
+  "evidence": [
+    "results/input_trace.jsonl",
+    "results/simulation_trace.jsonl",
+    "progress/media/xbox_live_control.jpg"
+  ],
+  "note": "Observed controller inputs and native MuJoCo responses; a short interactive check, not a new full policy acceptance."
+}

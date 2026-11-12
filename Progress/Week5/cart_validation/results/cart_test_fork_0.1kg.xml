@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="flatbed_cart">
+  <!--VALIDATION COPY: four assumed fork masses/inertias; added floor/light/camera assets. Original source is unchanged.-->
+  <option gravity="0 0 -9.81" timestep="0.002" />
+  <default>
+    <geom friction="0.8 0.01 0.001" condim="3" />
+    <joint damping="0.1" frictionloss="0.05" />
+  </default>
+  <worldbody>
+    <body name="cart" pos="0 0 0">
+      <freejoint name="cart_free" />
+      <geom name="platform" type="box" size="0.110 0.155 0.005" pos="0 0 0.0812" rgba="0.52 0.11 0.07 1" mass="5" />
+      <geom name="arm_l" type="cylinder" size="0.010" fromto="-0.110  0.165 0.0862    -0.210  0.155 0.195" rgba="0.08 0.08 0.08 1" />
+      <geom name="arm_r" type="cylinder" size="0.010" fromto="-0.110 -0.165 0.0862    -0.210 -0.155 0.195" rgba="0.08 0.08 0.08 1" />
+      <geom name="grip" type="cylinder" size="0.010" fromto="-0.210 -0.155 0.195    -0.210  0.155 0.195" rgba="0.08 0.08 0.08 1" />
+      <geom name="cap_l" type="sphere" size="0.010" pos="-0.210  0.155 0.195" rgba="0.08 0.08 0.08 1" />
+      <geom name="cap_r" type="sphere" size="0.010" pos="-0.210 -0.155 0.195" rgba="0.08 0.08 0.08 1" />
+      <site name="handle_left" pos="-0.210  0.08 0.195" size="0.012" rgba="0 1 0 0.4" />
+      <site name="handle_right" pos="-0.210 -0.08 0.195" size="0.012" rgba="1 0 0 0.4" />
+      <body name="caster_fl" pos=" 0.0846  0.1169 0.0762">
+        <joint name="j_swivel_fl" type="hinge" axis="0 0 1" damping="0.8" frictionloss="0.2" />
+        <body name="wheel_fl" pos="0.015 0 -0.0508">
+          <joint name="j_roll_fl" type="hinge" axis="0 1 0" damping="0.05" frictionloss="0.02" />
+          <geom type="cylinder" size="0.0254 0.0127" euler="90 0 0" friction="0.9 0.005 0.001" condim="3" mass="0.2" rgba="0.32 0.32 0.32 1" />
+        </body>
+        <inertial pos=".0075 0 -.0254" mass="0.1" diaginertia="4e-05 4e-05 1e-05" />
+      </body>
+      <body name="caster_fr" pos=" 0.0846 -0.1169 0.0762">
+        <joint name="j_swivel_fr" type="hinge" axis="0 0 1" damping="0.8" frictionloss="0.2" />
+        <body name="wheel_fr" pos="0.015 0 -0.0508">
+          <joint name="j_roll_fr" type="hinge" axis="0 1 0" damping="0.05" frictionloss="0.02" />
+          <geom type="cylinder" size="0.0254 0.0127" euler="90 0 0" friction="0.9 0.005 0.001" condim="3" mass="0.2" rgba="0.32 0.32 0.32 1" />
+        </body>
+        <inertial pos=".0075 0 -.0254" mass="0.1" diaginertia="4e-05 4e-05 1e-05" />
+      </body>
+      <body name="caster_rl" pos="-0.0846  0.1169 0.0762">
+        <joint name="j_swivel_rl" type="hinge" axis="0 0 1" damping="0.8" frictionloss="0.2" />
+        <body name="wheel_rl" pos="0.015 0 -0.0508">
+          <joint name="j_roll_rl" type="hinge" axis="0 1 0" damping="0.05" frictionloss="0.02" />
+          <geom type="cylinder" size="0.0254 0.0127" euler="90 0 0" friction="0.9 0.005 0.001" condim="3" mass="0.2" rgba="0.32 0.32 0.32 1" />
+        </body>
+        <inertial pos=".0075 0 -.0254" mass="0.1" diaginertia="4e-05 4e-05 1e-05" />
+      </body>
+      <body name="caster_rr" pos="-0.0846 -0.1169 0.0762">
+        <joint name="j_swivel_rr" type="hinge" axis="0 0 1" damping="0.8" frictionloss="0.2" />
+        <body name="wheel_rr" pos="0.015 0 -0.0508">
+          <joint name="j_roll_rr" type="hinge" axis="0 1 0" damping="0.05" frictionloss="0.02" />
+          <geom type="cylinder" size="0.0254 0.0127" euler="90 0 0" friction="0.9 0.005 0.001" condim="3" mass="0.2" rgba="0.32 0.32 0.32 1" />
+        </body>
+        <inertial pos=".0075 0 -.0254" mass="0.1" diaginertia="4e-05 4e-05 1e-05" />
+      </body>
+    </body>
+    <geom name="validation_ground" type="plane" size="5 5 .1" friction=".8 .01 .001" rgba=".88 .90 .93 1" condim="3" material="ground_grid" />
+    <light pos="0 -2 3" dir="0 1 -2" diffuse=".8 .8 .8" />
+  </worldbody>
+  <asset>
+    <texture name="grid" type="2d" builtin="checker" rgb1=".88 .90 .93" rgb2=".70 .74 .78" width="256" height="256" />
+    <material name="ground_grid" texture="grid" texrepeat="40 40" texuniform="true" />
+  </asset>
+  <visual>
+    <global offwidth="960" offheight="720" />
+  </visual>
+</mujoco>
