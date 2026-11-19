@@ -1,5 +1,9 @@
 # Week 6 — Jetson bench access and Xbox walking, arm and hand control
 
+[Weekly presentation](progress/Weekly_Progress_2026-11-19_Xbox_Arms_Hardware.pptx)
+contains five English slides and the complete embedded simulation demo.
+[Standalone demo video](progress/media/xbox_arm_hand_demo_2026-11-19.mp4).
+
 **Simulation update: November 19, 2026.** Week6 now includes a MuJoCo Xbox
 program for bilateral arm lift/spread and simultaneous hand opening/closing.
 Arm adjustments unlock after measured standstill. Walking is available at any

@@ -1,5 +1,31 @@
 # Week 6 progress - November 18-19, 2026
 
+[Weekly presentation](Weekly_Progress_2026-11-19_Xbox_Arms_Hardware.pptx):
+five English slides covering general progress, annotated Xbox controls, the
+embedded 67-second simulation recording, current issues and the next test plan.
+
+## Reported gait issues and next tests
+
+The November 19 presentation records two qualitative observations from the
+operator: in simulation, changing the arm posture left the robot upright but
+both feet appeared stuck; in the lab, foot lift was low and stepping looked
+jerky compared with simulation. No measured clearance or timing data was
+provided for these observations.
+
+Min's `play_sim_trajectory.py` replays archived simulation targets without live
+policy inference. `r25_rollout.py run` performs live R25 inference. The supplied
+live command was a supported test with an experimental fixed forward
+body-velocity observation of 0.06 m/s and the uncalibrated-accelerometer flag.
+The fixed velocity is a candidate contributor, with no confirmed causal link
+to the reported jerky gait. The supplied conversation does not identify which
+runner produced each observation.
+
+The plan is to iterate training over November 21-22, compare the original and
+incoming IMUs next week, and test the updated policy in the lab on Tuesday,
+November 24. Reward changes should address foot clearance and smoother steps,
+with arm-pose variation included in subsequent training. These are planned
+activities rather than completed results.
+
 ## Xbox walking, arm and hand control - November 19
 
 Implemented the Week5 simulation extension in Week6: right stick raises/lowers
