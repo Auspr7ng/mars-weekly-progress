@@ -1,0 +1,7 @@
+.deps/
+results/input_trace.jsonl
+results/simulation_trace.jsonl
+results/live_status.json
+results/server_info.json
+results/scripted_server_info.json
+results/capture_*/

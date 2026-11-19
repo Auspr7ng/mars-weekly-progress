@@ -1,4 +1,30 @@
-# Week 6 progress — November 18, 2026
+# Week 6 progress - November 18-19, 2026
+
+## Xbox walking, arm and hand control - November 19
+
+Implemented the Week5 simulation extension in Week6: right stick raises/lowers
+and spreads/brings back both arms, A opens both hands, Y closes both hands,
+and X optionally returns the saved Home. Arm target edits require measured
+standstill. Walking is available at any held arm pose using the original
+R25-300 policy for the legs; Home readback never gates walking.
+
+The updated interface is English throughout, with the title
+`Sunday A1 - Xbox Controller`. Arm speed increased from 0.40 to 0.65 rad/s,
+and finger-slider speed from 12 to 24 mm/s. Reset Simulation (or Menu) restores
+the robot, policy history and upper-body state after a fall.
+
+Eighteen focused tests passed. The updated scripted full-policy / floating-base
+MuJoCo diagnostic passed all 11 checks over 10.34 simulated seconds, including
+walking with raised arms, holding the pose while walking, optional Home return,
+and recovery after a deliberately induced fall. This is a short empty-hand
+software diagnostic; physical Xbox verification and general stability across
+all arm poses remain separate. See [results and limits](../results/README.md).
+
+This week is control-program implementation only. No training was launched;
+different-arm-pose locomotion training is deferred to next week. See the
+[controls](../code/README.md) and [design note](../Arm_Control_Plan.md).
+
+The sections below preserve the earlier Jetson bench record.
 
 ## Jetson connection and R25 package
 

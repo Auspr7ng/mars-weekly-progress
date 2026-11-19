@@ -1,4 +1,19 @@
-# Week 6 — Jetson R25 bench access and Xbox input
+# Week 6 — Jetson bench access and Xbox walking, arm and hand control
+
+**Simulation update: November 19, 2026.** Week6 now includes a MuJoCo Xbox
+program for bilateral arm lift/spread and simultaneous hand opening/closing.
+Arm adjustments unlock after measured standstill. Walking is available at any
+held arm pose using the original R25-300 policy. Reset Simulation restores
+the robot after a fall. Arm and finger speeds are 0.65 rad/s and 24 mm/s.
+
+- [Launch and controls](code/README.md): `start_demo.bat`, right stick for arms,
+  A opens both hands, Y closes both hands, X optionally returns Home; Menu resets the simulation.
+- [Control design and next-week notes](Arm_Control_Plan.md): standing
+  validation first, fixed-pose low-speed walking next, continuous poses later.
+
+This is an experimental simulation extension. No new training or hardware arm
+operation is performed by this entry point. The Jetson work below is the earlier
+bench record.
 
 **Progress date: November 18, 2026.** The Jetson Orin Nano Developer Kit is
 reachable from the Mac over USB-C at `192.168.55.1`. The existing R25-300

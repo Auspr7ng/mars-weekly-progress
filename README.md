@@ -8,7 +8,7 @@ Week 4 adds whole-body RL walking, speed/stop/reverse/turn control, a body-relat
 
 Week 5 adds Bluetooth Xbox control through the same walking policy, a foot-tactile research plan, and independent cart model validation. The release includes English code documentation, recorded evidence, and an eight-slide weekly presentation. Start at the [Week 5 guide](Progress/Week5/README.md).
 
-Week 6 records the first Jetson R25 bench connection and no-motor policy diagnostics, plus a Jetson Xbox input program awaiting physical controller testing. Start at the [Week 6 guide](Progress/Week6/README.md).
+Week 6 adds Xbox arm/hand control in MuJoCo, with faster arm/hand motion, walking at any held arm pose and simulation reset, plus a staged plan for future arm-pose training. It also records the first Jetson R25 bench connection and no-motor policy diagnostics. Start at the [Week 6 guide](Progress/Week6/README.md).
 
 ## Weeks
 
@@ -19,7 +19,7 @@ Week 6 records the first Jetson R25 bench connection and no-motor policy diagnos
 | Week 3 | [mjlab dual-grasp and eight-array demo](Progress/Week3/README.md) | [Weekly slides](Progress/Week3/Weekly_Progress_2026-10-29_mjlab_Tactile.pptx) and [migration report](Progress/Week3/Week3_Migration_Report.md) |
 | Week 4 | [RL walking and robot-relative joystick](Progress/Week4/README.md) | [Acceptance report](Progress/Week4/docs/Acceptance_Report.md), [training history](Progress/Week4/docs/Training_History.md), and [results](Progress/Week4/results/README.md) |
 | Week 5 | [Xbox control, tactile research, and cart validation](Progress/Week5/README.md) | [Weekly slides](Progress/Week5/Weekly_Progress_2026-11-12_Xbox_Tactile_Cart.pptx), [tactile plan](Progress/Week5/research/Foot_Tactile_Research_Plan.md), and [cart report](Progress/Week5/cart_validation/Validation_Report.md) |
-| Week 6 | [Jetson R25 Xbox shadow input](Progress/Week6/code/README.md) | [Jetson bench and controller progress](Progress/Week6/progress/README.md) |
+| Week 6 | [Xbox walking/arms/hands and Jetson shadow input](Progress/Week6/code/README.md) | [Bench/controller progress](Progress/Week6/progress/README.md) and [arm training plan](Progress/Week6/Arm_Control_Plan.md) |
 
 Weeks 1 and 2 separate runnable scripts in `code/` from reports in `progress/`. Week 3 keeps `start_demo.bat`, the README, report, slides, and selected media together, with implementation in `code/` and saved evidence in `results/`.
 
