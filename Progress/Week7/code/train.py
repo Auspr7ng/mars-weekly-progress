@@ -72,7 +72,7 @@ def main():
         help="Warm-start weights; fresh optimizer, local iteration and curriculum",
     )
     parser.add_argument(
-        "--round", dest="training_round", type=int, choices=(1, 2, 3, 4), default=1
+        "--round", dest="training_round", type=int, choices=(1, 2, 3, 4, 5), default=1
     )
     parser.add_argument("--name", help="Human-readable experiment name")
     parser.add_argument(
@@ -121,15 +121,24 @@ def main():
             2: "r26.round2.heading_worst_foot.v1",
             3: "r26.round3.phase_matched_mirror.v1",
             4: "r26.round4.raise_only_lift_gates.v1",
+            5: "r26.round5.bilateral_35mm_reference.v1",
         }[args.training_round],
         "randomized_training_start_phase": cfg.week7_randomize_phase,
         "mirror_loss_coefficient": (
-            (0.05 if args.training_round >= 4 else 0.20)
+            (
+                0.10
+                if args.training_round >= 5
+                else (0.05 if args.training_round >= 4 else 0.20)
+            )
             if args.training_round >= 3
             else 0.0
         ),
         "phase_matched_height_cost_weight": (
-            (-0.35 if args.training_round >= 4 else -1.0)
+            (
+                -0.8
+                if args.training_round >= 5
+                else (-0.35 if args.training_round >= 4 else -1.0)
+            )
             if args.training_round >= 3
             else 0.0
         ),

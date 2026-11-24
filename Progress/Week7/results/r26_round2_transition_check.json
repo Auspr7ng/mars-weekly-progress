@@ -1,0 +1,1382 @@
+{
+  "metric_version": "sunday.week7.transitions.v2",
+  "checkpoint": "D:\\robotics\\mars-weekly-progress\\Progress\\Week7\\policies\\r26_round2\\model_1199.pt",
+  "training_round": 2,
+  "seed": 5742,
+  "seconds": 30.0,
+  "trials_per_pose": 4,
+  "total_trials": 28,
+  "survived": 28,
+  "all_segment_passes": 20,
+  "failure_counts": {
+    "tilt": 0,
+    "height": 0,
+    "ground": 0,
+    "self": 0,
+    "nonfinite": 0
+  },
+  "segments": [
+    {
+      "name": "initial_stop",
+      "seconds": 2.0,
+      "requested_command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.0015338065568357706,
+          "mean_lateral_m_s": -0.001220733392983675,
+          "mean_yaw_rad_s": 0.0015913215465843678,
+          "mean_planar_speed_m_s": 0.002040677238255739,
+          "mean_absolute_yaw_rad_s": 0.0015913215465843678,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0017517062369734049,
+          "max_net_displacement_after_settle_m": 0.002008185489103198
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.0014150424394756556,
+          "mean_lateral_m_s": 0.0002591176307760179,
+          "mean_yaw_rad_s": 0.00039302295772358775,
+          "mean_planar_speed_m_s": 0.0015212823636829853,
+          "mean_absolute_yaw_rad_s": 0.0005813716561533511,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0012840039562433958,
+          "max_net_displacement_after_settle_m": 0.0018451700452715158
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.0021062230225652456,
+          "mean_lateral_m_s": -0.0029924451373517513,
+          "mean_yaw_rad_s": 0.0026001445949077606,
+          "mean_planar_speed_m_s": 0.0036901438143104315,
+          "mean_absolute_yaw_rad_s": 0.0026001445949077606,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.003104796865954995,
+          "max_net_displacement_after_settle_m": 0.003634220687672496
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.0014539298135787249,
+          "mean_lateral_m_s": -0.00126225920394063,
+          "mean_yaw_rad_s": 0.0013845458161085844,
+          "mean_planar_speed_m_s": 0.0019521513022482395,
+          "mean_absolute_yaw_rad_s": 0.0013845458161085844,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0016695141093805432,
+          "max_net_displacement_after_settle_m": 0.0021264380775392056
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.0010814215056598186,
+          "mean_lateral_m_s": 0.0010849827667698264,
+          "mean_yaw_rad_s": -0.0015835295198485255,
+          "mean_planar_speed_m_s": 0.001720063271932304,
+          "mean_absolute_yaw_rad_s": 0.001598970266059041,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0013571609742939472,
+          "max_net_displacement_after_settle_m": 0.0015544474590569735
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.0010308625642210245,
+          "mean_lateral_m_s": -0.00114379299338907,
+          "mean_yaw_rad_s": 0.0008397510391660035,
+          "mean_planar_speed_m_s": 0.0015651248395442963,
+          "mean_absolute_yaw_rad_s": 0.0008397510391660035,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0013257128885015845,
+          "max_net_displacement_after_settle_m": 0.0017996110254898667
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.005304040852934122,
+          "mean_lateral_m_s": -0.0026687728241086006,
+          "mean_yaw_rad_s": 0.002389930421486497,
+          "mean_planar_speed_m_s": 0.006025495007634163,
+          "mean_absolute_yaw_rad_s": 0.0023905052803456783,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            40.0,
+            40.0,
+            40.0,
+            40.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.005221088416874409,
+          "max_net_displacement_after_settle_m": 0.005905707832425833
+        }
+      ]
+    },
+    {
+      "name": "forward",
+      "seconds": 4.0,
+      "requested_command": [
+        0.06,
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0597069151699543,
+          "mean_lateral_m_s": -0.00223914603702724,
+          "mean_yaw_rad_s": 0.0055864835157990456,
+          "mean_planar_speed_m_s": 0.08614643663167953,
+          "mean_absolute_yaw_rad_s": 0.02672145701944828,
+          "mean_maximum_foot_clearance_m": 0.011718947440385818,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.1779438555240631,
+          "max_net_displacement_after_settle_m": 0.18062400817871094
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0572286918759346,
+          "mean_lateral_m_s": 0.0018934702966362238,
+          "mean_yaw_rad_s": 0.006061745807528496,
+          "mean_planar_speed_m_s": 0.08439827710390091,
+          "mean_absolute_yaw_rad_s": 0.0173646192997694,
+          "mean_maximum_foot_clearance_m": 0.01302817277610302,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.17078882455825806,
+          "max_net_displacement_after_settle_m": 0.17080992460250854
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.05452675372362137,
+          "mean_lateral_m_s": 0.004205424338579178,
+          "mean_yaw_rad_s": 0.005474514327943325,
+          "mean_planar_speed_m_s": 0.08396632969379425,
+          "mean_absolute_yaw_rad_s": 0.018912354484200478,
+          "mean_maximum_foot_clearance_m": 0.013501773588359356,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.16272011399269104,
+          "max_net_displacement_after_settle_m": 0.16277100145816803
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.05525597557425499,
+          "mean_lateral_m_s": 0.003706449642777443,
+          "mean_yaw_rad_s": 0.00550474040210247,
+          "mean_planar_speed_m_s": 0.08289186656475067,
+          "mean_absolute_yaw_rad_s": 0.017760518938302994,
+          "mean_maximum_foot_clearance_m": 0.01262633502483368,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.16520589590072632,
+          "max_net_displacement_after_settle_m": 0.16537658870220184
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.06189269572496414,
+          "mean_lateral_m_s": 0.0018026723992079496,
+          "mean_yaw_rad_s": 0.005352598149329424,
+          "mean_planar_speed_m_s": 0.08634260296821594,
+          "mean_absolute_yaw_rad_s": 0.021610580384731293,
+          "mean_maximum_foot_clearance_m": 0.012272856198251247,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.1848038136959076,
+          "max_net_displacement_after_settle_m": 0.18483330309391022
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.054462980479002,
+          "mean_lateral_m_s": 0.006492003798484802,
+          "mean_yaw_rad_s": 0.005086476448923349,
+          "mean_planar_speed_m_s": 0.08488953858613968,
+          "mean_absolute_yaw_rad_s": 0.023533793166279793,
+          "mean_maximum_foot_clearance_m": 0.013271245174109936,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.16330555081367493,
+          "max_net_displacement_after_settle_m": 0.16340629756450653
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.05781430006027222,
+          "mean_lateral_m_s": 0.003472396172583103,
+          "mean_yaw_rad_s": 0.0027908373158425093,
+          "mean_planar_speed_m_s": 0.08534716814756393,
+          "mean_absolute_yaw_rad_s": 0.021597109735012054,
+          "mean_maximum_foot_clearance_m": 0.012659740634262562,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.1726580560207367,
+          "max_net_displacement_after_settle_m": 0.1731613725423813
+        }
+      ]
+    },
+    {
+      "name": "stop_after_forward",
+      "seconds": 3.0,
+      "requested_command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0018828818574547768,
+          "mean_lateral_m_s": 0.002123637357726693,
+          "mean_yaw_rad_s": -0.002943928586319089,
+          "mean_planar_speed_m_s": 0.00284946383908391,
+          "mean_absolute_yaw_rad_s": 0.002943928586319089,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.005394445266574621,
+          "max_net_displacement_after_settle_m": 0.005558626726269722
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0012621877249330282,
+          "mean_lateral_m_s": 0.0016903303330764174,
+          "mean_yaw_rad_s": -0.002412708941847086,
+          "mean_planar_speed_m_s": 0.0021104991901665926,
+          "mean_absolute_yaw_rad_s": 0.002412708941847086,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.004000185057520866,
+          "max_net_displacement_after_settle_m": 0.004001760855317116
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0007663944270461798,
+          "mean_lateral_m_s": 0.0013455202570185065,
+          "mean_yaw_rad_s": -0.0017951697809621692,
+          "mean_planar_speed_m_s": 0.0015487975906580687,
+          "mean_absolute_yaw_rad_s": 0.0017951697809621692,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0029383795335888863,
+          "max_net_displacement_after_settle_m": 0.0029388531111180782
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0005485214060172439,
+          "mean_lateral_m_s": 0.001116177998483181,
+          "mean_yaw_rad_s": -0.0012950641103088856,
+          "mean_planar_speed_m_s": 0.0012454590760171413,
+          "mean_absolute_yaw_rad_s": 0.0012973824050277472,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0023627844639122486,
+          "max_net_displacement_after_settle_m": 0.002371528884395957
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.001035658991895616,
+          "mean_lateral_m_s": 0.0013275595847517252,
+          "mean_yaw_rad_s": -0.002366376109421253,
+          "mean_planar_speed_m_s": 0.001687202719040215,
+          "mean_absolute_yaw_rad_s": 0.002366376109421253,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0031824656762182713,
+          "max_net_displacement_after_settle_m": 0.0031883148476481438
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.00011257656296947971,
+          "mean_lateral_m_s": 0.0003511782269924879,
+          "mean_yaw_rad_s": -0.0012619760818779469,
+          "mean_planar_speed_m_s": 0.00043395752436481416,
+          "mean_absolute_yaw_rad_s": 0.0012619760818779469,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0007042023353278637,
+          "max_net_displacement_after_settle_m": 0.0007066228426992893
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.00181625597178936,
+          "mean_lateral_m_s": 0.0016371929086744785,
+          "mean_yaw_rad_s": -0.004453214351087809,
+          "mean_planar_speed_m_s": 0.0024456889368593693,
+          "mean_absolute_yaw_rad_s": 0.004453214351087809,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.004655003547668457,
+          "max_net_displacement_after_settle_m": 0.004662500228732824
+        }
+      ]
+    },
+    {
+      "name": "reverse",
+      "seconds": 4.0,
+      "requested_command": [
+        -0.04,
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.03244609385728836,
+          "mean_lateral_m_s": 0.006439646240323782,
+          "mean_yaw_rad_s": 0.0029841638170182705,
+          "mean_planar_speed_m_s": 0.08468853682279587,
+          "mean_absolute_yaw_rad_s": 0.03353681415319443,
+          "mean_maximum_foot_clearance_m": 0.011579887941479683,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.096397265791893,
+          "max_net_displacement_after_settle_m": 0.09642719477415085
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.032274387776851654,
+          "mean_lateral_m_s": 0.0048552085645496845,
+          "mean_yaw_rad_s": 0.0036739837378263474,
+          "mean_planar_speed_m_s": 0.08392775058746338,
+          "mean_absolute_yaw_rad_s": 0.028387345373630524,
+          "mean_maximum_foot_clearance_m": 0.011600516736507416,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.09512824565172195,
+          "max_net_displacement_after_settle_m": 0.09518875181674957
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.034473955631256104,
+          "mean_lateral_m_s": 0.0058922539465129375,
+          "mean_yaw_rad_s": 0.001892512897029519,
+          "mean_planar_speed_m_s": 0.08355570584535599,
+          "mean_absolute_yaw_rad_s": 0.03573443740606308,
+          "mean_maximum_foot_clearance_m": 0.011159859597682953,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.10178954899311066,
+          "max_net_displacement_after_settle_m": 0.10237844288349152
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.03402608260512352,
+          "mean_lateral_m_s": 0.004436993971467018,
+          "mean_yaw_rad_s": 0.0028143201489001513,
+          "mean_planar_speed_m_s": 0.08522205054759979,
+          "mean_absolute_yaw_rad_s": 0.030980922281742096,
+          "mean_maximum_foot_clearance_m": 0.011647764593362808,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.09990793466567993,
+          "max_net_displacement_after_settle_m": 0.0999138355255127
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 0,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.026247836649417877,
+          "mean_lateral_m_s": 0.004206161014735699,
+          "mean_yaw_rad_s": 0.007418164052069187,
+          "mean_planar_speed_m_s": 0.08382490277290344,
+          "mean_absolute_yaw_rad_s": 0.0463462695479393,
+          "mean_maximum_foot_clearance_m": 0.011463875882327557,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.07773040235042572,
+          "max_net_displacement_after_settle_m": 0.0777711421251297
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.032354436814785004,
+          "mean_lateral_m_s": 0.005096761509776115,
+          "mean_yaw_rad_s": 0.002190888859331608,
+          "mean_planar_speed_m_s": 0.08043958991765976,
+          "mean_absolute_yaw_rad_s": 0.04082489758729935,
+          "mean_maximum_foot_clearance_m": 0.01045413687825203,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.09508420526981354,
+          "max_net_displacement_after_settle_m": 0.09530618786811829
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 0,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.029557226225733757,
+          "mean_lateral_m_s": 0.0030420860275626183,
+          "mean_yaw_rad_s": 0.0023461608216166496,
+          "mean_planar_speed_m_s": 0.08014678955078125,
+          "mean_absolute_yaw_rad_s": 0.02925305999815464,
+          "mean_maximum_foot_clearance_m": 0.010593247599899769,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.08586224913597107,
+          "max_net_displacement_after_settle_m": 0.08595981448888779
+        }
+      ]
+    },
+    {
+      "name": "stop_after_reverse",
+      "seconds": 3.0,
+      "requested_command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.003377788932994008,
+          "mean_lateral_m_s": 0.0006245002732612193,
+          "mean_yaw_rad_s": -0.001356686232611537,
+          "mean_planar_speed_m_s": 0.003437258768826723,
+          "mean_absolute_yaw_rad_s": 0.0013645538128912449,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.006612927652895451,
+          "max_net_displacement_after_settle_m": 0.0070102703757584095
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.007157201413065195,
+          "mean_lateral_m_s": 0.0060043735429644585,
+          "mean_yaw_rad_s": -0.004798963665962219,
+          "mean_planar_speed_m_s": 0.009367788210511208,
+          "mean_absolute_yaw_rad_s": 0.006875057239085436,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.017974339425563812,
+          "max_net_displacement_after_settle_m": 0.017986811697483063
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.002324148314073682,
+          "mean_lateral_m_s": -0.0005657467991113663,
+          "mean_yaw_rad_s": -0.0003424656460992992,
+          "mean_planar_speed_m_s": 0.0023941597901284695,
+          "mean_absolute_yaw_rad_s": 0.00048000412061810493,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.004649984650313854,
+          "max_net_displacement_after_settle_m": 0.004653620533645153
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.003434863407164812,
+          "mean_lateral_m_s": 0.000766341108828783,
+          "mean_yaw_rad_s": 0.0013444784563034773,
+          "mean_planar_speed_m_s": 0.003558956552296877,
+          "mean_absolute_yaw_rad_s": 0.0015582412015646696,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.006718723569065332,
+          "max_net_displacement_after_settle_m": 0.006735390983521938
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.004776855930685997,
+          "mean_lateral_m_s": 0.003389662131667137,
+          "mean_yaw_rad_s": -0.0018506761407479644,
+          "mean_planar_speed_m_s": 0.005873528774827719,
+          "mean_absolute_yaw_rad_s": 0.0038210032507777214,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.011139663867652416,
+          "max_net_displacement_after_settle_m": 0.011139986105263233
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.001872133114375174,
+          "mean_lateral_m_s": -0.0004693131195381284,
+          "mean_yaw_rad_s": 0.00046755705261603,
+          "mean_planar_speed_m_s": 0.0019410373643040657,
+          "mean_absolute_yaw_rad_s": 0.0005102453869767487,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0037207650020718575,
+          "max_net_displacement_after_settle_m": 0.0037635089829564095
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.001999060856178403,
+          "mean_lateral_m_s": -0.0006569452816620469,
+          "mean_yaw_rad_s": 0.0011758923064917326,
+          "mean_planar_speed_m_s": 0.0021057832054793835,
+          "mean_absolute_yaw_rad_s": 0.0011780578643083572,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.004099505953490734,
+          "max_net_displacement_after_settle_m": 0.004101489204913378
+        }
+      ]
+    },
+    {
+      "name": "turn_left",
+      "seconds": 4.0,
+      "requested_command": [
+        0.0,
+        0.0,
+        0.12
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.003372614271938801,
+          "mean_lateral_m_s": -0.005323526915162802,
+          "mean_yaw_rad_s": 0.12356486171483994,
+          "mean_planar_speed_m_s": 0.0727413222193718,
+          "mean_absolute_yaw_rad_s": 0.12356486171483994,
+          "mean_maximum_foot_clearance_m": 0.013369266875088215,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.01658792421221733,
+          "max_net_displacement_after_settle_m": 0.01663454808294773
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0047518289647996426,
+          "mean_lateral_m_s": -0.0032057196367532015,
+          "mean_yaw_rad_s": 0.12374478578567505,
+          "mean_planar_speed_m_s": 0.07043451070785522,
+          "mean_absolute_yaw_rad_s": 0.12374478578567505,
+          "mean_maximum_foot_clearance_m": 0.0125931641086936,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.014417365193367004,
+          "max_net_displacement_after_settle_m": 0.014420555904507637
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0012086245696991682,
+          "mean_lateral_m_s": -0.004504987969994545,
+          "mean_yaw_rad_s": 0.12402366101741791,
+          "mean_planar_speed_m_s": 0.07320407032966614,
+          "mean_absolute_yaw_rad_s": 0.12402366101741791,
+          "mean_maximum_foot_clearance_m": 0.012981465086340904,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.013563247397542,
+          "max_net_displacement_after_settle_m": 0.013573107309639454
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0021127008367329836,
+          "mean_lateral_m_s": -0.0037050850223749876,
+          "mean_yaw_rad_s": 0.12469777464866638,
+          "mean_planar_speed_m_s": 0.07108458876609802,
+          "mean_absolute_yaw_rad_s": 0.12469777464866638,
+          "mean_maximum_foot_clearance_m": 0.01268274337053299,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.011222545057535172,
+          "max_net_displacement_after_settle_m": 0.011244714260101318
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.008970392867922783,
+          "mean_lateral_m_s": -0.0034130108542740345,
+          "mean_yaw_rad_s": 0.12385550886392593,
+          "mean_planar_speed_m_s": 0.0690082460641861,
+          "mean_absolute_yaw_rad_s": 0.12385550886392593,
+          "mean_maximum_foot_clearance_m": 0.012180883437395096,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.02506152167916298,
+          "max_net_displacement_after_settle_m": 0.025061652064323425
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.001272830180823803,
+          "mean_lateral_m_s": -0.0024206526577472687,
+          "mean_yaw_rad_s": 0.12489967048168182,
+          "mean_planar_speed_m_s": 0.07374345511198044,
+          "mean_absolute_yaw_rad_s": 0.12489967048168182,
+          "mean_maximum_foot_clearance_m": 0.012647092342376709,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.007675540633499622,
+          "max_net_displacement_after_settle_m": 0.007689111400395632
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.005088007543236017,
+          "mean_lateral_m_s": -0.0052317408844828606,
+          "mean_yaw_rad_s": 0.12376672774553299,
+          "mean_planar_speed_m_s": 0.06969381868839264,
+          "mean_absolute_yaw_rad_s": 0.12376672774553299,
+          "mean_maximum_foot_clearance_m": 0.012801936827600002,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.019259795546531677,
+          "max_net_displacement_after_settle_m": 0.01926337741315365
+        }
+      ]
+    },
+    {
+      "name": "stop_after_left",
+      "seconds": 3.0,
+      "requested_command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0030784369446337223,
+          "mean_lateral_m_s": 0.00035555317299440503,
+          "mean_yaw_rad_s": -0.000677639851346612,
+          "mean_planar_speed_m_s": 0.0032639808487147093,
+          "mean_absolute_yaw_rad_s": 0.000677639851346612,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.006184118799865246,
+          "max_net_displacement_after_settle_m": 0.006187036633491516
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.005096156615763903,
+          "mean_lateral_m_s": 0.001895332825370133,
+          "mean_yaw_rad_s": -0.003126721363514662,
+          "mean_planar_speed_m_s": 0.005691421218216419,
+          "mean_absolute_yaw_rad_s": 0.0031460756435990334,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.010670078918337822,
+          "max_net_displacement_after_settle_m": 0.010705974884331226
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0022471537813544273,
+          "mean_lateral_m_s": -6.036285776644945e-05,
+          "mean_yaw_rad_s": -0.0007348675280809402,
+          "mean_planar_speed_m_s": 0.0023617350962013006,
+          "mean_absolute_yaw_rad_s": 0.0007348675280809402,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.004492238629609346,
+          "max_net_displacement_after_settle_m": 0.0045102606527507305
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.00323216849938035,
+          "mean_lateral_m_s": -0.000956120784394443,
+          "mean_yaw_rad_s": -0.0004465164674911648,
+          "mean_planar_speed_m_s": 0.003580724820494652,
+          "mean_absolute_yaw_rad_s": 0.00044894576421938837,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.006675333715975285,
+          "max_net_displacement_after_settle_m": 0.006676920223981142
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0042581213638186455,
+          "mean_lateral_m_s": 0.0007895319722592831,
+          "mean_yaw_rad_s": -0.001874412759207189,
+          "mean_planar_speed_m_s": 0.004346912726759911,
+          "mean_absolute_yaw_rad_s": 0.001874412759207189,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0085084093734622,
+          "max_net_displacement_after_settle_m": 0.008508817292749882
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.001933367340825498,
+          "mean_lateral_m_s": 0.0001690064964350313,
+          "mean_yaw_rad_s": -0.0008323007496073842,
+          "mean_planar_speed_m_s": 0.001950256759300828,
+          "mean_absolute_yaw_rad_s": 0.0008323007496073842,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.00386953167617321,
+          "max_net_displacement_after_settle_m": 0.0038707428611814976
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0020797927863895893,
+          "mean_lateral_m_s": -0.0008843742543831468,
+          "mean_yaw_rad_s": 0.00014259213639888912,
+          "mean_planar_speed_m_s": 0.0023034941405057907,
+          "mean_absolute_yaw_rad_s": 0.00014259213639888912,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0044333054684102535,
+          "max_net_displacement_after_settle_m": 0.004436777904629707
+        }
+      ]
+    },
+    {
+      "name": "turn_right",
+      "seconds": 4.0,
+      "requested_command": [
+        0.0,
+        0.0,
+        -0.12
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.009329433552920818,
+          "mean_lateral_m_s": -0.0031301267445087433,
+          "mean_yaw_rad_s": -0.11113991588354111,
+          "mean_planar_speed_m_s": 0.0764525830745697,
+          "mean_absolute_yaw_rad_s": 0.11113991588354111,
+          "mean_maximum_foot_clearance_m": 0.011286591179668903,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0349789559841156,
+          "max_net_displacement_after_settle_m": 0.034984905272722244
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.007658203132450581,
+          "mean_lateral_m_s": 0.0019921124912798405,
+          "mean_yaw_rad_s": -0.11224803328514099,
+          "mean_planar_speed_m_s": 0.07575255632400513,
+          "mean_absolute_yaw_rad_s": 0.11224803328514099,
+          "mean_maximum_foot_clearance_m": 0.012518429197371006,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.03070955164730549,
+          "max_net_displacement_after_settle_m": 0.030711686238646507
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.005079623311758041,
+          "mean_lateral_m_s": -0.0022804196923971176,
+          "mean_yaw_rad_s": -0.11182668060064316,
+          "mean_planar_speed_m_s": 0.07652232050895691,
+          "mean_absolute_yaw_rad_s": 0.11182668060064316,
+          "mean_maximum_foot_clearance_m": 0.011817488819360733,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.02228492870926857,
+          "max_net_displacement_after_settle_m": 0.022294314578175545
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.005849541164934635,
+          "mean_lateral_m_s": -0.0008144975290633738,
+          "mean_yaw_rad_s": -0.11319586634635925,
+          "mean_planar_speed_m_s": 0.07533218711614609,
+          "mean_absolute_yaw_rad_s": 0.11319586634635925,
+          "mean_maximum_foot_clearance_m": 0.012543417513370514,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.024896323680877686,
+          "max_net_displacement_after_settle_m": 0.024897266179323196
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.01416943408548832,
+          "mean_lateral_m_s": 0.0025474829599261284,
+          "mean_yaw_rad_s": -0.1139107346534729,
+          "mean_planar_speed_m_s": 0.07431913912296295,
+          "mean_absolute_yaw_rad_s": 0.1139107346534729,
+          "mean_maximum_foot_clearance_m": 0.012778920121490955,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.05007327347993851,
+          "max_net_displacement_after_settle_m": 0.05007399991154671
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.004308096133172512,
+          "mean_lateral_m_s": -0.0015202771173790097,
+          "mean_yaw_rad_s": -0.11326096206903458,
+          "mean_planar_speed_m_s": 0.0762079507112503,
+          "mean_absolute_yaw_rad_s": 0.11326096206903458,
+          "mean_maximum_foot_clearance_m": 0.01186460442841053,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.01956578716635704,
+          "max_net_displacement_after_settle_m": 0.020237481221556664
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.00717461621388793,
+          "mean_lateral_m_s": -0.0009116827277466655,
+          "mean_yaw_rad_s": -0.11225264519453049,
+          "mean_planar_speed_m_s": 0.0746585950255394,
+          "mean_absolute_yaw_rad_s": 0.11251682043075562,
+          "mean_maximum_foot_clearance_m": 0.012735270895063877,
+          "samples_per_trial": [
+            140.0,
+            140.0,
+            140.0,
+            140.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.028087355196475983,
+          "max_net_displacement_after_settle_m": 0.028090037405490875
+        }
+      ]
+    },
+    {
+      "name": "final_stop",
+      "seconds": 3.0,
+      "requested_command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "cases": [
+        {
+          "pose": "home",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.000560074404347688,
+          "mean_lateral_m_s": 0.0016720682615414262,
+          "mean_yaw_rad_s": -0.0007229040493257344,
+          "mean_planar_speed_m_s": 0.0017802403308451176,
+          "mean_absolute_yaw_rad_s": 0.0008956100791692734,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.003450674470514059,
+          "max_net_displacement_after_settle_m": 0.0034615937620401382
+        },
+        {
+          "pose": "lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -9.843460429692641e-05,
+          "mean_lateral_m_s": 0.006501328200101852,
+          "mean_yaw_rad_s": -0.0032231949735432863,
+          "mean_planar_speed_m_s": 0.007374683860689402,
+          "mean_absolute_yaw_rad_s": 0.004338396713137627,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.012170505709946156,
+          "max_net_displacement_after_settle_m": 0.012173537164926529
+        },
+        {
+          "pose": "spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.00026677921414375305,
+          "mean_lateral_m_s": 0.0005221220781095326,
+          "mean_yaw_rad_s": -0.0007335745031014085,
+          "mean_planar_speed_m_s": 0.0005881963297724724,
+          "mean_absolute_yaw_rad_s": 0.0007863720529712737,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0011553457006812096,
+          "max_net_displacement_after_settle_m": 0.0011778522748500109
+        },
+        {
+          "pose": "lift_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.0001711561344563961,
+          "mean_lateral_m_s": 0.0004005336086265743,
+          "mean_yaw_rad_s": -0.000217685621464625,
+          "mean_planar_speed_m_s": 0.00046537432353943586,
+          "mean_absolute_yaw_rad_s": 0.0004540916415862739,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0008311289129778743,
+          "max_net_displacement_after_settle_m": 0.0008371372823603451
+        },
+        {
+          "pose": "full_lift",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": -0.00021404592553153634,
+          "mean_lateral_m_s": 0.001683162059634924,
+          "mean_yaw_rad_s": -0.0005396771593950689,
+          "mean_planar_speed_m_s": 0.0017131479689851403,
+          "mean_absolute_yaw_rad_s": 0.0007412898121401668,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0032027405686676502,
+          "max_net_displacement_after_settle_m": 0.0032195139210671186
+        },
+        {
+          "pose": "full_spread",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.00018647423712536693,
+          "mean_lateral_m_s": 0.000806814874522388,
+          "mean_yaw_rad_s": -0.0005917658563703299,
+          "mean_planar_speed_m_s": 0.0008819847134873271,
+          "mean_absolute_yaw_rad_s": 0.0005917658563703299,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0015989994863048196,
+          "max_net_displacement_after_settle_m": 0.0016007544472813606
+        },
+        {
+          "pose": "asymmetric",
+          "pass_count": 4,
+          "survival_count": 4,
+          "trials": 4,
+          "mean_forward_m_s": 0.00014848611317574978,
+          "mean_lateral_m_s": 0.0004888608236797154,
+          "mean_yaw_rad_s": -0.0006033192621544003,
+          "mean_planar_speed_m_s": 0.0005367928533814847,
+          "mean_absolute_yaw_rad_s": 0.0006692497408948839,
+          "mean_maximum_foot_clearance_m": 0.0,
+          "samples_per_trial": [
+            90.0,
+            90.0,
+            90.0,
+            90.0
+          ],
+          "mean_net_displacement_after_settle_m": 0.0010157786309719086,
+          "max_net_displacement_after_settle_m": 0.0010230031330138445
+        }
+      ]
+    }
+  ],
+  "accepted": false,
+  "scope": "Exploratory GPU sequence with fixed held arm references; no native/hardware acceptance. Segment means are measured after 1.2s; missing samples do not pass. No within-episode arm transition is tested.",
+  "definition": "Forward/reverse: >=80% signed speed and |yaw|<=0.08. Turn: >=80% signed yaw and net world-plane displacement<=0.08m after settling, allowing planned sway. Stop: planar speed<=0.025, |yaw|<=0.08, max foot clearance<=0.010. All require first-episode survival and valid samples."
+}

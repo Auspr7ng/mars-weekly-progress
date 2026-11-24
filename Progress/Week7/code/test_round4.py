@@ -86,6 +86,11 @@ class Round4Tests(unittest.TestCase):
         )
         self.assertAlmostEqual(loss.item(), 1 / 12, places=6)
 
+    def test_round5_has_an_explicit_distinct_reference_target(self):
+        self.assertEqual(targets(1.0, 5)["swing_target_m"], 0.035)
+        self.assertEqual(targets(1.0, 4)["swing_target_m"], 0.045)
+        self.assertEqual(targets(1.0, 5)["forward_cap_m_s"], 0.20)
+
     def test_round4_preserves_absolute_objectives(self):
         for level in (0.0, 0.5, 1.0):
             self.assertEqual(targets(level, 4)["swing_target_m"], 0.045)

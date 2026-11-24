@@ -38,6 +38,8 @@ average episode length are training indicators, not gait acceptance.
 | `week7_locomotion/transfer.py` | R25 weight/normalizer expansion into the new observation layout |
 | `evaluate.py` | Independent first-episode pose/speed matrices and bilateral diagnostics |
 | `check_native.py` | Native MuJoCo physics with CPU inference and initial observation parity |
+| `check_transitions.py` | Stop, forward, reverse and both turn directions in one held-pose sequence |
+| `check_lift_workspace.py` | Local fixed-root inverse-kinematics audit; not dynamic feasibility proof |
 | `record_preview.py` | Actual GPU-rollout video with full-body and foot views |
 | `export_actor.py` | NumPy-only deterministic actor export and numerical parity checks |
 | `training_monitor.py`, `status.py` | GUI and JSON persisted progress readers |
@@ -106,3 +108,29 @@ connection and mounting transform are unverified here. Read the
 Keep local runs, caches, virtual environments and transient logs out of Git.
 Publish selected checkpoints with source hashes, interface metadata and
 independent results rather than every training snapshot.
+
+## Companion reference experiment and additional checks
+
+`start_round5.bat` reproduces the bounded 35 mm reference experiment from
+its published Round 4 checkpoint-200 parent. Both experiments retain the same
+mechanical/action limits and the same evaluation criteria. The active-run
+manifest selects Round 5; `companion_runs.json` identifies the other run.
+
+```powershell
+& $env:WEEK7_PYTHON -B code/check_transitions.py policies/<candidate>/model_<iteration>.pt --trials 4 --output results/candidate_transitions.json
+& $env:WEEK7_PYTHON -B code/check_lift_workspace.py --output results/lift_workspace_check.json
+```
+
+Transition metric v2 measures net world-plane displacement during pure turns,
+allowing normal planned sway. The initial v1 check used mean absolute planar
+speed, which penalized that sway even when the commanded yaw and net motion
+were reasonable. Its parent result is preserved separately as
+`r26_round2_transition_check_v1.json`; new parent/candidate comparisons use v2.
+Forward/reverse/stop criteria and the historical forward/bilateral gates
+remain unchanged.
+
+The local kinematic audit fixes the root and sole orientation and searches
+within residual-policy and mechanical soft bounds. Failure to solve that
+restricted pose does not prove dynamic infeasibility. Its optional `--gain`
+argument is a hypothetical kinematic comparison only; no larger gain is
+applied to the actual training experiments.

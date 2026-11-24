@@ -1,0 +1,824 @@
+{
+  "knee_ankle_residual_gain": 1.5,
+  "model": "Archived R25/Week7 model with unchanged mechanical limits",
+  "root_height_m": 0.24,
+  "cases": [
+    {
+      "side": "l",
+      "forward_offset_m": -0.03,
+      "target_whole_sole_clearance_m": 0.03,
+      "achieved_whole_sole_clearance_m": 0.0162074146678994,
+      "position_error_m": 0.009674030659816563,
+      "orientation_error_rad": 0.0685673717963042,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.4813043951392077,
+        0.002926081192700482,
+        0.32355657359498424,
+        -1.2676752632927923,
+        0.8453629477222515,
+        0.06515168289734566
+      ],
+      "normalized_residual_action": [
+        -0.17407303545322086,
+        0.0391923762180273,
+        0.1558638923426757,
+        -0.8250772462959831,
+        0.9999999999999999,
+        0.03333918297538108
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": -0.03,
+      "target_whole_sole_clearance_m": 0.035,
+      "achieved_whole_sole_clearance_m": 0.016367967078300502,
+      "position_error_m": 0.01255623063348533,
+      "orientation_error_rad": 0.09290068727154636,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.5119932551370248,
+        0.012914412415646791,
+        0.3435203649065672,
+        -1.3175609783254207,
+        0.8453629477222515,
+        0.06547580932929839
+      ],
+      "normalized_residual_action": [
+        -0.24227050211503656,
+        0.06773046542644531,
+        0.2129032960900555,
+        -0.8762420822268839,
+        0.9999999999999999,
+        0.03426525849524603
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": -0.03,
+      "target_whole_sole_clearance_m": 0.04,
+      "achieved_whole_sole_clearance_m": 0.01671896557302728,
+      "position_error_m": 0.015279998474337303,
+      "orientation_error_rad": 0.11769130108802439,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.5435804232816477,
+        0.024402864061653935,
+        0.36360417608968953,
+        -1.3693158363983833,
+        0.8453629477222515,
+        0.06500655882953939
+      ],
+      "normalized_residual_action": [
+        -0.31246420910308753,
+        0.10055461298646574,
+        0.27028561375611937,
+        -0.929323987942743,
+        0.9999999999999999,
+        0.032924542781648886
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": -0.03,
+      "target_whole_sole_clearance_m": 0.045,
+      "achieved_whole_sole_clearance_m": 0.017278059403289966,
+      "position_error_m": 0.017855023728215125,
+      "orientation_error_rad": 0.14273577659846048,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.575877944342632,
+        0.03744496175241052,
+        0.3835590458470489,
+        -1.4226861515697002,
+        0.8453629477222515,
+        0.06366863822318145
+      ],
+      "normalized_residual_action": [
+        -0.384236478127497,
+        0.13781774924577028,
+        0.32729952734857476,
+        -0.9840627727338374,
+        0.9999999999999999,
+        0.029101912477769047
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": 0.0,
+      "target_whole_sole_clearance_m": 0.03,
+      "achieved_whole_sole_clearance_m": 0.029804076319655464,
+      "position_error_m": 0.0010686352471926948,
+      "orientation_error_rad": 0.008336486034769122,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.6783315737023773,
+        0.09308103140702344,
+        0.42853013822634867,
+        -1.3865391232827067,
+        0.8453629477222515,
+        0.029737489007485726
+      ],
+      "normalized_residual_action": [
+        -0.6119112100380422,
+        0.29677794825895004,
+        0.45578836271800266,
+        -0.9469888975676901,
+        0.9999999999999999,
+        -0.06784422813850444
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": 0.0,
+      "target_whole_sole_clearance_m": 0.035,
+      "achieved_whole_sole_clearance_m": 0.030900695197321148,
+      "position_error_m": 0.003643565906105788,
+      "orientation_error_rad": 0.029405458420621762,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.708391465868607,
+        0.10849229323702202,
+        0.44424505903449973,
+        -1.4365930966202702,
+        0.8453629477222515,
+        0.027417865588935785
+      ],
+      "normalized_residual_action": [
+        -0.6787109704074415,
+        0.34081012491608886,
+        0.5006881364555771,
+        -0.9983263061190373,
+        0.9999999999999999,
+        -0.0744717236200757
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": 0.0,
+      "target_whole_sole_clearance_m": 0.04,
+      "achieved_whole_sole_clearance_m": 0.03114991854399745,
+      "position_error_m": 0.008248367842170224,
+      "orientation_error_rad": 0.027928174361052986,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.714267012176314,
+        0.10665776147460845,
+        0.4477978767786849,
+        -1.4382249481542086,
+        0.8453629477222515,
+        0.034540109544970526
+      ],
+      "normalized_residual_action": [
+        -0.6917677399801239,
+        0.33556860559490725,
+        0.510839044296106,
+        -0.9999999999999998,
+        0.9999999999999999,
+        -0.05412245517426215
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": 0.0,
+      "target_whole_sole_clearance_m": 0.045,
+      "achieved_whole_sole_clearance_m": 0.03138244093444979,
+      "position_error_m": 0.013071175171918605,
+      "orientation_error_rad": 0.026526033223588676,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.7195756551736423,
+        0.10402045745777473,
+        0.4513065209670879,
+        -1.4382249481542086,
+        0.8453629477222515,
+        0.04257227367335905
+      ],
+      "normalized_residual_action": [
+        -0.703564724418631,
+        0.3280334512610966,
+        0.5208637419772576,
+        -0.9999999999999998,
+        0.9999999999999999,
+        -0.0311734148074378
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": 0.03,
+      "target_whole_sole_clearance_m": 0.03,
+      "achieved_whole_sole_clearance_m": 0.029999867233003512,
+      "position_error_m": 1.452761055087272e-07,
+      "orientation_error_rad": 5.398049525998097e-07,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": true,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.8282309049446426,
+        0.1796013471418408,
+        0.49361055324114655,
+        -1.2045709810146519,
+        0.5196724236013454,
+        0.0035523970519365064
+      ],
+      "normalized_residual_action": [
+        -0.9450208350208539,
+        0.5439788503584283,
+        0.6417324056174252,
+        -0.7603549054978903,
+        0.5174955198208796,
+        -0.14265877658293077
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": 0.03,
+      "target_whole_sole_clearance_m": 0.035,
+      "achieved_whole_sole_clearance_m": 0.03400555967067937,
+      "position_error_m": 0.0009465321947229903,
+      "orientation_error_rad": 0.0033562379340553745,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": true,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.8529715291852582,
+        0.19793235957715283,
+        0.5032239247530056,
+        -1.309004675665845,
+        0.5991651302586908,
+        -0.002790517303108046
+      ],
+      "normalized_residual_action": [
+        -0.9999999999999998,
+        0.5963531716021769,
+        0.6691991813655939,
+        -0.8674663871914218,
+        0.6352624926465765,
+        -0.1607813890259152
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": 0.03,
+      "target_whole_sole_clearance_m": 0.04,
+      "achieved_whole_sole_clearance_m": 0.035465573868417935,
+      "position_error_m": 0.004352874184335629,
+      "orientation_error_rad": 0.01699253184210436,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.8529715291852582,
+        0.2085364559624748,
+        0.504406643758084,
+        -1.3882897459636527,
+        0.684975231460026,
+        -0.010650755884533495
+      ],
+      "normalized_residual_action": [
+        -0.9999999999999998,
+        0.626650589845954,
+        0.6725783785229607,
+        -0.948784408009686,
+        0.7623885685004066,
+        -0.18323921354427367
+      ]
+    },
+    {
+      "side": "l",
+      "forward_offset_m": 0.03,
+      "target_whole_sole_clearance_m": 0.045,
+      "achieved_whole_sole_clearance_m": 0.036483386820792774,
+      "position_error_m": 0.007835789709374315,
+      "orientation_error_rad": 0.025645005219604864,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "l_hip_roll",
+        "l_hip_pitch",
+        "l_thigh_yaw",
+        "l_knee_roll",
+        "l_ankle_roll",
+        "l_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        -0.8529715291852582,
+        0.21651582840339012,
+        0.5051975021550862,
+        -1.4382249481542086,
+        0.7380459038211492,
+        -0.01597569038308891
+      ],
+      "normalized_residual_action": [
+        -0.9999999999999998,
+        0.6494487968199978,
+        0.674837973942967,
+        -0.9999999999999998,
+        0.8410117868131817,
+        -0.19845331211157483
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": -0.03,
+      "target_whole_sole_clearance_m": 0.03,
+      "achieved_whole_sole_clearance_m": 0.01721047503884897,
+      "position_error_m": 0.009060184335582701,
+      "orientation_error_rad": 0.0645264994291072,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.4846788714875172,
+        0.0012541419490681679,
+        -0.327227727257398,
+        1.3013195038012504,
+        0.8821624824073052,
+        -0.06965792591216101
+      ],
+      "normalized_residual_action": [
+        0.15024499389263277,
+        -0.027786525658929157,
+        -0.13783815903621258,
+        0.8115863571586704,
+        0.9999999999999997,
+        -0.03777355251393456
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": -0.03,
+      "target_whole_sole_clearance_m": 0.035,
+      "achieved_whole_sole_clearance_m": 0.01737625021015303,
+      "position_error_m": 0.011946952527263943,
+      "orientation_error_rad": 0.08866005088495936,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.514902127581557,
+        -0.008452846826264031,
+        -0.3470801541874328,
+        1.3504959782933499,
+        0.8821624824073052,
+        -0.07026587137476255
+      ],
+      "normalized_residual_action": [
+        0.21740778521272108,
+        -0.05552077930273543,
+        -0.19455937883631202,
+        0.862023766894157,
+        0.9999999999999997,
+        -0.03951053954993896
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": -0.03,
+      "target_whole_sole_clearance_m": 0.04,
+      "achieved_whole_sole_clearance_m": 0.0177259593111,
+      "position_error_m": 0.014681174115232395,
+      "orientation_error_rad": 0.11323056306422963,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.5459931763973802,
+        -0.019618379445924265,
+        -0.3670694284976817,
+        1.4014743736406734,
+        0.8821624824073052,
+        -0.07011501401881648
+      ],
+      "normalized_residual_action": [
+        0.2864990048034394,
+        -0.08742230107319325,
+        -0.2516715911513088,
+        0.9143093005837196,
+        0.9999999999999997,
+        -0.03907951853295019
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": -0.03,
+      "target_whole_sole_clearance_m": 0.045,
+      "achieved_whole_sole_clearance_m": 0.018089944026041,
+      "position_error_m": 0.017807146426188376,
+      "orientation_error_rad": 0.1314444858771207,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.5701070389709143,
+        -0.027304218838782653,
+        -0.38253255093023325,
+        1.4398999999999997,
+        0.8821624824073052,
+        -0.07230854390467292
+      ],
+      "normalized_residual_action": [
+        0.34008536607795964,
+        -0.1093818421956458,
+        -0.29585194095859896,
+        0.9537201994137979,
+        0.9999999999999997,
+        -0.045346746778254315
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": 0.0,
+      "target_whole_sole_clearance_m": 0.03,
+      "achieved_whole_sole_clearance_m": 0.02991188724762615,
+      "position_error_m": 0.0004826429175340729,
+      "orientation_error_rad": 0.0037702629800573264,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": true,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.6812828878863582,
+        -0.08969110752132221,
+        -0.4322874351849336,
+        1.419320372640691,
+        0.8821624824073052,
+        -0.033798436960592086
+      ],
+      "normalized_residual_action": [
+        0.5871428081122793,
+        -0.2876300955743303,
+        -0.4380087531148858,
+        0.9326128893016865,
+        0.9999999999999997,
+        0.0646821302048338
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": 0.0,
+      "target_whole_sole_clearance_m": 0.035,
+      "achieved_whole_sole_clearance_m": 0.03144872600646229,
+      "position_error_m": 0.00432661858672251,
+      "orientation_error_rad": 0.011453984198533761,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.6965338467893665,
+        -0.0943424555341787,
+        -0.44077359783162307,
+        1.4398999999999997,
+        0.8821624824073052,
+        -0.037456764049887965
+      ],
+      "normalized_residual_action": [
+        0.6210338278967422,
+        -0.3009196613253488,
+        -0.46225493210542706,
+        0.9537201994137979,
+        0.9999999999999997,
+        0.054229767092559854
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": 0.0,
+      "target_whole_sole_clearance_m": 0.04,
+      "achieved_whole_sole_clearance_m": 0.031470607008617785,
+      "position_error_m": 0.009150081829638054,
+      "orientation_error_rad": 0.013435449733775393,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.7036479553836656,
+        -0.09291273336484233,
+        -0.4452706178911385,
+        1.4398999999999997,
+        0.8772933395927518,
+        -0.04490913971570305
+      ],
+      "normalized_residual_action": [
+        0.636842958106296,
+        -0.2968347408415306,
+        -0.47510356084689964,
+        0.9537201994137979,
+        0.9927864550895503,
+        0.03293726519023103
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": 0.0,
+      "target_whole_sole_clearance_m": 0.045,
+      "achieved_whole_sole_clearance_m": 0.03106208296141809,
+      "position_error_m": 0.013890262233998805,
+      "orientation_error_rad": 0.021465989611662115,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.7158872461821174,
+        -0.0948765783417293,
+        -0.4525794428555099,
+        1.4398999999999997,
+        0.8604164967609158,
+        -0.05117359071881522
+      ],
+      "normalized_residual_action": [
+        0.6640413821028555,
+        -0.3024457264897791,
+        -0.4959859178879608,
+        0.9537201994137979,
+        0.9677837249683118,
+        0.015038833752767695
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": 0.03,
+      "target_whole_sole_clearance_m": 0.03,
+      "achieved_whole_sole_clearance_m": 0.029999871254590423,
+      "position_error_m": 1.3882231530659168e-07,
+      "orientation_error_rad": 5.217627299666686e-07,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": true,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.8339787110185185,
+        -0.1788842860324281,
+        -0.49876627437072996,
+        1.2265680251116662,
+        0.5378793594227265,
+        -0.007117354150330312
+      ],
+      "normalized_residual_action": [
+        0.9264668595170801,
+        -0.5424677484632042,
+        -0.6279482936457325,
+        0.734918173887302,
+        0.489950928911735,
+        0.1409137953770103
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": 0.03,
+      "target_whole_sole_clearance_m": 0.035,
+      "achieved_whole_sole_clearance_m": 0.03499986837500104,
+      "position_error_m": 1.4613388499872133e-07,
+      "orientation_error_rad": 5.721793836131896e-07,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": true,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.8665174176146219,
+        -0.19968190518990672,
+        -0.510816872687924,
+        1.3402585056602339,
+        0.6166401873506777,
+        -0.0012572740590185629
+      ],
+      "normalized_residual_action": [
+        0.9987750963973098,
+        -0.6018895174845718,
+        -0.6623785745520011,
+        0.851523794962756,
+        0.6066336369531442,
+        0.15765688135218672
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": 0.03,
+      "target_whole_sole_clearance_m": 0.04,
+      "achieved_whole_sole_clearance_m": 0.03662204331843851,
+      "position_error_m": 0.003282691235404102,
+      "orientation_error_rad": 0.01313921899087045,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.8670686242358324,
+        -0.2104006681101375,
+        -0.5122478046513146,
+        1.4195643334625487,
+        0.7013657695762816,
+        0.006286184025963714
+      ],
+      "normalized_residual_action": [
+        0.9999999999999999,
+        -0.6325145543995168,
+        -0.6664669515902599,
+        0.9328631055292328,
+        0.732153018028113,
+        0.17920961873785038
+      ]
+    },
+    {
+      "side": "r",
+      "forward_offset_m": 0.03,
+      "target_whole_sole_clearance_m": 0.045,
+      "achieved_whole_sole_clearance_m": 0.03711185397756607,
+      "position_error_m": 0.007267437700667573,
+      "orientation_error_rad": 0.01746136549981079,
+      "within_policy_and_soft_bounds": true,
+      "geometric_feasible": false,
+      "joint_names": [
+        "r_hip_roll",
+        "r_hip_pitch",
+        "r_thigh_yaw",
+        "r_knee_roll",
+        "r_ankle_roll",
+        "r_ankle_pitch"
+      ],
+      "joint_position_rad": [
+        0.8670686242358324,
+        -0.21628454693022978,
+        -0.5132655388311415,
+        1.4398999999999997,
+        0.7212203811195591,
+        0.00888450005073146
+      ],
+      "normalized_residual_action": [
+        0.9999999999999999,
+        -0.6493256367426375,
+        -0.6693747635326225,
+        0.9537201994137979,
+        0.7615672573514869,
+        0.18663337880861539
+      ]
+    }
+  ],
+  "scope": "Static single-foot inverse kinematics with fixed root and opposite leg at Home. No motor rate/torque, collision-free path, COM/support or dynamic balance claim; this is not walking acceptance."
+}

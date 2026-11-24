@@ -1,0 +1,6 @@
+{
+  "probes": 64,
+  "max_abs_numpy_torch_output_difference": 5.960464477539062e-07,
+  "passed": true,
+  "scope": "Deterministic actor numerical parity only; not observation/driver or hardware validation"
+}

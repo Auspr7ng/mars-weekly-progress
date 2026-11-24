@@ -1,0 +1,15 @@
+{
+  "note": "Run identifiers only. Consult each runtime status for liveness and separate evaluation reports for performance.",
+  "runs": [
+    {
+      "round": 4,
+      "name": "r26_round4_raise_only_20261124_04",
+      "target_swing_m": 0.045
+    },
+    {
+      "round": 5,
+      "name": "r26_round5_balanced35_20261124_05",
+      "target_swing_m": 0.035
+    }
+  ]
+}

@@ -43,3 +43,8 @@ The [Round 3 review](Round3_Candidate1199_Review.md) records the November 24
 iteration decision. The [Round 4 plan](Round4_Plan.md) revises lift gating,
 raise-only phase pairing, leg-only mirror loss and lateral bias. The native
 Round 2 check reports 9/9 exploratory passes with independent CPU physics.
+
+The [Round 5 plan](Round5_Plan.md) describes the companion reference experiment.
+`r26_round4_checkpoint75_matrix.json` and `r26_round4_checkpoint200_matrix.json`
+are intermediate checks, not final candidate acceptance. The transition v2
+parent report and local kinematic audits provide additional diagnostic evidence.
