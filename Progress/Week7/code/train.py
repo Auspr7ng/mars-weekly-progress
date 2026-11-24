@@ -24,6 +24,7 @@ from mjlab.utils.os import dump_yaml
 from week7_locomotion.curriculum import ARM_NAMES, TASK_VERSION, env_targets, targets
 from week7_locomotion.env_cfg import make_env, agent_cfg, DYNAMICS
 from week7_locomotion.transfer import transfer
+from atomic_io import replace_with_retry, write_json
 
 
 def sha(path):
@@ -32,15 +33,6 @@ def sha(path):
 
 def timestamp():
     return datetime.now(ZoneInfo("America/Indianapolis")).isoformat()
-
-
-def write_json(path, value):
-    path = Path(path)
-    temporary = path.with_suffix(".tmp")
-    temporary.write_text(
-        json.dumps(value, indent=2, allow_nan=False) + "\n", encoding="utf-8"
-    )
-    temporary.replace(path)
 
 
 class StopTraining(Exception):
@@ -53,7 +45,7 @@ class LocalRunner(MjlabOnPolicyRunner):
         final = Path(path)
         staging = final.with_suffix(".saving")
         super().save(str(staging), infos)
-        staging.replace(final)
+        replace_with_retry(staging, final)
         self.last_checkpoint = str(final.resolve())
 
 
@@ -72,7 +64,11 @@ def main():
         help="Warm-start weights; fresh optimizer, local iteration and curriculum",
     )
     parser.add_argument(
-        "--round", dest="training_round", type=int, choices=(1, 2, 3, 4, 5), default=1
+        "--round",
+        dest="training_round",
+        type=int,
+        choices=(1, 2, 3, 4, 5, 6),
+        default=1,
     )
     parser.add_argument("--name", help="Human-readable experiment name")
     parser.add_argument(
@@ -122,13 +118,18 @@ def main():
             3: "r26.round3.phase_matched_mirror.v1",
             4: "r26.round4.raise_only_lift_gates.v1",
             5: "r26.round5.bilateral_35mm_reference.v1",
+            6: "r26.round6.vertical_gait_prior.v1",
         }[args.training_round],
         "randomized_training_start_phase": cfg.week7_randomize_phase,
         "mirror_loss_coefficient": (
             (
-                0.10
-                if args.training_round >= 5
-                else (0.05 if args.training_round >= 4 else 0.20)
+                0.50
+                if args.training_round >= 6
+                else (
+                    0.10
+                    if args.training_round >= 5
+                    else (0.05 if args.training_round >= 4 else 0.20)
+                )
             )
             if args.training_round >= 3
             else 0.0
@@ -170,6 +171,7 @@ def main():
         "accepted": False,
         "body_velocity_source": "MuJoCo body velocity, not a fixed 0.06 m/s assumption",
         "physical_limits_changed": False,
+        "moving_vertical_reward_margin_m": 0.010 if args.training_round >= 6 else 0.004,
         "started": timestamp(),
         "curriculum_initial": targets(0.0, args.training_round),
         "curriculum_final": targets(1.0, args.training_round),
@@ -297,6 +299,7 @@ def main():
                 runner.save(
                     str(run / f"model_{runner.current_learning_iteration}_stopped.pt")
                 )
+                status["checkpoint"] = runner.last_checkpoint
                 raise StopTraining()
 
         runner.logger.log = tracked_log

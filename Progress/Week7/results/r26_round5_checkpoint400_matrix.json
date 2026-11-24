@@ -1,0 +1,1305 @@
+{
+  "checkpoint": "D:\\robotics\\mars-weekly-progress\\Progress\\Week7\\runs\\r26_round5_balanced35_20261124_05\\model_400.pt",
+  "task_version": "sunday.week7.r26.arm_reference.v1",
+  "training_round": 5,
+  "randomized_start_phase": false,
+  "seed": 1742,
+  "seconds": 6.0,
+  "cases": [
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.01187099702656269,
+      "mean_support_time_left_right_s_after_settle": [
+        3.0999977588653564,
+        2.819998025894165
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6739130616188049,
+        0.613043487071991
+      ],
+      "mean_per_trial_support_duty_difference": 0.060869574546813965,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        68.0653076171875,
+        61.12953567504883
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5268422961235046,
+        0.47315776348114014
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.0536845326423645,
+      "mean_signed_body_roll_deg": -0.5110421180725098,
+      "mean_body_roll_rms_deg": 3.1491751670837402,
+      "max_absolute_body_roll_deg": 4.711450099945068,
+      "mean_actual_forward_m_s_after_settle": 0.05519593507051468,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.237269401550293,
+        4.761098384857178
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.9568696022033691,
+        4.761098384857178
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.009676899760961533,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03662635385990143,
+        0.024755354970693588
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03608307987451553,
+        0.006881307810544968
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.00465028453618288,
+      "mean_forward_displacement_m": 0.34183192253112793,
+      "max_lateral_drift_m": 0.03160715103149414
+    },
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.008849058300256729,
+      "mean_support_time_left_right_s_after_settle": [
+        2.9799978733062744,
+        2.9599978923797607
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6478261351585388,
+        0.643478274345398
+      ],
+      "mean_per_trial_support_duty_difference": 0.004347860813140869,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        64.78761291503906,
+        65.57593536376953
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.4969765245914459,
+        0.5030235648155212
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.006047055125236511,
+      "mean_signed_body_roll_deg": -0.18284650146961212,
+      "mean_body_roll_rms_deg": 2.483896493911743,
+      "max_absolute_body_roll_deg": 3.8400330543518066,
+      "mean_actual_forward_m_s_after_settle": 0.11034847050905228,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.250797748565674,
+        4.784505367279053
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.0666823387145996,
+        4.784505367279053
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.013310173526406288,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03336906060576439,
+        0.02452000230550766
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.033025361597537994,
+        0.006046027410775423
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.010438712313771248,
+      "mean_forward_displacement_m": 0.6714541912078857,
+      "max_lateral_drift_m": 0.03322410583496094
+    },
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.007275531068444252,
+      "mean_support_time_left_right_s_after_settle": [
+        2.7799980640411377,
+        3.0999977588653564
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6043478846549988,
+        0.6739130616188049
+      ],
+      "mean_per_trial_support_duty_difference": 0.06956517696380615,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        62.40522766113281,
+        70.4642333984375
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.469673216342926,
+        0.530326783657074
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.06065355986356735,
+      "mean_signed_body_roll_deg": 0.38551467657089233,
+      "mean_body_roll_rms_deg": 2.895688533782959,
+      "max_absolute_body_roll_deg": 4.407116413116455,
+      "mean_actual_forward_m_s_after_settle": 0.1794784516096115,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.96291446685791,
+        4.677384376525879
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.96291446685791,
+        4.677384376525879
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.027192890644073486,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03159279376268387,
+        0.024317262694239616
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.031105458736419678,
+        0.01030864380300045
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.01787424646317959,
+      "mean_forward_displacement_m": 1.0704388618469238,
+      "max_lateral_drift_m": 0.08075523376464844
+    },
+    {
+      "pose": "lift",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.010927977040410042,
+      "mean_support_time_left_right_s_after_settle": [
+        3.0999977588653564,
+        2.879997968673706
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6739130616188049,
+        0.6260870099067688
+      ],
+      "mean_per_trial_support_duty_difference": 0.04782605171203613,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        67.42597961425781,
+        61.764068603515625
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5219130516052246,
+        0.4780869483947754
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.043826133012771606,
+      "mean_signed_body_roll_deg": -0.3886490762233734,
+      "mean_body_roll_rms_deg": 3.129471778869629,
+      "max_absolute_body_roll_deg": 4.621916770935059,
+      "mean_actual_forward_m_s_after_settle": 0.05518475919961929,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.0823845863342285,
+        4.6527299880981445
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.0123655796051025,
+        4.6527299880981445
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.007962724193930626,
+      "mean_completed_swing_peak_left_right_m": [
+        0.035202253609895706,
+        0.024274276569485664
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03445567935705185,
+        0.0075360992923378944
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.004693725146353245,
+      "mean_forward_displacement_m": 0.34231865406036377,
+      "max_lateral_drift_m": 0.02480936050415039
+    },
+    {
+      "pose": "lift",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.007543625775724649,
+      "mean_support_time_left_right_s_after_settle": [
+        2.999997854232788,
+        2.9599978923797607
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6521739363670349,
+        0.643478274345398
+      ],
+      "mean_per_trial_support_duty_difference": 0.008695662021636963,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        65.6927719116211,
+        65.04251098632812
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5024868845939636,
+        0.4975130558013916
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.004973843693733215,
+      "mean_signed_body_roll_deg": -0.0451592281460762,
+      "mean_body_roll_rms_deg": 2.4895317554473877,
+      "max_absolute_body_roll_deg": 3.698164463043213,
+      "mean_actual_forward_m_s_after_settle": 0.1087697297334671,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.4229207038879395,
+        4.9976677894592285
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.3640501499176025,
+        4.9976677894592285
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.013989903964102268,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03205890953540802,
+        0.02451528236269951
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.031705521047115326,
+        0.009404266253113747
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.00968918763101101,
+      "mean_forward_displacement_m": 0.664786696434021,
+      "max_lateral_drift_m": 0.038486480712890625
+    },
+    {
+      "pose": "lift",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.0009974725544452667,
+      "mean_support_time_left_right_s_after_settle": [
+        2.819998025894165,
+        3.0999977588653564
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.613043487071991,
+        0.6739130616188049
+      ],
+      "mean_per_trial_support_duty_difference": 0.060869574546813965,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        63.520694732666016,
+        70.52014923095703
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.4738905727863312,
+        0.5261094570159912
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.05221889168024063,
+      "mean_signed_body_roll_deg": 0.36880001425743103,
+      "mean_body_roll_rms_deg": 3.103163719177246,
+      "max_absolute_body_roll_deg": 4.798835277557373,
+      "mean_actual_forward_m_s_after_settle": 0.17988234758377075,
+      "mean_absolute_foot_heading_left_right_deg": [
+        3.478424549102783,
+        5.262514591217041
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        3.478424549102783,
+        5.262514591217041
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.02387988567352295,
+      "mean_completed_swing_peak_left_right_m": [
+        0.02925458550453186,
+        0.028257111087441444
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.028741756454110146,
+        0.008266843855381012
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.016861341893672943,
+      "mean_forward_displacement_m": 1.0736980438232422,
+      "max_lateral_drift_m": 0.07670950889587402
+    },
+    {
+      "pose": "spread",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.012572664767503738,
+      "mean_support_time_left_right_s_after_settle": [
+        3.0999977588653564,
+        2.9199979305267334
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6739130616188049,
+        0.634782612323761
+      ],
+      "mean_per_trial_support_duty_difference": 0.039130449295043945,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        68.528564453125,
+        60.71048355102539
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5302465558052063,
+        0.4697534143924713
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.060493163764476776,
+      "mean_signed_body_roll_deg": -0.6149592995643616,
+      "mean_body_roll_rms_deg": 3.140957832336426,
+      "max_absolute_body_roll_deg": 4.879034042358398,
+      "mean_actual_forward_m_s_after_settle": 0.05368949472904205,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.3469033241271973,
+        4.226691246032715
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.6740331649780273,
+        4.226691246032715
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.010047207586467266,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03785880655050278,
+        0.02528614178299904
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03769249841570854,
+        0.010988984256982803
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.006427207496017218,
+      "mean_forward_displacement_m": 0.33458298444747925,
+      "max_lateral_drift_m": 0.0380854606628418
+    },
+    {
+      "pose": "spread",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.009628393687307835,
+      "mean_support_time_left_right_s_after_settle": [
+        2.999997854232788,
+        2.9799978733062744
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6521739363670349,
+        0.6478261351585388
+      ],
+      "mean_per_trial_support_duty_difference": 0.004347801208496094,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        65.05570220947266,
+        65.20001220703125
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.4994460642337799,
+        0.5005539655685425
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.0011079087853431702,
+      "mean_signed_body_roll_deg": -0.28886860609054565,
+      "mean_body_roll_rms_deg": 2.5106709003448486,
+      "max_absolute_body_roll_deg": 4.044826984405518,
+      "mean_actual_forward_m_s_after_settle": 0.10838973522186279,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.0013527870178223,
+        4.414876937866211
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.7381364107131958,
+        4.414876937866211
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.014851540327072144,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03393737971782684,
+        0.024308983236551285
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03353103622794151,
+        0.011575196869671345
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.009506456553936005,
+      "mean_forward_displacement_m": 0.6593920588493347,
+      "max_lateral_drift_m": 0.029828161001205444
+    },
+    {
+      "pose": "spread",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.006973958108574152,
+      "mean_support_time_left_right_s_after_settle": [
+        2.7799980640411377,
+        3.139997720718384
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6043478846549988,
+        0.6826087236404419
+      ],
+      "mean_per_trial_support_duty_difference": 0.07826083898544312,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        61.95768356323242,
+        70.93973541259766
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.4662068784236908,
+        0.5337932109832764
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.06758634001016617,
+      "mean_signed_body_roll_deg": 0.3565003275871277,
+      "mean_body_roll_rms_deg": 2.9822137355804443,
+      "max_absolute_body_roll_deg": 4.489552021026611,
+      "mean_actual_forward_m_s_after_settle": 0.17690818011760712,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.5838675498962402,
+        4.662292003631592
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.5723652839660645,
+        4.662292003631592
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.02724069356918335,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03208565711975098,
+        0.02511170133948326
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.031428370624780655,
+        0.012094827368855476
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.016708839684724808,
+      "mean_forward_displacement_m": 1.0572398900985718,
+      "max_lateral_drift_m": 0.06849050521850586
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.01212069671601057,
+      "mean_support_time_left_right_s_after_settle": [
+        3.1099977493286133,
+        2.879997968673706
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.676086962223053,
+        0.6260870099067688
+      ],
+      "mean_per_trial_support_duty_difference": 0.04999995231628418,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        67.88522338867188,
+        61.3007926940918
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5254842638969421,
+        0.47451573610305786
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.05096858739852905,
+      "mean_signed_body_roll_deg": -0.4755669832229614,
+      "mean_body_roll_rms_deg": 3.1415185928344727,
+      "max_absolute_body_roll_deg": 4.802901268005371,
+      "mean_actual_forward_m_s_after_settle": 0.053278230130672455,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.0401930809020996,
+        4.110869884490967
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.5794641971588135,
+        4.110869884490967
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.008967524394392967,
+      "mean_completed_swing_peak_left_right_m": [
+        0.0367465615272522,
+        0.024625863879919052
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03559323400259018,
+        0.00931844487786293
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.005507332272827625,
+      "mean_forward_displacement_m": 0.3316589295864105,
+      "max_lateral_drift_m": 0.026093482971191406
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.008522536605596542,
+      "mean_support_time_left_right_s_after_settle": [
+        3.0399978160858154,
+        3.0199978351593018
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6608695983886719,
+        0.656521737575531
+      ],
+      "mean_per_trial_support_duty_difference": 0.004347860813140869,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        65.67317962646484,
+        64.88188934326172
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5030304193496704,
+        0.4969695210456848
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.006060957908630371,
+      "mean_signed_body_roll_deg": -0.13354197144508362,
+      "mean_body_roll_rms_deg": 2.50415301322937,
+      "max_absolute_body_roll_deg": 3.8533077239990234,
+      "mean_actual_forward_m_s_after_settle": 0.10560811311006546,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.045145273208618,
+        4.570281505584717
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.8856351375579834,
+        4.570281505584717
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.016512511298060417,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03270846605300903,
+        0.02418593317270279
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03240801393985748,
+        0.01127893477678299
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.01066835131496191,
+      "mean_forward_displacement_m": 0.6474682688713074,
+      "max_lateral_drift_m": 0.036393940448760986
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.0019671604968607426,
+      "mean_support_time_left_right_s_after_settle": [
+        2.819998025894165,
+        3.139997720718384
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.613043487071991,
+        0.6826087236404419
+      ],
+      "mean_per_trial_support_duty_difference": 0.06956523656845093,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        62.711647033691406,
+        71.2379150390625
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.468173623085022,
+        0.531826376914978
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.06365281343460083,
+      "mean_signed_body_roll_deg": 0.40329641103744507,
+      "mean_body_roll_rms_deg": 3.1398210525512695,
+      "max_absolute_body_roll_deg": 4.819704055786133,
+      "mean_actual_forward_m_s_after_settle": 0.1755751669406891,
+      "mean_absolute_foot_heading_left_right_deg": [
+        3.030485153198242,
+        5.144069671630859
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        3.0304670333862305,
+        5.144069671630859
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.026903755962848663,
+      "mean_completed_swing_peak_left_right_m": [
+        0.029570115730166435,
+        0.02760295383632183
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.028732378035783768,
+        0.010180355980992317
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.017552323639392853,
+      "mean_forward_displacement_m": 1.0524431467056274,
+      "max_lateral_drift_m": 0.06515264511108398
+    },
+    {
+      "pose": "full_lift",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.009706901386380196,
+      "mean_support_time_left_right_s_after_settle": [
+        3.0999977588653564,
+        2.879997968673706
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6739130616188049,
+        0.6260870099067688
+      ],
+      "mean_per_trial_support_duty_difference": 0.04782605171203613,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        66.99394989013672,
+        62.489601135253906
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5173935294151306,
+        0.4826064705848694
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.03478704392910004,
+      "mean_signed_body_roll_deg": -0.19369766116142273,
+      "mean_body_roll_rms_deg": 3.112478733062744,
+      "max_absolute_body_roll_deg": 4.511475086212158,
+      "mean_actual_forward_m_s_after_settle": 0.057461246848106384,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.18660306930542,
+        4.614150047302246
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.1527793407440186,
+        4.614150047302246
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.006823725067079067,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03368126600980759,
+        0.02397436648607254
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03266334906220436,
+        0.00817826483398676
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.006304003298282623,
+      "mean_forward_displacement_m": 0.35713884234428406,
+      "max_lateral_drift_m": 0.034811973571777344
+    },
+    {
+      "pose": "full_lift",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.007909277454018593,
+      "mean_support_time_left_right_s_after_settle": [
+        3.0349979400634766,
+        2.9799978733062744
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6597826480865479,
+        0.6478261351585388
+      ],
+      "mean_per_trial_support_duty_difference": 0.01195649802684784,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        66.82746124267578,
+        64.2907943725586
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5096732378005981,
+        0.49032676219940186
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.019346438348293304,
+      "mean_signed_body_roll_deg": 0.3334566652774811,
+      "mean_body_roll_rms_deg": 2.5565054416656494,
+      "max_absolute_body_roll_deg": 4.152536869049072,
+      "mean_actual_forward_m_s_after_settle": 0.10938340425491333,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.6729812622070312,
+        5.2240095138549805
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.6519811153411865,
+        5.2240095138549805
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.014089294709265232,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03213674947619438,
+        0.02422747202217579
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.031614039093256,
+        0.00766033073887229
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.010336656123399734,
+      "mean_forward_displacement_m": 0.6672229170799255,
+      "max_lateral_drift_m": 0.0499720573425293
+    },
+    {
+      "pose": "full_lift",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.0016892347484827042,
+      "mean_support_time_left_right_s_after_settle": [
+        2.8999979496002197,
+        3.0999977588653564
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6304348111152649,
+        0.6739130616188049
+      ],
+      "mean_per_trial_support_duty_difference": 0.04347825050354004,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        64.6471176147461,
+        70.15987396240234
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.47955313324928284,
+        0.5204468369483948
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.040893688797950745,
+      "mean_signed_body_roll_deg": 0.5036484599113464,
+      "mean_body_roll_rms_deg": 3.2633020877838135,
+      "max_absolute_body_roll_deg": 5.059173107147217,
+      "mean_actual_forward_m_s_after_settle": 0.17856940627098083,
+      "mean_absolute_foot_heading_left_right_deg": [
+        4.095203399658203,
+        5.828739166259766
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        4.095203399658203,
+        5.828739166259766
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.025182824581861496,
+      "mean_completed_swing_peak_left_right_m": [
+        0.02764122560620308,
+        0.029330460354685783
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.02638261392712593,
+        0.007831376045942307
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.016914959996938705,
+      "mean_forward_displacement_m": 1.064714789390564,
+      "max_lateral_drift_m": 0.07748270034790039
+    },
+    {
+      "pose": "full_spread",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.013260461390018463,
+      "mean_support_time_left_right_s_after_settle": [
+        3.1599977016448975,
+        2.879997968673706
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.686956524848938,
+        0.6260870099067688
+      ],
+      "mean_per_trial_support_duty_difference": 0.06086951494216919,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        69.40657043457031,
+        60.104583740234375
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5359119176864624,
+        0.4640880525112152
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.07182387262582779,
+      "mean_signed_body_roll_deg": -0.7915090322494507,
+      "mean_body_roll_rms_deg": 3.154555320739746,
+      "max_absolute_body_roll_deg": 5.007185935974121,
+      "mean_actual_forward_m_s_after_settle": 0.05346338823437691,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.2358155250549316,
+        3.7952609062194824
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.4430906772613525,
+        3.7952609062194824
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.00939214788377285,
+      "mean_completed_swing_peak_left_right_m": [
+        0.038326822221279144,
+        0.02506636083126068
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.0376778207719326,
+        0.006950756534934044
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.005783805623650551,
+      "mean_forward_displacement_m": 0.3329769968986511,
+      "max_lateral_drift_m": 0.040738582611083984
+    },
+    {
+      "pose": "full_spread",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.010004917159676552,
+      "mean_support_time_left_right_s_after_settle": [
+        3.0199978351593018,
+        3.0199978351593018
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.656521737575531,
+        0.656521737575531
+      ],
+      "mean_per_trial_support_duty_difference": 0.0,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        66.0108871459961,
+        64.68247985839844
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5050821900367737,
+        0.4949178695678711
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.010164327919483185,
+      "mean_signed_body_roll_deg": -0.41156503558158875,
+      "mean_body_roll_rms_deg": 2.5700573921203613,
+      "max_absolute_body_roll_deg": 4.250693321228027,
+      "mean_actual_forward_m_s_after_settle": 0.1070755273103714,
+      "mean_absolute_foot_heading_left_right_deg": [
+        1.837174654006958,
+        4.11599588394165
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.5008548498153687,
+        4.11599588394165
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.015493590384721756,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03461617976427078,
+        0.02461126074194908
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03424512967467308,
+        0.00920167751610279
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.01138485036790371,
+      "mean_forward_displacement_m": 0.652153730392456,
+      "max_lateral_drift_m": 0.022732257843017578
+    },
+    {
+      "pose": "full_spread",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": 0.0,
+      "mean_per_trial_swing_peak_difference_m": 0.00781833752989769,
+      "mean_support_time_left_right_s_after_settle": [
+        2.7799980640411377,
+        3.0999977588653564
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.6043478846549988,
+        0.6739130616188049
+      ],
+      "mean_per_trial_support_duty_difference": 0.06956517696380615,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        62.33160400390625,
+        70.60820007324219
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.4688708782196045,
+        0.5311291217803955
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.062258221209049225,
+      "mean_signed_body_roll_deg": 0.38307830691337585,
+      "mean_body_roll_rms_deg": 3.039576530456543,
+      "max_absolute_body_roll_deg": 4.534946918487549,
+      "mean_actual_forward_m_s_after_settle": 0.17499330639839172,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.3686740398406982,
+        4.651426315307617
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.334834098815918,
+        4.651426315307617
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.028306087478995323,
+      "mean_completed_swing_peak_left_right_m": [
+        0.032827168703079224,
+        0.025008827447891235
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03197731822729111,
+        0.0075127300806343555
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.01571967825293541,
+      "mean_forward_displacement_m": 1.0458033084869385,
+      "max_lateral_drift_m": 0.056725263595581055
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": null,
+      "mean_per_trial_swing_peak_difference_m": 0.01082664355635643,
+      "mean_support_time_left_right_s_after_settle": [
+        3.11999773979187,
+        2.939997911453247
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.678260862827301,
+        0.6391304731369019
+      ],
+      "mean_per_trial_support_duty_difference": 0.03913038969039917,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        67.40437316894531,
+        61.99614334106445
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.5208972692489624,
+        0.47910276055336
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.04179450124502182,
+      "mean_signed_body_roll_deg": -0.5460461974143982,
+      "mean_body_roll_rms_deg": 3.052947521209717,
+      "max_absolute_body_roll_deg": 4.768812656402588,
+      "mean_actual_forward_m_s_after_settle": 0.05263882130384445,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.169386863708496,
+        2.9891886711120605
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.5977424383163452,
+        2.9891886711120605
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.009946607053279877,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03489797189831734,
+        0.024071328341960907
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03320745751261711,
+        0.010742845945060253
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.007360914256423712,
+      "mean_forward_displacement_m": 0.3257530927658081,
+      "max_lateral_drift_m": 0.027749061584472656
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": null,
+      "mean_per_trial_swing_peak_difference_m": 0.008658450096845627,
+      "mean_support_time_left_right_s_after_settle": [
+        3.009997844696045,
+        3.0799977779388428
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.654347836971283,
+        0.6695652604103088
+      ],
+      "mean_per_trial_support_duty_difference": 0.015217423439025879,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        64.40843200683594,
+        66.1250991821289
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.4934244155883789,
+        0.5065755844116211
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.013151176273822784,
+      "mean_signed_body_roll_deg": -0.19505895674228668,
+      "mean_body_roll_rms_deg": 2.363039493560791,
+      "max_absolute_body_roll_deg": 3.7868430614471436,
+      "mean_actual_forward_m_s_after_settle": 0.10503668338060379,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.1279029846191406,
+        3.6226015090942383
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        1.8683968782424927,
+        3.6226015090942383
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.016947342082858086,
+      "mean_completed_swing_peak_left_right_m": [
+        0.0320114865899086,
+        0.023353038355708122
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03164980188012123,
+        0.01100002322345972
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.011256774887442589,
+      "mean_forward_displacement_m": 0.6408556699752808,
+      "max_lateral_drift_m": 0.04185199737548828
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "symmetric_straight_diagnostic_fraction": null,
+      "mean_per_trial_swing_peak_difference_m": 0.004637223668396473,
+      "mean_support_time_left_right_s_after_settle": [
+        2.819998025894165,
+        3.1599977016448975
+      ],
+      "mean_support_duty_fraction_left_right": [
+        0.613043487071991,
+        0.686956524848938
+      ],
+      "mean_per_trial_support_duty_difference": 0.07391303777694702,
+      "mean_contact_force_magnitude_impulse_left_right_Ns": [
+        62.10117721557617,
+        72.20811462402344
+      ],
+      "mean_contact_force_magnitude_fraction_left_right": [
+        0.46237438917160034,
+        0.5376256108283997
+      ],
+      "mean_per_trial_contact_load_magnitude_imbalance": 0.07525119930505753,
+      "mean_signed_body_roll_deg": 0.18233276903629303,
+      "mean_body_roll_rms_deg": 2.9761099815368652,
+      "max_absolute_body_roll_deg": 4.796384334564209,
+      "mean_actual_forward_m_s_after_settle": 0.1738041341304779,
+      "mean_absolute_foot_heading_left_right_deg": [
+        3.1905517578125,
+        4.312566757202148
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        3.190544605255127,
+        4.312566757202148
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.028720393776893616,
+      "mean_completed_swing_peak_left_right_m": [
+        0.030514882877469063,
+        0.025877660140395164
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.029957590624690056,
+        0.011487200856208801
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.01886042207479477,
+      "mean_forward_displacement_m": 1.0397001504898071,
+      "max_lateral_drift_m": 0.0777130126953125
+    }
+  ],
+  "failure_counts": {
+    "tilt": 0,
+    "height": 0,
+    "ground": 0,
+    "self": 0,
+    "nonfinite": 0
+  },
+  "accepted": false,
+  "scope": "Exploratory first-episode forward matrix. No native-physics, turning, perturbation or hardware acceptance.",
+  "walking_definition": "Survive; mean actual speed >=80% of command after 1.4s; >=2 completed swings per foot; mean swing peaks >=20mm both feet; lateral drift <0.15m. Failed trials contribute no walking pass.",
+  "symmetric_straight_diagnostic_definition": "For symmetric held-arm poses only: existing walking gate; both mean completed peaks >=30mm; per-trial L/R peak gap <=5mm; inward toe yaw <=5deg each; body roll RMS <=3deg; support duty fraction difference <=0.10; contact-force-magnitude share difference <=0.10. Diagnostic targets, not deployment acceptance.",
+  "load_metric_note": "Integral of contact force magnitude from the existing smoothed sensor; a load-transfer proxy, not center-of-pressure or a complete dynamic balance criterion.",
+  "new_fast_target_m_s": 0.2,
+  "published_R25_limit_m_s": 0.12
+}

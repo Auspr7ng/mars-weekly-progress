@@ -20,6 +20,22 @@
         0.035975914922752206,
         0.027996168485284828
       ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.038541368779396554,
+        0.02936974906578511
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        2.0707190147475014,
+        1.2098109519101758
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.35177646279335023,
+        0.010501017794013023
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.45078198313713075,
+        0.6198311845461527
+      ],
       "max_lateral_drift_m": 0.05832849961772493,
       "exploratory_walking_pass": true
     },
@@ -36,6 +52,22 @@
       "mean_completed_swing_peak_left_right_m": [
         0.03318890756522952,
         0.027813137957635715
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.037111349655658994,
+        0.02911684682926131
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        4.044036534686458,
+        1.3225470378121762
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.4026818743773869,
+        0.07813311634319169
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.37877985409327913,
+        0.6235839979989188
       ],
       "max_lateral_drift_m": 0.028402181060051643,
       "exploratory_walking_pass": true
@@ -54,6 +86,22 @@
         0.03262459320638885,
         0.0258287615077689
       ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.036971978643032005,
+        0.028525528032266816
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        4.066126389676274,
+        2.2068326737282336
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.5357286036014557,
+        0.2282300376229816
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.24295595288276672,
+        0.5255788432227241
+      ],
       "max_lateral_drift_m": 0.04609183146115106,
       "exploratory_walking_pass": true
     },
@@ -70,6 +118,22 @@
       "mean_completed_swing_peak_left_right_m": [
         0.032618220541284035,
         0.027698398802770335
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.03625823764962055,
+        0.029606756807160513
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        2.459099747796283,
+        1.61058860853161
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.31615684032440183,
+        0.042500901191184916
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.4542845129966736,
+        0.5406044125556946
       ],
       "max_lateral_drift_m": 0.062421902324753586,
       "exploratory_walking_pass": true
@@ -88,6 +152,22 @@
         0.03194308031229274,
         0.027319244751955653
       ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.035799106511877496,
+        0.0296063426284797
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        4.050934650071054,
+        2.3177323307797004
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.33732197540146963,
+        0.10550661810806819
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.45172414609364103,
+        0.5534448453358242
+      ],
       "max_lateral_drift_m": 0.03801081956811814,
       "exploratory_walking_pass": true
     },
@@ -104,6 +184,22 @@
       "mean_completed_swing_peak_left_right_m": [
         0.02869487530525023,
         0.030102558190887807
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.03376269359168507,
+        0.0316616471062369
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        4.563588970904939,
+        1.515495720386867
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.5095654295550452,
+        0.29745806919203865
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.24485458268059623,
+        0.4400948915216658
       ],
       "max_lateral_drift_m": 0.0446855338282703,
       "exploratory_walking_pass": true
@@ -122,6 +218,22 @@
         0.035709898164247286,
         0.026430241266682922
       ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.03778897683882222,
+        0.028706534148696273
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        1.3620804707205745,
+        1.9975507095824947
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.3195489704608917,
+        0.04966099373996258
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.47068963050842283,
+        0.5156389574209849
+      ],
       "max_lateral_drift_m": 0.05279690862146476,
       "exploratory_walking_pass": true
     },
@@ -139,6 +251,22 @@
         0.03341837284883364,
         0.026576652352703522
       ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.036489858601097526,
+        0.029158357978104208
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        3.1473168515807823,
+        2.439754520731916
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.3504078473363604,
+        0.14787124735968454
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.4478494482381003,
+        0.49883838636534555
+      ],
       "max_lateral_drift_m": 0.025599371867957053,
       "exploratory_walking_pass": true
     },
@@ -155,6 +283,22 @@
       "mean_completed_swing_peak_left_right_m": [
         0.0317349836253115,
         0.028445250072315482
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.03457898278026352,
+        0.03062236126021443
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        2.729402322675921,
+        1.7676634022084383
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.5188098251819611,
+        0.35478806330098045
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.2537955674860213,
+        0.3519989053408305
       ],
       "max_lateral_drift_m": 0.03584449311828574,
       "exploratory_walking_pass": true

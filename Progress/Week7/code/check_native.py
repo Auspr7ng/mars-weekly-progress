@@ -122,6 +122,14 @@ def main():
                 )
                 origin = data.qpos[:3].copy()
                 measured, peak_samples = [], [[], []]
+                peak_details = np.zeros((2, 4))
+                detail_samples = [[], []]
+                knee_columns = [
+                    action.names.index(side + "_knee_roll") for side in ("l", "r")
+                ]
+                ankle_columns = [
+                    action.names.index(side + "_ankle_roll") for side in ("l", "r")
+                ]
                 peak, air_ticks, in_swing = (
                     np.zeros(2),
                     np.zeros(2, dtype=int),
@@ -218,6 +226,17 @@ def main():
                         )
                         air_ticks = np.where(lowest > 0.004, air_ticks + 1, 0)
                         in_swing |= air_ticks >= 3
+                        higher = lowest > peak
+                        details = np.column_stack(
+                            (
+                                data.site_xpos[sole_ids, 2],
+                                np.arccos(np.clip(rotation[:, 2, 2], -1, 1))
+                                * (180 / np.pi),
+                                np.abs(out[knee_columns]),
+                                np.abs(out[ankle_columns]),
+                            )
+                        )
+                        peak_details[higher] = details[higher]
                         peak = np.maximum(peak, lowest)
                         landed = (
                             in_swing
@@ -227,6 +246,7 @@ def main():
                         for foot in range(2):
                             if landed[foot]:
                                 peak_samples[foot].append(float(peak[foot]))
+                                detail_samples[foot].append(peak_details[foot].copy())
                         peak = np.where(landed, 0.0, peak)
                         in_swing &= ~landed
                         max_drift = max(max_drift, abs(data.qpos[1] - origin[1]))
@@ -269,6 +289,22 @@ def main():
                         mean_actual_forward_m_s_after_settle=speed,
                         completed_steps_left_right=[len(x) for x in peak_samples],
                         mean_completed_swing_peak_left_right_m=peaks,
+                        mean_sole_center_height_at_clearance_peak_left_right_m=[
+                            float(np.mean(x, axis=0)[0]) if x else None
+                            for x in detail_samples
+                        ],
+                        mean_sole_tilt_at_clearance_peak_left_right_deg=[
+                            float(np.mean(x, axis=0)[1]) if x else None
+                            for x in detail_samples
+                        ],
+                        mean_absolute_knee_action_at_clearance_peak_left_right=[
+                            float(np.mean(x, axis=0)[2]) if x else None
+                            for x in detail_samples
+                        ],
+                        mean_absolute_ankle_action_at_clearance_peak_left_right=[
+                            float(np.mean(x, axis=0)[3]) if x else None
+                            for x in detail_samples
+                        ],
                         max_lateral_drift_m=float(max_drift),
                         exploratory_walking_pass=bool(passed),
                     )

@@ -31,6 +31,7 @@ average episode length are training indicators, not gait acceptance.
 | File | Purpose |
 | --- | --- |
 | `train.py` | Hash checks, source/configuration snapshots, atomic checkpoints, local status, bounded PPO |
+| `atomic_io.py` | Bounded replacement retries when a Windows reader temporarily holds a status/checkpoint file |
 | `week7_locomotion/curriculum.py` | Versioned 510/108/22 contract and target schedules |
 | `week7_locomotion/mdp.py` | Held arms, twelve applied leg outputs, speed/cadence and target-aware lift shaping |
 | `week7_locomotion/balance.py` | Corresponding-phase height history and sustained lateral-bias cost |
@@ -42,6 +43,8 @@ average episode length are training indicators, not gait acceptance.
 | `check_lift_workspace.py` | Local fixed-root inverse-kinematics audit; not dynamic feasibility proof |
 | `record_preview.py` | Actual GPU-rollout video with full-body and foot views |
 | `export_actor.py` | NumPy-only deterministic actor export and numerical parity checks |
+| `evaluate_suite.py` | Bounded short/extended/random-phase/holdout/native/transition checks for one checkpoint |
+| `package_candidate.py` | Selected checkpoint, actor export, immutable training source and checksums |
 | `training_monitor.py`, `status.py` | GUI and JSON persisted progress readers |
 
 ## Checks and evaluation
@@ -88,6 +91,10 @@ The STOP file requests a checkpoint and exit after the current update.
 and local curriculum; `--resume <checkpoint>` preserves optimizer/curriculum
 within the same reward round. `--iterations` means additional updates.
 Checkpoints are written every 25 updates and at completion.
+Resume into a new directory. Optimizer/normalizers, iteration and the saved
+environment curriculum counter are restored; simulator state and RNG are not
+a bitwise continuation. Round 6's Windows publication failure and continuation
+are recorded in [the interruption report](../results/round6_interruption.json).
 
 ## Portable actor export and hardware context
 
@@ -113,8 +120,13 @@ independent results rather than every training snapshot.
 
 `start_round5.bat` reproduces the bounded 35 mm reference experiment from
 its published Round 4 checkpoint-200 parent. Both experiments retain the same
-mechanical/action limits and the same evaluation criteria. The active-run
-manifest selects Round 5; `companion_runs.json` identifies the other run.
+mechanical/action limits and the same evaluation criteria. `start_round6.bat`
+starts the final 400-update comparison from the published Round 4 checkpoint-400
+parent. It retains the 45 mm reference and allows a 10 mm moving-height reward
+margin with a stronger leg-only mirror prior. The stop-height and roll priors
+stay unchanged. The active-run manifest selects Round 6;
+`companion_runs.json` identifies all three bounded companion runs. Consult each
+runtime status for completion; these manifests do not assert liveness.
 
 ```powershell
 & $env:WEEK7_PYTHON -B code/check_transitions.py policies/<candidate>/model_<iteration>.pt --trials 4 --output results/candidate_transitions.json
@@ -134,3 +146,25 @@ within residual-policy and mechanical soft bounds. Failure to solve that
 restricted pose does not prove dynamic infeasibility. Its optional `--gain`
 argument is a hypothetical kinematic comparison only; no larger gain is
 applied to the actual training experiments.
+
+## Complete a candidate review and package
+
+```powershell
+& $env:WEEK7_PYTHON -B code/evaluate_suite.py runs/<run>/model_<iteration>.pt --prefix <unique_candidate> --video
+& $env:WEEK7_PYTHON -B code/package_candidate.py runs/<run>/model_<iteration>.pt --name <bundle_name> --report results/<review>.md
+```
+
+The suite uses the same seeds for every candidate: 84 six-second trials,
+168 twelve-second trials, 84 random-phase twelve-second trials and 84 fresh
+twenty-second trials, followed by nine native cases and 28 transition sequences.
+The optional video shows three actual six-second rollouts. The suite manifest
+records completion and checkpoint SHA-256; it does not mark a policy accepted.
+Inspect the gait results before writing the review or selecting a checkpoint.
+Unique result prefixes preserve earlier evidence and partial failed runs.
+
+Packaging requires an existing review and the original run's hash-verified
+`source/` snapshot. It creates a portable inference bundle and training-source
+archive, retains historical run metadata and checks numerical export parity.
+It refuses to overwrite an existing bundle. `SHA256SUMS.txt` covers its files
+other than the checksum list itself. A successful export proves numerical
+agreement with checkpoint tensors, not hardware compatibility or gait acceptance.

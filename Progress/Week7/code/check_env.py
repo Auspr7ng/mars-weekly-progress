@@ -29,7 +29,11 @@ def main():
         "--output", type=Path, default=bootstrap.WEEK / "results/environment_check.json"
     )
     parser.add_argument(
-        "--round", dest="training_round", type=int, choices=(1, 2, 3, 4, 5), default=1
+        "--round",
+        dest="training_round",
+        type=int,
+        choices=(1, 2, 3, 4, 5, 6),
+        default=1,
     )
     args = parser.parse_args()
     torch.set_num_threads(4)

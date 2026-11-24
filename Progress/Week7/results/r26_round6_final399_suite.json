@@ -1,0 +1,17 @@
+{
+  "schema": "sunday.week7.evaluation_suite.v1",
+  "checkpoint": "D:\\robotics\\mars-weekly-progress\\Progress\\Week7\\runs\\r26_round6_resume_20261124_06b\\model_399.pt",
+  "checkpoint_sha256": "dd6aaef4f4ad14ce714da85384bba81c533a3ed05a8e1aa6ff505a7ca332ba7c",
+  "results": {
+    "short": "results\\r26_round6_final399_short.json",
+    "extended": "results\\r26_round6_final399_extended.json",
+    "random_phase": "results\\r26_round6_final399_random_phase.json",
+    "holdout20": "results\\r26_round6_final399_holdout20.json",
+    "native": "results\\r26_round6_final399_native.json",
+    "transitions": "results\\r26_round6_final399_transitions.json",
+    "preview": "results\\videos\\r26_round6_final399_preview.mp4"
+  },
+  "state": "completed",
+  "accepted": false,
+  "elapsed_s": 319.20046959997853
+}

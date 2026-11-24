@@ -43,8 +43,8 @@ def make_env(
         model_path=DYNAMICS / "sunday_a1_locomotion.xml",
     )
     cfg = Week7EnvCfg(**{f.name: getattr(original, f.name) for f in fields(original)})
-    if training_round not in (1, 2, 3, 4, 5):
-        raise ValueError("Training round must be 1, 2, 3, 4 or 5")
+    if training_round not in (1, 2, 3, 4, 5, 6):
+        raise ValueError("Training round must be 1, 2, 3, 4, 5 or 6")
     cfg.week7_training_round = training_round
     cfg.week7_randomize_phase = training_round >= 3 and not play
     cfg.seed = seed
@@ -109,6 +109,9 @@ def make_env(
         cfg.rewards["phase_matched_clearance"].weight = -0.8
         cfg.rewards["foot_heading_cost"].weight = -4.5
         cfg.rewards["toe_in_cost"].weight = -4.0
+    if training_round >= 6:
+        cfg.rewards["quality_torso_oscillation"].func = mdp.moving_vertical_torso_cost
+        cfg.rewards["quality_torso_oscillation"].params = {}
     return cfg
 
 
@@ -121,7 +124,13 @@ def agent_cfg(training_round=1):
             use_data_augmentation=False,
             use_mirror_loss=True,
             mirror_loss_coeff=(
-                0.10 if training_round >= 5 else (0.05 if training_round >= 4 else 0.20)
+                0.50
+                if training_round >= 6
+                else (
+                    0.10
+                    if training_round >= 5
+                    else (0.05 if training_round >= 4 else 0.20)
+                )
             ),
             data_augmentation_func="week7_locomotion.symmetry:augment",
         )

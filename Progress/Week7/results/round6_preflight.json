@@ -1,0 +1,14 @@
+{
+  "cpu_tests_passed": 18,
+  "gpu_environment_checks_passed": 20,
+  "smoke_environments": 32,
+  "smoke_updates": 8,
+  "smoke_transitions": 8192,
+  "smoke_losses": {
+    "value": 2.1212826192379,
+    "surrogate": -0.02878158977255225,
+    "entropy": -38.90298938751221,
+    "symmetry": 0.022627874091267586
+  },
+  "scope": "Software startup checks, not gait acceptance."
+}

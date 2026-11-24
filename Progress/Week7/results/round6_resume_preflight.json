@@ -1,0 +1,26 @@
+{
+  "cpu_tests_passed": 21,
+  "windows_lock_regression_tests_passed": 3,
+  "original_gpu_contract_checks_passed": 20,
+  "training_core_source_hashes_unchanged": true,
+  "resume_checkpoint_iteration": 325,
+  "resume_checkpoint_env_steps": 10432,
+  "observed_completed_resume_updates": 11,
+  "observed_resume_losses": {
+    "value": 4.585745930671692,
+    "surrogate": -0.006965752190444619,
+    "entropy": -38.99955673217774,
+    "symmetry": 0.019581524934619666
+  },
+  "observed_curriculum": {
+    "progress": 1.0,
+    "forward_cap_m_s": 0.2,
+    "reverse_cap_m_s": 0.06,
+    "yaw_cap_rad_s": 0.25,
+    "swing_target_m": 0.045,
+    "arm_fraction": 1.0,
+    "lift_cap_rad": 0.7,
+    "spread_cap_rad": 0.65
+  },
+  "scope": "I/O fix and actual resumed startup checks; no gait acceptance and no bitwise simulator/RNG continuation."
+}

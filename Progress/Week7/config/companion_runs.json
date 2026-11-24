@@ -10,6 +10,19 @@
       "round": 5,
       "name": "r26_round5_balanced35_20261124_05",
       "target_swing_m": 0.035
+    },
+    {
+      "round": 6,
+      "name": "r26_round6_vertical_20261124_06",
+      "target_swing_m": 0.045,
+      "moving_vertical_reward_margin_m": 0.01
+    },
+    {
+      "round": 6,
+      "name": "r26_round6_resume_20261124_06b",
+      "role": "resume segment after original Round6 status publication failure",
+      "target_swing_m": 0.045,
+      "requested_additional_updates": 74
     }
   ]
 }

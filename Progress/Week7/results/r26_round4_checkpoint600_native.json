@@ -1,0 +1,309 @@
+{
+  "checkpoint": "D:\\robotics\\mars-weekly-progress\\Progress\\Week7\\runs\\r26_round4_raise_only_20261124_04\\model_600.pt",
+  "physics": "native MuJoCo",
+  "actor_device": "cpu",
+  "seconds_requested": 8.0,
+  "fixed_initial_phase": true,
+  "initial_observation_max_abs_error": 7.450580596923828e-09,
+  "cases": [
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.06,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.055204827638701534,
+      "completed_steps_left_right": [
+        5,
+        6
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.04278833669994244,
+        0.03218956436709556
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.044576672534206004,
+        0.03383065390117342
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        1.293481830486575,
+        1.4929436155649016
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.25505132377147677,
+        0.09108637707928817
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.6341046810150146,
+        0.7844997147719065
+      ],
+      "max_lateral_drift_m": 0.036643431687311996,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.12,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.11092954509182115,
+      "completed_steps_left_right": [
+        7,
+        7
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.03886774479856979,
+        0.033423176285806974
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.042598811012276847,
+        0.034585985990514566
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        3.9013147361159377,
+        1.1605259416987919
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.2971055167061942,
+        0.020417976060083935
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.5885573029518127,
+        0.822998753615788
+      ],
+      "max_lateral_drift_m": 0.022280320677617732,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.2,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.18108847151524715,
+      "completed_steps_left_right": [
+        9,
+        9
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.0370157230672446,
+        0.031731244568037234
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.041252751738033326,
+        0.033613121934202184
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        4.493827863003549,
+        1.663342304525563
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.5059643189112345,
+        0.1739345561299059
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.38453854454888237,
+        0.7107010549969144
+      ],
+      "max_lateral_drift_m": 0.04844828214126571,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.06,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.05723776208342529,
+      "completed_steps_left_right": [
+        5,
+        6
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.04397290012467101,
+        0.0314405885025972
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.04557858901272756,
+        0.03334257677755562
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        0.9924728653928666,
+        1.7409618140459369
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.3303054332733154,
+        0.0550204087048769
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.5618092894554139,
+        0.6971701929966608
+      ],
+      "max_lateral_drift_m": 0.020420889997505864,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.12,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.11009895812803633,
+      "completed_steps_left_right": [
+        7,
+        7
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.03886026266764486,
+        0.032332621040115646
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.04252918581422199,
+        0.03399649694696921
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        3.685615910483681,
+        1.4580623285015475
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.31309940559523447,
+        0.07914428040385246
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.5851238795689174,
+        0.7110473258154733
+      ],
+      "max_lateral_drift_m": 0.024510558479640576,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.2,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.17913801136125976,
+      "completed_steps_left_right": [
+        9,
+        9
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.03429674830645938,
+        0.03468049268296733
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.0392465633492993,
+        0.035868998115053445
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        4.200051487505638,
+        1.0563764537511524
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.5276115900940366,
+        0.27848320537143284
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.32795485191875035,
+        0.602363152636422
+      ],
+      "max_lateral_drift_m": 0.023263178657709497,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.06,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.057198202226277944,
+      "completed_steps_left_right": [
+        5,
+        6
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.04366561552062388,
+        0.031604297980773556
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.044800828185945725,
+        0.03348715740123901
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        1.0238246920688687,
+        1.9348781363596574
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.261171942949295,
+        0.04895703742901484
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.6531242489814758,
+        0.6700598200162252
+      ],
+      "max_lateral_drift_m": 0.023460658815438972,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.12,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.11141252791497894,
+      "completed_steps_left_right": [
+        7,
+        7
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.037600856733332806,
+        0.03307142467733554
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.041456634008439464,
+        0.034590106881854404
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        3.9953315048592963,
+        1.382826327773621
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.312308132648468,
+        0.07041493483952113
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.5863934585026332,
+        0.7097810804843903
+      ],
+      "max_lateral_drift_m": 0.026709546580854893,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.2,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.17978765393614005,
+      "completed_steps_left_right": [
+        9,
+        9
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.03484251740350215,
+        0.03433197072707687
+      ],
+      "mean_sole_center_height_at_clearance_peak_left_right_m": [
+        0.03938718985343937,
+        0.03596483832627057
+      ],
+      "mean_sole_tilt_at_clearance_peak_left_right_deg": [
+        4.071135085909244,
+        1.3992679154660403
+      ],
+      "mean_absolute_knee_action_at_clearance_peak_left_right": [
+        0.4827206532160441,
+        0.23273797002103594
+      ],
+      "mean_absolute_ankle_action_at_clearance_peak_left_right": [
+        0.3975154625044929,
+        0.620973140001297
+      ],
+      "max_lateral_drift_m": 0.03103526327799674,
+      "exploratory_walking_pass": true
+    }
+  ],
+  "accepted": false,
+  "scope": "Independent single-start held-pose forward check. Not a hardware release or full native balance acceptance."
+}

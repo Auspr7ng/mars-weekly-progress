@@ -285,3 +285,16 @@ def lift_gated_base_reward(env, kind):
     factor = 0.15 + 0.85 * planted * ratio
     factor = torch.where(gait_weight(env) > 0.08, factor, torch.ones_like(factor))
     return value * factor / old.clamp(min=0.15)
+
+
+def moving_vertical_torso_cost(env):
+    from mjlab.utils.lab_api.math import matrix_from_quat
+    from .balance import torso_motion_cost_values
+
+    data = env.scene["robot"].data
+    rotation = matrix_from_quat(data.root_link_quat_w)
+    roll = torch.atan2(rotation[:, 2, 1], rotation[:, 2, 2])
+    height_error = (
+        data.root_link_pos_w[:, 2] - env.scene.env_origins[:, 2] - env.cfg.sunday_h0
+    ).abs()
+    return torso_motion_cost_values(roll, height_error, gait_weight(env) > 0.9)

@@ -1,0 +1,22 @@
+{
+  "schema": "sunday.week7.experimental_policy_package.v1",
+  "name": "r26_round4_checkpoint600",
+  "checkpoint": "model_600.pt",
+  "checkpoint_sha256": "d3562c20a8029ea6962ddc75ff6ce5aee157582214e79818c44efa9a35167220",
+  "actor_npz_sha256": "08ceb37ae682eb6023cf7ccc6a5660f83ef866fee3a5fe38e4349ca69b888143",
+  "training_source_zip_sha256": "cc7dcb5fa9b7b4c7beab92acd20fe158a7e893414ddcadd617753d0e788c6953",
+  "training_round": 4,
+  "reward_version": "r26.round4.raise_only_lift_gates.v1",
+  "source_run": "r26_round4_raise_only_20261124_04",
+  "source_iteration": 600,
+  "report": "results\\Round4_Checkpoint600_Review.md",
+  "actor_inputs": 510,
+  "critic_inputs": 108,
+  "raw_outputs": 22,
+  "applied_leg_outputs": 12,
+  "accepted": false,
+  "hardware_release": false,
+  "current_imu": "ST LSM6DSV16X",
+  "hardware_adapter_tested": false,
+  "provenance_note": "run.json preserves original training paths; those historical absolute paths need not exist on another host"
+}

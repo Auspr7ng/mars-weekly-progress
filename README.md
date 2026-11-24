@@ -10,10 +10,12 @@ Week 5 adds Bluetooth Xbox control through the same walking policy, a foot-tacti
 
 Week 6 adds Xbox arm/hand control in MuJoCo, with faster arm/hand motion, walking at any held arm pose and simulation reset, plus a staged plan for future arm-pose training. It also records the first Jetson R25 bench connection and no-motor policy diagnostics. Start at the [Week 6 guide](Progress/Week6/README.md).
 
-Week 7 starts the experimental R26 training task for higher foot clearance,
+Week 7 contains six experimental R26 training rounds for higher foot clearance,
 forward commands up to 0.20 m/s, and walking with held arm poses. It adds
 explicit arm-reference observations, a live training monitor, matched gait
-matrices and native-physics/export checks. R25-300 remains the accepted baseline.
+matrices and native-physics/export checks. The measured progress candidate is
+Round 4 checkpoint 600; later checkpoint regressions are documented.
+R25-300 remains the accepted baseline.
 The current IMU is LSM6DSV16X; Moon's historical R25 runner needs a new driver
 and the new policy interface before any Week7 hardware use.
 Start at the [Week 7 guide](Progress/Week7/README.md).

@@ -61,8 +61,8 @@ def main():
         full, legs = mujoco.MjvCamera(), mujoco.MjvCamera()
         for camera in (full, legs):
             camera.azimuth, camera.elevation = 125, -12
-        full.distance, legs.distance = 0.95, 0.48
-        legs.elevation = -45
+        full.distance, legs.distance = 0.95, 0.70
+        legs.elevation = -25
         args.output.parent.mkdir(parents=True, exist_ok=True)
         writer = imageio_ffmpeg.write_frames(
             str(args.output),

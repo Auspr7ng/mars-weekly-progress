@@ -42,3 +42,10 @@ The selected model will be evaluated with fixed/random initial phases,
 longer forward trials, native CPU physics and stop/reverse/turn sequences.
 Publish both progress and unmet conditions; do not reclassify a training
 reward increase or an easier reference as passing the unchanged diagnostics.
+
+## Recorded stop decision
+
+This branch was deliberately stopped after 409 of the 600 planned updates.
+Heading improved, while measured foot lift regressed in repeated short checks.
+The stopped checkpoint and metrics were preserved locally. Read the
+[early-stop review](Round5_Early_Stop_Review.md) for measurements and scope.

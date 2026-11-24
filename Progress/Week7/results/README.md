@@ -1,50 +1,60 @@
-# Week7 checks and evaluations
+# Week7 results and evidence
 
-## Preflight
+Start with the [overnight iteration decision](Overnight_Iteration_Review.md)
+and [selected checkpoint review](Round4_Checkpoint600_Review.md). The default
+experimental bundle is [Round 4 checkpoint 600](../policies/r26_round4_checkpoint600/README.md);
+[the selection manifest](../config/selected_policy.json) identifies its hashes.
+No R26 model is accepted as a replacement for the released R25 baseline.
 
-- Three CPU tests passed for target ranges, pose signs/asymmetry and exact
-  first-layer/normalization expansion.
-- [GPU environment checks](environment_check.json) passed all nine checks:
-  510/108 observation dimensions, reference history, posed initial state,
-  ignored policy arm outputs, twelve applied leg outputs, soft limits,
-  finite full-pose physics and subset reset semantics.
-- A 16-environment, two-iteration PPO smoke run completed 1,024 transitions
-  with finite losses. Its transfer probe measured maximum deterministic
-  differences of about 1.2e-7 for the actor and 3.8e-6 for the critic.
-  This is a software startup check, not gait acceptance.
+## Final comparison
 
-## Baseline and candidate matrices
+| Evidence | Purpose |
+| --- | --- |
+| [Completed training records](overnight_training_runs.json) | Actual completion, deliberate stop, failure/recovery and finite recorded losses |
+| [Selected model suite](r26_round4_checkpoint600_suite.json) | Short/long/random-phase/twenty-second matrices, native checks and transitions |
+| [Reserved post-selection audit](r26_round4_checkpoint600_postselection_random20.json) | New seed 8742, twenty seconds and randomized phase, after the choice was recorded |
+| [Round 4 final suite](r26_round4_final799_suite.json) | Later checkpoint regression retained as evidence |
+| [Round 6 final suite](r26_round6_final399_suite.json) | Heading/bilateral progress and long-test drift regression |
+| [Round 5 stop review](Round5_Early_Stop_Review.md) | Why 409 of 600 planned updates were sufficient to stop this branch |
+| [Selected preview](videos/r26_round4_checkpoint600_selected_preview.mp4) | Actual eighteen-second video and adjacent per-step trace |
 
-[The initialization matrix](r25_transfer_baseline_matrix.json) uses the transferred
-`model_initial.pt` before Week7 training. It is evaluated with the same held
-arm interface and Week7 cadence/reference contract as future candidates. It
-is a matched task-initialization comparison, not a new independent acceptance
-of the original Week4 demo.
+Each suite JSON links all member reports. The selected model's original
+preview is preserved; its selected preview uses wider leg framing. The actor,
+physics and commands are unchanged. Training checkpoints and transient runtime
+files remain under ignored local `runs/`; the selected model is published.
 
-The evaluator separately reports each pose/speed case, failures, sustained
-velocity, completed swing peaks, bilateral stepping, support slip and drift.
-Training reward and survival do not replace these measurements. No R26 policy
-has been accepted for simulation release or hardware deployment.
+## Startup and recovery checks
 
-Large checkpoints and per-iteration runtime files stay under ignored `runs/`.
-The [active run manifest](../config/active_run.json) identifies the local run;
-its `status.json` contains the latest reported learning progress.
+- Initial [preflight](preflight.json) and [GPU checks](environment_check.json)
+  document the first 510/108/22 interface and exact weight migration.
+- [Round 6 preflight](round6_preflight.json) records 18 CPU invariants,
+  20 GPU contract checks and eight finite PPO startup updates.
+- Three additional Windows I/O regression checks pass, including an actual
+  reader lock that blocks replacement until the handle closes. Combined
+  current CPU coverage is 21 passing checks.
+- [Interruption record](round6_interruption.json) and
+  [resumed startup checks](round6_resume_preflight.json) preserve the original
+  Windows publication failure, intact checkpoint and optimizer/curriculum resume.
 
-See the [R26-799 review](Candidate799_Review.md) and [Round 2 plan](Round2_Plan.md).
-Round 2 adds per-foot toe-heading measurements and targets 45 mm whole-sole lift.
+These are software checks, not gait acceptance. Source snapshots, dependency
+versions and source hashes are retained in the selected bundle and run summary.
 
-The [Round 2 final-candidate review](Round2_Candidate1199_Review.md) reports
-matched gait measurements, remaining toe-in/clearance limits and video evidence.
+## Historical references
 
-The [Round 3 plan](Round3_Plan.md) adds corresponding-phase height consistency,
-a schema-aware soft mirror prior and explicit bilateral balance diagnostics.
+- [Round 1 review](Candidate799_Review.md), [Round 2 review](Round2_Candidate1199_Review.md)
+  and [Round 3 review](Round3_Candidate1199_Review.md).
+- [Round 4 plan](Round4_Plan.md), [Round 5 plan](Round5_Plan.md) and
+  [Round 6 plan and recovery](Round6_Plan.md).
+- [Matched parent extended matrix](r26_round2_parent_balance_extended_matrix.json),
+  [parent random-phase matrix](r26_round2_parent_random_phase_matrix.json),
+  [parent twenty-second matrix](r26_round2_holdout20_matrix.json),
+  [native parent check](r26_round2_native_check.json) and
+  [parent transition v2](r26_round2_transition_check.json).
 
-The [Round 3 review](Round3_Candidate1199_Review.md) records the November 24
-iteration decision. The [Round 4 plan](Round4_Plan.md) revises lift gating,
-raise-only phase pairing, leg-only mirror loss and lateral bias. The native
-Round 2 check reports 9/9 exploratory passes with independent CPU physics.
-
-The [Round 5 plan](Round5_Plan.md) describes the companion reference experiment.
-`r26_round4_checkpoint75_matrix.json` and `r26_round4_checkpoint200_matrix.json`
-are intermediate checks, not final candidate acceptance. The transition v2
-parent report and local kinematic audits provide additional diagnostic evidence.
+The transition v1 parent result is preserved separately. V2 uses net planar
+motion during turns so ordinary sway is not counted as translational tracking
+failure; forward/reverse/stop and historical gait gates remain unchanged.
+Contact-load shares are proxies, not center-of-pressure or full balance proof.
+The fixed-root local inverse-kinematics audits are restrictive local searches,
+not dynamic infeasibility proofs. Their hypothetical larger action gains were
+not used in any training round.

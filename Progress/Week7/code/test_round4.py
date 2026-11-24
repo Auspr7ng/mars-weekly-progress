@@ -91,6 +91,20 @@ class Round4Tests(unittest.TestCase):
         self.assertEqual(targets(1.0, 4)["swing_target_m"], 0.045)
         self.assertEqual(targets(1.0, 5)["forward_cap_m_s"], 0.20)
 
+    def test_round6_allows_vertical_gait_motion_without_relaxing_roll(self):
+        from week7_locomotion.balance import torso_motion_cost_values
+
+        roll = torch.zeros(2)
+        error = torch.full((2,), 0.008)
+        cost = torso_motion_cost_values(roll, error, torch.tensor([True, False]))
+        torch.testing.assert_close(cost, torch.tensor([0.0, 1.0]))
+        self.assertEqual(targets(1.0, 6)["swing_target_m"], 0.045)
+        error[:] = 0.0
+        cost = torso_motion_cost_values(
+            torch.full((2,), 0.08), error, torch.tensor([True, False])
+        )
+        self.assertEqual(float(cost[0]), float(cost[1]))
+
     def test_round4_preserves_absolute_objectives(self):
         for level in (0.0, 0.5, 1.0):
             self.assertEqual(targets(level, 4)["swing_target_m"], 0.045)

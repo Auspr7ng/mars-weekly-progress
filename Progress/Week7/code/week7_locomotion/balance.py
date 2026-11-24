@@ -128,3 +128,12 @@ class LateralBiasCost(ManagerTermBase):
         alpha = 1 - math.exp(-env.step_dt / 0.5)
         self.bias = torch.where(eligible, self.bias + alpha * (excess - self.bias), 0.0)
         return (self.bias / 0.015).square().clamp(max=9) * eligible
+
+
+def torso_motion_cost_values(roll, height_error, moving):
+    """Keep the roll prior while allowing modest vertical motion during gait."""
+    roll_cost = ((roll.abs() - 0.052359878) / 0.025).clamp(min=0).square()
+    margin = torch.where(moving, 0.010, 0.004)
+    scale = torch.where(moving, 0.006, 0.004)
+    height_cost = ((height_error - margin) / scale).clamp(min=0).square()
+    return (roll_cost + height_cost).clamp(max=10)

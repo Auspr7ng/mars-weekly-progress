@@ -22,8 +22,8 @@ TASK_VERSION = "sunday.week7.r26.arm_reference.v1"
 def targets(progress, training_round=1):
     if not math.isfinite(progress):
         raise ValueError("Curriculum progress must be finite")
-    if training_round not in (1, 2, 3, 4, 5):
-        raise ValueError("Training round must be 1, 2, 3, 4 or 5")
+    if training_round not in (1, 2, 3, 4, 5, 6):
+        raise ValueError("Training round must be 1, 2, 3, 4, 5 or 6")
     p = min(1.0, max(0.0, progress))
     second = training_round >= 2
     return {
@@ -37,7 +37,7 @@ def targets(progress, training_round=1):
         "yaw_cap_rad_s": 0.25,
         "swing_target_m": (
             0.035
-            if training_round >= 5
+            if training_round == 5
             else (
                 0.045
                 if training_round >= 3

@@ -1,0 +1,50 @@
+{
+  "schema": "sunday.week7.interruption.v1",
+  "failed_run": "r26_round6_vertical_20261124_06",
+  "failed_status": {
+    "state": "failed",
+    "pid": 35300,
+    "run_dir": "D:\\robotics\\mars-weekly-progress\\Progress\\Week7\\runs\\r26_round6_vertical_20261124_06",
+    "run_name": "R26 Round 6 - Vertical Gait Freedom",
+    "training_round": 6,
+    "iterations_requested": 400,
+    "started": "2026-11-24T01:37:29.439189-05:00",
+    "first_iteration": 0,
+    "iteration": 330,
+    "iterations_completed": 331,
+    "transitions": 5423104,
+    "elapsed_s": 3230.9249075999833,
+    "checkpoint": "D:\\robotics\\mars-weekly-progress\\Progress\\Week7\\runs\\r26_round6_vertical_20261124_06\\model_325.pt",
+    "curriculum": {
+      "progress": 1.0,
+      "forward_cap_m_s": 0.2,
+      "reverse_cap_m_s": 0.06,
+      "yaw_cap_rad_s": 0.25,
+      "swing_target_m": 0.045,
+      "arm_fraction": 1.0,
+      "lift_cap_rad": 0.7,
+      "spread_cap_rad": 0.65
+    },
+    "losses": {
+      "value": 2.3671880304813384,
+      "surrogate": -0.005896506959106773,
+      "entropy": -38.96737861633301,
+      "symmetry": 0.0201465368270874
+    },
+    "mean_reward": 322.18142502307893,
+    "mean_episode_length_steps": 1485.44,
+    "updated": "2026-11-24T02:31:23.409757-05:00",
+    "balance_phase_pair_fraction": 0.048828125,
+    "balance_phase_cost_unweighted": 0.01812582090497017,
+    "error": "PermissionError(13, '\u62d2\u7edd\u8bbf\u95ee\u3002')"
+  },
+  "last_complete_checkpoint": "model_325.pt",
+  "last_complete_checkpoint_sha256": "1d2ae148076e619981fb2390ffa04eae79e550d409566799b25d4eec78741606",
+  "retained_updates_before_resume": 326,
+  "attempted_updates_before_failure": 331,
+  "resume_updates_requested": 74,
+  "retained_path_updates_after_resume": 400,
+  "reason": "Windows PermissionError during atomic status replacement; secondary error also prevented failed-status publication.",
+  "core_training_source_unchanged": true,
+  "note": "Optimizer, normalizers, iteration and environment curriculum counter are restored; simulator state and RNG are not a bitwise continuation."
+}
