@@ -10,6 +10,14 @@ Week 5 adds Bluetooth Xbox control through the same walking policy, a foot-tacti
 
 Week 6 adds Xbox arm/hand control in MuJoCo, with faster arm/hand motion, walking at any held arm pose and simulation reset, plus a staged plan for future arm-pose training. It also records the first Jetson R25 bench connection and no-motor policy diagnostics. Start at the [Week 6 guide](Progress/Week6/README.md).
 
+Week 7 starts the experimental R26 training task for higher foot clearance,
+forward commands up to 0.20 m/s, and walking with held arm poses. It adds
+explicit arm-reference observations, a live training monitor, matched gait
+matrices and native-physics/export checks. R25-300 remains the accepted baseline.
+The current IMU is LSM6DSV16X; Moon's historical R25 runner needs a new driver
+and the new policy interface before any Week7 hardware use.
+Start at the [Week 7 guide](Progress/Week7/README.md).
+
 ## Weeks
 
 | Week | Code | Progress |
@@ -20,6 +28,7 @@ Week 6 adds Xbox arm/hand control in MuJoCo, with faster arm/hand motion, walkin
 | Week 4 | [RL walking and robot-relative joystick](Progress/Week4/README.md) | [Acceptance report](Progress/Week4/docs/Acceptance_Report.md), [training history](Progress/Week4/docs/Training_History.md), and [results](Progress/Week4/results/README.md) |
 | Week 5 | [Xbox control, tactile research, and cart validation](Progress/Week5/README.md) | [Weekly slides](Progress/Week5/Weekly_Progress_2026-11-12_Xbox_Tactile_Cart.pptx), [tactile plan](Progress/Week5/research/Foot_Tactile_Research_Plan.md), and [cart report](Progress/Week5/cart_validation/Validation_Report.md) |
 | Week 6 | [Xbox walking/arms/hands and Jetson shadow input](Progress/Week6/code/README.md) | [Bench/controller progress](Progress/Week6/progress/README.md) and [arm training plan](Progress/Week6/Arm_Control_Plan.md) |
+| Week 7 | [R26 reference-conditioned training](Progress/Week7/code/README.md) | [Training progress](Progress/Week7/progress/README.md) and [checks/results](Progress/Week7/results/README.md) |
 
 Weeks 1 and 2 separate runnable scripts in `code/` from reports in `progress/`. Week 3 keeps `start_demo.bat`, the README, report, slides, and selected media together, with implementation in `code/` and saved evidence in `results/`.
 

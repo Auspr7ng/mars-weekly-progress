@@ -1,0 +1,819 @@
+{
+  "checkpoint": "D:\\robotics\\mars-weekly-progress\\Progress\\Week7\\runs\\r26_round2_toe_heading_45mm_20261119_02\\model_1199.pt",
+  "task_version": "sunday.week7.r26.arm_reference.v1",
+  "training_round": 2,
+  "seed": 1742,
+  "seconds": 6.0,
+  "cases": [
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.055510714650154114,
+      "mean_absolute_foot_heading_left_right_deg": [
+        3.1139047145843506,
+        5.790432453155518
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        3.1076178550720215,
+        5.790432453155518
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.008309150114655495,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03584211319684982,
+        0.026378028094768524
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03436846658587456,
+        0.011363599449396133
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.007101427763700485,
+      "mean_forward_displacement_m": 0.34899020195007324,
+      "max_lateral_drift_m": 0.05385589599609375
+    },
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.11139806360006332,
+      "mean_absolute_foot_heading_left_right_deg": [
+        4.16756534576416,
+        5.998513221740723
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        4.16756534576416,
+        5.998513221740723
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.011638810858130455,
+      "mean_completed_swing_peak_left_right_m": [
+        0.033176012337207794,
+        0.026849986985325813
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.032967060804367065,
+        0.012505942024290562
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.011458582244813442,
+      "mean_forward_displacement_m": 0.6776974201202393,
+      "max_lateral_drift_m": 0.031225353479385376
+    },
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.18061797320842743,
+      "mean_absolute_foot_heading_left_right_deg": [
+        6.267529487609863,
+        6.731595993041992
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        6.267529487609863,
+        6.731595993041992
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.026606585830450058,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03272256627678871,
+        0.02529802918434143
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.032473672181367874,
+        0.014075462706387043
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.014362606219947338,
+      "mean_forward_displacement_m": 1.0749788284301758,
+      "max_lateral_drift_m": 0.03818082809448242
+    },
+    {
+      "pose": "lift",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.0574643649160862,
+      "mean_absolute_foot_heading_left_right_deg": [
+        4.182020664215088,
+        6.210407257080078
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        4.182020664215088,
+        6.210407257080078
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.006047798320651054,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03349848836660385,
+        0.02567247487604618
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.032409559935331345,
+        0.010387316346168518
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.008051585406064987,
+      "mean_forward_displacement_m": 0.3613492250442505,
+      "max_lateral_drift_m": 0.045665740966796875
+    },
+    {
+      "pose": "lift",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.11113912612199783,
+      "mean_absolute_foot_heading_left_right_deg": [
+        5.3516035079956055,
+        6.5571489334106445
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        5.3516035079956055,
+        6.5571489334106445
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.011325664818286896,
+      "mean_completed_swing_peak_left_right_m": [
+        0.0327291265130043,
+        0.02660069242119789
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03234758600592613,
+        0.012161614373326302
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.011043479666113853,
+      "mean_forward_displacement_m": 0.6812418699264526,
+      "max_lateral_drift_m": 0.023981571197509766
+    },
+    {
+      "pose": "lift",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.18089821934700012,
+      "mean_absolute_foot_heading_left_right_deg": [
+        7.028006553649902,
+        7.898208141326904
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        7.028006553649902,
+        7.898208141326904
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.02389271929860115,
+      "mean_completed_swing_peak_left_right_m": [
+        0.029914716258645058,
+        0.029635097831487656
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.0297084953635931,
+        0.012611182406544685
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.018225964158773422,
+      "mean_forward_displacement_m": 1.0780137777328491,
+      "max_lateral_drift_m": 0.03137683868408203
+    },
+    {
+      "pose": "spread",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.05407622829079628,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.7299001216888428,
+        5.632308483123779
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.7177891731262207,
+        5.632308483123779
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.009655868634581566,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03596284240484238,
+        0.027062280103564262
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03498823195695877,
+        0.014158301055431366
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.00806722603738308,
+      "mean_forward_displacement_m": 0.33725452423095703,
+      "max_lateral_drift_m": 0.0623784065246582
+    },
+    {
+      "pose": "spread",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.10994049906730652,
+      "mean_absolute_foot_heading_left_right_deg": [
+        3.969001054763794,
+        5.934331893920898
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        3.969001054763794,
+        5.934331893920898
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.013371767476201057,
+      "mean_completed_swing_peak_left_right_m": [
+        0.032184287905693054,
+        0.02646089717745781
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03205574303865433,
+        0.014380712062120438
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.010686514899134636,
+      "mean_forward_displacement_m": 0.6668936610221863,
+      "max_lateral_drift_m": 0.04659080505371094
+    },
+    {
+      "pose": "spread",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.17872251570224762,
+      "mean_absolute_foot_heading_left_right_deg": [
+        6.1311750411987305,
+        6.825778007507324
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        6.1311750411987305,
+        6.825778007507324
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.028414476662874222,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03141365200281143,
+        0.025464752689003944
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.030430972576141357,
+        0.014812152832746506
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.016166575253009796,
+      "mean_forward_displacement_m": 1.0629757642745972,
+      "max_lateral_drift_m": 0.03014373779296875
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.055381376296281815,
+      "mean_absolute_foot_heading_left_right_deg": [
+        3.537518262863159,
+        6.09829044342041
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        3.537518262863159,
+        6.09829044342041
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.0076332734897732735,
+      "mean_completed_swing_peak_left_right_m": [
+        0.032466404139995575,
+        0.025863250717520714
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.031156761571764946,
+        0.009333227761089802
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.006827523931860924,
+      "mean_forward_displacement_m": 0.3501630127429962,
+      "max_lateral_drift_m": 0.05700397491455078
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.1089572086930275,
+      "mean_absolute_foot_heading_left_right_deg": [
+        4.96637487411499,
+        6.379484176635742
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        4.96637487411499,
+        6.379484176635742
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.01373485941439867,
+      "mean_completed_swing_peak_left_right_m": [
+        0.031937774270772934,
+        0.02636059746146202
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.031155288219451904,
+        0.012100378051400185
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.012573137879371643,
+      "mean_forward_displacement_m": 0.6668777465820312,
+      "max_lateral_drift_m": 0.03614187240600586
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.17820507287979126,
+      "mean_absolute_foot_heading_left_right_deg": [
+        6.615719795227051,
+        7.808943748474121
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        6.615719795227051,
+        7.808943748474121
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.026584723964333534,
+      "mean_completed_swing_peak_left_right_m": [
+        0.028764674440026283,
+        0.029219606891274452
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.028056100010871887,
+        0.010208419524133205
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.018162766471505165,
+      "mean_forward_displacement_m": 1.0616748332977295,
+      "max_lateral_drift_m": 0.041878700256347656
+    },
+    {
+      "pose": "full_lift",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.0623045489192009,
+      "mean_absolute_foot_heading_left_right_deg": [
+        5.12597131729126,
+        6.741466522216797
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        5.12597131729126,
+        6.741466522216797
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.006119936238974333,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03127386048436165,
+        0.025128817185759544
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.030969062820076942,
+        0.005946325603872538
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.006028114352375269,
+      "mean_forward_displacement_m": 0.39252379536628723,
+      "max_lateral_drift_m": 0.038613900542259216
+    },
+    {
+      "pose": "full_lift",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.11380044370889664,
+      "mean_absolute_foot_heading_left_right_deg": [
+        6.320821762084961,
+        7.210352897644043
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        6.320821762084961,
+        7.210352897644043
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.011614881455898285,
+      "mean_completed_swing_peak_left_right_m": [
+        0.0311258677393198,
+        0.025974569842219353
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.03024139069020748,
+        0.005252589471638203
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.012877412140369415,
+      "mean_forward_displacement_m": 0.6972070932388306,
+      "max_lateral_drift_m": 0.0317840576171875
+    },
+    {
+      "pose": "full_lift",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.18174901604652405,
+      "mean_absolute_foot_heading_left_right_deg": [
+        8.00546646118164,
+        8.23277759552002
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        8.00546646118164,
+        8.23277759552002
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.028974775224924088,
+      "mean_completed_swing_peak_left_right_m": [
+        0.029614511877298355,
+        0.02999444678425789
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.0269659124314785,
+        0.006351085379719734
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.017514925450086594,
+      "mean_forward_displacement_m": 1.0780789852142334,
+      "max_lateral_drift_m": 0.04470968246459961
+    },
+    {
+      "pose": "full_spread",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.054032668471336365,
+      "mean_absolute_foot_heading_left_right_deg": [
+        2.691829204559326,
+        5.632171154022217
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        2.6849989891052246,
+        5.632171154022217
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.00953537505120039,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03434588760137558,
+        0.027770355343818665
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.0330975279211998,
+        0.014695670455694199
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.007646366488188505,
+      "mean_forward_displacement_m": 0.3383461833000183,
+      "max_lateral_drift_m": 0.0738973617553711
+    },
+    {
+      "pose": "full_spread",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.10962774604558945,
+      "mean_absolute_foot_heading_left_right_deg": [
+        4.039975166320801,
+        5.854416847229004
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        4.039975166320801,
+        5.854416847229004
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.013757675886154175,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03073251061141491,
+        0.02773621305823326
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.030511263757944107,
+        0.01580142416059971
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.012341851368546486,
+      "mean_forward_displacement_m": 0.6635574102401733,
+      "max_lateral_drift_m": 0.06238566339015961
+    },
+    {
+      "pose": "full_spread",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.17768539488315582,
+      "mean_absolute_foot_heading_left_right_deg": [
+        5.83880090713501,
+        6.822042465209961
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        5.83880090713501,
+        6.822042465209961
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.029631059616804123,
+      "mean_completed_swing_peak_left_right_m": [
+        0.030241718515753746,
+        0.026606978848576546
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.02921677939593792,
+        0.01670074835419655
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.016413092613220215,
+      "mean_forward_displacement_m": 1.0552746057510376,
+      "max_lateral_drift_m": 0.04607057571411133
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.06,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.057149600237607956,
+      "mean_absolute_foot_heading_left_right_deg": [
+        3.8643224239349365,
+        5.365030288696289
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        3.8643224239349365,
+        5.365030288696289
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.006895223632454872,
+      "mean_completed_swing_peak_left_right_m": [
+        0.03564021736383438,
+        0.02486206777393818
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.0341644361615181,
+        0.011254630982875824
+      ],
+      "mean_completed_steps_left_right": [
+        4.0,
+        4.0
+      ],
+      "mean_settled_support_slip_m_s": 0.005980351008474827,
+      "mean_forward_displacement_m": 0.3603837490081787,
+      "max_lateral_drift_m": 0.04972529411315918
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.12,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.11140672862529755,
+      "mean_absolute_foot_heading_left_right_deg": [
+        5.218826770782471,
+        6.008454322814941
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        5.218826770782471,
+        6.008454322814941
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.011176107451319695,
+      "mean_completed_swing_peak_left_right_m": [
+        0.0334114134311676,
+        0.02557283453643322
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.0324106328189373,
+        0.012075049802660942
+      ],
+      "mean_completed_steps_left_right": [
+        5.0,
+        5.0
+      ],
+      "mean_settled_support_slip_m_s": 0.011666039936244488,
+      "mean_forward_displacement_m": 0.6796988248825073,
+      "max_lateral_drift_m": 0.027246475219726562
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.2,
+      "trials": 4,
+      "survival_fraction": 1.0,
+      "walking_fraction": 1.0,
+      "mean_actual_forward_m_s_after_settle": 0.178732767701149,
+      "mean_absolute_foot_heading_left_right_deg": [
+        7.665266513824463,
+        7.695594787597656
+      ],
+      "mean_inward_toe_angle_left_right_deg": [
+        7.665266513824463,
+        7.695594787597656
+      ],
+      "post_settle_sample_count_per_trial": [
+        230.0,
+        230.0,
+        230.0,
+        230.0
+      ],
+      "mean_forward_rmse_m_s": 0.025435836985707283,
+      "mean_completed_swing_peak_left_right_m": [
+        0.0317600816488266,
+        0.02781694382429123
+      ],
+      "minimum_completed_swing_peak_left_right_m": [
+        0.030379703268408775,
+        0.012585476040840149
+      ],
+      "mean_completed_steps_left_right": [
+        6.0,
+        7.0
+      ],
+      "mean_settled_support_slip_m_s": 0.015871789306402206,
+      "mean_forward_displacement_m": 1.0653197765350342,
+      "max_lateral_drift_m": 0.036762237548828125
+    }
+  ],
+  "failure_counts": {
+    "tilt": 0,
+    "height": 0,
+    "ground": 0,
+    "self": 0,
+    "nonfinite": 0
+  },
+  "accepted": false,
+  "scope": "Exploratory first-episode forward matrix. No native-physics, turning, perturbation or hardware acceptance.",
+  "walking_definition": "Survive; mean actual speed >=80% of command after 1.4s; >=2 completed swings per foot; mean swing peaks >=20mm both feet; lateral drift <0.15m. Failed trials contribute no walking pass.",
+  "new_fast_target_m_s": 0.2,
+  "published_R25_limit_m_s": 0.12
+}

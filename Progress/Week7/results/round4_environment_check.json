@@ -1,0 +1,57 @@
+{
+  "training_round": 4,
+  "initial_foot_heading_deg": [
+    [
+      -0.06566498428583145,
+      0.07271081954240799
+    ],
+    [
+      -0.06566498428583145,
+      0.07271081954240799
+    ],
+    [
+      -0.06566498428583145,
+      0.07271081954240799
+    ],
+    [
+      -0.06566498428583145,
+      0.07271081954240799
+    ],
+    [
+      -0.06566498428583145,
+      0.07271081954240799
+    ],
+    [
+      -0.06566498428583145,
+      0.07271081954240799
+    ],
+    [
+      -0.06566498428583145,
+      0.07271081954240799
+    ]
+  ],
+  "checks": {
+    "actor_shape": true,
+    "critic_shape": true,
+    "reference_history_suffix": true,
+    "spawn_at_requested_pose": true,
+    "home_toe_axis_near_forward": true,
+    "finite_heading_costs": true,
+    "actor_mirror_involution": true,
+    "actor_reference_mirror": true,
+    "critic_mirror_involution": true,
+    "critic_reference_mirror": true,
+    "action_mirror_involution": true,
+    "symmetry_gate_rejects_asymmetric_arms": true,
+    "symmetry_gate_rejects_turns": true,
+    "new_schema_augmentation_shape": true,
+    "randomized_start_phase": true,
+    "arm_policy_outputs_ignored": true,
+    "twelve_leg_outputs": true,
+    "reference_is_soft_limit_bounded": true,
+    "finite_full_pose_physics": true,
+    "subset_pose_reset": true
+  },
+  "passed": true,
+  "scope": "Schema and target ownership, not balance or gait acceptance"
+}

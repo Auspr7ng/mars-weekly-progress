@@ -1,0 +1,165 @@
+{
+  "checkpoint": "D:\\robotics\\mars-weekly-progress\\Progress\\Week7\\policies\\r26_round2\\model_1199.pt",
+  "physics": "native MuJoCo",
+  "actor_device": "cpu",
+  "seconds_requested": 8.0,
+  "fixed_initial_phase": true,
+  "initial_observation_max_abs_error": 7.450580596923828e-09,
+  "cases": [
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.06,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.05571484760668615,
+      "completed_steps_left_right": [
+        5,
+        6
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.035975914922752206,
+        0.027996168485284828
+      ],
+      "max_lateral_drift_m": 0.05832849961772493,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.12,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.1117177674393979,
+      "completed_steps_left_right": [
+        7,
+        7
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.03318890756522952,
+        0.027813137957635715
+      ],
+      "max_lateral_drift_m": 0.028402181060051643,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "home",
+      "requested_forward_m_s": 0.2,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.179872295914955,
+      "completed_steps_left_right": [
+        9,
+        9
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.03262459320638885,
+        0.0258287615077689
+      ],
+      "max_lateral_drift_m": 0.04609183146115106,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.06,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.05560199738497425,
+      "completed_steps_left_right": [
+        5,
+        6
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.032618220541284035,
+        0.027698398802770335
+      ],
+      "max_lateral_drift_m": 0.062421902324753586,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.12,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.10917347496944652,
+      "completed_steps_left_right": [
+        7,
+        7
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.03194308031229274,
+        0.027319244751955653
+      ],
+      "max_lateral_drift_m": 0.03801081956811814,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "lift_spread",
+      "requested_forward_m_s": 0.2,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.177514456231685,
+      "completed_steps_left_right": [
+        9,
+        9
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.02869487530525023,
+        0.030102558190887807
+      ],
+      "max_lateral_drift_m": 0.0446855338282703,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.06,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.05719079504896736,
+      "completed_steps_left_right": [
+        5,
+        6
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.035709898164247286,
+        0.026430241266682922
+      ],
+      "max_lateral_drift_m": 0.05279690862146476,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.12,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.11168094243721578,
+      "completed_steps_left_right": [
+        7,
+        7
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.03341837284883364,
+        0.026576652352703522
+      ],
+      "max_lateral_drift_m": 0.025599371867957053,
+      "exploratory_walking_pass": true
+    },
+    {
+      "pose": "asymmetric",
+      "requested_forward_m_s": 0.2,
+      "seconds_completed": 8.0,
+      "termination_reasons": [],
+      "mean_actual_forward_m_s_after_settle": 0.17787814972598825,
+      "completed_steps_left_right": [
+        9,
+        9
+      ],
+      "mean_completed_swing_peak_left_right_m": [
+        0.0317349836253115,
+        0.028445250072315482
+      ],
+      "max_lateral_drift_m": 0.03584449311828574,
+      "exploratory_walking_pass": true
+    }
+  ],
+  "accepted": false,
+  "scope": "Independent single-start held-pose forward check. Not a hardware release or full native balance acceptance."
+}

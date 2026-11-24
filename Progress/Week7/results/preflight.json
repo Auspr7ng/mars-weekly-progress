@@ -1,0 +1,17 @@
+{
+  "unit_tests_passed": 3,
+  "gpu_checks_passed": 9,
+  "smoke_iterations_completed": 2,
+  "smoke_transitions": 1024,
+  "transfer": {
+    "source": "D:\\robotics\\mars-weekly-progress\\Progress\\Week4\\policies\\joystick_walking_r25_300\\model_300.pt",
+    "optimizer_reset": true,
+    "new_reference_columns_zeroed": true,
+    "actor_max_abs_difference": 1.1920928955078125e-07,
+    "actor_inputs": 510,
+    "critic_max_abs_difference": 3.814697265625e-06,
+    "critic_inputs": 108
+  },
+  "accepted": false,
+  "scope": "Training readiness, not gait acceptance"
+}

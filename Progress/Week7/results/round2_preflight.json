@@ -1,0 +1,19 @@
+{
+  "contract_and_monitor_tests_passed": 7,
+  "gpu_environment_checks_passed": true,
+  "gpu_environment_check_count": 11,
+  "warm_start_actor_critic_exact_parent_match": true,
+  "warm_start_initial_iteration": 0,
+  "warm_start_initial_curriculum_step": 0,
+  "smoke_state": "completed",
+  "smoke_updates": 2,
+  "smoke_transitions": 1024,
+  "smoke_losses": {
+    "value": 1.8670738577842712,
+    "surrogate": -0.03542917764279992,
+    "entropy": -38.81935558319092
+  },
+  "heading_baseline_same_survival_and_walking_counts": true,
+  "heading_baseline_max_speed_difference_m_s": 1.9297003746032715e-05,
+  "scope": "Software startup and baseline measurements, not achieved Round 2 gait performance."
+}

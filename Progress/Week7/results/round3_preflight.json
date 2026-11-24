@@ -1,0 +1,19 @@
+{
+  "cpu_tests_passed": 13,
+  "gpu_environment_checks_passed": 20,
+  "smoke_environments": 32,
+  "smoke_updates": 8,
+  "smoke_transitions": 8192,
+  "smoke_losses": {
+    "value": 2.422102677822113,
+    "surrogate": -0.033764361124485734,
+    "entropy": -39.398454666137695,
+    "symmetry": 0.07849032878875732
+  },
+  "smoke_final_phase_pair_fraction": 0.125,
+  "smoke_final_phase_cost_unweighted": 0.07666952908039093,
+  "scope": "Software/schema/regularizer startup evidence only; not Round 3 gait acceptance.",
+  "warm_start_actor_critic_exact_parent_match": true,
+  "warm_start_initial_iteration": 0,
+  "warm_start_initial_curriculum_step": 0
+}

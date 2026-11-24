@@ -1,0 +1,23 @@
+{
+  "updated": "2026-11-24",
+  "control_repository": "https://github.com/MoongiMin/sundayA1-Rollout",
+  "reviewed_commit": "cd9da497c1cf9030bc2f107bf5bf6e648ce297a3",
+  "historical_runner": "r25_rollout.py",
+  "historical_imu": "BNO055",
+  "historical_actor_inputs": 460,
+  "current_actor_inputs": 510,
+  "current_imu": "ST LSM6DSV16X",
+  "imu_source": "User-supplied lsm6dsv16x.pdf, DS13510 Rev 3, March 2023",
+  "who_am_i_register": "0x0F",
+  "who_am_i_expected": "0x70",
+  "actual_connection_interface": null,
+  "actual_jetson_bus": null,
+  "actual_sensor_address": null,
+  "sensor_to_body_rotation": null,
+  "mount_verified": false,
+  "hardware_adapter_tested": false,
+  "body_velocity_estimator_tested": false,
+  "new_policy_is_drop_in_replacement": false,
+  "note": "The user confirmed the new IMU model. Old BNO055 bus/address/calibration flags are historical and must not be carried over as verified settings.",
+  "datasheet_sha256": "718d8584b4a7744612a6c2973cd55975b0e7e3bcd4dae3a65e93a8fec9996397"
+}

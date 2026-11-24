@@ -1,0 +1,15 @@
+{
+  "cpu_tests_passed": 16,
+  "gpu_environment_checks_passed": 20,
+  "smoke_environments": 32,
+  "smoke_updates": 8,
+  "smoke_transitions": 8192,
+  "smoke_losses": {
+    "value": 3.5286579489707948,
+    "surrogate": -0.024266233737580477,
+    "entropy": -39.37048149108887,
+    "symmetry": 0.0239858390763402
+  },
+  "max_phase_pair_fraction": 0.15625,
+  "scope": "Software/reward/optimizer startup, not gait acceptance."
+}
